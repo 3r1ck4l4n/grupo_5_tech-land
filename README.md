@@ -1,17 +1,17 @@
 # Tech Land. 
 
 ## About the proyect:
->> Tech Land "Tech land" aims to be a platform that allows customers to find and purchase <ins>the highest quality computer items at low prices<ins>, rewarding preference and offering the trend items of the moment. 
+>> Tech Land "Tech land" aims to be a platform that allows customers to find and purchase <ins>the highest quality computer items at low prices</ins>, rewarding preference and offering the trend items of the moment. 
 >>We focus on Mexican men and women who are looking for technological solutions for their school, work or leisure needs, that is, from children who are looking for a tablet to play with to the elderly who are looking for a webcam for have a video call with loved ones.
 
 ## Target audiences:
->>The target audience of "Tech land" is <ins>all the people who want to obtain computer components<ins>, state-of-the-art equipment, <ins>whether they are technology experts or not<ins>.
+>>The target audience of "Tech land" is <ins>all the people who want to obtain computer components</ins>, state-of-the-art equipment, <ins>whether they are technology experts or not</ins>.
 
 
 
 ## About us:
 
->>**-Erick Alan Luna García**: Informatics Engineer. Student of the <samp>"Instituto Politécnico Nacional"<samp>.
+>>**-Erick Alan Luna García**: Informatics Engineer. Student of the <samp>"Instituto Politécnico Nacional"</samp>.
 >>> 25 years. I `<3` programming. 
 
 >>**-Daniel Durón**:
