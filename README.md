@@ -14,7 +14,7 @@
 >>**-Erick Alan Luna García**: Informatics Engineer. Student of the <samp>"Instituto Politécnico Nacional"</samp>.
 >>> 25 years. I `<3` programming. 
 
->>**-Daniel Durón**:
+>>**-Daniel Durón**:    
 
 >>**-Israel Pérez Morales**: 
 >>>Recién iniciado en el mundo de la programación. Estudié Letras clásicas, amo leer, y mi deporte favorito es la natación. 
