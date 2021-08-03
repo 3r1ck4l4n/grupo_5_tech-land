@@ -14,7 +14,9 @@
 >>**-Erick Alan Luna García**: Informatics Engineer. Student of the <samp>"Instituto Politécnico Nacional"</samp>.
 >>> 25 years. I `<3` programming. 
 
->>**-Daniel Durón**:    
+>>**-Daniel Romero Durón**: 
+>>> I’m currently studying automotive systems engineering in UPIITA of the <samp>"Instituto Politécnico Nacional"</samp> in automotive systems control specialist with emphasis on comfort & safety. 
+I love vehicles because represent a technological innovation that changes all time and always inspires me to be constantly learning. 22 years old. I love travelling, meeting people and live new experiences.  
 
 >>**-Israel Pérez Morales**: 
 >>>Recién iniciado en el mundo de la programación. Estudié Letras clásicas, amo leer, y mi deporte favorito es la natación. 
