@@ -36,7 +36,7 @@ Me encantan los vehículos porque representan una innovación tecnológica que c
 ---
 ---
 ## Sites similar to ours:
-1. [La tienda de hp](https://store.hp.com/mx-es/default/): The design of your site is simple and clear. Its menu contains the main categories of the products it offers: laptops,
+1. [HP store](https://store.hp.com/mx-es/default/): The design of your site is simple and clear. Its menu contains the main categories of the products it offers: laptops,
 desktops, printers, ink and toner, accessories. This menu, which appears in the header, reappears in a more graphic way, that is, with cards with images, when scrolling down the page, which is quite useful, because it helps to think about what type of product you want and where it is easiest to find it.
 
 2. [Apple store](https://www.apple.com/mx/): While this site is for Apple-branded products only, its visual structure lends itself to being replicated by other online stores.
@@ -52,7 +52,7 @@ Huawei has an online store that has served as a guide for our project, thanks to
 ---
 ## Sitios similares al nuestro:
 
-1. [La tienda de hp](https://store.hp.com/mx-es/default/): Su diseño es simple y claro. Su menú contiene las principales categorías de los productos que ofrece: laptops,
+1. [Tienda de HP](https://store.hp.com/mx-es/default/): Su diseño es simple y claro. Su menú contiene las principales categorías de los productos que ofrece: laptops,
 desktops, impresoras, tinta y tóner, accesorios. Este menú, que aparece en el header, vuelve a aparecer de forma más gráfica, es decir, con tarjetas con imágenes, al hacer scroll down a la página, lo que resulta bastante útil, porque ayuda a pensar qué tipo de producto se quiere y en dónde es más fácil encontrarlo.
 
 2. [Apple store](https://www.apple.com/mx/): Aunque este sitio es sólo para productos de la marca Apple, su estructura visual se presta para ser replicada por otras tiendas en línea. Su menú principal aparece en el header de forma clara. La gran experiencia está al hacer scroll down a la página, pues uno va observando los productos que ofrecen de una forma muy placentera, mil veces mejor que al verlos en una tienda física. Es la mezcla de colores, acomodos y textos lo que te hace querer comprarlos todos. 
