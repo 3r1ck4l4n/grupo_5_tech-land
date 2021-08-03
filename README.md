@@ -36,3 +36,11 @@ mil veces mejor que al verlos en una tienda física. Es la mezcla de colores, ac
    por lo que fue una de las principales inspiraciones para optar por este segmento del "E-commerce". 
 
 4. [Siksilk](https://www.siksilk.mx/): SIKSILK is web site offers an athletic, styled combination of sportswear meets street wear with huge inspiration from top athletes around the world. We believe that your online shop system (frontend & backend) could give us great tools to implement in our site. 
+
+5. [Huawei](https://consumer.huawei.com/mx): Huawei tiene una tienda en línea que nos ha servido como guía para nuestro proyecto, gracias a que su sitio es intuitivo, simple y llamativo.
+
+---
+4. [Siksilk](https://www.siksilk.mx/): SIKSILK is web site offers an athletic, styled combination of sportswear meets street wear with huge inspiration from top athletes around the world. We believe that your online shop system (frontend & backend) could give us great tools to implement in our site. 
+
+5. [Huawei](https://consumer.huawei.com/mx):
+Huawei has an online store that has served as a guide for our project, thanks to the fact that its site is intuitive, simple and stricking.
