@@ -24,7 +24,7 @@ I love vehicles because represent a technological innovation that changes all ti
 
 ---
 ## Sobre nosotros: 
->>**-Erick Alan Luna García**: Ingeniero en informarica. Estudiante del Instituto Politecnico Nacional. 25 años. Me encanta programar `<3`.
+>>**-Erick Alan Luna García**: Ingeniero en Informática. Estudiante del Instituto Politécnico Nacional. 25 años. Me encanta programar `<3`.
 
 >>**-Daniel Romero Durón**: 
 >> Actualmente estudio ingeniería de sistemas automotrices en UPIITA del <samp> "Instituto Politécnico Nacional" </samp> con especialidad en control de sistemas automotrices con énfasis en comodidad y seguridad.
