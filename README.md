@@ -33,4 +33,6 @@ Su menú principal aparece en el header de forma clara. La gran experiencia est�
 mil veces mejor que al verlos en una tienda física. Es la mezcla de colores, acomodos y textos lo que te hace querer comprarlos todos. 
 
 3. [Ciberpuerta](https://www.cyberpuerta.mx/): Este sitio es uno de los principales vendedores en linea del pais, 
-   por lo que fue una de las principales inspiraciones para optar por este segmento del "E-commerce"  
+   por lo que fue una de las principales inspiraciones para optar por este segmento del "E-commerce". 
+
+4. [Siksilk](https://www.siksilk.mx/): SIKSILK is web site offers an athletic, styled combination of sportswear meets street wear with huge inspiration from top athletes around the world. We believe that your online shop system (frontend & backend) could give us great tools to implement in our site. 
