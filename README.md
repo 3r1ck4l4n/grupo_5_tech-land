@@ -1,7 +1,7 @@
 # Tech Land. 
 
 ## About the proyect:
->> Tech Land "Tech land" aims to be a platform that allows customers to find and purchase <ins>the highest quality computer items at low prices</ins>, rewarding preference and offering the trend items of the moment. 
+>> "Tech land" aims to be a platform that allows customers to find and purchase <ins>the highest quality computer items at low prices</ins>, rewarding preference and offering the trend items of the moment. 
 >>We focus on Mexican men and women who are looking for technological solutions for their school, work or leisure needs, that is, from children who are looking for a tablet to play with to the elderly who are looking for a webcam for have a video call with loved ones.
 
 ## Target audiences:
