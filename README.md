@@ -16,7 +16,7 @@
 >>> 25 years. I `<3` programming. 
 
 >>**-Daniel Romero Durón**: 
->>> I’m currently studying automotive systems engineering in UPIITA of the <samp>"Instituto Politécnico Nacional"</samp> in automotive systems control specialist with emphasis on comfort & safety. 
+>>> Studying automotive systems engineering career in UPIITA of the <samp>"Instituto Politécnico Nacional"</samp> in automotive systems control specialty with emphasis on comfort & safety. 
 I love vehicles because represent a technological innovation that changes all time and always inspires me to be constantly learning. 22 years old. I love travelling, meeting people and live new experiences.  
 
 >>**-Israel Pérez Morales**: 
@@ -28,7 +28,7 @@ I love vehicles because represent a technological innovation that changes all ti
 >>>Ingeniero en Informática. Estudiante del Instituto Politécnico Nacional. 25 años. Me encanta programar `<3`.
 
 >>**-Daniel Romero Durón**: 
->>> Estudiando actualmente la carrera de Ingeniería en Sistemas Automotrices en UPIITA del <samp> "Instituto Politécnico Nacional" </samp> en la especialidad de control en sistemas automotrices con énfasis en seguridad y confort.
+>>> Estudiando la carrera de Ingeniería en Sistemas Automotrices en UPIITA del <samp> "Instituto Politécnico Nacional" </samp>en la especialidad de control en sistemas automotrices con énfasis en seguridad y confort.
 Me encantan los vehículos porque representan una innovación tecnológica que cambia todo el tiempo y me inspira a estar siempre en un aprendizaje constante. 22 años. Me encanta viajar, conocer personas y vivir nuevas experiencias.
 
 >>**-Israel Pérez Morales**:
