@@ -28,8 +28,8 @@ I love vehicles because represent a technological innovation that changes all ti
 >>>Ingeniero en Informática. Estudiante del Instituto Politécnico Nacional. 25 años. Me encanta programar `<3`.
 
 >>**-Daniel Romero Durón**: 
->>> Actualmente estudio ingeniería de sistemas automotrices en UPIITA del <samp> "Instituto Politécnico Nacional" </samp> con especialidad en control de sistemas automotrices con énfasis en comodidad y seguridad.
-Me encantan los vehículos porque representan una innovación tecnológica que cambia todo el tiempo y siempre me inspira a estar en constante aprendizaje. 22 años. Me encanta viajar, conocer gente y vivir nuevas experiencias.
+>>> Estudiando actualmente la carrera de Ingeniería en Sistemas Automotrices en UPIITA del <samp> "Instituto Politécnico Nacional" </samp> en la especialidad de control en sistemas automotrices con énfasis en seguridad y confort.
+Me encantan los vehículos porque representan una innovación tecnológica que cambia todo el tiempo y me inspira a estar siempre en un aprendizaje constante. 22 años. Me encanta viajar, conocer personas y vivir nuevas experiencias.
 
 >>**-Israel Pérez Morales**:
 >>>Recién iniciado en el mundo de la programación. Estudié Letras clásicas, amo leer, y mi deporte favorito es la natación. 
