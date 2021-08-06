@@ -4,7 +4,9 @@
   "description": ">> Tech Land \"Tech land\" aims to be a platform that allows customers to find and purchase <ins>the highest quality computer items at low prices</ins>, rewarding preference and offering the trend items of the moment. \r >>We focus on Mexican men and women who are looking for technological solutions for their school, work or leisure needs, that is, from children who are looking for a tablet to play with to the elderly who are looking for a webcam for have a video call with loved ones.",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "develop": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +20,7 @@
   },
   "homepage": "https://github.com/3r1ck4l4n/grupo_5_tech-land#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12"
   }
 }
