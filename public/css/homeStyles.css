@@ -2,9 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+    text-decoration: none;
+    color: black;    
 }
 body{
+    background-color: #0e948d;
+}
+
+header{
     background-color: white;
 }
 
@@ -16,6 +21,11 @@ padding: 10px;
 background-color: rgba(0, 0, 0, .75)
 }
 
+.container-logo{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
 
 .tech-land-logo{
     width: 180px;
@@ -24,14 +34,15 @@ background-color: rgba(0, 0, 0, .75)
 
 
 .search-box{
-    width: 40%;
+    width: 50%;
     display: flex;
     align-self: center;
     justify-content: space-evenly;
 }
 
 .options{
-    width: 30%;
+    display: flex;  
+    justify-content: center;
 }
 #search{
     width: 85%;
@@ -44,4 +55,46 @@ background-color: rgba(0, 0, 0, .75)
 
 .fa-searchengin{
     color: #0e948d;
+}
+
+.header-nav{
+    padding: 10px;
+}
+.header-nav, ul{
+    display: flex;
+}
+
+ul.service-options{
+    width: 70%;
+    justify-content: space-evenly;
+    list-style: none;
+    flex-wrap: wrap;
+
+}
+
+ul.user-options{
+    width: 30%;
+    list-style: none;
+    justify-content:stretch;
+    flex-wrap: wrap;
+}
+
+div.banner{
+    display: flex;
+}
+
+div.banner img{
+    width: 100%;
+}
+
+@media (min-width: 320px) {
+    .header-nav{
+        display: none;
+    }
+}
+
+@media (min-width: 560px) {
+    .header-nav{
+        display: flex;
+    }
 }
