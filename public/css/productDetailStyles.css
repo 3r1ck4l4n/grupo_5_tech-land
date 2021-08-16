@@ -1,5 +1,270 @@
+*{
+    box-sizing: border-box;
+}
+
+/* colors
+
+#000000
+#3BA988
+#0E948D
+#6182A4
+#26314D
+*/ 
 
 
-.image-product{
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    width: 90vw;
+    margin: auto;
+}
+
+.main-section-product{
+    position: relative;
+}
+
+h1{
+    font-size: 24px;
+    margin-block-end: 8px;
+}
+
+.stars{
+    margin-bottom: 8px;
+}
+
+
+.image-product img{
+   width: 100%;
+}
+
+.fa-memory{
+    padding: 8px;
+    border-radius: 50%;
+    background-color: #6182a4 ;
+    width: fit-content;
+}
+
+.main-features{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 4px;
+}
+
+.icon-main-feature{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    width: min-content;
+}
+
+.icon-main-feature p{
+    font-size: 12px;
+    margin-block-start: 4px;
+    margin-block-end: 4px;    
+}
+
+.price{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 8px;
+}
+
+.price label{
+    margin-right: 4px;
+}
+
+#price-number{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.cta-add-to-car{
+    font-size: 16px;
+    width: 100%;
+    padding: 8px;  
+    border-radius: 8px;  
+    border-width: 0px;
+}
+
+
+.title{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.text-description{
+    font-size: 14px;
+    line-height: 21px;
+}
+
+table{
+    width: 100%;
+}
+
+table,
+th,
+td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td{
+    padding: 8px;
+    font-size: 14px;
+    line-height: 21px;    
+}
+
+th{
+    text-align: center;
+}
+
+td{
+    text-align: left;    
+}
+
+.name-of-feature{
+    background-color: rgba(238, 236, 236, 0.966);            
+}
+
+.list-of-products{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;    
+}
+
+.mini-product-card{
+    padding: 8px;
+    width: 48%;    
+}
+
+.mini-product-card a img{
     width: 100%;    
 }
+
+.mini-product-card a{
+    text-decoration: none;
+    color: black;
+}
+
+.mini-name{
+    font-size: 14px;
+    margin: 8px 0px;
+}
+
+.mini-price{
+    font-size: 16px;
+    margin: 8px 0px;
+}
+
+.reviews .title{
+    margin-bottom: 16px;
+}
+
+.card-review{
+    padding: 8px;
+}
+
+
+.review-image{
+    width: 50px;
+    height: 50px;
+    border: 1px solid lightgray;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.card-review img{
+   width: 100%;
+   
+}
+
+.card-review header{
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;  
+}
+
+.name-date-stars{
+    padding-left: 16px;
+}
+
+.user-name{
+    font-size: 16px;
+    font-weight: 700;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+    margin-bottom: 4px;    
+}
+
+.date-of-review{
+    font-size: 12px;
+    font-weight: 400;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.stars-review-one-user{
+    font-size: 14px;    
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+    margin-top: 4px;    
+}
+
+.user-review-text{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+}
+
+
+@media (min-width:481px){
+    .mini-product-card{
+        width: 31%;
+    }  
+}
+
+@media (min-width:769px) {
+    .product-card{
+        display: flex;
+        justify-content: space-between;    
+        align-items: center;    
+    }
+    .image-product{
+        width: 60%;
+    }
+
+    .product-card-2nd-box{
+        width: 40%;
+        margin-left: 32px;
+        margin-right: 0px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        border-top: 1px solid lightgray;
+        border-bottom: 1px solid lightgray;      
+    }
+
+    .mini-product-card{
+        width: 23%;
+    }
+
+    .list-of-reviews{
+        width: 50%;
+        margin: auto;
+    }
+
+    .list-of-reviews{
+        width: 50%;
+        margin: auto;
+    }  
+}
+

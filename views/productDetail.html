@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ProductDetail</title>
-    <link rel="stylesheet" href="/css/ProductDetailStyles.css">
+    <title>ProductDetail</title>   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/4233ea3642.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/ProductDetailStyles.css">
     
 </head>
 <body>
@@ -29,13 +32,190 @@
                 <i class="far fa-star"></i>
                 <i class="far fa-star"></i>
             </div>
+            <main class="product-card">                
+               
+                <div class="image-product">
+              <img src="/images/gabriel-beaudry-5X5dCf4Pp44-unsplash.jpg" alt="product-preview">
+                </div>
+                
+                <div class="product-card-2nd-box">
+                    <div class="main-features">                  
+                        <div class="icon-main-feature">
+                          <i class="fas fa-memory"></i>
+                            <p>A main feature</p>
+                        </div>    
+                        <div class="icon-main-feature">
+                            <i class="fas fa-memory"></i>
+                              <p>A main feature</p>
+                        </div>
+                        <div class="icon-main-feature">
+                          <i class="fas fa-memory"></i>
+                            <p>A main feature</p>
+                        </div>
+                        <div class="icon-main-feature">
+                            <i class="fas fa-memory"></i>
+                              <p>A main feature</p>
+                        </div>
+                    </div>
+      
+                    <div class="price">
+                        <label for="price-number">Precio:</label>
+                        <p id="price-number">$ 000.00 MX</p>
+                    </div>
+      
+                    <div>
+                        <button class="cta-add-to-car">
+                          <i class="fas fa-cart-plus"></i>
+                            Agregar al carrito
+                        </button>
+                    </div>
+                </div>
+                
+            </main>
         </section>
 
-        <article class="product-card">
-              <div class="image-product">
-            <img src="/images/gabriel-beaudry-5X5dCf4Pp44-unsplash.jpg" alt="product-preview">
-        </div>
-        </article>
+        
+        <section class="product-description">
+            <h2 class="title">
+                Descripción del producto
+            </h2>
+            <div class="text-description">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus alias sequi at ullam non libero deserunt earum natus. Minima esse ad reprehenderit placeat in hic aliquid ea magni illum ipsam.
+                </p>
+            </div>
+        </section>
+
+        <section class="specficactions">
+            <h2 class="title">
+                Especificaciones técnicas
+            </h2>
+            <div>
+                <table class="specifications-table">
+                    <colgroup>
+                        <col class="name-of-feature">                                            
+                    </colgroup>
+                    <tr>
+                        <th>Característica</th>
+                        <th>Descripción</th>
+                    </tr>
+
+                    <tr>
+                        <td>a value</td>
+                        <td>another value</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>a value</td>
+                        <td>another value</td>
+                    </tr>
+
+                    <tr>
+                        <td>a value</td>
+                        <td>another value</td>
+                    </tr>
+
+                    <tr>
+                        <td>a value</td>
+                        <td>another value</td>
+                    </tr>
+                  
+                </table>
+            </div>
+        </section>
+
+        <section class="other-products">
+            <h2 class="title">
+                Otros clientes también compraron
+            </h2>
+            <div class="list-of-products">
+                <div class="mini-product-card">
+                    <a href="#">
+                        <img src="/images/gabriel-beaudry-5X5dCf4Pp44-unsplash.jpg" alt="product-picture">
+                        <p class="mini-name">Nombre del producto</p>
+                        <p class="mini-price">$000.00</p>
+                    </a>
+                </div>
+                
+                <div class="mini-product-card">
+                    <a href="#">
+                        <img src="/images/gabriel-beaudry-5X5dCf4Pp44-unsplash.jpg" alt="product-picture">
+                        <p class="mini-name">Nombre del producto</p>
+                        <p class="mini-price">$000.00</p>
+                    </a>
+                </div>
+                    
+                <div class="mini-product-card">
+                    <a href="#">
+                        <img src="/images/gabriel-beaudry-5X5dCf4Pp44-unsplash.jpg" alt="product-picture">
+                            <p class="mini-name">Nombre del producto</p>
+                            <p class="mini-price">$000.00</p>
+                    </a>
+                </div>      
+
+                <div class="mini-product-card">
+                    <a href="#">
+                        <img src="/images/gabriel-beaudry-5X5dCf4Pp44-unsplash.jpg" alt="product-picture">
+                            <p class="mini-name">Nombre del producto</p>
+                            <p class="mini-price">$000.00</p>
+                    </a>
+                </div>      
+                                  
+            </div>
+        </section>
+
+        <section class="reviews">
+            <h2 class="title">
+                Reseñas del producto
+            </h2>
+            <div class="list-of-reviews">
+                <div class="card-review">
+                    <header>
+                        <div class="review-image">
+                            <img src="/images/pexels-pixabay-220453.jpg" alt="profile-picture">
+                         </div>
+                   
+                        <div class="name-date-stars">
+                            <p class="user-name">Nombre de usuario</p>
+                            <p class="date-of-review">31/enero/2045</p>
+                            <div class="stars-review-one-user">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </div>
+                    </header>    
+                        <p class="user-review-text">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos tempora dolorum reiciendis quasi harum, error minus magni corporis, fugiat nulla odio doloribus et architecto maiores doloremque praesentium. Minima, illo minus.
+                        </p>
+                </div>
+
+                <div class="card-review">
+                    <header>
+                        <div class="review-image">
+                            <img src="/images/pexels-pixabay-220453.jpg" alt="profile-picture">
+                         </div>
+                   
+                        <div class="name-date-stars">
+                            <p class="user-name">Nombre de usuario</p>
+                            <p class="date-of-review">31/enero/2045</p>
+                            <div class="stars-review-one-user">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </div>
+                    </header>    
+                        <p class="user-review-text">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos tempora dolorum reiciendis quasi harum, error minus magni corporis, fugiat nulla odio doloribus et architecto maiores doloremque praesentium. Minima, illo minus.
+                        </p>
+                </div>
+            </div>
+        </section>
 
       
 
