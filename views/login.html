@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+    <link href = "/css/normalize.css" rel = stylesheet>
+    <link href="/css/register.css" rel=stylesheet>
+    <link href="/css/loginStyles.css" rel=stylesheet>
+    <script type="text/javascript" src="/js/home.js"></script>
+    <title>Iniciar sesión</title>
+</head>
+<body>
+
+    <header>
+        <article>
+            <img src="/images/TechLAnd2White.png" alt="logo de la empresa" class="logo">
+            <div class="lines">
+                <div class="line-first"></div>
+                <div class="line-second"></div>
+                <div class="line-third"></div>
+            </div>
+            <nav class="header-nav">
+                <ul class="tabs">
+                    <li><a href="#" class="firsttab">Tienda</a></li>
+                    <li><a href="#" class="secondtab">Más vendidos</a></li>
+                    <li><a href="#" class="thirdtab">Soporte</a></li>
+                </ul>
+            </nav>
+            <div class="input-search">
+                <input type="text" class="search" id="fname" name="fname" placeholder="Buscar..." > 
+                <button class="button-search"><i class="fas fa-search"></i></button>
+            </div>
+            <div class="profile"><i class="fas fa-user fa-2x"></i> 
+                <i class="fas fa-cart-plus fa-2x"></i> </div>
+        </article>
+
+        <section>
+            <div class="lines">
+                <div class="line-first"></div>
+                <div class="line-second"></div>
+                <div class="line-third"></div>
+            </div>
+            <!-- <article class="circle">
+                <div class="circle-one"><i class="fas fa-circle-notch"></i></div>
+                <div class="circle-second"><i class="fas fa-circle-notch"></i></div>
+                <div class="circle-third"><i class="fas fa-circle-notch"></i></div>
+            </article> -->
+        </section>
+    
+        <div class="container-barMenu">
+            <i class="fas fa-bars barMenu fa-lg"></i>
+        </div>
+    </header>
+
+    <main>
+        <h1>Iniciar sesión</h1>
+        <article class="tabs">
+            <div class="register"><a href="/register" class="register-tab">¡Regístrate!</a></div>
+            <div class="login"><a href="/login" class="login-tab">Ingresa a tu cuenta</a></div>
+        </article>
+
+        <section>
+            <form action="/login" method="GET">
+                <article class="fullname">
+                    <div> 
+                        <!-- <p>Nombre</p> -->
+                        <input type="text" class="input" id="fname" name="first-name" placeholder="  Nombre" > 
+                    </div>
+                    <div> <input type="text" class="input" id="fname" name="last-name" placeholder="  Apellidos" > </div>
+                </article>
+                <div> <input size="20px" type="text" class="input" id="fname" name="email-address" placeholder="  nombre@example.com" > </div>
+                <div> <input size="20px" type="password" class="input" id="fname" name="password" placeholder="  Contraseña" > </div>
+                <div> <input size="20px" type="password" class="input" id="fname" name="password" placeholder="  Confirmar contraseña" > </div>
+                <button type="submit" class="register-button"> Registrar > </button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social-networks">
+        <i class="fab fa-instagram fa-3x"></i>
+        <i class="fab fa-facebook fa-3x"></i>
+        <i class="fab fa-whatsapp fa-3x"></i> 
+        </div>
+        <nav>
+            <ul class="navbar">
+                <li><a href="#">Conócenos</a></li>
+                <li><a href="#">Cuenta</a></li>
+                <li><a href="#">Mi pedido</a></li>
+            </ul>
+        
+            <img src="/images/TechLand2White.png" class="logo" alt="logo de la empresa">
+        
+            <ul class="navbar">
+                <li><a href="#">Contáctanos</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Ayuda e información</a></li>
+            </ul>
+        </nav>  
+    </footer>
+    
+</body>
+</html>
