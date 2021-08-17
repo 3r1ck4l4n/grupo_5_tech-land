@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/css/homeStyles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxygen&family=Roboto+Mono&display=swap"
+      rel="stylesheet"
+    />
     <script type="text/javascript" src="/js/home.js"></script>
     <script
       src="https://kit.fontawesome.com/4233ea3642.js"
@@ -17,25 +23,28 @@
     <header>
       <div class="header-top">
         <div class="container-logo">
-          <img
-            src="/images/TechLandV2.png"
-            class="tech-land-logo"
-            alt="tech-land-logo"
-          />
+          <a href="/home"
+            ><img
+              src="/images/techLand2White.png"
+              class="tech-land-logo"
+              alt="tech-land-logo"
+          /></a>
         </div>
 
         <div class="search-box">
-          <input
+          <form action="#" method="POST">
+            <input
             type="text"
             name="search"
             id="search"
             placeholder="Search for anything"
-          /><button class="button-search">
+          /><button type="" class="button-search">
             <i class="fab fa-searchengin fa-lg"></i>
           </button>
+          </form>
         </div>
-        <div class="options">
-          <i class="fas fa-shopping-cart fa-3x"></i>
+        <div class="shoppingCart">
+          <button><i class="fas fa-shopping-cart fa-lg"></i></button>
         </div>
       </div>
       <nav class="header-nav">
@@ -46,34 +55,177 @@
           <li><a href="#">Centro de información</a></li>
         </ul>
         <ul class="user-options">
-          <li><button>login</button></li>
-          <li><button>sign up</button></li>
+          <li><button>Login</button></li>
+          <li><button>Sign Up</button></li>
         </ul>
       </nav>
       <div class="container-barMenu">
         <i class="fas fa-bars barMenu fa-lg"></i>
       </div>
       <div class="banner">
-        <img src="/images/banner1.jpg" alt="banner1" />
+        <img src="/images/home/banner1.jpg" alt="banner1" />
       </div>
     </header>
 
-    <main>
+    <main class="firstContent">
+      <h2 class="titleMain">Productos Destacados:</h2>
       <section class="featuredProducts">
-        <article></article>
-        <article></article>
-        <article></article>
-        <article></article>
+        <article class="Item">
+          <img class="itemImage" src="/images/home/i9.jpg" alt="Core-i9" />
+          <div class="specifications">
+            <h3 class="titleItem">
+              Intel Core i9 i9-10940X Tetradeca-core (14 núcleos) 3,30 GHz.
+            </h3>
+            <p class="price">$26,900.00</p>
+            <p class="recommendations"><a href="#">Articulos similares</a></p>
+          </div>
+          
+        </article>
+
+        <article class="Item">
+          <img class="itemImage" src="/images/home/RTX3060.jpg" alt="RTX3060" />
+          <div class="specifications">
+            <h3 class="titleItem">
+              MSI Tarjeta de Video NVIDIA GeForce RTX 3060 Gaming X.
+            </h3>
+            <p class="price">$18,698.00</p>
+            <p class="recommendations"><a href="#">Articulos similares</a></p>
+          </div>
+         
+        </article>
+
+        <article class="Item">
+          <img
+            class="itemImage"
+            src="/images/home/GabineteConquer.jpg"
+            alt=""
+          />
+          <div class="specifications">
+            <h3 class="titleItem">
+              Gabinete Cougar Conquer 2 con Ventana RGB, Full Tower.
+            </h3>
+            <p class="price">$6,449.00</p>
+            <p class="recommendations"><a href="#">Articulos similares</a></p>
+          </div>
+          
+        </article>
+
+        <article class="Item">
+          <img
+            class="itemImage"
+            src="/images/home/KingstonMemory.jpg"
+            alt="RamFuryBeast"
+          />
+          <div class="specifications">
+            <h3 class="titleItem">
+              Kit Memoria Ram Kingston FURY Beast DDR4 RGB, 3200MHz, 16GB (2 x
+              8GB).
+            </h3>
+            <p class="price">$2,239.00</p>
+            <p class="recommendations"><a href="#">Articulos similares</a></p>
+          </div>
+          
+        </article>
       </section>
 
+      <h2 class="titleMain">Productos Destacados:</h2>
       <section class="promotionalProducts">
-        <article></article>
-        <article></article>
-        <article></article>
-        <article></article>
+        
+        <article class="Item">
+          <img
+            class="itemImage"
+            src="/images/home/GabineteNZXT.jpg"
+            alt="GabineteNZXT"
+          />
+          <div class="specifications">
+            <h3 class="titleItem">
+              Gabinete NZXT H510 Elite con Ventana RGB, Midi-Tower.
+            </h3>
+            <p class="discount">-15% ¡$585.00 menos!</p>
+            <p class="moreOffers"><a href="#">Otras ofertas similares</a></p>
+          </div>
+          
+        </article>
+
+        <article class="Item">
+          <img
+            class="itemImage"
+            src="/images/home/tecladoXzeal.jpg"
+            alt="GabineteNZXT"
+          />
+          <div class="specifications">
+            <h3 class="titleItem">
+              Teclado Gamer XZEAL XZ1020, Teclado Mecánico.
+            </h3>
+            <p class="discount">-10% ¡$75.00 menos!</p>
+            <p class="moreOffers"><a href="#">Otras ofertas similares</a></p>
+          </div>
+          
+        </article>
+
+        <article class="Item">
+          <img
+            class="itemImage"
+            src="/images/home/mouseEvga.jpg"
+            alt="GabineteNZXT"
+          />
+          <div class="specifications">
+            <h3 class="titleItem">
+              Gabinete NZXT H510 Elite con Ventana RGB, Midi-Tower
+            </h3>
+            <p class="discount">-8% ¡$90.00 menos!</p>
+            <p class="moreOffers"><a href="#">Otras ofertas similares</a></p>
+          </div>
+          
+        </article>
+
+        <article class="Item">
+          <img
+            class="itemImage"
+            src="/images/home/ramCorsair.jpg"
+            alt="RamCorsair"
+          />
+          <div class="specifications">
+            <h3 class="titleItem">
+              Memoria RAM Corsair Vengeance DDR3, 1600MHz, 8GB.
+            </h3>
+            <p class="discount">-20% ¡$180.00 menos!</p>
+            <p class="moreOffers"><a href="#">Otras ofertas similares</a></p>
+          </div>
+          
+        </article>
       </section>
     </main>
 
-    <footer></footer>
+    <footer class="footerContainer">
+      <section>
+        <article class="footerItem">
+          <h4 class="footerTitle"> Follow Us</h4>
+          <ul>
+            <li> <span class="nameItemfooter">Facebook:</span> <a href="#"><i class="fab fa-facebook fa-3x"></i></a> </li>
+            <li> <span class="nameItemfooter">Twitter:</span> <a href="#"><i class="fab fa-twitter-square fa-3x"></i></a> </li>
+            <li> <span class="nameItemfooter">Instagram:</span><a href="#"><i class="fab fa-instagram-square fa-3x"></i></a> </li>
+            <li> <span class="nameItemfooter">Git-Hub:</span><a href="#"><i class="fab fa-github fa-3x"></i></a> </li>
+          </ul>
+        </article>
+    
+        <article class="footerItem">
+          <h4 class="footerTitle"> Contact Us</h4>
+          <ul class="contactFooter">
+            <li class="contactFooterItem">Call: +52 55 XX XX XX XX</li>
+            <li class="contactFooterItem"> E-mail: something@someadress.com</li>
+          </ul>
+        </article>
+    
+        <article class="footerItem">
+          <h4 class="footerTitle">Subscribe to the newsletter.</h4>
+          <form class="footerFormMobile" action="#" method="POST">
+            <input type="email" placeholder="something@someadress.com">
+            <button type="submit">Subscribe</button>
+          </form>
+        </article>
+      </section>
+    </footer>
+
   </body>
 </html>

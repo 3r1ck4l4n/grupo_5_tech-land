@@ -4,21 +4,27 @@
   box-sizing: border-box;
   text-decoration: none;
   color: black;
+  font-family: "Roboto Mono", monospace;
 }
-body {
-  background-color: #0e948d;
-}
+ body {
+  margin-bottom: 500PX;
+  background-color: #88D317;
+  
+} 
 
+html{
+  position: relative;
+}
 header {
-  background-color: white;
+  background-color: rgba(0, 0, 0, 1);
 }
 
 .header-top {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  padding: 10px;
-  background-color: rgba(0, 0, 0, 1);
+  padding: 20px 10px 20px 10px;
+  
 }
 
 .container-logo {
@@ -27,6 +33,14 @@ header {
   justify-content: center;
 }
 
+main{
+  background-color: black;
+  margin: 10px;
+}
+
+.Item{
+  background-color: white;
+}
 .tech-land-logo {
   width: 180px;
   height: 22px;
@@ -47,10 +61,6 @@ header {
   width: 85%;
 }
 
-.button-search {
-  padding: 2px;
-}
-
 .fa-searchengin {
   color: #0e948d;
 }
@@ -58,16 +68,38 @@ header {
 .header-nav {
   padding: 10px;
 }
-.header-nav,
+.header-nav
 ul {
   display: flex;
 }
 
+
+
 ul.service-options {
-  width: 70%;
-  justify-content: space-evenly;
+  flex-direction: column ;
+  width: 100%;
+  align-content: space-around;
   list-style: none;
   flex-wrap: wrap;
+}
+
+.header-nav ul li{
+  margin-top: 5px;
+}
+
+ul.service-options li a{
+  color: white 
+}
+.header-nav{
+  border-top: #88D317 solid 1px;
+}
+ul.user-options li button{
+  background-color: #1A0315;
+  font-size: 20px;
+  border-radius: 5px;
+  border:none;
+  padding: 2px;
+  color: #88D317;
 }
 
 .container-barMenu {
@@ -75,20 +107,28 @@ ul.service-options {
   margin: auto;
   padding: 10px;
   border-radius: 5px;
-  background-color: #26314D;
+  background-color: #1A0315;
   margin-top: 5px;
   margin-bottom: 5px;
 }
 
-.container-barMenu i{
-    color: white;
+.container-barMenu i {
+  color: #88D317;
 }
 
 ul.user-options {
-  width: 30%;
+  width: 15%;
   list-style: none;
-  justify-content: stretch;
+  justify-content: space-evenly;
   flex-wrap: wrap;
+  text-align: center;
+}
+
+ul.user-options,
+li,
+button {
+  font-family: "Roboto Mono", monospace;
+  width: max-content;
 }
 
 div.banner {
@@ -99,29 +139,161 @@ div.banner img {
   width: 100%;
 }
 
+.firstContent {
+  padding: 15px;
+}
+.firstContent .promotionalProducts {
+  margin-top: 30px;
+}
+
+
+.itemImage {
+  width: 100%;
+  display: block;
+}
+
+.titleMain {
+  margin-bottom: 25px;
+  color: white;
+}
+
+.Item {
+  margin: 20px auto 10px auto;
+  width: 100%;
+  padding: 20px;
+}
+
+.description,
+ul,
+li {
+  white-space: pre-line;
+}
+
+.footerTitle{
+  text-align: center;
+  margin: 10px auto 10px auto;
+}
+
+.footerItem{
+  margin: 15px auto 10px  auto;
+}
+
+.footerItem ul{
+  display: flex;
+  flex-direction: row;
+  list-style: none  ;
+}
+
+.footerItem ul li{
+  margin: 10px auto 10px  auto;
+}
+
+.footerFormMobile{
+  display: flex;  
+  justify-content: center;
+  padding: 0 30px 30px 30px;
+}
+
+.footerFormMobile input, .footerFormMobile button{
+  height: 30px;
+}
+.footerFormMobile button:hover{
+  background-color: #0e948d;
+}
+
+.search-box{
+  display: none;
+}
+
+.shoppingCart{
+  display: none;
+}
+.nameItemfooter{
+  display: none;
+}
+
+.contactFooter{
+  flex-direction: column !important;
+}
+
+footer{
+  background-color: black;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.footerContainer .footerItem h4, .footerContainer .footerItem ul li i, .footerContainer .footerItem ul li{
+  color: white  ;
+}
 
 @media (min-width: 320px) {
-    .header-nav {
-        display: none;
-      }
-      .header-nav,ul {
-        flex-direction: column;
-        align-content: center;
-      }
-      
-}  
+  .header-nav,
+  ul {
+    flex-direction: column;
+    align-content: flex-end;
+    padding: 10px;
+  }
+
+  ul.user-options {
+    margin: auto;
+  }
+}
 
 @media (min-width: 560px) {
-  .header-nav {
-    display: flex;
+
+  .search-box{
+    display: block;
+  }
+  
+  .shoppingCart{
+    display: block;
+    color: white;
+  }
+  nav.header-nav {
+    display: flex !important;
   }
 
-  .container-barMenu{
-      display: none;
+  .container-barMenu {
+    display: none;
   }
 
-  .header-nav,ul {
+  .header-nav,
+  ul {
     flex-direction: row;
     justify-content: space-evenly;
+  }
+
+  .Item{
+    width: 20%;
+    padding: 0%;
+    position: relative;
+  }
+
+  .itemImage{
+    margin-bottom: 250px;
+  }
+  .specifications{
+    position:absolute;
+    bottom: 0;
+  }
+  .featuredProducts, .promotionalProducts{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .specifications{
+    margin-top: 20px;
+  }
+}
+
+@media (min-width:768px) {
+  .itemImage{
+    margin-bottom: 200px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .itemImage{
+    margin-bottom: 150px;
   }
 }
