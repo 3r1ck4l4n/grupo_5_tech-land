@@ -22,19 +22,10 @@
                 <div class="line-second"></div>
                 <div class="line-third"></div>
             </div>
-            <nav class="header-nav">
-                <ul class="tabs">
-                    <li><a href="#" class="firsttab">Tienda</a></li>
-                    <li><a href="#" class="secondtab">Más vendidos</a></li>
-                    <li><a href="#" class="thirdtab">Soporte</a></li>
-                </ul>
-            </nav>
             <div class="input-search">
                 <input type="text" class="search" id="fname" name="fname" placeholder="Buscar..." > 
                 <button class="button-search"><i class="fas fa-search"></i></button>
             </div>
-            <div class="profile"><i class="fas fa-user fa-2x"></i> 
-                <i class="fas fa-cart-plus fa-2x"></i> </div>
         </article>
 
         <section>
@@ -49,6 +40,18 @@
                 <div class="circle-third"><i class="fas fa-circle-notch"></i></div>
             </article> -->
         </section>
+
+        <nav class="header-nav">
+            <ul class="tabs">
+                <li><a href="#" class="firsttab">Novedades</a></li>
+                <li><a href="#" class="secondtab">Productos destacados</a></li>
+                <li><a href="#" class="thirdtab">Favoritos</a></li>
+            </ul>
+            <ul class="user-options">
+                <li><button >Login</button></li>
+                <li><button>Sign Up</button></li>
+            </ul>
+        </nav>
     
         <div class="container-barMenu">
             <i class="fas fa-bars barMenu fa-lg"></i>
@@ -56,27 +59,21 @@
     </header>
 
     <main>
-        <h1>Iniciar sesión</h1>
+        
         <article class="tabs">
             <div class="register"><a href="/register" class="register-tab">¡Regístrate!</a></div>
             <div class="login"><a href="/login" class="login-tab">Ingresa a tu cuenta</a></div>
         </article>
-
         <section>
-            <form action="/login" method="GET">
-                <article class="fullname">
-                    <div> 
-                        <!-- <p>Nombre</p> -->
-                        <input type="text" class="input" id="fname" name="first-name" placeholder="  Nombre" > 
-                    </div>
-                    <div> <input type="text" class="input" id="fname" name="last-name" placeholder="  Apellidos" > </div>
-                </article>
-                <div> <input size="20px" type="text" class="input" id="fname" name="email-address" placeholder="  nombre@example.com" > </div>
-                <div> <input size="20px" type="password" class="input" id="fname" name="password" placeholder="  Contraseña" > </div>
-                <div> <input size="20px" type="password" class="input" id="fname" name="password" placeholder="  Confirmar contraseña" > </div>
-                <button type="submit" class="register-button"> Registrar > </button>
+            <h1>Iniciar sesión</h1>
+            <form action="/home" method="GET">
+                <div> <input size="20px" type="text" class="input" id="fname" name="email-address" placeholder="  Email"  required minlength="8"> </div>
+                <div> <input size="20px" type="password" class="input" id="fname" name="password" placeholder="  Contraseña" required minlength="8" pattern="^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$"> </div>
+                <div class="check"><input type="checkbox" class="checkbox"> ¿Desea guardar su contraseña?</div>
+                <button type="submit" class="register-button"> Ingresar </button>
             </form>
         </section>
+        <div class="forget"><a href="#">¿Olvidaste tu contraseña?</a></div>
     </main>
 
     <footer>

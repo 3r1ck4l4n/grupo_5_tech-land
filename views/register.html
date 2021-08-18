@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen&family=Roboto+Mono&display=swap" rel="stylesheet"/>
     <!-- <link href = "/css/normalize.css" rel = stylesheet> -->
     <link href="/css/register.css" rel=stylesheet>
     <script type="text/javascript" src="/js/home.js"></script>
@@ -19,19 +20,10 @@
                 <div class="line-second"></div>
                 <div class="line-third"></div>
             </div>
-            <nav class="header-nav">
-                <ul class="tabs">
-                    <li><a href="#" class="firsttab">Tienda</a></li>
-                    <li><a href="#" class="secondtab">Más vendidos</a></li>
-                    <li><a href="#" class="thirdtab">Soporte</a></li>
-                </ul>
-            </nav>
             <div class="input-search">
                 <input type="text" class="search" id="fname" name="fname" placeholder="Buscar..." > 
                 <button class="button-search"><i class="fas fa-search"></i></button>
             </div>
-            <div class="profile"><i class="fas fa-user fa-2x"></i> 
-                <i class="fas fa-cart-plus fa-2x"></i> </div>
         </article>
 
         <section>
@@ -46,30 +38,43 @@
                 <div class="circle-third"><i class="fas fa-circle-notch"></i></div>
             </article> -->
         </section>
+
+        <nav class="header-nav">
+            <ul class="tabs">
+                <li><a href="#" class="firsttab">Novedades</a></li>
+                <li><a href="#" class="secondtab">Productos destacados</a></li>
+                <li><a href="#" class="thirdtab">Favoritos</a></li>
+            </ul>
+            <ul class="user-options">
+                <li><button>Login</button></li>
+                <li><button>Sign Up</button></li>
+            </ul>
+        </nav>
     
         <div class="container-barMenu">
             <i class="fas fa-bars barMenu fa-lg"></i>
         </div>
     </header>
     <main>
-        <h1>Registro de nuevo usuario</h1>
+        
         <article class="tabs">
             <div class="register"><a href="/register" class="register-tab">¡Regístrate!</a></div>
             <div class="login"><a href="/login" class="login-tab">Ingresa a tu cuenta</a></div>
         </article>
 
         <section>
+            <h1>Registro de nuevo usuario</h1>
             <form action="/login" method="GET">
                 <article class="fullname">
                     <div> 
                         <!-- <p>Nombre</p> -->
-                        <input type="text" class="input" id="fname" name="first-name" placeholder="  Nombre" > 
+                        <input type="text" class="input" id="fname" name="first-name" placeholder="  Nombre" required minlength="2" > 
                     </div>
-                    <div> <input type="text" class="input" id="fname" name="last-name" placeholder="  Apellidos" > </div>
+                    <div> <input type="text" class="input" id="fname" name="last-name" placeholder="  Apellidos"  required minlength="2"> </div>
                 </article>
-                <div> <input size="20px" type="text" class="input" id="fname" name="email-address" placeholder="  nombre@example.com" > </div>
-                <div> <input size="20px" type="password" class="input" id="fname" name="password" placeholder="  Contraseña" > </div>
-                <div> <input size="20px" type="password" class="input" id="fname" name="password" placeholder="  Confirmar contraseña" > </div>
+                <div> <input size="20px" type="text" class="input" id="fname" name="email-address" placeholder="  nombre@example.com" required minlength="2"> </div>
+                <div> <input size="20px" type="password" class="input" id="fname" name="password" placeholder="  Contraseña" required minlength="8" pattern="^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$"> </div>
+                <div> <input size="20px" type="password" class="input" id="fname" name="password" placeholder="  Confirmar contraseña" required minlength="8" pattern="^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$" > </div>
                 <label> <h3>País o región: </h3></label>
                 <select name="pais" class="input">
                     <option value="Afganistán" id="AF">Afganistán</option>
@@ -221,7 +226,7 @@
                     <option value="Mauricio" id="MU">Mauricio</option>
                     <option value="Mauritania" id="MR">Mauritania</option>
                     <option value="Mayotte" id="YT">Mayotte</option>
-                    <option value="México" id="MX">México</option>
+                    <option value="México" id="MX" selected>México</option>
                     <option value="Micronesia" id="FM">Micronesia</option>
                     <option value="Moldavia" id="MD">Moldavia</option>
                     <option value="Mónaco" id="MC">Mónaco</option>
@@ -310,11 +315,9 @@
                     <option value="Zambia" id="ZM">Zambia</option>
                     <option value="Zimbabue" id="ZW">Zimbabue</option>
                 </select>
-                <i class="fas fa-search"></i>
-                <h3>Seguridad de contraseña</h3>
                 <label class="advices">
-                <div class="check"><input type="checkbox"> Deseo recibir ofertas y promociones de parte de TechLand.com por correo </div>
-                <div class="check"><input type="checkbox"> He leído y acepto los términos y condiciones y las políticas de privacidad de TechLand.com</div>
+                <div class="check"><input type="checkbox" class="checkbox"> Deseo recibir ofertas y promociones de parte de TechLand.com por correo </div>
+                <div class="check"><input type="checkbox" class="checkbox" required> He leído y acepto los términos y condiciones y las políticas de privacidad de TechLand.com</div>
                 </label>
                 <button type="submit" class="register-button"> Registrar > </button>
             </form>
