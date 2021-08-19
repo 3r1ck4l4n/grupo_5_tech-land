@@ -6,17 +6,16 @@
   color: black;
   font-family: "Roboto Mono", monospace;
 }
- body {
-  margin-bottom: 500PX;
-  background-color: #88D317;
-  
-} 
+body {
+  margin-bottom: 408px;
+  background-color: #1a0315;
+}
 
-html{
+html {
   position: relative;
 }
 header {
-  background-color: rgba(0, 0, 0, 1);
+  background-color: black;
 }
 
 .header-top {
@@ -24,7 +23,7 @@ header {
   flex-wrap: wrap;
   justify-content: space-around;
   padding: 20px 10px 20px 10px;
-  
+  background-color: black;
 }
 
 .container-logo {
@@ -33,14 +32,16 @@ header {
   justify-content: center;
 }
 
-main{
+main {
   background-color: black;
   margin: 10px;
 }
 
-.Item{
-  background-color: white;
+main section {
+  background-color: black;
+  margin-top: 30px;
 }
+
 .tech-land-logo {
   width: 180px;
   height: 22px;
@@ -59,47 +60,50 @@ main{
 }
 #search {
   width: 85%;
+  font-size: 1.2em;
 }
 
 .fa-searchengin {
-  color: #0e948d;
+  font-size: 1.2em;
 }
 
 .header-nav {
   padding: 10px;
+  background-color: rgba(0, 0, 0, 0.75);
 }
-.header-nav
-ul {
+.header-nav ul {
   display: flex;
 }
 
-
-
 ul.service-options {
-  flex-direction: column ;
+  flex-direction: column;
   width: 100%;
   align-content: space-around;
   list-style: none;
   flex-wrap: wrap;
 }
 
-.header-nav ul li{
+.header-nav ul li {
   margin-top: 5px;
 }
 
-ul.service-options li a{
-  color: white 
+.footer-icon-mobile {
+  color: white;
 }
-.header-nav{
-  border-top: #88D317 solid 1px;
+
+ul.service-options li a,
+ul.user-options li a {
+  color: white;
 }
-ul.user-options li button{
-  background-color: #1A0315;
+.header-nav {
+  border-top: #88d317 solid 1px;
+}
+ul.user-options li i {
   font-size: 20px;
   border-radius: 5px;
-  border:none;
+  border: none;
   padding: 2px;
-  color: #88D317;
+  color: #88d317;
 }
 
 .container-barMenu {
@@ -107,13 +111,13 @@ ul.user-options li button{
   margin: auto;
   padding: 10px;
   border-radius: 5px;
-  background-color: #1A0315;
+  background-color: #1a0315;
   margin-top: 5px;
   margin-bottom: 5px;
 }
 
 .container-barMenu i {
-  color: #88D317;
+  color: #88d317;
 }
 
 ul.user-options {
@@ -140,90 +144,109 @@ div.banner img {
 }
 
 .firstContent {
-  padding: 15px;
+  padding: 15px 0 15px 0;
 }
 .firstContent .promotionalProducts {
   margin-top: 30px;
 }
 
-
 .itemImage {
-  width: 100%;
-  display: block;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+}
+
+.img-short {
+  margin-bottom: 40px;
+  margin-top: 10px;
 }
 
 .titleMain {
+  margin-top: 15px;
   margin-bottom: 25px;
+  border-top: #88d317 solid 2px;
   color: white;
+  text-align: center;
 }
 
 .Item {
-  margin: 20px auto 10px auto;
-  width: 100%;
-  padding: 20px;
+  margin: 10px auto 10px auto;
+  width: 80%;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  transition: box-shadow 450ms;
 }
 
-.description,
-ul,
-li {
-  white-space: pre-line;
+.Item:hover {
+  box-shadow: 2px 2px 5px 5px #88d317;
 }
 
-.footerTitle{
+.footerTitle {
   text-align: center;
   margin: 10px auto 10px auto;
 }
 
-.footerItem{
-  margin: 15px auto 10px  auto;
+.footerItem {
+  margin: 15px auto 10px auto;
 }
 
-.footerItem ul{
+.footerItem ul {
   display: flex;
   flex-direction: row;
-  list-style: none  ;
+  list-style: none;
 }
 
-.footerItem ul li{
-  margin: 10px auto 10px  auto;
+.footerItem ul li {
+  margin: 10px auto 10px auto;
 }
 
-.footerFormMobile{
-  display: flex;  
+.footerFormMobile {
+  display: flex;
   justify-content: center;
   padding: 0 30px 30px 30px;
 }
 
-.footerFormMobile input, .footerFormMobile button{
+.footerFormMobile input,
+.footerFormMobile button {
   height: 30px;
 }
-.footerFormMobile button:hover{
-  background-color: #0e948d;
+.footerFormMobile button:hover {
+  background-color: #1a0315;
+  color: white;
 }
 
-.search-box{
+.search-box {
   display: none;
 }
 
-.shoppingCart{
+.shoppingCart {
   display: none;
 }
-.nameItemfooter{
+.nameItemfooter {
   display: none;
 }
 
-.contactFooter{
+.contactFooter {
   flex-direction: column !important;
 }
 
-footer{
+footer {
   background-color: black;
   position: absolute;
   bottom: 0;
   width: 100%;
 }
-.footerContainer .footerItem h4, .footerContainer .footerItem ul li i, .footerContainer .footerItem ul li{
-  color: white  ;
+.footerContainer .footerItem h4,
+.footerContainer .footerItem ul li i,
+.footerContainer .footerItem ul li {
+  color: white;
+}
+
+.footer-icon-mobile:hover,
+.nameItemfooter:hover > i,
+.nameItemfooter:hover {
+  color: #88d317 !important;
 }
 
 @media (min-width: 320px) {
@@ -240,60 +263,134 @@ footer{
 }
 
 @media (min-width: 560px) {
-
-  .search-box{
+  .search-box {
     display: block;
   }
-  
-  .shoppingCart{
+
+  .shoppingCart {
     display: block;
     color: white;
   }
   nav.header-nav {
     display: flex !important;
+    border: none;
   }
 
   .container-barMenu {
     display: none;
   }
 
-  .header-nav,
-  ul {
+  .header-nav {
     flex-direction: row;
-    justify-content: space-evenly;
   }
 
-  .Item{
-    width: 20%;
-    padding: 0%;
-    position: relative;
+  ul.service-options,
+  ul.user-options {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px 5px 10px 5px;
+  }
+  .Item {
+    width: 40%;
+    font-size: 1.1em;
   }
 
-  .itemImage{
-    margin-bottom: 250px;
+  .specifications {
+    margin-top: 10px;
+    padding: 10px;
   }
-  .specifications{
-    position:absolute;
-    bottom: 0;
-  }
-  .featuredProducts, .promotionalProducts{
+  .featuredProducts,
+  .promotionalProducts {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
   }
 
-  .specifications{
-    margin-top: 20px;
+  ul.service-options {
+    width: 100%;
+  }
+  ul.user-options {
+    justify-items: flex-end;
+    width: 100%;
+    margin: 0;
   }
 }
 
-@media (min-width:768px) {
-  .itemImage{
-    margin-bottom: 200px;
+@media (min-width: 768px) {
+  .footerContainer .footerItem h4,
+  .footerContainer .footerItem ul li i,
+  .footerContainer .footerItem ul li {
+    font-size: 1em !important;
+  }
+
+  body {
+    margin-bottom: 270px;
+  }
+
+  .header-nav {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  ul.service-options,
+  ul.user-options {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px 5px 10px 5px;
+  }
+
+  ul.service-options li,
+  ul.user-options li {
+    font-size: 1.2em;
+  }
+
+  a .footer-icon-mobile {
+    display: none;
+  }
+  ul.user-options li {
+    width: 50%;
+  }
+
+  .footerContainer section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .footerItem {
+    width: 30%;
+  }
+
+  .footerItem ul {
+    flex-wrap: wrap;
+    align-content: space-around !important;
+  }
+  .footerItem ul.follow-us {
+    flex-direction: column;
+  }
+  .nameItemfooter {
+    color: white;
+    display: inline;
   }
 }
 
-@media (min-width: 1000px) {
-  .itemImage{
-    margin-bottom: 150px;
+@media (min-width: 1028px) {
+  ul.service-options {
+    width: 70%;
+  }
+  ul.user-options {
+    justify-items: flex-end;
+    width: 30%;
+    margin: 0;
+  }
+  .Item {
+    width: 20%;
+  }
+
+  .tech-land-logo {
+    width: 200px;
+    height: 25px;
   }
 }
