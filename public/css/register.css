@@ -4,6 +4,12 @@
     padding:0px
 }
   
+.contactFooterItem{
+    width:90%;
+    font-size: 1rem;
+    
+}
+
   html {
     position: relative;
   }
