@@ -1,6 +1,27 @@
 *{
     box-sizing: border-box;
+    
 }
+
+/* make difference from the home styles*/
+
+
+main {
+    width: 90vw;
+    margin: auto;
+        
+  }
+  
+  .banner img{
+      width: 100%;
+  }
+
+footer{
+    position: static;
+    padding-top: 8px;
+}   
+
+/**/
 
 body{    
     font-family: 'Roboto', sans-serif;
@@ -15,7 +36,7 @@ main{
 
 .top{
     padding-bottom: 8px;
-    border-bottom: 1px solid lightgray;
+    border-bottom: 1px solid #64b3f4;
 }
 
 h1{
@@ -76,7 +97,7 @@ h1{
    
     padding-top: 8px;
     padding-bottom: 16px;
-    border-bottom: 1px solid lightgray;
+    border-bottom: 1px solid #64b3f4;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -153,7 +174,7 @@ h1{
 }
 
 .to-pay{
-    border: 1px solid lightgray;
+    border: 1px solid #64b3f4;
     margin-top: 16px;
 }
 
@@ -224,7 +245,7 @@ h1{
         display: block;
         width: 30%;
         height: 40%;
-        border: 1px solid lightgray;
+        border: 1px solid #64b3f4;
         margin-top: 16px;
     }
 

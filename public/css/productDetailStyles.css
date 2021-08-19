@@ -11,23 +11,45 @@
 #26314D
 */ 
 
+/* make difference from the home styles*/
+
+
+main {
+    width: 90vw;
+    margin: auto;
+        
+  }
+  
+  .banner img{
+      width: 100%;
+  }
+
+footer{
+    position: static;
+    padding-top: 8px;
+}
+
+  
+
+/**/
+
 
 
 
 body{
     font-family: 'Roboto', sans-serif;
-    width: 90vw;
-    margin: auto;    
+    width: 100vw;
+    margin: auto;
+        
 }
 
 
-.main-section-product{
-    position: relative;
-}
+
 
 h1{
     font-size: 24px;
     margin-block-end: 8px;
+    background-color: white;
 }
 
 .stars{
@@ -51,7 +73,9 @@ h1{
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
-    padding: 4px;
+    padding: 8px;
+    color: white;
+    background: linear-gradient(to right, #64b3f4, #c2e59c);;
 }
 
 .icon-main-feature{
@@ -97,6 +121,9 @@ h1{
 .title{
     font-size: 20px;
     font-weight: 700;
+    padding-left: 8px;
+    color: white;
+    background: linear-gradient(to right, #64b3f4, #c2e59c);;
 }
 
 .text-description{
@@ -190,6 +217,7 @@ td{
     display: flex;
     justify-content: flex-start; 
     align-items: center;  
+    background-color: white;
 }
 
 .name-date-stars{
@@ -238,33 +266,30 @@ td{
     .product-card{
         display: flex;
         justify-content: space-between;    
-        align-items: center;    
+        align-items: center;           
     }
+
     .image-product{
         width: 60%;
     }
 
     .product-card-2nd-box{
         width: 40%;
-        margin-left: 32px;
-        margin-right: 0px;
+        margin-left: 16px;
+        margin-right: 16px;
         padding-top: 16px;
         padding-bottom: 16px;
-        border-top: 1px solid lightgray;
-        border-bottom: 1px solid lightgray;      
+        border-top: 1px solid #64b3f4;
+        border-bottom: 1px solid #64b3f4;        
+                     
     }
 
     .mini-product-card{
         width: 23%;
-    }
+    }   
 
     .list-of-reviews{
-        width: 50%;
-        margin: auto;
-    }
-
-    .list-of-reviews{
-        width: 50%;
+        width: 70%;
         margin: auto;
     }  
 }
