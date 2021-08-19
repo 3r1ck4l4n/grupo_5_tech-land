@@ -1,5 +1,7 @@
 *{
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 /* colors
@@ -13,7 +15,10 @@
 
 /* make difference from the home styles*/
 
+html{
+    position: relative;
 
+}
 main {
     width: 90vw;
     margin: auto;
@@ -24,10 +29,7 @@ main {
       width: 100%;
   }
 
-footer{
-    position: static;
-    padding-top: 8px;
-}
+
 
   
 
@@ -40,7 +42,7 @@ body{
     font-family: 'Roboto', sans-serif;
     width: 100vw;
     margin: auto;
-        
+    margin-bottom: 408px;  
 }
 
 
