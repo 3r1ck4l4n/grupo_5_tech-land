@@ -17,8 +17,9 @@
 body{
     font-family: 'Roboto', sans-serif;
     width: 90vw;
-    margin: auto;
+    margin: auto;    
 }
+
 
 .main-section-product{
     position: relative;
