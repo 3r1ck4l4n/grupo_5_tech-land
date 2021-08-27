@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  text-decoration: none;
+  text-decoration: none !important;
   color: black;
   font-family: "Roboto Mono", monospace;
 }
@@ -11,6 +11,10 @@ body {
   background-color: #1a0315;
 }
 
+.carousel-item img{
+  width: 800px;
+  height: 400px;
+}
 html {
   position: relative;
 }
@@ -38,6 +42,10 @@ div.banner img {
 }
 .firstContent .promotionalProducts {
   margin-top: 30px;
+}
+
+.titleItem{
+  color: black !important;
 }
 
 .itemImage {

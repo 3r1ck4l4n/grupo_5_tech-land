@@ -1,6 +1,8 @@
 "use strict";
 
 window.addEventListener("load", () => {
+
+  //-------------MenuDesplegable------------
   let barMenu = document.getElementsByClassName("barMenu");
   let nav = document.getElementsByClassName("header-nav");
   window.innerWidth <= 560?(nav[0].style.display = "none"): (nav[0].style.display = "block");
@@ -17,4 +19,7 @@ window.addEventListener("load", () => {
       ? (nav[0].style.display = "block")
       : (nav[0].style.display = "none");
   });
+
+  //---------------------Carrusel------------------------------
+  
 });
