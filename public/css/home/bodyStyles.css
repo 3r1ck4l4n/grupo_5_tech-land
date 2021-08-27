@@ -8,12 +8,13 @@
 }
 body {
   margin-bottom: 408px;
-  background-color: #1a0315;
+  background-color: #1a0315 !important;
 }
 
 .carousel-item img{
-  width: 800px;
-  height: 400px;
+ max-width: 1200px;
+ max-height: 800px;
+ margin: auto;
 }
 html {
   position: relative;
