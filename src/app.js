@@ -13,6 +13,10 @@ app.listen(3000, () => {
   console.log("Server running at port 3000");
 });
 app.use('/', router);
+app.use('/login', router);
+app.use('/register', router);
+app.use('/productCart', router);
+app.use('/productDetail', router);
 
 
 
