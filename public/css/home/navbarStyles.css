@@ -157,7 +157,7 @@ button {
 }
 
 @media (min-width: 320px) {
-  .header-nav,
+  .header-nav
   ul {
     flex-direction: column;
     align-content: flex-end;

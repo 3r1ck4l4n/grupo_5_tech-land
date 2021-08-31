@@ -6,6 +6,10 @@
   color: black;
   font-family: "Roboto Mono", monospace;
 }
+
+ul{
+  margin: 0 !important;
+}
 body {
   margin-bottom: 408px;
   background-color: #1a0315 !important;
@@ -16,9 +20,7 @@ body {
  max-height: 800px;
  margin: auto;
 }
-html {
-  position: relative;
-}
+
 
 main {
   background-color: black;
