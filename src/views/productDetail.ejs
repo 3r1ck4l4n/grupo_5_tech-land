@@ -1,24 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ProductDetail</title>   
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/4233ea3642.js" crossorigin="anonymous"></script>  
-    <link rel="stylesheet" href="/css/home/navbarStyles.css">
-    <link rel="stylesheet" href="/css/home/footerStyles.css">
-    <link
-      href="https://fonts.googleapis.com/css2?family=Oxygen&family=Roboto+Mono&display=swap"
-      rel="stylesheet"
-    />
-    <script type="text/javascript" src="/js/home.js"></script>  
-    <link rel="stylesheet" href="/css/ProductDetailStyles.css">
-    
-</head>
+  <head>
+    <%- include("partials/head") %>    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/productDetailStyles.css">
+    <title>Detalle</title>    
+  </head>
+  
+
 <body>
   <header>
     <div class="header-top">
@@ -77,7 +66,7 @@
 
     <main>
         <section class="main-section-product">
-            <header class="product-name"><h1>Nombre del producto</h1></header>
+            <header class="product-name"><h1><%=item.name%></h1></header>
             <div class="stars">
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
@@ -88,18 +77,18 @@
             <main class="product-card">                
                
                 <div class="image-product">
-              <img src="/images/home/i9.jpg" alt="product-preview">
+              <img src="<%=item.img%>" alt="product-preview">
                 </div>
                 
                 <div class="product-card-2nd-box">
                     <div class="main-features">                  
                         <div class="icon-main-feature">
                           <i class="fas fa-memory"></i>
-                            <p>A main feature</p>
+                            <p><%=item.mainFeature1%></p>
                         </div>    
                         <div class="icon-main-feature">
                             <i class="fas fa-memory"></i>
-                              <p>A main feature</p>
+                              <p><%=item.mainFeature2%></p>
                         </div>
                         <div class="icon-main-feature">
                           <i class="fas fa-memory"></i>
@@ -113,7 +102,7 @@
       
                     <div class="price">
                         <label for="price-number">Precio:</label>
-                        <p id="price-number">$ 000.00 MX</p>
+                        <p id="price-number">$ <%=item.price%> MX</p>
                     </div>
       
                     <div>
@@ -134,7 +123,7 @@
             </h2>
             <div class="text-description">
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus alias sequi at ullam non libero deserunt earum natus. Minima esse ad reprehenderit placeat in hic aliquid ea magni illum ipsam.
+                    <%=item.description%>
                 </p>
             </div>
         </section>
@@ -177,45 +166,7 @@
             </div>
         </section>
 
-        <section class="other-products">
-            <h2 class="title">
-                Otros clientes también compraron
-            </h2>
-            <div class="list-of-products">
-                <div class="mini-product-card">
-                    <a href="#">
-                        <img src="/images/gabriel-beaudry-5X5dCf4Pp44-unsplash.jpg" alt="product-picture">
-                        <p class="mini-name">Nombre del producto</p>
-                        <p class="mini-price">$000.00</p>
-                    </a>
-                </div>
-                
-                <div class="mini-product-card">
-                    <a href="#">
-                        <img src="/images/gabriel-beaudry-5X5dCf4Pp44-unsplash.jpg" alt="product-picture">
-                        <p class="mini-name">Nombre del producto</p>
-                        <p class="mini-price">$000.00</p>
-                    </a>
-                </div>
-                    
-                <div class="mini-product-card">
-                    <a href="#">
-                        <img src="/images/gabriel-beaudry-5X5dCf4Pp44-unsplash.jpg" alt="product-picture">
-                            <p class="mini-name">Nombre del producto</p>
-                            <p class="mini-price">$000.00</p>
-                    </a>
-                </div>      
-
-                <div class="mini-product-card">
-                    <a href="#">
-                        <img src="/images/gabriel-beaudry-5X5dCf4Pp44-unsplash.jpg" alt="product-picture">
-                            <p class="mini-name">Nombre del producto</p>
-                            <p class="mini-price">$000.00</p>
-                    </a>
-                </div>      
-                                  
-            </div>
-        </section>
+        <%- include("partials/recommendations") %>
 
         <section class="reviews">
             <h2 class="title">

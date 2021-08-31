@@ -1,23 +1,15 @@
 <!DOCTYPE html>
 <html lang="es-mx">
+  <head>
+    <%- include("partials/head") %>
+    <link rel="stylesheet" href="/css/home/bodyStyles.css" />
+    <link rel="stylesheet" href="/css/home/carruselStyle.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Welcome to "Tech Land"!</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="/css/home/bodyStyles.css" />
-  <link rel="stylesheet" href="/css/home/navbarStyles.css" />
-  <link rel="stylesheet" href="/css/home/footerStyles.css" />
-  <link rel="stylesheet" href="/css/home/carruselStyle.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Oxygen&family=Roboto+Mono&display=swap" rel="stylesheet" />
-  <script type="text/javascript" src="/js/home.js"></script>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <script src="https://kit.fontawesome.com/4233ea3642.js" crossorigin="anonymous"></script>
-  <title>Welcome to "Tech Land"!</title>
-</head>
+  
 
 <body>
   <header>
@@ -76,58 +68,21 @@
   <main class="firstContent">
     <h2 class="titleMain">Productos Destacados:</h2>
     <section class="featuredProducts">
-      <a href="/productDetail">
+      <% listOfProducts.forEach(product => { %>
+      <a href="/productDetail/<%= product.id %>">
         <article class="Item">
-          <img class="itemImage" src="/images/home/i9.jpg" alt="Core-i9" />
+          <img class="itemImage" src="<%= product.img %>" alt="Core-i9" />
           <div class="specifications">
             <h3 class="titleItem">
-              Intel Core i9 i9-10940X Tetradeca-core (14 núcleos) 3,30 GHz.
+              <%= product.name %>              
             </h3>
-            <p class="price">$26,900.00</p>
+            <p class="price">$ <%= product.price %></p>
             <p class="recommendations"><a href="#">Articulos similares</a></p>
           </div>
         </article>
       </a>
-
-      <a href="/productDetail">
-        <article class="Item">
-          <img class="itemImage img-short" src="/images/home/RTX3060.jpg" alt="RTX3060" />
-          <div class="specifications">
-            <h3 class="titleItem">
-              MSI Tarjeta de Video NVIDIA GeForce RTX 3060 Gaming X.
-            </h3>
-            <p class="price">$18,698.00</p>
-            <p class="recommendations"><a href="#">Articulos similares</a></p>
-          </div>
-        </article>
-      </a>
-
-      <a href="/productDetail">
-        <article class="Item">
-          <img class="itemImage" src="/images/home/GabineteConquer.jpg" alt="" />
-          <div class="specifications">
-            <h3 class="titleItem">
-              Gabinete Cougar Conquer 2 con Ventana RGB, Full Tower.
-            </h3>
-            <p class="price">$6,449.00</p>
-            <p class="recommendations"><a href="#">Articulos similares</a></p>
-          </div>
-        </article>
-      </a>
-
-      <a href="/productDetail">
-        <article class="Item">
-          <img class="itemImage img-short" src="/images/home/KingstonMemory.jpg" alt="RamFuryBeast" />
-          <div class="specifications">
-            <h3 class="titleItem">
-              Kit Memoria Ram Kingston FURY Beast DDR4 RGB, 3200MHz, 16GB (2 x
-              8GB).
-            </h3>
-            <p class="price">$2,239.00</p>
-            <p class="recommendations"><a href="#">Articulos similares</a></p>
-          </div>
-        </article>
-      </a>
+      <% }) %>
+      
 
     </section>
 
