@@ -1,7 +1,8 @@
 *{
     box-sizing: border-box;
     margin:0px;
-    padding:0px
+    padding:0px;
+    text-decoration: none !important;
 }
   
 .contactFooterItem{
@@ -14,7 +15,7 @@
     position: relative;
   }
 body{
-    margin-bottom: 500px;
+    
     font-family: 'Roboto', sans-serif;
     font-size: 19px;
     /* background-color:#0E948D33; */
@@ -423,9 +424,7 @@ footer ul.navbar{
         width:40%;
     }
     
-    body{
-        margin-bottom: 300px;
-    }
+ 
     header article{
         display:flex;
         flex-wrap:wrap;
