@@ -1,7 +1,5 @@
-const path = require("path");
 
-const listOfProducts = require(path.resolve("./public/", "js/listOfProducts.js"));
-
+const listOfProducts = require("../../public/js/listOfProducts");
 
 const mainController = {
     home: (req, res)=>{          
