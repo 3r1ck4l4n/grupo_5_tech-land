@@ -13,68 +13,16 @@
     <link href="/css/normalize.css" rel="stylesheet" />    
     <link href="/css/register.css" rel="stylesheet" />
     <link href="/css/loginStyles.css" rel="stylesheet" />    
-    <title>Iniciar sesión</title>
+    <title>Crear producto</title>
   </head>
   <body>
-    <!-- <header>
-        <article>
-            <img src="/images/TechLAnd2White.png" alt="logo de la empresa" class="logo">
-            <div class="lines">
-                <div class="line-first"></div>
-                <div class="line-second"></div>
-                <div class="line-third"></div>
-            </div>
-            <div class="input-search">
-                <input type="text" class="search" id="fname" name="fname" placeholder="Buscar..." > 
-                <button class="button-search"><i class="fas fa-search"></i></button>
-            </div>
-        </article>
-
-        <section>
-            <div class="lines">
-                <div class="line-first"></div>
-                <div class="line-second"></div>
-                <div class="line-third"></div>
-            </div>
-            <-- <article class="circle">
-                <div class="circle-one"><i class="fas fa-circle-notch"></i></div>
-                <div class="circle-second"><i class="fas fa-circle-notch"></i></div>
-                <div class="circle-third"><i class="fas fa-circle-notch"></i></div>
-            </article> -->
-    <!-- </section>
-
-        <nav class="header-nav">
-            <ul class="tabs">
-                <li><a href="#" class="firsttab">Novedades</a></li>
-                <li><a href="#" class="secondtab">Productos destacados</a></li>
-                <li><a href="#" class="thirdtab">Favoritos</a></li>
-            </ul>
-            <ul class="user-options">
-                <li><button >Login</button></li>
-                <li><button>Sign Up</button></li>
-            </ul>
-        </nav>
-    
-        <div class="container-barMenu">
-            <i class="fas fa-bars barMenu fa-lg"></i>
-        </div>
-    </header> -->
-
     <header>
       <%- include('./partials/header')%> 
     </header>
 
     <main>
-      <article class="tabs">
-        <div class="register">
-          <a href="/register" class="register-tab">¡Regístrate!</a>
-        </div>
-        <div class="login">
-          <a href="/login" class="login-tab">Ingresa a tu cuenta</a>
-        </div>
-      </article>
       <section>
-        <h1>Iniciar sesión</h1>
+        <h1>Crear producto</h1>
         <form action="/home" method="GET">
           <div>
             <input
@@ -82,10 +30,10 @@
               type="text"
               class="input"
               id="fname"
-              name="email-address"
-              placeholder="  Email"
+              name="productName"
+              placeholder="  Nombre del producto"
               required
-              minlength="8"
+              minlength="3"
             />
           </div>
           <div>
