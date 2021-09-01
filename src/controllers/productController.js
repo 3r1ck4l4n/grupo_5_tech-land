@@ -1,7 +1,12 @@
-const productController = {
-    create : (req,res) =>{
-        res.render('createProduct');
+
+const productController ={
+
+    productEdit: (req,res)=>{
+        res.render('productEdit');
+    },
+    productCreate : (req,res) =>{
+        res.render('productCreate');
     },
 }
 
-module.exports = productController;
+module.exports= productController;

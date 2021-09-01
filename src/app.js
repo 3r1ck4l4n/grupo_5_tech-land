@@ -1,8 +1,8 @@
 const express = require("express");
 const app = express();
 const path = require("path");
-const router = require('./routes/mainRoutes');
-const routerProduct = require('./routes/productRoutes');
+const router= require('./routes/mainRoutes');
+const routerProduct= require('./routes/productRoutes');
 const publicPath = path.resolve(__dirname, "../public");
 app.use(express.static(publicPath));
 
@@ -11,7 +11,7 @@ app.use(express.static(publicPath));
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname,'./views'));
 
-app.listen(3000, () => {
+app.listen(3001, () => {
   console.log("Server running at port 3000");
 });
 app.use('/', router);
@@ -19,8 +19,9 @@ app.use('/login', router);
 app.use('/register', router);
 app.use('/productCart', router);
 app.use('/productDetail', router);
-app.use('/createProduct',routerProduct);
-
+app.use('/',routerProduct);
+app.use('/product',routerProduct)
+app.use('/productCreate',routerProduct)
 
 // app.get("/productDetail", (req, res) => {
 //   res.sendFile(path.resolve(__dirname, "./views/productDetail.html"));
