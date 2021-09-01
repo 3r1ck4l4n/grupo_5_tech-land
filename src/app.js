@@ -2,6 +2,7 @@ const express = require("express");
 const app = express();
 const path = require("path");
 const router= require('./routes/mainRoutes');
+const routerProduct= require('./routes/productRoutes');
 const publicPath = path.resolve(__dirname, "../public");
 app.use(express.static(publicPath));
 
@@ -18,7 +19,7 @@ app.use('/login', router);
 app.use('/register', router);
 app.use('/productCart', router);
 app.use('/productDetail', router);
-
+app.use('/',routerProduct);
 
 // app.get("/productDetail", (req, res) => {
 //   res.sendFile(path.resolve(__dirname, "./views/productDetail.html"));
