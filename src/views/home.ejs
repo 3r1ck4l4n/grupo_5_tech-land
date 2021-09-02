@@ -19,80 +19,11 @@
   
 
   <main class="firstContent">
-    <h2 class="titleMain">Productos Destacados:</h2>
-    <section class="featuredProducts">
-      <% listOfProducts.forEach(product => { %>
-      <a href="/productDetail/<%= product.id %>">
-        <article class="Item">
-          <img class="itemImage" src="<%= product.img %>" alt="Core-i9" />
-          <div class="specifications">
-            <h3 class="titleItem">
-              <%= product.name %>              
-            </h3>
-            <p class="price">$ <%= product.price %></p>
-            <p class="recommendations"><a href="#">Articulos similares</a></p>
-          </div>
-        </article>
-      </a>
-      <% }) %>
-      
-
-    </section>
-
-    <h2 class="titleMain">Productos en Promoción:</h2>
-    <a href="/productDetail">
-      <section class="promotionalProducts">
-        <article class="Item">
-          <img class="itemImage" src="/images/home/GabineteNZXT.jpg" alt="GabineteNZXT" />
-          <div class="specifications">
-            <h3 class="titleItem">
-              Gabinete NZXT H510 Elite con Ventana RGB, Midi-Tower.
-            </h3>
-            <p class="discount">-15% ¡$585.00 menos!</p>
-            <p class="moreOffers"><a href="#">Otras ofertas similares</a></p>
-          </div>
-        </article>
-    </a>
-
-    <a href="/productDetail">
-      <article class="Item">
-        <img class="itemImage img-short" src="/images/home/tecladoXzeal.jpg" alt="GabineteNZXT" />
-        <div class="specifications">
-          <h3 class="titleItem">
-            Teclado Gamer XZEAL XZ1020, Teclado Mecánico.
-          </h3>
-          <p class="discount">-10% ¡$75.00 menos!</p>
-          <p class="moreOffers"><a href="#">Otras ofertas similares</a></p>
-        </div>
-      </article>
-    </a>
-
-    <a href="/productDetail">
-      <article class="Item">
-        <img class="itemImage" src="/images/home/mouseEvga.jpg" alt="GabineteNZXT" />
-        <div class="specifications">
-          <h3 class="titleItem">
-            Gabinete NZXT H510 Elite con Ventana RGB, Midi-Tower
-          </h3>
-          <p class="discount">-8% ¡$90.00 menos!</p>
-          <p class="moreOffers"><a href="#">Otras ofertas similares</a></p>
-        </div>
-      </article>
-    </a>
-
-    <a href="/productDetail">
-      <article class="Item">
-        <img class="itemImage img-short" src="/images/home/ramCorsair.jpg" alt="RamCorsair" />
-        <div class="specifications">
-          <h3 class="titleItem">
-            Memoria RAM Corsair Vengeance DDR3, 1600MHz, 8GB.
-          </h3>
-          <p class="discount">-20% ¡$180.00 menos!</p>
-          <p class="moreOffers"><a href="#">Otras ofertas similares</a></p>
-        </div>
-      </article>
-    </a>
-    </section>
+    
+    <%- include("partials/featuredProductsList") %>
+    
+    <%- include("partials/promotionProductsList") %>
+    
   </main>
 
   <%- include('./partials/footer')%>
