@@ -10,8 +10,7 @@ app.use(express.static(publicPath));
 
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname,'./views'));
-
-app.listen(3001, () => {
+app.listen(3000, () => {
   console.log("Server running at port 3000");
 });
 app.use('/', router);
