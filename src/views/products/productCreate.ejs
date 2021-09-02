@@ -11,9 +11,9 @@
       rel="stylesheet"
     />    
     <link href="/css/normalize.css" rel="stylesheet" />    
-    <link href="/css/register.css" rel="stylesheet" />
-    <link href="/css/loginStyles.css" rel="stylesheet" />  
-    <link href="/css/productCreate.css" rel="stylesheet" />  
+    <link href="/css/home/formStyles.css" rel=stylesheet>  
+    <link href="/css/product/productCreate.css" rel="stylesheet" />  
+    <script async src="/js/preview.js"></script>
     <title>Agregar producto</title>
   </head>
   <body>
@@ -26,13 +26,17 @@
         <h1> <i class="fas fa-plus-circle"></i> Agregar producto</h1>
         <form action="/home" method="GET">
           <section class = columns>
-            <img 
+            <!-- <img 
               src="/images/home/i9.jpg" 
               alt="product-image" 
               class = "product-image"
-            >   
+            >  -->
             <!-- <label for="product-image">Imagen del producto</label> -->
-            <input type="file" name="product-image" id="product-image">
+            <!-- <div class = "preview">
+                <input type="file" name="product-image" id="file">
+            </div> -->
+            <div id = "preview">
+            </div> 
           </section>
           <section class = columns>
           <div>
@@ -52,6 +56,8 @@
             <label for="description">Descripción</label>
             <textarea name="description" id="description" cols="4" class="input-description"></textarea>
           </div>
+          <label for="product-image">Imagen del producto</label>
+              <input type="file" name="product-image" id="file" class = "input-image" />
           <div>
             <label for="category">Categoría</label>
             <select name="category" id="category" class="input">

@@ -105,6 +105,7 @@ ul.service-options {
   align-content: space-around;
   list-style: none;
   flex-wrap: wrap;
+  background: linear-gradient(to right, #64b3f4, #c2e59c);
 }
 
 ul.service-options li a,
@@ -113,14 +114,16 @@ ul.user-options li a {
   transition: all 450ms;
 }
 
-ul.service-options li a:hover,
+ul.service-options li a:hover{
+  background: linear-gradient(to right, #64b3f4, #c2e59c);
+}
+
 ul.user-options li a:hover {
-  color: #88d317;
+font-size: 23px;
 }
 
 ul.user-options li i {
   font-size: 20px;
-  border-radius: 5px;
   border: none;
   padding: 2px;
   color: #88d317;
@@ -172,6 +175,7 @@ button {
   nav.header-nav {
     display: flex !important;
     border: none;
+    align-items: center;
   }
 
   .shoppingCart {
@@ -229,27 +233,57 @@ button {
   ul.user-options {
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content:stretch !important;
     padding: 10px 5px 10px 5px;
+    height: 37px;
   }
 
   ul.service-options li,
   ul.user-options li {
-    font-size: 1.2em;
+    font-size: 1em;
+    height: 100%;
   }
 
   ul.user-options li {
     width: 50%;
   }
+
+  ul.service-options{
+    padding: 0px;
+    margin-bottom: 15px !important;
+  }
+
+  ul.service-options li{
+    padding: 0px;
+    margin:0px;
+    margin-top: 0px;
+    height: 100%;
+    border-right: 10px solid black;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+  ul.service-options li a{
+  background: black;
+  padding: 0px;
+  margin:0px;
+  margin-top: 0px;
+  border-top: 3px black solid;
+text-align: center;}
 }
 
 @media (min-width: 1028px) {
   ul.service-options {
     width: 70%;
+    padding: 0px;
   }
   ul.user-options {
     justify-items: flex-end;
     width: 30%;
     margin: 0;
+  }
+  ul.user-options li, ul.user-options li a{
+    margin: 0px;
+    padding: 0px;
   }
 }
