@@ -180,8 +180,8 @@ form div label {
   }
 
   #preview {
-    width: 300px;
-    height: 220px;
+    width: 20vw;
+    height: 40vh;
   }
 }
 
@@ -195,7 +195,10 @@ form div label {
 
     width: 70%;
   }
-  
+  #preview {
+    height: 50vh;
+    width: 30vw;
+  }
   ul.service-options {
     background: linear-gradient(
       167deg,
@@ -212,13 +215,9 @@ form div label {
     ) !important;
   }
 
- 
   .form-input input,
   .form-input textarea,
   .form-input select {
     margin: auto;
   }
-
-  
-
 }
