@@ -14,13 +14,13 @@ app.listen(3000, () => {
   console.log("Server running at port 3000");
 });
 app.use('/', router);
-app.use('/login', router);
-app.use('/register', router);
-app.use('/productCart', router);
-app.use('/productDetail', router);
+// app.use('/login', router);
+// app.use('/register', router);
+// app.use('/productCart', router);
+// app.use('/productDetail', router);
 app.use('/',routerProduct);
-app.use('/product',routerProduct)
-app.use('/productCreate',routerProduct)
+// app.use('/product',routerProduct)
+// app.use('/productCreate',routerProduct)
 
 // app.get("/productDetail", (req, res) => {
 //   res.sendFile(path.resolve(__dirname, "./views/productDetail.html"));
