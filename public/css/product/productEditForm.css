@@ -170,44 +170,21 @@ form div label {
 @media (min-width: 1024px) {
   .form-container {
     background: linear-gradient(
-      94deg,
+      0deg,
       rgba(192, 148, 233, 0.5) 0%,
-      rgba(255, 48, 108, 0.5) 100%
+      rgba(247, 248, 250, 0.938) 100%
     );
 
     width: 70%;
   }
 
-  body {
-    background: rgba(0, 0, 0, 0.1) !important;
-  }
-  * {
-    color: #1a0315;
-  }
-
+ 
   .form-input input,
   .form-input textarea,
   .form-input select {
     margin: auto;
-    background: linear-gradient(
-      94deg,
-      rgba(192, 148, 233, 0.5) 0%,
-      rgba(255, 48, 108, 0.5) 100%
-    );
-    color: #1a0315;
   }
 
-  .form-input input:focus-within,
-.form-input textarea:focus-within,
-.form-input select:focus-within {
-  width: 100%;
-  color: black;
-  margin: auto;
-  margin-top: 5px;
-  border-radius: 10px;
-  border: rgba(50, 108, 144, 1) solid 2px !important;
-  background: rgba(50, 108, 144, .4);
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
-  outline: none;
-}
+  
+
 }
