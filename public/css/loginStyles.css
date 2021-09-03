@@ -7,6 +7,14 @@ main article.tabs div.login{
     opacity:1;
 }
 
+.user-options{
+    display: none !important;
+}
+
+.service-options{
+    width: 100% !important;
+}
+
 .forget a{
     font-size:15px;
     /* color:#4895ef; */
@@ -17,4 +25,5 @@ main article.tabs div.login{
 .forget:hover a{
     font-size:17px;
 }
+
 

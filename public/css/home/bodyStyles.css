@@ -2,18 +2,25 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  text-decoration: none;
+  text-decoration: none !important;
   color: black;
   font-family: "Roboto Mono", monospace;
 }
+
+ul{
+  margin: 0 !important;
+}
 body {
   margin-bottom: 408px;
-  background-color: #1a0315;
+  background-color: #1a0315 !important;
 }
 
-html {
-  position: relative;
+.carousel-item img{
+ max-width: 1200px;
+ max-height: 800px;
+ margin: auto;
 }
+
 
 main {
   background-color: black;
@@ -38,6 +45,10 @@ div.banner img {
 }
 .firstContent .promotionalProducts {
   margin-top: 30px;
+}
+
+.titleItem{
+  color: black !important;
 }
 
 .itemImage {

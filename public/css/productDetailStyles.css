@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    text-decoration: none !important;
 }
 
 /* colors
@@ -42,7 +43,7 @@ body{
     font-family: 'Roboto', sans-serif;
     width: 100vw;
     margin: auto;
-    margin-bottom: 408px;  
+   
 }
 
 
@@ -169,7 +170,8 @@ td{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;    
+    justify-content: space-between; 
+    align-items: baseline;   
 }
 
 .mini-product-card{
