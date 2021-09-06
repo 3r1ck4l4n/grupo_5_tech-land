@@ -21,6 +21,24 @@ Reuniones diarias.
  
 Postergar elementos importantes del proyecto y que pueden ser reutilizables. 
 
+#Retro del sprint 3:
+1.- Comenzar a hacer:
+    Acordar algunos detalles esteticos con tiempo de anticipación.
+    Elaborar propuestas de diseño
+
+2.- Hacer más:
+    Tomarnos tiempo para ajustar estilos en conjunto
+
+3.- Continuar haciendo:
+    Continuar teniendo buena retroalimentación.
+    Continuar con reuniones utiles; sin perder tiempo.
+
+4.- Hacer menos:
+    Esperar a ultimo momento para pulir detalles; dejar mayo margen de tiempo para revisiones.
+
+5.- Dejar de hacer:
+    Posponer actividades; postergar tareas.
+
 
 
 
