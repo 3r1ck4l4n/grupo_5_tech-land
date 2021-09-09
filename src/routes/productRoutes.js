@@ -1,10 +1,22 @@
 const express = require('express');
-const route = express.Router();
-const productController = require('../controllers/productController');
-
-route.get('/');
-route.get('/product', productController.productEdit);
-route.get('/productCreate', productController.productCreate);
+const router = express.Router();
+const productsController = require('../controllers/productsController');
 
 
-module.exports= route;
+router.get('/product', productsController.productEdit);
+router.get('/productCreate', productsController.productCreate);
+
+
+/*** GET ALL PRODUCTS ***/ 
+router.get('/', productsController.home); 
+
+/*** CREATE ONE PRODUCT ***/ 
+router.get('/create', productsController.productCreate); 
+router.post('/',productsController.productStore); 
+
+
+/*** GET ONE PRODUCT ***/ 
+router.get('/detail/:id', productsController.productDetail); 
+
+
+module.exports= router;

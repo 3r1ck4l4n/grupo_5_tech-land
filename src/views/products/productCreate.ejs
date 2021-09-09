@@ -24,7 +24,7 @@
     <main>
       <section>
         <h1> <i class="fas fa-plus-circle"></i> Agregar producto</h1>
-        <form action="/home" method="GET">
+        <form action="/products" method="POST">
           <section class = columns>
             <!-- <img 
               src="/images/home/i9.jpg" 
@@ -40,13 +40,13 @@
           </section>
           <section class = columns>
           <div>
-            <label for="productName">Nombre del producto</label>
+            <label for="name">Nombre del producto</label>
             <input
               size="20px"
               type="text"
               class="input"
               id="fname"
-              name="productName"
+              name="name"
               placeholder="  Nombre del producto"
               required
               minlength="3"
@@ -55,10 +55,10 @@
           <div>
             <label for="description">Descripción</label>
             <textarea name="description" id="description" cols="4" class="input-description"></textarea>
-          </div>
+          <!-- </div>
           <label for="product-image">Imagen del producto</label>
               <input type="file" name="product-image" id="file" class = "input-image" />
-          <div>
+          <div> -->
             <label for="category">Categoría</label>
             <select name="category" id="category" class="input">
                 <option value="Perifericos">Perifericos</option>

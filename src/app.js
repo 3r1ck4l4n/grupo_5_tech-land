@@ -6,7 +6,8 @@ const routerProduct= require('./routes/productRoutes');
 const publicPath = path.resolve(__dirname, "../public");
 app.use(express.static(publicPath));
 
-
+app.use(express.urlencoded({ extended: false }));
+app.use(express.json());
 
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname,'./views/'));
@@ -18,7 +19,7 @@ app.use('/', router);
 // app.use('/register', router);
 // app.use('/productCart', router);
 // app.use('/productDetail', router);
-app.use('/',routerProduct);
+app.use('/products',routerProduct);
 // app.use('/product',routerProduct)
 // app.use('/productCreate',routerProduct)
 

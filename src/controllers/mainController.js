@@ -1,11 +1,21 @@
 
-const listOfProducts = require("../../public/js/listOfProducts");
+const fs = require('fs');
+const path = require('path');
+const productsFilePath = path.join(__dirname, '../data/productsDataBase.json');
+
+
+// const listOfProducts = require("../../public/js/listOfProducts");
 const promotionProductsList = require("../../public/js/promotionProductsList");
 const reviews = require("../../public/js/reviews");
 
 const mainController = {
-    home: (req, res)=>{          
-        res.render('home', {listOfProducts: listOfProducts, promotionProductsList: promotionProductsList});
+    leerData: () => {
+        const products = JSON.parse(fs.readFileSync(productsFilePath, 'utf-8'));
+		return products;
+	},
+    home: (req, res)=>{   
+        let products = mainController.leerData();         
+        res.render('home', {listOfProducts: products, promotionProductsList: promotionProductsList});
     },
     login: (req, res)=>{
         res.render('login');
@@ -15,10 +25,6 @@ const mainController = {
     },
     productCart: (req, res)=>{               
         res.render("productCart", {listOfProducts: listOfProducts });
-    },
-    productDetail: (req, res)=>{        
-        let item = listOfProducts.find(item => item.id == req.params.id) || promotionProductsList.find(item => item.id == req.params.id);        
-        res.render("productDetail", {item:item, listOfProducts: listOfProducts, reviews: reviews})
     },
 }
 

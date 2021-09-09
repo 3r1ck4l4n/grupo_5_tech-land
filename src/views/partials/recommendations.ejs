@@ -5,7 +5,7 @@
     <div class="list-of-products">
         <% listOfProducts.forEach(product => { %>
         <div class="mini-product-card">
-            <a href="/productDetail/<%= product.id %>">
+            <a href="/products/detail/<%= product.id %>">
                 <img src="<%= product.img %>" alt="product-picture">
                 <p class="mini-name"><%= product.name %></p>
                 <p class="mini-price">$ <%= product.price %></p>
