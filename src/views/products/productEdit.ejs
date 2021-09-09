@@ -19,7 +19,7 @@
           <div class="title-form"> Editar productos </div>
           <div id="preview"></div>
         </div>
-        <form action="#_?method=PUT" method="POST">
+        <form action="/products/edit/<%= item.id %>?_method=PATCH" method="POST" enctype="multipart/form-data">
           <div class="form-input">
             <label for="name">Nombre del Producto</label>
             <input type="text" name="name" id="name" required/>
