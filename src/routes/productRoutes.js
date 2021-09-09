@@ -39,4 +39,9 @@ router.get('/detail/:id', productsController.productDetail);
 router.get('/edit/:id', productsController.productEdit);
 router.patch('/edit/:id',upload.single('product-image'), productsController.productUpdate); 
 
+/*** DELETE ONE PRODUCT ***/
+router.delete('/delete/:id', productsController.delete);
+
+
+
 module.exports= router;

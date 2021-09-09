@@ -47,26 +47,32 @@ const productsController = {
     let item =
       products.find((item) => item.id == req.params.id) ||
       promotionProductsList.find((item) => item.id == req.params.id);
-    res.render(path.join(__dirname, "../views/products/productEdit"),{item});
+    res.render(path.join(__dirname, "../views/products/productEdit"), { item });
   },
   productUpdate: (req, res) => {
     let products = productsController.leerData();
-    console.log(productsController.leerData());
     let id = req.params.id;
-    let productToEdit = products.find(product => product.id == id);
-    console.log(productToEdit);
+    let productToEdit = products.find((product) => product.id == id);
     let newProduct = {
-        id: req.params.id,
+      id: req.params.id,
       ...req.body,
     };
     req.file
       ? (newProduct.img = "/images/home/" + req.file.filename)
       : (newProduct.img = "/images/home/default-image.png");
     let newProducts = products.map((product) =>
-      product.id == productToEdit.id ? product={...newProduct} : product
+      product.id == productToEdit.id ? (product = { ...newProduct }) : product
     );
     fs.writeFileSync(productsFilePath, JSON.stringify(newProducts, null, " "));
   },
+  delete: (req, res)=>{
+    let id = req.params.id;  
+    let products = productsController.leerData();
+    let item = products.find(product=>product.id == id);
+    products= products.filter(product => product.id != id);
+    fs.writeFileSync(productsFilePath, JSON.stringify(products, null, " "));
+    res.redirect('/home');
+  }
 };
 
 module.exports = productsController;

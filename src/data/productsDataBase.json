@@ -1,14 +1,5 @@
 [
  {
-  "id": "1",
-  "name": "mouse chido",
-  "description": "Esta chido y es verde",
-  "category": "Perifericos",
-  "brand": "HP",
-  "price": "150",
-  "img": "/images/home/product-image-1631215220042.jpg"
- },
- {
   "id": 2,
   "name": "MSI Tarjeta de Video NVIDIA GeForce RTX 3060 Gaming X",
   "stars": 5,
@@ -49,14 +40,5 @@
    "marca": "intel",
    "modelo": "i9"
   }
- },
- {
-  "id": "5",
-  "name": "Mother xxx",
-  "description": "Pos ta guapa",
-  "category": "Tarjetas madre",
-  "brand": "Asus",
-  "price": "5",
-  "img": "/images/home/product-image-1631215392725.jpg"
  }
 ]
