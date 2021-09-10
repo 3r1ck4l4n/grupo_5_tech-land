@@ -3,7 +3,7 @@
         Otros clientes también compraron
     </h2>
     <div class="list-of-products">
-        <% listOfProducts.forEach(product => { %>
+        <% products.forEach(product => { if(product.featured == true){ %>
         <div class="mini-product-card">
             <a href="/products/detail/<%= product.id %>">
                 <img src="<%= product.img %>" alt="product-picture">
@@ -11,6 +11,6 @@
                 <p class="mini-price">$ <%= product.price %></p>
             </a>
         </div>
-        <% }) %>                 
+        <% }}) %>                 
     </div>
 </section>

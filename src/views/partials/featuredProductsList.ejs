@@ -3,7 +3,7 @@
     <section class="featuredProducts">
 
       
-      <% listOfProducts.forEach(product => { %>
+      <% products.forEach(product => { if (product.featured == true){ %>
         <a href="/products/detail/<%= product.id %>">
           <article class="Item">
             <img class="itemImage" src="<%= product.img %>" alt="Core-i9" />
@@ -16,5 +16,5 @@
             </div>
           </article>
         </a>
-      <% }) %>
+      <% }}) %>
     </section>

@@ -1,11 +1,10 @@
 
 const fs = require('fs');
 const path = require('path');
-const productsFilePath = path.join(__dirname, '../data/productsDataBase.json');
+const productsFilePath = path.join(__dirname, '../data/products.json');
 
 
 // const listOfProducts = require("../../public/js/listOfProducts");
-const promotionProductsList = require("../../public/js/promotionProductsList");
 const reviews = require("../../public/js/reviews");
 
 const mainController = {
@@ -15,7 +14,7 @@ const mainController = {
 	},
     home: (req, res)=>{   
         let products = mainController.leerData();         
-        res.render('home', {listOfProducts: products, promotionProductsList: promotionProductsList});
+        res.render('home', {products: products});
     },
     login: (req, res)=>{
         res.render('login');

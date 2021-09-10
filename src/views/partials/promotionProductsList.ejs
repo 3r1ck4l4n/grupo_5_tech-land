@@ -1,7 +1,7 @@
 
 <h2 class="titleMain">Productos en Promoción:</h2>
     <section class="promotionalProducts">
-      <% promotionProductsList.forEach(product => { %>    
+      <% products.forEach(product => { if (product.inSale == true){ %>    
         <a href="/products/detail/<%=product.id%>">      
           <article class="Item">
             <img class="itemImage" src="<%=product.img%>" alt="GabineteNZXT" />
@@ -14,5 +14,5 @@
             </div>
           </article>
         </a>
-      <% })%>
+      <% }})%>
   </section>

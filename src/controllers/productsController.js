@@ -1,6 +1,6 @@
 const fs = require("fs");
 const path = require("path");
-const productsFilePath = path.join(__dirname, "../data/productsDataBase.json");
+const productsFilePath = path.join(__dirname, "../data/products.json");
 const reviews = require("../../public/js/reviews");
 
 const productsController = {
@@ -14,11 +14,10 @@ const productsController = {
   productDetail: (req, res) => {
     let products = productsController.leerData();
     let item =
-      products.find((item) => item.id == req.params.id) ||
-      promotionProductsList.find((item) => item.id == req.params.id);
+      products.find((item) => item.id == req.params.id);
     res.render("productDetail", {
       item: item,
-      listOfProducts: products,
+      products: products,
       reviews: reviews,
     });
   },
@@ -64,6 +63,8 @@ const productsController = {
       product.id == productToEdit.id ? (product = { ...newProduct }) : product
     );
     fs.writeFileSync(productsFilePath, JSON.stringify(newProducts, null, " "));
+
+    res.redirect('/home');
   },
   delete: (req, res)=>{
     let id = req.params.id;  
