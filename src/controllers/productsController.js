@@ -33,7 +33,7 @@ const productsController = {
       : (newProduct.img = "/images/home/default-image.png");
 
     products.push(newProduct);
-    let newProducts = JSON.stringify(products);
+    let newProducts = JSON.stringify(products, null, " ");
     fs.writeFileSync(productsFilePath, newProducts, "utf-8");
 
     res.redirect("home");

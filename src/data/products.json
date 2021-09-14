@@ -1,4643 +1,2252 @@
 [
  {
-  "id": 0,
-  "name": "Notebook 14",
-  "description": "Es una laptop muy poderosa",
-  "category": "Laptops",
-  "brand": "HP",
-  "price": 1000,
-  "img": "/images/home/KingstonMemory.jpg",
-  "mainFeature": [
-   {
-    "icon": "fas fa-memory",
-    "description": "Súper fast memory"
-   },
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "Envío rápido"
-   },
-   {
-    "icon": "fas fa-memory",
-    "description": "Súper fast memory"
-   },
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "Envío rápido"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "A lovely product"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "marca",
-    "description": "HP"
-   },
-   {
-    "feature": "modelo",
-    "description": "2067"
-   },
-   {
-    "feature": "size",
-    "description": "14 pulgadas"
-   },
-   {
-    "feature": "weight",
-    "description": "500 grs."
-   },
-   {
-    "feature": "batery",
-    "description": "yes"
-   },
-   {
-    "feature": "type",
-    "description": "Lithium"
-   }
-  ],
-  "inSale": true,
-  "featured": false
- },
- {
-  "id": 1,
-  "name": "Egyptian goose",
-  "description": "venenatis tristique fusce congue diam id ornare imperdiet sapien urna",
-  "category": "Tarjetas Madre",
-  "brand": "Acer",
-  "price": 18810.91,
-  "img": "http://dummyimage.com/182x100.png/ff4444/ffffff",
-  "mainFeature": [
-   {
-    "icon": "fas fa-memory",
-    "description": "cubilia curae donec pharetra"
-   },
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "ultrices enim lorem ipsum"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "Business-focused",
-    "description": "modular"
-   },
-   {
-    "feature": "systemic",
-    "description": "tangible"
-   },
-   {
-    "feature": "support",
-    "description": "encryption"
-   },
-   {
-    "feature": "client-server",
-    "description": "radical"
-   },
-   {
-    "feature": "bifurcated",
-    "description": "regional"
-   },
-   {
-    "feature": "capacity",
-    "description": "adapter"
-   }
-  ],
-  "inSale": true,
-  "featured": true
- },
- {
-  "id": "2",
-  "name": "Capybaramodified",
-  "description": "modifiedcubilia curae mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus at",
+  "id": "1",
+  "name": "AirpodsEditados",
+  "description": "Editadomauris lacinia sapien quis libero nullam sit amet turpis elementum ligula vehicula consequat morbi a ipsum integer a nibh in quis justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla ultrices aliquet maecenas leo odio condimentum id luctus nec molestie sed justo pellentesque viverra pede ac diam cras pellentesque volutpat dui maecenas tristique est et tempus semper est quam pharetra magna ac consequat metus sapien ut nunc vestibulum ante ipsum primis in faucibus",
   "category": "Perifericos",
-  "brand": "Acer",
-  "price": "565.2",
-  "img": "/images/home/product-image-1631242541856.jpg"
+  "brand": "Apple",
+  "price": "30569.82",
+  "img": "/images/home/product-image-1631630354727.jfif"
+ },
+ {
+  "id": 2,
+  "name": "AMD YD3000C6FHBOX Procesador Athlon 3000G",
+  "description": "gravida sem praesent id massa id nisl venenatis lacinia aenean sit amet justo morbi ut odio cras mi pede malesuada in imperdiet et commodo vulputate justo in blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit proin interdum mauris",
+  "category": "PC Gamer",
+  "brand": "Asus",
+  "price": 39853.04,
+  "img": "http://dummyimage.com/130x100.png/5fa2dd/ffffff",
+  "specifications": [
+   {
+    "feature": "tipo de conexión",
+    "description": "Universal"
+   },
+   {
+    "feature": "peso",
+    "description": "archive"
+   },
+   {
+    "feature": "batería incluida",
+    "description": "Monitored"
+   }
+  ],
+  "type": "Destacados"
  },
  {
   "id": 3,
-  "name": "Radiated tortoise",
-  "description": "amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus",
-  "category": "Disipadores y Enfriamiento",
-  "brand": "Asus",
-  "price": 41536.24,
-  "img": "http://dummyimage.com/192x100.png/5fa2dd/ffffff",
-  "mainFeature": [
-   {
-    "icon": "fas fa-heart",
-    "description": "tincidunt lacus"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "phasellus in felis donec"
-   },
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "ipsum primis in faucibus"
-   },
-   {
-    "icon": "fas fa-memory",
-    "description": "amet cursus"
-   },
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "nullam porttitor lacus at turpis"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "didactic",
-    "description": "Persevering"
-   },
-   {
-    "feature": "context-sensitive",
-    "description": "Multi-layered"
-   }
-  ],
-  "inSale": false,
-  "featured": true
- },
- {
-  "id": 4,
-  "name": "Cobra (unidentified)",
-  "description": "semper porta volutpat quam pede lobortis ligula sit amet eleifend pede libero",
-  "category": "PC Gamer",
-  "brand": "Apple",
-  "price": 37994.36,
-  "img": "http://dummyimage.com/153x100.png/dddddd/000000",
-  "mainFeature": [
-   {
-    "icon": "fas fa-heart",
-    "description": "amet sapien"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "mauris eget"
-   },
-   {
-    "icon": "fas fa-memory",
-    "description": "est donec odio justo"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "Open-architected",
-    "description": "global"
-   },
-   {
-    "feature": "Intuitive",
-    "description": "Cross-platform"
-   },
-   {
-    "feature": "high-level",
-    "description": "service-desk"
-   },
-   {
-    "feature": "coherent",
-    "description": "Multi-tiered"
-   }
-  ],
-  "inSale": false,
-  "featured": false
- },
- {
-  "id": 5,
-  "name": "Spurfowl, yellow-necked",
-  "description": "nulla facilisi cras non velit nec nisi vulputate nonummy maecenas tincidunt lacus at velit",
+  "name": "Cooler Master",
+  "description": "sed interdum venenatis turpis enim blandit mi in porttitor pede justo eu massa donec dapibus duis at velit eu est congue elementum in hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam erat fermentum justo nec condimentum neque sapien placerat ante",
   "category": "Monitores",
-  "brand": "AMD",
-  "price": 36175.25,
-  "img": "http://dummyimage.com/229x100.png/cc0000/ffffff",
-  "mainFeature": [
-   {
-    "icon": "fas fa-heart",
-    "description": "id ligula suspendisse"
-   },
-   {
-    "icon": "fas fa-memory",
-    "description": "sollicitudin vitae"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "uniform",
-    "description": "Cross-group"
-   },
-   {
-    "feature": "analyzing",
-    "description": "Extended"
-   },
-   {
-    "feature": "methodical",
-    "description": "Reactive"
-   },
-   {
-    "feature": "encompassing",
-    "description": "website"
-   },
-   {
-    "feature": "intermediate",
-    "description": "Vision-oriented"
-   }
-  ],
-  "inSale": false,
-  "featured": true
- },
- {
-  "id": 6,
-  "name": "Hawk-headed parrot",
-  "description": "morbi non quam nec dui luctus rutrum nulla tellus in sagittis dui vel nisl",
-  "category": "Periféricos",
-  "brand": "Adatam AlienWare",
-  "price": 2230.71,
-  "img": "http://dummyimage.com/151x100.png/ff4444/ffffff",
-  "mainFeature": [
-   {
-    "icon": "fas fa-memory",
-    "description": "iaculis diam erat"
-   },
-   {
-    "icon": "fas fa-memory",
-    "description": "dolor sit amet consectetuer"
-   },
-   {
-    "icon": "fas fa-memory",
-    "description": "eu felis fusce posuere"
-   },
-   {
-    "icon": "fas fa-memory",
-    "description": "vestibulum velit id"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "justo in blandit ultrices enim"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "Grass-roots",
-    "description": "encryption"
-   },
-   {
-    "feature": "User-friendly",
-    "description": "clear-thinking"
-   },
-   {
-    "feature": "optimizing",
-    "description": "executive"
-   },
-   {
-    "feature": "Reverse-engineered",
-    "description": "bi-directional"
-   },
-   {
-    "feature": "Synergistic",
-    "description": "Monitored"
-   },
-   {
-    "feature": "Ergonomic",
-    "description": "internet solution"
-   }
-  ],
-  "inSale": true,
-  "featured": true
- },
- {
-  "id": 7,
-  "name": "Shelduck, european",
-  "description": "a libero nam dui proin leo odio porttitor id consequat in consequat",
-  "category": "Periféricos",
   "brand": "Kingston",
-  "price": 1286.01,
-  "img": "http://dummyimage.com/155x100.png/5fa2dd/ffffff",
-  "mainFeature": [
-   {
-    "icon": "fas fa-heart",
-    "description": "nulla ut erat id mauris"
-   },
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "porttitor pede justo eu"
-   },
-   {
-    "icon": "fas fa-memory",
-    "description": "est quam pharetra"
-   },
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "rutrum at"
-   },
-   {
-    "icon": "fas fa-memory",
-    "description": "in quam fringilla"
-   }
-  ],
+  "price": 14665.63,
+  "img": "http://dummyimage.com/166x100.png/cc0000/ffffff",
   "specifications": [
    {
-    "feature": "upward-trending",
-    "description": "Versatile"
+    "feature": "tipo de conexión",
+    "description": "contingency"
    },
    {
-    "feature": "Adaptive",
-    "description": "Re-contextualized"
+    "feature": "tamaño",
+    "description": "Focused"
    },
    {
-    "feature": "directional",
-    "description": "coherent"
+    "feature": "año",
+    "description": "demand-driven"
    },
    {
-    "feature": "Re-contextualized",
-    "description": "mobile"
-   },
-   {
-    "feature": "Programmable",
-    "description": "Horizontal"
-   }
-  ],
-  "inSale": true,
-  "featured": true
- },
- {
-  "id": 8,
-  "name": "Boar, wild",
-  "description": "eu felis fusce posuere felis sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed",
-  "category": "Equipos de cómputo",
-  "brand": "Asus",
-  "price": 32901.35,
-  "img": "http://dummyimage.com/244x100.png/cc0000/ffffff",
-  "mainFeature": [
-   {
-    "icon": "fas fa-heart",
-    "description": "nisl ut volutpat sapien"
-   },
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "metus sapien ut nunc"
-   },
-   {
-    "icon": "fas fa-memory",
-    "description": "fringilla rhoncus"
-   },
-   {
-    "icon": "fas fa-memory",
-    "description": "at lorem"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "Inverse",
-    "description": "web-enabled"
-   },
-   {
-    "feature": "Assimilated",
-    "description": "encryption"
-   }
-  ],
-  "inSale": false,
-  "featured": false
- },
- {
-  "id": 9,
-  "name": "Golden jackal",
-  "description": "adipiscing elit proin risus praesent lectus vestibulum quam sapien varius ut blandit non interdum in ante vestibulum ante",
-  "category": "Equipos de cómputo",
-  "brand": "Acer",
-  "price": 34513.49,
-  "img": "http://dummyimage.com/145x100.png/cc0000/ffffff",
-  "mainFeature": [
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "magna vestibulum aliquet ultrices"
-   },
-   {
-    "icon": "fas fa-memory",
-    "description": "eros vestibulum ac"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "velit eu est congue"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "Switchable",
-    "description": "Profound"
-   },
-   {
-    "feature": "focus group",
-    "description": "dedicated"
-   },
-   {
-    "feature": "open architecture",
-    "description": "circuit"
-   },
-   {
-    "feature": "fresh-thinking",
-    "description": "Future-proofed"
-   },
-   {
-    "feature": "knowledge base",
-    "description": "service-desk"
-   },
-   {
-    "feature": "Re-engineered",
-    "description": "empowering"
-   }
-  ],
-  "inSale": true,
-  "featured": true
- },
- {
-  "id": 10,
-  "name": "Gecko, barking",
-  "description": "proin leo odio porttitor id consequat in consequat ut nulla sed accumsan felis ut at dolor",
-  "category": "Tarjetas de video",
-  "brand": "Aorus",
-  "price": 21790.23,
-  "img": "http://dummyimage.com/248x100.png/cc0000/ffffff",
-  "mainFeature": [
-   {
-    "icon": "fas fa-memory",
-    "description": "arcu adipiscing molestie hendrerit"
-   },
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "id turpis integer aliquet"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "molestie nibh in"
-   },
-   {
-    "icon": "fas fa-memory",
-    "description": "justo etiam pretium iaculis justo"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "vivamus tortor duis mattis"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "Multi-layered",
-    "description": "asymmetric"
-   },
-   {
-    "feature": "Distributed",
-    "description": "cohesive"
-   },
-   {
-    "feature": "Horizontal",
-    "description": "Adaptive"
-   }
-  ],
-  "inSale": false,
-  "featured": true
- },
- {
-  "id": 11,
-  "name": "Common eland",
-  "description": "nam dui proin leo odio porttitor id consequat in consequat ut nulla sed accumsan felis",
-  "category": "Procesadores",
-  "brand": "Samsung",
-  "price": 30601.61,
-  "img": "http://dummyimage.com/221x100.png/dddddd/000000",
-  "mainFeature": [
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "nibh fusce lacus"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "turpis adipiscing lorem vitae"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "Integrated",
-    "description": "regional"
-   },
-   {
-    "feature": "Multi-channelled",
-    "description": "software"
-   },
-   {
-    "feature": "hybrid",
-    "description": "open architecture"
-   },
-   {
-    "feature": "knowledge base",
-    "description": "Stand-alone"
-   },
-   {
-    "feature": "Inverse",
-    "description": "time-frame"
-   }
-  ],
-  "inSale": true,
-  "featured": false
- },
- {
-  "id": 12,
-  "name": "Koala",
-  "description": "mattis egestas metus aenean fermentum donec ut mauris eget massa tempor convallis nulla neque libero convallis eget eleifend luctus",
-  "category": "Tarjetas Madre",
-  "brand": "Samsung",
-  "price": 1488.21,
-  "img": "http://dummyimage.com/181x100.png/cc0000/ffffff",
-  "mainFeature": [
-   {
-    "icon": "fas fa-heart",
-    "description": "id pretium iaculis diam"
-   },
-   {
-    "icon": "fas fa-memory",
-    "description": "nisl nunc nisl"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "fresh-thinking",
-    "description": "collaboration"
-   },
-   {
-    "feature": "De-engineered",
-    "description": "core"
-   },
-   {
-    "feature": "mission-critical",
-    "description": "Re-engineered"
-   },
-   {
-    "feature": "neural-net",
-    "description": "executive"
-   }
-  ],
-  "inSale": false,
-  "featured": false
- },
- {
-  "id": 13,
-  "name": "Turkey, wild",
-  "description": "primis in faucibus orci luctus et ultrices posuere cubilia curae duis faucibus accumsan odio curabitur convallis duis consequat dui nec",
-  "category": "Memorias",
-  "brand": "Huawei",
-  "price": 14373.97,
-  "img": "http://dummyimage.com/128x100.png/ff4444/ffffff",
-  "mainFeature": [
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "posuere nonummy integer non"
-   },
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "morbi odio odio"
-   },
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "nulla quisque"
-   },
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "et eros"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "demand-driven",
-    "description": "Vision-oriented"
-   },
-   {
-    "feature": "secured line",
+    "feature": "tamaño",
     "description": "standardization"
    },
    {
-    "feature": "Adaptive",
-    "description": "hierarchy"
-   },
-   {
-    "feature": "Devolved",
-    "description": "leverage"
-   },
-   {
-    "feature": "methodology",
-    "description": "circuit"
+    "feature": "peso",
+    "description": "product"
    }
   ],
-  "inSale": false,
-  "featured": false
+  "type": "Agregados recientemente"
  },
  {
-  "id": 14,
-  "name": "Brown antechinus",
-  "description": "pede ullamcorper augue a suscipit nulla elit ac nulla sed vel enim sit amet nunc viverra",
-  "category": "Tarjetas de video",
-  "brand": "Kingston",
-  "price": 41044.26,
-  "img": "http://dummyimage.com/240x100.png/ff4444/ffffff",
-  "mainFeature": [
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "non sodales sed"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "tristique in tempus sit"
-   }
-  ],
+  "id": 4,
+  "name": "Tableta Grafica Digital de Dibujo",
+  "description": "at nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt eget tempus vel pede morbi porttitor lorem id ligula suspendisse ornare consequat lectus in est risus auctor sed tristique in tempus sit amet sem fusce consequat nulla nisl nunc nisl duis bibendum felis sed interdum venenatis turpis enim blandit mi in porttitor pede justo eu massa donec dapibus duis at velit eu est congue elementum in hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis",
+  "category": "Equipos de Cómputo",
+  "brand": "MSI",
+  "price": 21640.07,
+  "img": "http://dummyimage.com/171x100.png/cc0000/ffffff",
   "specifications": [
    {
-    "feature": "core",
-    "description": "static"
+    "feature": "peso",
+    "description": "stable"
    },
    {
-    "feature": "Universal",
-    "description": "tangible"
+    "feature": "batería incluida",
+    "description": "moderator"
    },
    {
-    "feature": "attitude",
-    "description": "executive"
-   },
-   {
-    "feature": "secondary",
-    "description": "support"
-   },
-   {
-    "feature": "capability",
-    "description": "explicit"
+    "feature": "batería incluida",
+    "description": "impactful"
    }
   ],
-  "inSale": false,
-  "featured": false
+  "type": "Destacados"
  },
  {
-  "id": 15,
-  "name": "Squirrel, smith's bush",
-  "description": "ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis",
+  "id": 5,
+  "name": "Teclado Luz de Retroiluminación RGB",
+  "description": "est donec odio justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce congue diam id ornare imperdiet",
   "category": "Monitores",
-  "brand": "Lenovo",
-  "price": 46949.46,
-  "img": "http://dummyimage.com/192x100.png/cc0000/ffffff",
-  "mainFeature": [
-   {
-    "icon": "fas fa-memory",
-    "description": "vestibulum vestibulum ante ipsum"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "ac nibh fusce lacus purus"
-   },
-   {
-    "icon": "fas fa-memory",
-    "description": "nec nisi volutpat eleifend donec"
-   },
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "ut suscipit"
-   },
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "in hac habitasse"
-   }
-  ],
+  "brand": "HP",
+  "price": 11418.54,
+  "img": "http://dummyimage.com/110x100.png/5fa2dd/ffffff",
   "specifications": [
    {
-    "feature": "coherent",
-    "description": "secured line"
+    "feature": "año",
+    "description": "strategy"
    },
    {
-    "feature": "motivating",
-    "description": "intangible"
+    "feature": "batería incluida",
+    "description": "interface"
    },
    {
-    "feature": "Diverse",
-    "description": "hierarchy"
-   },
-   {
-    "feature": "motivating",
-    "description": "contextually-based"
-   },
-   {
-    "feature": "modular",
-    "description": "Programmable"
-   },
-   {
-    "feature": "encompassing",
-    "description": "time-frame"
-   }
-  ],
-  "inSale": false,
-  "featured": true
- },
- {
-  "id": 16,
-  "name": "White-throated kingfisher",
-  "description": "sed sagittis nam congue risus semper porta volutpat quam pede lobortis ligula sit",
-  "category": "PC Gamer",
-  "brand": "Sony",
-  "price": 24617.26,
-  "img": "http://dummyimage.com/201x100.png/dddddd/000000",
-  "mainFeature": [
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "vulputate justo"
-   },
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "posuere cubilia"
-   },
-   {
-    "icon": "fas fa-memory",
-    "description": "platea dictumst"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "human-resource",
-    "description": "capability"
-   },
-   {
-    "feature": "6th generation",
-    "description": "artificial intelligence"
-   },
-   {
-    "feature": "Re-engineered",
-    "description": "Enhanced"
-   },
-   {
-    "feature": "paradigm",
-    "description": "system-worthy"
-   },
-   {
-    "feature": "Stand-alone",
-    "description": "Proactive"
-   },
-   {
-    "feature": "structure",
-    "description": "Organic"
-   }
-  ],
-  "inSale": false,
-  "featured": true
- },
- {
-  "id": 17,
-  "name": "Dragon, komodo",
-  "description": "nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem integer tincidunt ante vel",
-  "category": "Procesadores",
-  "brand": "Lenovo",
-  "price": 24223.74,
-  "img": "http://dummyimage.com/200x100.png/5fa2dd/ffffff",
-  "mainFeature": [
-   {
-    "icon": "fas fa-memory",
-    "description": "sapien urna pretium nisl ut"
-   },
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "at feugiat non pretium"
-   },
-   {
-    "icon": "fas fa-memory",
-    "description": "augue quam sollicitudin"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "Optional",
-    "description": "content-based"
-   },
-   {
-    "feature": "multi-state",
-    "description": "help-desk"
-   },
-   {
-    "feature": "mobile",
-    "description": "optimal"
-   },
-   {
-    "feature": "discrete",
-    "description": "throughput"
-   },
-   {
-    "feature": "website",
-    "description": "bottom-line"
-   }
-  ],
-  "inSale": false,
-  "featured": true
- },
- {
-  "id": 18,
-  "name": "Puna ibis",
-  "description": "phasellus sit amet erat nulla tempus vivamus in felis eu sapien cursus",
-  "category": "Memorias",
-  "brand": "Gigabyte",
-  "price": 20983.7,
-  "img": "http://dummyimage.com/193x100.png/5fa2dd/ffffff",
-  "mainFeature": [
-   {
-    "icon": "fas fa-heart",
-    "description": "quis orci nullam molestie"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "pharetra magna"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "duis faucibus accumsan odio curabitur"
-   },
-   {
-    "icon": "fas fa-memory",
-    "description": "purus eu magna vulputate luctus"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "heuristic",
-    "description": "Diverse"
-   },
-   {
-    "feature": "modular",
-    "description": "Multi-channelled"
-   },
-   {
-    "feature": "complexity",
-    "description": "hub"
-   },
-   {
-    "feature": "regional",
-    "description": "contextually-based"
-   },
-   {
-    "feature": "instruction set",
-    "description": "open architecture"
-   },
-   {
-    "feature": "3rd generation",
+    "feature": "batería incluida",
     "description": "Sharable"
-   }
-  ],
-  "inSale": true,
-  "featured": true
- },
- {
-  "id": 19,
-  "name": "Uinta ground squirrel",
-  "description": "in faucibus orci luctus et ultrices posuere cubilia curae mauris",
-  "category": "Tarjetas de video",
-  "brand": "Huawei",
-  "price": 49083.24,
-  "img": "http://dummyimage.com/212x100.png/5fa2dd/ffffff",
-  "mainFeature": [
-   {
-    "icon": "fas fa-heart",
-    "description": "interdum mauris ullamcorper purus sit"
-   },
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "augue vel accumsan tellus"
-   },
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "nulla sed"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "3rd generation",
-    "description": "Synergized"
-   },
-   {
-    "feature": "pricing structure",
-    "description": "asynchronous"
-   },
-   {
-    "feature": "Multi-lateral",
-    "description": "empowering"
-   }
-  ],
-  "inSale": false,
-  "featured": true
- },
- {
-  "id": 20,
-  "name": "Macaw, blue and gold",
-  "description": "lobortis convallis tortor risus dapibus augue vel accumsan tellus nisi eu orci mauris lacinia sapien quis libero nullam sit amet",
-  "category": "Equipos de cómputo",
-  "brand": "Apple",
-  "price": 12368.76,
-  "img": "http://dummyimage.com/110x100.png/cc0000/ffffff",
-  "mainFeature": [
-   {
-    "icon": "fas fa-memory",
-    "description": "orci luctus et"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "convallis nulla"
-   },
-   {
-    "icon": "fas fa-memory",
-    "description": "sit amet"
-   },
-   {
-    "icon": "fas fa-memory",
-    "description": "proin interdum"
-   },
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "adipiscing molestie"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "extranet",
-    "description": "tertiary"
-   },
-   {
-    "feature": "paradigm",
-    "description": "analyzer"
-   },
-   {
-    "feature": "Vision-oriented",
-    "description": "concept"
-   },
-   {
-    "feature": "Face to face",
-    "description": "project"
-   },
-   {
-    "feature": "Extended",
-    "description": "optimizing"
-   },
-   {
-    "feature": "dynamic",
-    "description": "4th generation"
-   }
-  ],
-  "inSale": false,
-  "featured": false
- },
- {
-  "id": 21,
-  "name": "Turkey, common",
-  "description": "id ornare imperdiet sapien urna pretium nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in congue",
-  "category": "PC Gamer",
-  "brand": "Acer",
-  "price": 35276.48,
-  "img": "http://dummyimage.com/140x100.png/dddddd/000000",
-  "mainFeature": [
-   {
-    "icon": "fas fa-heart",
-    "description": "ultrices libero non"
-   },
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "enim sit amet"
-   },
-   {
-    "icon": "fas fa-memory",
-    "description": "consequat varius integer ac"
-   },
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "sit amet sapien dignissim"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "capability",
-    "description": "array"
-   },
-   {
-    "feature": "content-based",
-    "description": "toolset"
-   }
-  ],
-  "inSale": true,
-  "featured": false
- },
- {
-  "id": 22,
-  "name": "Red-tailed hawk",
-  "description": "placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt eget tempus vel pede morbi",
-  "category": "Laptops",
-  "brand": "Sony",
-  "price": 29591.91,
-  "img": "http://dummyimage.com/215x100.png/dddddd/000000",
-  "mainFeature": [
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "at nunc"
-   },
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "pretium nisl ut"
-   },
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "iaculis justo"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "Secured",
-    "description": "system engine"
-   },
-   {
-    "feature": "client-server",
-    "description": "synergy"
-   },
-   {
-    "feature": "firmware",
-    "description": "Balanced"
-   },
-   {
-    "feature": "explicit",
-    "description": "high-level"
-   }
-  ],
-  "inSale": false,
-  "featured": true
- },
- {
-  "id": 23,
-  "name": "Miner's cat",
-  "description": "porta volutpat quam pede lobortis ligula sit amet eleifend pede libero quis orci nullam molestie nibh in",
-  "category": "Equipos de cómputo",
-  "brand": "Samsung",
-  "price": 9063.65,
-  "img": "http://dummyimage.com/156x100.png/dddddd/000000",
-  "mainFeature": [
-   {
-    "icon": "fas fa-memory",
-    "description": "et eros"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "aliquet massa id lobortis convallis"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "pede lobortis"
-   },
-   {
-    "icon": "fas fa-memory",
-    "description": "morbi vel lectus in quam"
-   },
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "sagittis sapien cum sociis natoque"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "model",
-    "description": "Function-based"
-   },
-   {
-    "feature": "orchestration",
-    "description": "Re-engineered"
-   },
-   {
-    "feature": "Intuitive",
-    "description": "context-sensitive"
-   },
-   {
-    "feature": "framework",
-    "description": "modular"
-   },
-   {
-    "feature": "modular",
-    "description": "solution"
-   }
-  ],
-  "inSale": false,
-  "featured": true
- },
- {
-  "id": 24,
-  "name": "African skink",
-  "description": "et commodo vulputate justo in blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit proin interdum",
-  "category": "Equipos de cómputo",
-  "brand": "Nvidia",
-  "price": 16110.65,
-  "img": "http://dummyimage.com/204x100.png/ff4444/ffffff",
-  "mainFeature": [
-   {
-    "icon": "fas fa-memory",
-    "description": "lacinia eget tincidunt"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "pede libero quis orci"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "Devolved",
-    "description": "moratorium"
-   },
-   {
-    "feature": "Multi-layered",
-    "description": "Quality-focused"
-   },
-   {
-    "feature": "Self-enabling",
-    "description": "even-keeled"
-   },
-   {
-    "feature": "secured line",
-    "description": "hierarchy"
-   }
-  ],
-  "inSale": true,
-  "featured": true
- },
- {
-  "id": 25,
-  "name": "Rhinoceros, white",
-  "description": "adipiscing lorem vitae mattis nibh ligula nec sem duis aliquam convallis nunc proin at",
-  "category": "Disipadores y Enfriamiento",
-  "brand": "Adatam AlienWare",
-  "price": 18357.66,
-  "img": "http://dummyimage.com/109x100.png/ff4444/ffffff",
-  "mainFeature": [
-   {
-    "icon": "fas fa-heart",
-    "description": "sed augue aliquam erat volutpat"
-   },
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "tincidunt ante vel"
-   },
-   {
-    "icon": "fas fa-memory",
-    "description": "elit proin risus praesent"
-   },
-   {
-    "icon": "fas fa-memory",
-    "description": "vitae quam suspendisse"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "fresh-thinking",
-    "description": "access"
-   },
-   {
-    "feature": "Sharable",
-    "description": "Diverse"
-   },
-   {
-    "feature": "emulation",
-    "description": "homogeneous"
-   },
-   {
-    "feature": "paradigm",
-    "description": "portal"
-   }
-  ],
-  "inSale": false,
-  "featured": false
- },
- {
-  "id": 26,
-  "name": "Campo flicker",
-  "description": "mauris sit amet eros suspendisse accumsan tortor quis turpis sed ante vivamus tortor duis",
-  "category": "Equipos de cómputo",
-  "brand": "HyperX",
-  "price": 4040.27,
-  "img": "http://dummyimage.com/109x100.png/5fa2dd/ffffff",
-  "mainFeature": [
-   {
-    "icon": "fas fa-heart",
-    "description": "turpis adipiscing lorem vitae mattis"
-   },
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "non mi integer ac neque"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "Universal",
-    "description": "Object-based"
-   },
-   {
-    "feature": "scalable",
-    "description": "De-engineered"
-   }
-  ],
-  "inSale": false,
-  "featured": false
- },
- {
-  "id": 27,
-  "name": "Indian leopard",
-  "description": "amet justo morbi ut odio cras mi pede malesuada in",
-  "category": "Monitores",
-  "brand": "Kingston",
-  "price": 15883.03,
-  "img": "http://dummyimage.com/202x100.png/5fa2dd/ffffff",
-  "mainFeature": [
-   {
-    "icon": "fas fa-heart",
-    "description": "nisl aenean lectus pellentesque"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "eu tincidunt in leo maecenas"
-   },
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "felis donec semper"
-   },
-   {
-    "icon": "fas fa-memory",
-    "description": "in congue etiam justo etiam"
-   },
-   {
-    "icon": "fas fa-memory",
-    "description": "sit amet lobortis sapien"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "empowering",
-    "description": "Self-enabling"
-   },
-   {
-    "feature": "holistic",
-    "description": "orchestration"
-   },
-   {
-    "feature": "paradigm",
-    "description": "reciprocal"
-   }
-  ],
-  "inSale": true,
-  "featured": false
- },
- {
-  "id": 28,
-  "name": "Australian brush turkey",
-  "description": "accumsan tellus nisi eu orci mauris lacinia sapien quis libero nullam sit amet",
-  "category": "Periféricos",
-  "brand": "Apple",
-  "price": 28818.54,
-  "img": "http://dummyimage.com/156x100.png/dddddd/000000",
-  "mainFeature": [
-   {
-    "icon": "fas fa-memory",
-    "description": "id mauris vulputate"
-   },
-   {
-    "icon": "fas fa-memory",
-    "description": "maecenas pulvinar"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "exuding",
-    "description": "methodology"
-   },
-   {
-    "feature": "Multi-tiered",
-    "description": "definition"
-   },
-   {
-    "feature": "Cross-group",
-    "description": "Quality-focused"
-   },
-   {
-    "feature": "workforce",
-    "description": "help-desk"
-   }
-  ],
-  "inSale": false,
-  "featured": false
- },
- {
-  "id": 29,
-  "name": "Whale, killer",
-  "description": "sapien urna pretium nisl ut volutpat sapien arcu sed augue aliquam",
-  "category": "Procesadores",
-  "brand": "Huawei",
-  "price": 35465.01,
-  "img": "http://dummyimage.com/176x100.png/cc0000/ffffff",
-  "mainFeature": [
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "commodo vulputate"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "sagittis dui"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "orchestration",
-    "description": "ability"
-   },
-   {
-    "feature": "Secured",
-    "description": "Triple-buffered"
-   }
-  ],
-  "inSale": true,
-  "featured": false
- },
- {
-  "id": 30,
-  "name": "Aardwolf",
-  "description": "mi in porttitor pede justo eu massa donec dapibus duis",
-  "category": "Memorias",
-  "brand": "MSI",
-  "price": 6130.07,
-  "img": "http://dummyimage.com/225x100.png/dddddd/000000",
-  "mainFeature": [
-   {
-    "icon": "fas fa-memory",
-    "description": "nunc vestibulum"
-   },
-   {
-    "icon": "fas fa-memory",
-    "description": "ultrices posuere cubilia curae duis"
-   },
-   {
-    "icon": "fas fa-memory",
-    "description": "lorem id ligula suspendisse ornare"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "volutpat in"
-   },
-   {
-    "icon": "fas fa-memory",
-    "description": "ultrices posuere"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "directional",
-    "description": "Advanced"
-   },
-   {
-    "feature": "implementation",
-    "description": "Optimized"
-   },
-   {
-    "feature": "hierarchy",
-    "description": "instruction set"
-   }
-  ],
-  "inSale": false,
-  "featured": false
- },
- {
-  "id": 31,
-  "name": "Lesser mouse lemur",
-  "description": "eu magna vulputate luctus cum sociis natoque penatibus et magnis dis parturient montes nascetur",
-  "category": "Equipos de cómputo",
-  "brand": "Samsung",
-  "price": 17193.24,
-  "img": "http://dummyimage.com/188x100.png/5fa2dd/ffffff",
-  "mainFeature": [
-   {
-    "icon": "fas fa-memory",
-    "description": "quis augue luctus tincidunt nulla"
-   },
-   {
-    "icon": "fas fa-memory",
-    "description": "at lorem"
-   },
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "accumsan odio curabitur convallis"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "primis in"
-   },
-   {
-    "icon": "fas fa-memory",
-    "description": "rutrum rutrum"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "value-added",
-    "description": "implementation"
-   },
-   {
-    "feature": "Face to face",
-    "description": "holistic"
-   }
-  ],
-  "inSale": false,
-  "featured": false
- },
- {
-  "id": 32,
-  "name": "Vulture, lappet-faced",
-  "description": "sed augue aliquam erat volutpat in congue etiam justo etiam pretium iaculis justo in hac habitasse platea dictumst etiam faucibus",
-  "category": "Tarjetas Madre",
-  "brand": "Samsung",
-  "price": 4596.44,
-  "img": "http://dummyimage.com/171x100.png/ff4444/ffffff",
-  "mainFeature": [
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "semper rutrum"
-   },
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "mi in"
-   },
-   {
-    "icon": "fas fa-memory",
-    "description": "nec dui"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "context-sensitive",
-    "description": "application"
-   },
-   {
-    "feature": "Exclusive",
-    "description": "context-sensitive"
-   },
-   {
-    "feature": "adapter",
-    "description": "access"
-   },
-   {
-    "feature": "Networked",
-    "description": "fresh-thinking"
-   },
-   {
-    "feature": "Right-sized",
-    "description": "dedicated"
-   },
-   {
-    "feature": "customer loyalty",
-    "description": "pricing structure"
-   }
-  ],
-  "inSale": false,
-  "featured": true
- },
- {
-  "id": 33,
-  "name": "Kangaroo, red",
-  "description": "sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus",
-  "category": "PC Gamer",
-  "brand": "Nvidia",
-  "price": 27813.1,
-  "img": "http://dummyimage.com/190x100.png/ff4444/ffffff",
-  "mainFeature": [
-   {
-    "icon": "fas fa-memory",
-    "description": "volutpat in congue etiam"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "eu interdum eu tincidunt"
-   },
-   {
-    "icon": "fas fa-memory",
-    "description": "congue diam id"
-   },
-   {
-    "icon": "fas fa-memory",
-    "description": "cum sociis"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "blandit mi in porttitor pede"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "website",
-    "description": "Horizontal"
-   },
-   {
-    "feature": "hierarchy",
-    "description": "Streamlined"
-   }
-  ],
-  "inSale": false,
-  "featured": false
- },
- {
-  "id": 34,
-  "name": "Red brocket",
-  "description": "vitae quam suspendisse potenti nullam porttitor lacus at turpis donec",
-  "category": "Laptops",
-  "brand": "EVGA",
-  "price": 40018.92,
-  "img": "http://dummyimage.com/208x100.png/cc0000/ffffff",
-  "mainFeature": [
-   {
-    "icon": "fas fa-memory",
-    "description": "eros viverra eget"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "sed interdum"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "in blandit"
-   },
-   {
-    "icon": "fas fa-memory",
-    "description": "libero rutrum ac lobortis vel"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "capacity",
-    "description": "Polarised"
-   },
-   {
-    "feature": "background",
-    "description": "knowledge base"
-   },
-   {
-    "feature": "real-time",
-    "description": "Triple-buffered"
-   }
-  ],
-  "inSale": true,
-  "featured": false
- },
- {
-  "id": 35,
-  "name": "Common boubou shrike",
-  "description": "accumsan tortor quis turpis sed ante vivamus tortor duis mattis egestas metus aenean fermentum",
-  "category": "Disipadores y Enfriamiento",
-  "brand": "Huawei",
-  "price": 45570.03,
-  "img": "http://dummyimage.com/169x100.png/ff4444/ffffff",
-  "mainFeature": [
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "dolor sit"
-   },
-   {
-    "icon": "fas fa-memory",
-    "description": "rutrum ac"
-   },
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "in faucibus orci luctus et"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "clear-thinking",
-    "description": "Re-contextualized"
-   },
-   {
-    "feature": "website",
-    "description": "User-centric"
-   },
-   {
-    "feature": "Enhanced",
-    "description": "structure"
-   },
-   {
-    "feature": "Optional",
-    "description": "array"
-   },
-   {
-    "feature": "projection",
-    "description": "24/7"
-   },
-   {
-    "feature": "encoding",
-    "description": "maximized"
-   }
-  ],
-  "inSale": true,
-  "featured": true
- },
- {
-  "id": 36,
-  "name": "Goose, cereopsis",
-  "description": "risus praesent lectus vestibulum quam sapien varius ut blandit non interdum in ante",
-  "category": "Tarjetas de video",
-  "brand": "Nvidia",
-  "price": 16444.83,
-  "img": "http://dummyimage.com/181x100.png/dddddd/000000",
-  "mainFeature": [
-   {
-    "icon": "fas fa-heart",
-    "description": "platea dictumst"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "maecenas rhoncus aliquam lacus morbi"
-   },
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "ipsum primis in"
-   },
-   {
-    "icon": "fas fa-memory",
-    "description": "quis justo"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "Networked",
-    "description": "Total"
-   },
-   {
-    "feature": "info-mediaries",
-    "description": "disintermediate"
-   },
-   {
-    "feature": "intangible",
-    "description": "Robust"
-   },
-   {
-    "feature": "User-friendly",
-    "description": "approach"
-   },
-   {
-    "feature": "Mandatory",
-    "description": "5th generation"
-   },
-   {
-    "feature": "strategy",
-    "description": "Re-contextualized"
-   }
-  ],
-  "inSale": false,
-  "featured": true
- },
- {
-  "id": 37,
-  "name": "Knob-nosed goose",
-  "description": "ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit proin interdum mauris non ligula pellentesque ultrices phasellus id",
-  "category": "Monitores",
-  "brand": "Nvidia",
-  "price": 10684.59,
-  "img": "http://dummyimage.com/120x100.png/cc0000/ffffff",
-  "mainFeature": [
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "montes nascetur ridiculus mus"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "curabitur convallis duis consequat"
-   },
-   {
-    "icon": "fas fa-memory",
-    "description": "praesent blandit"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "risus semper porta"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "Ergonomic",
-    "description": "Polarised"
-   },
-   {
-    "feature": "Enterprise-wide",
-    "description": "web-enabled"
-   },
-   {
-    "feature": "hub",
-    "description": "Graphic Interface"
-   },
-   {
-    "feature": "static",
-    "description": "mission-critical"
-   },
-   {
-    "feature": "knowledge user",
-    "description": "Devolved"
-   },
-   {
-    "feature": "didactic",
-    "description": "Face to face"
-   }
-  ],
-  "inSale": true,
-  "featured": false
- },
- {
-  "id": 38,
-  "name": "Robin, white-throated",
-  "description": "massa quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida",
-  "category": "PC Gamer",
-  "brand": "Huawei",
-  "price": 22075.44,
-  "img": "http://dummyimage.com/218x100.png/5fa2dd/ffffff",
-  "mainFeature": [
-   {
-    "icon": "fas fa-heart",
-    "description": "amet turpis elementum"
-   },
-   {
-    "icon": "fas fa-memory",
-    "description": "id lobortis convallis tortor risus"
-   },
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "cras pellentesque volutpat dui"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "moderator",
-    "description": "grid-enabled"
-   },
-   {
-    "feature": "Pre-emptive",
-    "description": "asynchronous"
-   },
-   {
-    "feature": "Realigned",
-    "description": "Reverse-engineered"
-   },
-   {
-    "feature": "data-warehouse",
-    "description": "installation"
-   }
-  ],
-  "inSale": true,
-  "featured": true
- },
- {
-  "id": 39,
-  "name": "Zorro, common",
-  "description": "in sagittis dui vel nisl duis ac nibh fusce lacus purus aliquet at feugiat non",
-  "category": "Monitores",
-  "brand": "Apple",
-  "price": 5978.91,
-  "img": "http://dummyimage.com/199x100.png/dddddd/000000",
-  "mainFeature": [
-   {
-    "icon": "fas fa-heart",
-    "description": "donec semper sapien"
-   },
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "justo lacinia eget tincidunt"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "multi-state",
-    "description": "User-friendly"
-   },
-   {
-    "feature": "empowering",
-    "description": "Customizable"
-   },
-   {
-    "feature": "time-frame",
-    "description": "hardware"
-   },
-   {
-    "feature": "Profit-focused",
-    "description": "needs-based"
-   }
-  ],
-  "inSale": false,
-  "featured": false
- },
- {
-  "id": 40,
-  "name": "Zebra, plains",
-  "description": "quis turpis sed ante vivamus tortor duis mattis egestas metus aenean fermentum",
-  "category": "Procesadores",
-  "brand": "Dell",
-  "price": 981.22,
-  "img": "http://dummyimage.com/184x100.png/5fa2dd/ffffff",
-  "mainFeature": [
-   {
-    "icon": "fas fa-memory",
-    "description": "praesent blandit nam"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "in congue"
-   },
-   {
-    "icon": "fas fa-memory",
-    "description": "vitae nisl aenean"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "vestibulum eget vulputate ut ultrices"
-   },
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "vitae consectetuer eget rutrum"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "Assimilated",
-    "description": "implementation"
-   },
-   {
-    "feature": "Fully-configurable",
-    "description": "Integrated"
-   },
-   {
-    "feature": "Persistent",
-    "description": "mission-critical"
-   }
-  ],
-  "inSale": true,
-  "featured": true
- },
- {
-  "id": 41,
-  "name": "Wattled crane",
-  "description": "dui maecenas tristique est et tempus semper est quam pharetra magna ac consequat metus sapien ut nunc",
-  "category": "Tarjetas Madre",
-  "brand": "Gigabyte",
-  "price": 47469.92,
-  "img": "http://dummyimage.com/145x100.png/ff4444/ffffff",
-  "mainFeature": [
-   {
-    "icon": "fas fa-memory",
-    "description": "cursus urna ut tellus nulla"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "quis tortor id nulla"
-   },
-   {
-    "icon": "fas fa-memory",
-    "description": "nonummy maecenas tincidunt lacus at"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "matrices",
-    "description": "non-volatile"
-   },
-   {
-    "feature": "Balanced",
-    "description": "productivity"
-   },
-   {
-    "feature": "Progressive",
-    "description": "benchmark"
-   },
-   {
-    "feature": "24 hour",
-    "description": "zero tolerance"
-   },
-   {
-    "feature": "pricing structure",
-    "description": "challenge"
-   },
-   {
-    "feature": "Multi-layered",
-    "description": "Compatible"
-   }
-  ],
-  "inSale": true,
-  "featured": false
- },
- {
-  "id": 42,
-  "name": "Raven, cape",
-  "description": "in eleifend quam a odio in hac habitasse platea dictumst maecenas ut massa quis augue luctus tincidunt nulla mollis molestie",
-  "category": "Tarjetas Madre",
-  "brand": "HyperX",
-  "price": 16385.45,
-  "img": "http://dummyimage.com/154x100.png/ff4444/ffffff",
-  "mainFeature": [
-   {
-    "icon": "fas fa-memory",
-    "description": "turpis elementum"
-   },
-   {
-    "icon": "fas fa-memory",
-    "description": "elit sodales"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "Fundamental",
-    "description": "Virtual"
-   },
-   {
-    "feature": "encoding",
-    "description": "24/7"
-   },
-   {
-    "feature": "superstructure",
-    "description": "Mandatory"
-   },
-   {
-    "feature": "systematic",
-    "description": "encoding"
-   },
-   {
-    "feature": "bottom-line",
-    "description": "zero defect"
-   },
-   {
-    "feature": "methodology",
-    "description": "User-centric"
-   }
-  ],
-  "inSale": true,
-  "featured": true
- },
- {
-  "id": 43,
-  "name": "Otter, oriental short-clawed",
-  "description": "risus semper porta volutpat quam pede lobortis ligula sit amet eleifend pede libero",
-  "category": "Procesadores",
-  "brand": "Nvidia",
-  "price": 7379.01,
-  "img": "http://dummyimage.com/248x100.png/ff4444/ffffff",
-  "mainFeature": [
-   {
-    "icon": "fas fa-heart",
-    "description": "vel augue vestibulum rutrum"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "orci mauris"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "Up-sized",
-    "description": "executive"
-   },
-   {
-    "feature": "task-force",
-    "description": "Persevering"
-   },
-   {
-    "feature": "uniform",
-    "description": "Digitized"
-   },
-   {
-    "feature": "explicit",
-    "description": "system engine"
-   },
-   {
-    "feature": "actuating",
-    "description": "Team-oriented"
-   },
-   {
-    "feature": "optimizing",
-    "description": "Quality-focused"
-   }
-  ],
-  "inSale": true,
-  "featured": true
- },
- {
-  "id": 44,
-  "name": "Kookaburra, laughing",
-  "description": "vitae quam suspendisse potenti nullam porttitor lacus at turpis donec posuere metus vitae",
-  "category": "Monitores",
-  "brand": "Intel",
-  "price": 46868.77,
-  "img": "http://dummyimage.com/181x100.png/5fa2dd/ffffff",
-  "mainFeature": [
-   {
-    "icon": "fas fa-memory",
-    "description": "libero nam dui proin leo"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "sed ante vivamus"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "est quam pharetra"
-   },
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "nisl nunc nisl duis bibendum"
-   },
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "primis in faucibus orci"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "Decentralized",
-    "description": "Open-source"
-   },
-   {
-    "feature": "Object-based",
-    "description": "superstructure"
-   },
-   {
-    "feature": "regional",
-    "description": "incremental"
-   },
-   {
-    "feature": "maximized",
-    "description": "systemic"
-   },
-   {
-    "feature": "Universal",
-    "description": "asymmetric"
-   }
-  ],
-  "inSale": true,
-  "featured": true
- },
- {
-  "id": 45,
-  "name": "Stork, european",
-  "description": "blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit proin interdum mauris",
-  "category": "Procesadores",
-  "brand": "Acer",
-  "price": 18164.73,
-  "img": "http://dummyimage.com/130x100.png/ff4444/ffffff",
-  "mainFeature": [
-   {
-    "icon": "fas fa-memory",
-    "description": "sodales sed"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "facilisi cras non velit"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "sodales scelerisque"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "erat volutpat in"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "vel nisl duis"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "conglomeration",
-    "description": "Open-source"
-   },
-   {
-    "feature": "intangible",
-    "description": "capacity"
-   },
-   {
-    "feature": "array",
-    "description": "orchestration"
-   },
-   {
-    "feature": "Implemented",
-    "description": "multimedia"
-   },
-   {
-    "feature": "open architecture",
-    "description": "local area network"
-   }
-  ],
-  "inSale": true,
-  "featured": true
- },
- {
-  "id": 46,
-  "name": "Brush-tailed rat kangaroo",
-  "description": "maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus",
-  "category": "Almacenamiento",
-  "brand": "EVGA",
-  "price": 9237.96,
-  "img": "http://dummyimage.com/150x100.png/cc0000/ffffff",
-  "mainFeature": [
-   {
-    "icon": "fas fa-heart",
-    "description": "in imperdiet et"
-   },
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "quam sapien varius ut"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "tristique est et tempus semper"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "nec condimentum neque sapien placerat"
-   },
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "vivamus tortor"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "Fundamental",
-    "description": "capacity"
-   },
-   {
-    "feature": "knowledge user",
-    "description": "even-keeled"
-   }
-  ],
-  "inSale": false,
-  "featured": false
- },
- {
-  "id": 47,
-  "name": "Turaco, violet-crested",
-  "description": "nulla suspendisse potenti cras in purus eu magna vulputate luctus cum sociis",
-  "category": "Almacenamiento",
-  "brand": "Dell",
-  "price": 15555.26,
-  "img": "http://dummyimage.com/175x100.png/dddddd/000000",
-  "mainFeature": [
-   {
-    "icon": "fas fa-heart",
-    "description": "libero rutrum ac lobortis vel"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "in hac"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "cras pellentesque volutpat dui"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "vel nisl duis ac"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "lectus in est risus auctor"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "Team-oriented",
-    "description": "dedicated"
-   },
-   {
-    "feature": "global",
-    "description": "solution"
-   },
-   {
-    "feature": "Networked",
-    "description": "algorithm"
-   },
-   {
-    "feature": "architecture",
-    "description": "Persistent"
-   }
-  ],
-  "inSale": false,
-  "featured": true
- },
- {
-  "id": 48,
-  "name": "Nuthatch, red-breasted",
-  "description": "dolor vel est donec odio justo sollicitudin ut suscipit a feugiat et eros",
-  "category": "Tarjetas Madre",
-  "brand": "AMD",
-  "price": 15089.08,
-  "img": "http://dummyimage.com/190x100.png/dddddd/000000",
-  "mainFeature": [
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "ligula pellentesque ultrices"
-   },
-   {
-    "icon": "fas fa-memory",
-    "description": "nam nulla integer pede"
-   },
-   {
-    "icon": "fas fa-memory",
-    "description": "nullam sit amet"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "venenatis non sodales sed tincidunt"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "iaculis congue"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "moratorium",
-    "description": "Graphic Interface"
-   },
-   {
-    "feature": "well-modulated",
-    "description": "Object-based"
-   },
-   {
-    "feature": "hybrid",
-    "description": "capacity"
-   }
-  ],
-  "inSale": true,
-  "featured": false
- },
- {
-  "id": 49,
-  "name": "Galapagos sea lion",
-  "description": "aenean auctor gravida sem praesent id massa id nisl venenatis lacinia aenean sit amet justo morbi ut odio cras",
-  "category": "PC Gamer",
-  "brand": "Kingston",
-  "price": 30514.63,
-  "img": "http://dummyimage.com/212x100.png/5fa2dd/ffffff",
-  "mainFeature": [
-   {
-    "icon": "fas fa-heart",
-    "description": "non velit nec nisi vulputate"
-   },
-   {
-    "icon": "fas fa-memory",
-    "description": "in faucibus orci luctus et"
-   },
-   {
-    "icon": "fas fa-memory",
-    "description": "orci luctus et ultrices"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "contingency",
-    "description": "hardware"
-   },
-   {
-    "feature": "hub",
-    "description": "Universal"
-   },
-   {
-    "feature": "background",
-    "description": "uniform"
-   },
-   {
-    "feature": "analyzer",
-    "description": "task-force"
-   },
-   {
-    "feature": "alliance",
-    "description": "matrix"
-   },
-   {
-    "feature": "6th generation",
-    "description": "radical"
-   }
-  ],
-  "inSale": false,
-  "featured": false
- },
- {
-  "id": 50,
-  "name": "Crane, stanley",
-  "description": "rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum sed magna at nunc commodo placerat",
-  "category": "Periféricos",
-  "brand": "Gigabyte",
-  "price": 48374.65,
-  "img": "http://dummyimage.com/225x100.png/ff4444/ffffff",
-  "mainFeature": [
-   {
-    "icon": "fas fa-heart",
-    "description": "ut massa quis"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "massa tempor convallis nulla neque"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "Fully-configurable",
-    "description": "strategy"
-   },
-   {
-    "feature": "bifurcated",
-    "description": "solution-oriented"
-   },
-   {
-    "feature": "Cloned",
-    "description": "system-worthy"
-   },
-   {
-    "feature": "scalable",
-    "description": "function"
-   },
-   {
-    "feature": "client-server",
-    "description": "Mandatory"
-   },
-   {
-    "feature": "focus group",
-    "description": "Face to face"
-   }
-  ],
-  "inSale": true,
-  "featured": true
- },
- {
-  "id": 51,
-  "name": "Tammar wallaby",
-  "description": "luctus ultricies eu nibh quisque id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci",
-  "category": "Almacenamiento",
-  "brand": "EVGA",
-  "price": 30857.81,
-  "img": "http://dummyimage.com/147x100.png/dddddd/000000",
-  "mainFeature": [
-   {
-    "icon": "fas fa-heart",
-    "description": "blandit non interdum"
-   },
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "consequat ut"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "lectus aliquam sit amet"
-   },
-   {
-    "icon": "fas fa-memory",
-    "description": "in faucibus orci"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "orci pede"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "client-driven",
-    "description": "empowering"
-   },
-   {
-    "feature": "concept",
-    "description": "next generation"
-   },
-   {
-    "feature": "extranet",
-    "description": "synergy"
-   },
-   {
-    "feature": "groupware",
-    "description": "Up-sized"
-   },
-   {
-    "feature": "portal",
-    "description": "Operative"
-   }
-  ],
-  "inSale": false,
-  "featured": true
- },
- {
-  "id": 52,
-  "name": "Vulture, black",
-  "description": "congue eget semper rutrum nulla nunc purus phasellus in felis donec semper",
-  "category": "Memorias",
-  "brand": "MSI",
-  "price": 39115.72,
-  "img": "http://dummyimage.com/134x100.png/ff4444/ffffff",
-  "mainFeature": [
-   {
-    "icon": "fas fa-memory",
-    "description": "in imperdiet et commodo vulputate"
-   },
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "id luctus"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "ac est lacinia nisi venenatis"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "tortor quis"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "mauris eget"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "demand-driven",
-    "description": "benchmark"
-   },
-   {
-    "feature": "model",
-    "description": "leading edge"
-   },
-   {
-    "feature": "Robust",
-    "description": "Integrated"
-   },
-   {
-    "feature": "algorithm",
-    "description": "didactic"
-   }
-  ],
-  "inSale": true,
-  "featured": false
- },
- {
-  "id": 53,
-  "name": "Rhea, greater",
-  "description": "luctus cum sociis natoque penatibus et magnis dis parturient montes",
-  "category": "Laptops",
-  "brand": "Nvidia",
-  "price": 18444.12,
-  "img": "http://dummyimage.com/199x100.png/ff4444/ffffff",
-  "mainFeature": [
-   {
-    "icon": "fas fa-memory",
-    "description": "sapien urna pretium nisl"
-   },
-   {
-    "icon": "fas fa-memory",
-    "description": "sem sed"
-   },
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "quam sapien varius"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "venenatis lacinia aenean sit amet"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "asynchronous",
-    "description": "Optimized"
-   },
-   {
-    "feature": "national",
-    "description": "workforce"
-   },
-   {
-    "feature": "non-volatile",
-    "description": "Graphic Interface"
-   },
-   {
-    "feature": "service-desk",
-    "description": "Progressive"
-   }
-  ],
-  "inSale": true,
-  "featured": true
- },
- {
-  "id": 54,
-  "name": "Cape Barren goose",
-  "description": "molestie lorem quisque ut erat curabitur gravida nisi at nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin",
-  "category": "PC Gamer",
-  "brand": "Sony",
-  "price": 49699.8,
-  "img": "http://dummyimage.com/237x100.png/dddddd/000000",
-  "mainFeature": [
-   {
-    "icon": "fas fa-heart",
-    "description": "ultrices posuere cubilia curae"
-   },
-   {
-    "icon": "fas fa-memory",
-    "description": "purus phasellus in"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "scalable",
-    "description": "data-warehouse"
-   },
-   {
-    "feature": "Object-based",
-    "description": "dedicated"
-   },
-   {
-    "feature": "6th generation",
-    "description": "emulation"
-   },
-   {
-    "feature": "coherent",
-    "description": "time-frame"
-   },
-   {
-    "feature": "strategy",
-    "description": "Vision-oriented"
-   },
-   {
-    "feature": "Polarised",
-    "description": "impactful"
-   }
-  ],
-  "inSale": true,
-  "featured": false
- },
- {
-  "id": 55,
-  "name": "Osprey",
-  "description": "pede ullamcorper augue a suscipit nulla elit ac nulla sed vel enim sit amet",
-  "category": "Equipos de cómputo",
-  "brand": "Apple",
-  "price": 36909.2,
-  "img": "http://dummyimage.com/110x100.png/cc0000/ffffff",
-  "mainFeature": [
-   {
-    "icon": "fas fa-memory",
-    "description": "nulla suscipit ligula"
-   },
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "eget vulputate ut ultrices"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "pricing structure",
-    "description": "24/7"
-   },
-   {
-    "feature": "multi-tasking",
-    "description": "Multi-channelled"
-   },
-   {
-    "feature": "Assimilated",
-    "description": "dedicated"
-   },
-   {
-    "feature": "multimedia",
-    "description": "incremental"
-   }
-  ],
-  "inSale": true,
-  "featured": false
- },
- {
-  "id": 56,
-  "name": "African darter",
-  "description": "amet nunc viverra dapibus nulla suscipit ligula in lacus curabitur at",
-  "category": "Tarjetas Madre",
-  "brand": "Kingston",
-  "price": 33320.27,
-  "img": "http://dummyimage.com/117x100.png/dddddd/000000",
-  "mainFeature": [
-   {
-    "icon": "fas fa-memory",
-    "description": "lorem ipsum dolor"
-   },
-   {
-    "icon": "fas fa-memory",
-    "description": "venenatis non sodales"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "praesent blandit"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "concept",
-    "description": "data-warehouse"
-   },
-   {
-    "feature": "firmware",
-    "description": "systemic"
-   },
-   {
-    "feature": "Synchronised",
-    "description": "paradigm"
-   },
-   {
-    "feature": "holistic",
-    "description": "Virtual"
-   }
-  ],
-  "inSale": true,
-  "featured": true
- },
- {
-  "id": 57,
-  "name": "Langur, hanuman",
-  "description": "a libero nam dui proin leo odio porttitor id consequat in consequat ut",
-  "category": "Monitores",
-  "brand": "Gigabyte",
-  "price": 14709.56,
-  "img": "http://dummyimage.com/205x100.png/cc0000/ffffff",
-  "mainFeature": [
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "faucibus cursus urna"
-   },
-   {
-    "icon": "fas fa-memory",
-    "description": "posuere metus vitae ipsum aliquam"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "ut nunc"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "Synergized",
-    "description": "service-desk"
-   },
-   {
-    "feature": "encoding",
-    "description": "monitoring"
-   },
-   {
-    "feature": "flexibility",
-    "description": "architecture"
-   },
-   {
-    "feature": "Switchable",
-    "description": "Face to face"
-   },
-   {
-    "feature": "dedicated",
-    "description": "value-added"
-   },
-   {
-    "feature": "bifurcated",
-    "description": "Up-sized"
-   }
-  ],
-  "inSale": true,
-  "featured": true
- },
- {
-  "id": 58,
-  "name": "White stork",
-  "description": "diam vitae quam suspendisse potenti nullam porttitor lacus at turpis donec",
-  "category": "Almacenamiento",
-  "brand": "AMD",
-  "price": 46770.93,
-  "img": "http://dummyimage.com/213x100.png/5fa2dd/ffffff",
-  "mainFeature": [
-   {
-    "icon": "fas fa-memory",
-    "description": "praesent lectus"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "lacinia nisi venenatis tristique fusce"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "primis in faucibus orci"
-   },
-   {
-    "icon": "fas fa-memory",
-    "description": "orci luctus et ultrices"
-   },
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "adipiscing elit"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "model",
-    "description": "knowledge base"
-   },
-   {
-    "feature": "Centralized",
-    "description": "strategy"
-   },
-   {
-    "feature": "Inverse",
-    "description": "strategy"
-   },
-   {
-    "feature": "Virtual",
-    "description": "Horizontal"
-   },
-   {
-    "feature": "Synergized",
-    "description": "asymmetric"
-   }
-  ],
-  "inSale": false,
-  "featured": true
- },
- {
-  "id": 59,
-  "name": "Two-toed tree sloth",
-  "description": "aliquet massa id lobortis convallis tortor risus dapibus augue vel accumsan tellus nisi eu orci mauris",
-  "category": "PC Gamer",
-  "brand": "Huawei",
-  "price": 1076.55,
-  "img": "http://dummyimage.com/167x100.png/dddddd/000000",
-  "mainFeature": [
-   {
-    "icon": "fas fa-memory",
-    "description": "augue vel accumsan tellus nisi"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "ipsum aliquam non mauris"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "pricing structure",
-    "description": "intranet"
-   },
-   {
-    "feature": "Seamless",
-    "description": "directional"
-   },
-   {
-    "feature": "leading edge",
-    "description": "product"
-   }
-  ],
-  "inSale": true,
-  "featured": false
- },
- {
-  "id": 60,
-  "name": "Ground monitor (unidentified)",
-  "description": "molestie lorem quisque ut erat curabitur gravida nisi at nibh in hac habitasse platea dictumst aliquam augue quam",
-  "category": "Tarjetas Madre",
-  "brand": "Adatam AlienWare",
-  "price": 42738.91,
-  "img": "http://dummyimage.com/109x100.png/cc0000/ffffff",
-  "mainFeature": [
-   {
-    "icon": "fas fa-heart",
-    "description": "semper sapien a libero"
-   },
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "non lectus aliquam sit amet"
-   },
-   {
-    "icon": "fas fa-memory",
-    "description": "egestas metus aenean fermentum donec"
-   },
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "at lorem integer"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "Advanced",
-    "description": "User-friendly"
-   },
-   {
-    "feature": "foreground",
-    "description": "Implemented"
-   },
-   {
-    "feature": "demand-driven",
-    "description": "firmware"
-   },
-   {
-    "feature": "structure",
-    "description": "benchmark"
-   },
-   {
-    "feature": "User-centric",
-    "description": "dynamic"
-   }
-  ],
-  "inSale": true,
-  "featured": false
- },
- {
-  "id": 61,
-  "name": "Flying fox (unidentified)",
-  "description": "ac tellus semper interdum mauris ullamcorper purus sit amet nulla quisque",
-  "category": "PC Gamer",
-  "brand": "HP",
-  "price": 43719.39,
-  "img": "http://dummyimage.com/199x100.png/dddddd/000000",
-  "mainFeature": [
-   {
-    "icon": "fas fa-memory",
-    "description": "mattis pulvinar nulla pede ullamcorper"
-   },
-   {
-    "icon": "fas fa-memory",
-    "description": "vulputate vitae"
-   },
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "ante ipsum"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "Fully-configurable",
-    "description": "Reduced"
-   },
-   {
-    "feature": "intranet",
-    "description": "interface"
-   },
-   {
-    "feature": "national",
-    "description": "Multi-tiered"
-   },
-   {
-    "feature": "Triple-buffered",
-    "description": "extranet"
-   },
-   {
-    "feature": "frame",
-    "description": "Organized"
-   },
-   {
-    "feature": "alliance",
-    "description": "Cloned"
-   }
-  ],
-  "inSale": false,
-  "featured": false
- },
- {
-  "id": 62,
-  "name": "Partridge, coqui",
-  "description": "dis parturient montes nascetur ridiculus mus etiam vel augue vestibulum rutrum rutrum neque aenean auctor gravida sem",
-  "category": "Periféricos",
-  "brand": "AMD",
-  "price": 4838.34,
-  "img": "http://dummyimage.com/136x100.png/cc0000/ffffff",
-  "mainFeature": [
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "amet consectetuer adipiscing"
-   },
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "nulla facilisi"
-   },
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "lectus vestibulum quam"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "full-range",
-    "description": "Seamless"
-   },
-   {
-    "feature": "Open-architected",
-    "description": "Networked"
-   },
-   {
-    "feature": "explicit",
-    "description": "Graphical User Interface"
-   }
-  ],
-  "inSale": true,
-  "featured": true
- },
- {
-  "id": 63,
-  "name": "Dassie",
-  "description": "orci mauris lacinia sapien quis libero nullam sit amet turpis elementum ligula vehicula consequat morbi a ipsum integer",
-  "category": "Procesadores",
-  "brand": "Huawei",
-  "price": 9584.2,
-  "img": "http://dummyimage.com/114x100.png/dddddd/000000",
-  "mainFeature": [
-   {
-    "icon": "fas fa-heart",
-    "description": "curabitur convallis duis"
-   },
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "vestibulum ante ipsum"
-   },
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "donec diam neque vestibulum eget"
-   },
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "odio justo"
-   },
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "habitasse platea dictumst morbi"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "24 hour",
-    "description": "secondary"
-   },
-   {
-    "feature": "scalable",
-    "description": "workforce"
-   }
-  ],
-  "inSale": false,
-  "featured": true
- },
- {
-  "id": 64,
-  "name": "Snake-necked turtle",
-  "description": "nisl nunc rhoncus dui vel sem sed sagittis nam congue risus semper porta volutpat",
-  "category": "Tarjetas de video",
-  "brand": "Samsung",
-  "price": 16690.41,
-  "img": "http://dummyimage.com/147x100.png/dddddd/000000",
-  "mainFeature": [
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "euismod scelerisque quam turpis adipiscing"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "erat tortor sollicitudin mi sit"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "hierarchy",
-    "description": "adapter"
-   },
-   {
-    "feature": "budgetary management",
-    "description": "portal"
-   },
-   {
-    "feature": "Multi-channelled",
-    "description": "tertiary"
-   }
-  ],
-  "inSale": false,
-  "featured": true
- },
- {
-  "id": 65,
-  "name": "Blesbok",
-  "description": "velit eu est congue elementum in hac habitasse platea dictumst morbi vestibulum velit",
-  "category": "PC Gamer",
-  "brand": "MSI",
-  "price": 32763.59,
-  "img": "http://dummyimage.com/130x100.png/cc0000/ffffff",
-  "mainFeature": [
-   {
-    "icon": "fas fa-heart",
-    "description": "mauris morbi"
-   },
-   {
-    "icon": "fas fa-memory",
-    "description": "tempor convallis nulla neque libero"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "posuere nonummy integer"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "info-mediaries",
-    "description": "Robust"
-   },
-   {
-    "feature": "monitoring",
-    "description": "empowering"
-   },
-   {
-    "feature": "system engine",
-    "description": "function"
-   },
-   {
-    "feature": "radical",
-    "description": "hub"
-   }
-  ],
-  "inSale": false,
-  "featured": true
- },
- {
-  "id": 66,
-  "name": "Caracara, yellow-headed",
-  "description": "integer ac leo pellentesque ultrices mattis odio donec vitae nisi nam",
-  "category": "Procesadores",
-  "brand": "Sony",
-  "price": 47576.2,
-  "img": "http://dummyimage.com/132x100.png/ff4444/ffffff",
-  "mainFeature": [
-   {
-    "icon": "fas fa-heart",
-    "description": "eu orci mauris lacinia sapien"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "dolor sit amet consectetuer"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "cubilia curae duis"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "global",
-    "description": "Multi-channelled"
-   },
-   {
-    "feature": "transitional",
-    "description": "emulation"
-   }
-  ],
-  "inSale": true,
-  "featured": false
- },
- {
-  "id": 67,
-  "name": "Gonolek, burchell's",
-  "description": "praesent blandit lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia eget",
-  "category": "PC Gamer",
-  "brand": "Asus",
-  "price": 9069.82,
-  "img": "http://dummyimage.com/239x100.png/5fa2dd/ffffff",
-  "mainFeature": [
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "sem sed sagittis nam congue"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "tellus nisi"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "dapibus duis at velit eu"
-   },
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "lacus at velit vivamus"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "modular",
-    "description": "Quality-focused"
-   },
-   {
-    "feature": "toolset",
-    "description": "scalable"
-   },
-   {
-    "feature": "optimizing",
-    "description": "Cross-group"
-   },
-   {
-    "feature": "needs-based",
-    "description": "Versatile"
-   },
-   {
-    "feature": "Integrated",
-    "description": "application"
-   }
-  ],
-  "inSale": false,
-  "featured": false
- },
- {
-  "id": 68,
-  "name": "Gerbil (unidentified)",
-  "description": "donec diam neque vestibulum eget vulputate ut ultrices vel augue vestibulum ante ipsum primis in faucibus orci luctus",
-  "category": "Laptops",
-  "brand": "Samsung",
-  "price": 27386.94,
-  "img": "http://dummyimage.com/167x100.png/dddddd/000000",
-  "mainFeature": [
-   {
-    "icon": "fas fa-memory",
-    "description": "diam neque vestibulum eget"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "amet lobortis sapien"
-   },
-   {
-    "icon": "fas fa-memory",
-    "description": "sem mauris laoreet ut"
-   },
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "magnis dis"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "phasellus sit"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "value-added",
-    "description": "toolset"
-   },
-   {
-    "feature": "Vision-oriented",
-    "description": "national"
-   },
-   {
-    "feature": "Distributed",
-    "description": "content-based"
-   },
-   {
-    "feature": "project",
-    "description": "optimal"
-   },
-   {
-    "feature": "matrices",
-    "description": "Persevering"
-   }
-  ],
-  "inSale": false,
-  "featured": false
- },
- {
-  "id": 69,
-  "name": "Cormorant, little",
-  "description": "in quam fringilla rhoncus mauris enim leo rhoncus sed vestibulum sit amet cursus id",
-  "category": "Monitores",
-  "brand": "Acer",
-  "price": 9116.95,
-  "img": "http://dummyimage.com/232x100.png/dddddd/000000",
-  "mainFeature": [
-   {
-    "icon": "fas fa-heart",
-    "description": "tristique est et tempus semper"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "ac nulla sed vel enim"
-   },
-   {
-    "icon": "fas fa-memory",
-    "description": "adipiscing elit proin risus"
-   },
-   {
-    "icon": "fas fa-memory",
-    "description": "nunc donec quis orci"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "algorithm",
-    "description": "flexibility"
-   },
-   {
-    "feature": "modular",
-    "description": "Triple-buffered"
-   },
-   {
-    "feature": "hierarchy",
-    "description": "needs-based"
-   },
-   {
-    "feature": "hub",
-    "description": "framework"
-   },
-   {
-    "feature": "Fully-configurable",
-    "description": "leverage"
-   }
-  ],
-  "inSale": true,
-  "featured": true
- },
- {
-  "id": 70,
-  "name": "Swallow-tail gull",
-  "description": "mauris non ligula pellentesque ultrices phasellus id sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie",
-  "category": "Procesadores",
-  "brand": "Adatam AlienWare",
-  "price": 25867.53,
-  "img": "http://dummyimage.com/189x100.png/ff4444/ffffff",
-  "mainFeature": [
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "magna ac consequat metus"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "sit amet sem"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "actuating",
-    "description": "uniform"
-   },
-   {
-    "feature": "paradigm",
-    "description": "Re-contextualized"
-   },
-   {
-    "feature": "knowledge user",
-    "description": "web-enabled"
-   },
-   {
-    "feature": "Exclusive",
-    "description": "multi-tasking"
-   },
-   {
-    "feature": "methodical",
-    "description": "impactful"
-   },
-   {
-    "feature": "context-sensitive",
-    "description": "success"
-   }
-  ],
-  "inSale": false,
-  "featured": false
- },
- {
-  "id": 71,
-  "name": "Lourie, grey",
-  "description": "faucibus accumsan odio curabitur convallis duis consequat dui nec nisi volutpat eleifend donec",
-  "category": "Periféricos",
-  "brand": "Lenovo",
-  "price": 30888.6,
-  "img": "http://dummyimage.com/231x100.png/ff4444/ffffff",
-  "mainFeature": [
-   {
-    "icon": "fas fa-memory",
-    "description": "vel nisl duis ac"
-   },
-   {
-    "icon": "fas fa-memory",
-    "description": "bibendum imperdiet nullam orci"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "in hac habitasse platea dictumst"
-   },
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "quam turpis adipiscing"
-   },
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "placerat ante"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "Digitized",
-    "description": "Total"
-   },
-   {
-    "feature": "intangible",
-    "description": "holistic"
-   },
-   {
-    "feature": "actuating",
-    "description": "exuding"
-   },
-   {
-    "feature": "needs-based",
-    "description": "clear-thinking"
-   }
-  ],
-  "inSale": false,
-  "featured": false
- },
- {
-  "id": 72,
-  "name": "Roller, lilac-breasted",
-  "description": "posuere metus vitae ipsum aliquam non mauris morbi non lectus aliquam sit amet diam in magna bibendum imperdiet nullam orci",
-  "category": "Tarjetas de video",
-  "brand": "Huawei",
-  "price": 12702.4,
-  "img": "http://dummyimage.com/131x100.png/dddddd/000000",
-  "mainFeature": [
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "fringilla rhoncus mauris"
-   },
-   {
-    "icon": "fas fa-memory",
-    "description": "turpis nec euismod scelerisque"
-   },
-   {
-    "icon": "fas fa-memory",
-    "description": "erat quisque erat"
-   },
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "in ante vestibulum ante ipsum"
-   },
-   {
-    "icon": "fas fa-memory",
-    "description": "id sapien"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "incremental",
-    "description": "workforce"
-   },
-   {
-    "feature": "directional",
-    "description": "Universal"
-   }
-  ],
-  "inSale": false,
-  "featured": true
- },
- {
-  "id": 73,
-  "name": "Antelope, roan",
-  "description": "pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis nam congue risus semper porta volutpat quam pede lobortis",
-  "category": "Procesadores",
-  "brand": "MSI",
-  "price": 40458.83,
-  "img": "http://dummyimage.com/137x100.png/dddddd/000000",
-  "mainFeature": [
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "est lacinia nisi venenatis"
-   },
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "curae duis faucibus accumsan odio"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "multimedia",
-    "description": "Open-architected"
-   },
-   {
-    "feature": "encompassing",
-    "description": "full-range"
-   },
-   {
-    "feature": "interface",
-    "description": "national"
-   },
-   {
-    "feature": "Managed",
-    "description": "system engine"
-   },
-   {
-    "feature": "Programmable",
-    "description": "conglomeration"
-   },
-   {
-    "feature": "Robust",
-    "description": "process improvement"
-   }
-  ],
-  "inSale": true,
-  "featured": true
- },
- {
-  "id": 74,
-  "name": "Australian spiny anteater",
-  "description": "cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus",
-  "category": "Tarjetas de video",
-  "brand": "Kingston",
-  "price": 27824.65,
-  "img": "http://dummyimage.com/227x100.png/5fa2dd/ffffff",
-  "mainFeature": [
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "in purus eu magna vulputate"
-   },
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "turpis donec"
-   },
-   {
-    "icon": "fas fa-memory",
-    "description": "proin interdum mauris"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "zero administration",
-    "description": "portal"
-   },
-   {
-    "feature": "Profound",
-    "description": "responsive"
-   },
-   {
-    "feature": "Visionary",
-    "description": "productivity"
-   },
-   {
-    "feature": "leading edge",
-    "description": "ability"
-   }
-  ],
-  "inSale": false,
-  "featured": false
- },
- {
-  "id": 75,
-  "name": "Canada goose",
-  "description": "faucibus accumsan odio curabitur convallis duis consequat dui nec nisi volutpat eleifend donec ut dolor morbi",
-  "category": "Laptops",
-  "brand": "Intel",
-  "price": 5855.92,
-  "img": "http://dummyimage.com/172x100.png/5fa2dd/ffffff",
-  "mainFeature": [
-   {
-    "icon": "fas fa-memory",
-    "description": "bibendum felis sed"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "sed lacus"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "dapibus at diam nam"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "aenean fermentum"
-   },
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "duis at velit eu est"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "Fully-configurable",
-    "description": "incremental"
-   },
-   {
-    "feature": "Distributed",
-    "description": "benchmark"
-   }
-  ],
-  "inSale": false,
-  "featured": false
- },
- {
-  "id": 76,
-  "name": "Lion, steller's sea",
-  "description": "nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in congue",
-  "category": "Monitores",
-  "brand": "Kingston",
-  "price": 17465.14,
-  "img": "http://dummyimage.com/113x100.png/5fa2dd/ffffff",
-  "mainFeature": [
-   {
-    "icon": "fas fa-memory",
-    "description": "vestibulum rutrum rutrum"
-   },
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "quam fringilla rhoncus mauris enim"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "enim in tempor turpis"
-   },
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "nunc commodo placerat praesent blandit"
-   },
-   {
-    "icon": "fas fa-memory",
-    "description": "orci luctus et ultrices"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "knowledge base",
-    "description": "Assimilated"
-   },
-   {
-    "feature": "secured line",
-    "description": "high-level"
-   },
-   {
-    "feature": "dynamic",
-    "description": "Networked"
-   }
-  ],
-  "inSale": false,
-  "featured": true
- },
- {
-  "id": 77,
-  "name": "Civet, small-toothed palm",
-  "description": "nunc purus phasellus in felis donec semper sapien a libero nam dui proin leo",
-  "category": "Equipos de cómputo",
-  "brand": "HyperX",
-  "price": 2143.76,
-  "img": "http://dummyimage.com/136x100.png/5fa2dd/ffffff",
-  "mainFeature": [
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "augue vestibulum"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "turpis eget elit sodales"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "database",
-    "description": "empowering"
-   },
-   {
-    "feature": "zero tolerance",
-    "description": "De-engineered"
-   },
-   {
-    "feature": "software",
-    "description": "Customizable"
-   },
-   {
-    "feature": "Programmable",
-    "description": "explicit"
-   },
-   {
-    "feature": "impactful",
-    "description": "bi-directional"
-   },
-   {
-    "feature": "capability",
-    "description": "exuding"
-   }
-  ],
-  "inSale": false,
-  "featured": false
- },
- {
-  "id": 78,
-  "name": "Seal, harbor",
-  "description": "eleifend quam a odio in hac habitasse platea dictumst maecenas ut massa quis",
-  "category": "Memorias",
-  "brand": "Samsung",
-  "price": 21257.4,
-  "img": "http://dummyimage.com/101x100.png/5fa2dd/ffffff",
-  "mainFeature": [
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "sapien sapien non mi integer"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "sit amet"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "open architecture",
-    "description": "context-sensitive"
-   },
-   {
-    "feature": "project",
-    "description": "superstructure"
-   },
-   {
-    "feature": "Stand-alone",
-    "description": "Persevering"
-   },
-   {
-    "feature": "intangible",
-    "description": "exuding"
-   },
-   {
-    "feature": "dedicated",
-    "description": "toolset"
-   }
-  ],
-  "inSale": false,
-  "featured": true
- },
- {
-  "id": 79,
-  "name": "Lion, southern sea",
-  "description": "vulputate elementum nullam varius nulla facilisi cras non velit nec nisi vulputate nonummy maecenas",
-  "category": "Almacenamiento",
-  "brand": "Acer",
-  "price": 2167.16,
-  "img": "http://dummyimage.com/118x100.png/5fa2dd/ffffff",
-  "mainFeature": [
-   {
-    "icon": "fas fa-memory",
-    "description": "nulla eget"
-   },
-   {
-    "icon": "fas fa-memory",
-    "description": "nulla elit ac nulla"
-   },
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "id nisl venenatis lacinia"
-   },
-   {
-    "icon": "fas fa-memory",
-    "description": "lorem ipsum dolor sit"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "exuding",
-    "description": "Cross-platform"
-   },
-   {
-    "feature": "Triple-buffered",
-    "description": "Adaptive"
-   },
-   {
-    "feature": "Profit-focused",
-    "description": "challenge"
-   },
-   {
-    "feature": "Function-based",
-    "description": "firmware"
-   },
-   {
-    "feature": "groupware",
-    "description": "Implemented"
-   },
-   {
-    "feature": "Balanced",
-    "description": "Self-enabling"
-   }
-  ],
-  "inSale": false,
-  "featured": true
- },
- {
-  "id": 80,
-  "name": "Common goldeneye",
-  "description": "nulla tellus in sagittis dui vel nisl duis ac nibh fusce lacus purus aliquet at",
-  "category": "Memorias",
-  "brand": "Lenovo",
-  "price": 42792.16,
-  "img": "http://dummyimage.com/211x100.png/5fa2dd/ffffff",
-  "mainFeature": [
-   {
-    "icon": "fas fa-heart",
-    "description": "sed vestibulum"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "donec ut dolor morbi"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "standardization",
-    "description": "scalable"
-   },
-   {
-    "feature": "Managed",
-    "description": "Up-sized"
-   },
-   {
-    "feature": "framework",
-    "description": "responsive"
-   },
-   {
-    "feature": "Inverse",
-    "description": "actuating"
-   }
-  ],
-  "inSale": false,
-  "featured": true
- },
- {
-  "id": 81,
-  "name": "Mountain lion",
-  "description": "sapien non mi integer ac neque duis bibendum morbi non quam nec dui luctus",
-  "category": "Almacenamiento",
-  "brand": "Nvidia",
-  "price": 48594.48,
-  "img": "http://dummyimage.com/202x100.png/ff4444/ffffff",
-  "mainFeature": [
-   {
-    "icon": "fas fa-memory",
-    "description": "curae donec pharetra magna"
-   },
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "massa tempor"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "non velit"
-   },
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "nullam sit amet turpis"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "interface",
-    "description": "impactful"
-   },
-   {
-    "feature": "Mandatory",
-    "description": "Cloned"
-   },
-   {
-    "feature": "asynchronous",
-    "description": "contextually-based"
-   },
-   {
-    "feature": "logistical",
-    "description": "optimal"
-   }
-  ],
-  "inSale": true,
-  "featured": true
- },
- {
-  "id": 82,
-  "name": "Lemur, grey mouse",
-  "description": "nulla dapibus dolor vel est donec odio justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est",
-  "category": "Tarjetas de video",
-  "brand": "AMD",
-  "price": 12528,
-  "img": "http://dummyimage.com/172x100.png/5fa2dd/ffffff",
-  "mainFeature": [
-   {
-    "icon": "fas fa-memory",
-    "description": "non mattis"
-   },
-   {
-    "icon": "fas fa-memory",
-    "description": "molestie sed justo"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "background",
-    "description": "human-resource"
-   },
-   {
-    "feature": "client-server",
-    "description": "secured line"
-   },
-   {
-    "feature": "Enterprise-wide",
-    "description": "fault-tolerant"
-   },
-   {
-    "feature": "even-keeled",
-    "description": "well-modulated"
-   },
-   {
-    "feature": "clear-thinking",
-    "description": "bi-directional"
-   },
-   {
-    "feature": "collaboration",
-    "description": "ability"
-   }
-  ],
-  "inSale": false,
-  "featured": true
- },
- {
-  "id": 83,
-  "name": "Water moccasin",
-  "description": "convallis tortor risus dapibus augue vel accumsan tellus nisi eu orci mauris lacinia sapien quis libero nullam sit amet",
-  "category": "Almacenamiento",
-  "brand": "Aorus",
-  "price": 12706.65,
-  "img": "http://dummyimage.com/158x100.png/ff4444/ffffff",
-  "mainFeature": [
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "arcu adipiscing"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "curae duis faucibus"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "sed accumsan felis ut at"
-   },
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "et magnis"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "diam in magna bibendum"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "service-desk",
-    "description": "Realigned"
-   },
-   {
-    "feature": "Profound",
-    "description": "monitoring"
-   }
-  ],
-  "inSale": false,
-  "featured": true
- },
- {
-  "id": 84,
-  "name": "Starling, cape",
-  "description": "ut volutpat sapien arcu sed augue aliquam erat volutpat in congue etiam justo etiam pretium iaculis",
-  "category": "Monitores",
-  "brand": "Asus",
-  "price": 13732.37,
-  "img": "http://dummyimage.com/249x100.png/dddddd/000000",
-  "mainFeature": [
-   {
-    "icon": "fas fa-heart",
-    "description": "primis in faucibus orci luctus"
-   },
-   {
-    "icon": "fas fa-memory",
-    "description": "vel augue vestibulum ante"
-   },
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "quam sollicitudin vitae consectetuer eget"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "encompassing",
-    "description": "product"
-   },
-   {
-    "feature": "Synergized",
-    "description": "toolset"
-   },
-   {
-    "feature": "solution",
-    "description": "encoding"
-   },
-   {
-    "feature": "24/7",
-    "description": "knowledge base"
-   },
-   {
-    "feature": "algorithm",
-    "description": "Proactive"
-   }
-  ],
-  "inSale": true,
-  "featured": true
- },
- {
-  "id": 85,
-  "name": "Deer, roe",
-  "description": "phasellus sit amet erat nulla tempus vivamus in felis eu sapien cursus vestibulum proin eu mi nulla",
-  "category": "PC Gamer",
-  "brand": "Adatam AlienWare",
-  "price": 8176.13,
-  "img": "http://dummyimage.com/239x100.png/cc0000/ffffff",
-  "mainFeature": [
-   {
-    "icon": "fas fa-heart",
-    "description": "auctor gravida sem"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "luctus tincidunt"
-   },
-   {
-    "icon": "fas fa-memory",
-    "description": "est quam pharetra magna"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "augue a"
-   },
-   {
-    "icon": "fas fa-memory",
-    "description": "vel est donec"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "projection",
-    "description": "encoding"
-   },
-   {
-    "feature": "Multi-channelled",
-    "description": "systematic"
-   },
-   {
-    "feature": "Fundamental",
-    "description": "Stand-alone"
-   },
-   {
-    "feature": "Persevering",
-    "description": "Extended"
-   },
-   {
-    "feature": "Reverse-engineered",
-    "description": "24/7"
-   },
-   {
-    "feature": "infrastructure",
-    "description": "application"
-   }
-  ],
-  "inSale": true,
-  "featured": false
- },
- {
-  "id": 86,
-  "name": "Great cormorant",
-  "description": "quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida nisi",
-  "category": "Monitores",
-  "brand": "Huawei",
-  "price": 40179.55,
-  "img": "http://dummyimage.com/116x100.png/cc0000/ffffff",
-  "mainFeature": [
-   {
-    "icon": "fas fa-memory",
-    "description": "viverra eget congue"
-   },
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "ut erat curabitur gravida"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "encoding",
-    "description": "static"
-   },
-   {
-    "feature": "Secured",
-    "description": "zero tolerance"
-   },
-   {
-    "feature": "knowledge base",
-    "description": "executive"
-   },
-   {
-    "feature": "fault-tolerant",
-    "description": "Virtual"
-   }
-  ],
-  "inSale": true,
-  "featured": true
- },
- {
-  "id": 87,
-  "name": "Snake, carpet",
-  "description": "ut nulla sed accumsan felis ut at dolor quis odio consequat varius integer ac leo pellentesque ultrices",
-  "category": "Periféricos",
-  "brand": "Asus",
-  "price": 28822.33,
-  "img": "http://dummyimage.com/190x100.png/ff4444/ffffff",
-  "mainFeature": [
-   {
-    "icon": "fas fa-heart",
-    "description": "in hac habitasse"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "est donec odio"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "aliquam lacus morbi"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "justo pellentesque"
-   },
-   {
-    "icon": "fas fa-memory",
-    "description": "non velit nec"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "24/7",
-    "description": "encryption"
-   },
-   {
-    "feature": "Future-proofed",
-    "description": "Configurable"
-   },
-   {
-    "feature": "focus group",
-    "description": "website"
-   },
-   {
-    "feature": "Managed",
-    "description": "mission-critical"
-   }
-  ],
-  "inSale": false,
-  "featured": false
- },
- {
-  "id": 88,
-  "name": "Spoonbill, european",
-  "description": "et ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus at turpis",
-  "category": "Equipos de cómputo",
-  "brand": "Nvidia",
-  "price": 44150.7,
-  "img": "http://dummyimage.com/131x100.png/cc0000/ffffff",
-  "mainFeature": [
-   {
-    "icon": "fas fa-memory",
-    "description": "mi pede"
-   },
-   {
-    "icon": "fas fa-memory",
-    "description": "eu pede"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "neural-net",
-    "description": "zero defect"
-   },
-   {
-    "feature": "grid-enabled",
-    "description": "forecast"
-   }
-  ],
-  "inSale": true,
-  "featured": true
- },
- {
-  "id": 89,
-  "name": "Savanna fox",
-  "description": "nulla dapibus dolor vel est donec odio justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est",
-  "category": "Periféricos",
-  "brand": "Gigabyte",
-  "price": 18132.3,
-  "img": "http://dummyimage.com/186x100.png/cc0000/ffffff",
-  "mainFeature": [
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "leo maecenas pulvinar lobortis est"
-   },
-   {
-    "icon": "fas fa-memory",
-    "description": "diam cras pellentesque volutpat dui"
-   },
-   {
-    "icon": "fas fa-memory",
-    "description": "sem fusce"
    },
-   {
-    "icon": "fas fa-heart",
-    "description": "tempus vivamus in felis eu"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "utilisation",
-    "description": "architecture"
-   },
-   {
-    "feature": "Universal",
-    "description": "Multi-channelled"
-   },
-   {
-    "feature": "website",
-    "description": "Future-proofed"
-   },
-   {
-    "feature": "tangible",
-    "description": "intranet"
-   },
-   {
-    "feature": "fresh-thinking",
-    "description": "foreground"
-   }
-  ],
-  "inSale": true,
-  "featured": true
- },
- {
-  "id": 90,
-  "name": "Cheetah",
-  "description": "mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus at turpis donec posuere metus",
-  "category": "Memorias",
-  "brand": "Acer",
-  "price": 24895.88,
-  "img": "http://dummyimage.com/164x100.png/5fa2dd/ffffff",
-  "mainFeature": [
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "sed interdum venenatis"
-   },
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "massa volutpat convallis morbi"
-   },
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "tempor turpis nec euismod"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "Compatible",
-    "description": "policy"
-   },
-   {
-    "feature": "algorithm",
-    "description": "zero administration"
-   },
-   {
-    "feature": "multi-tasking",
-    "description": "solution-oriented"
-   }
-  ],
-  "inSale": false,
-  "featured": false
- },
- {
-  "id": 91,
-  "name": "Ringtail, common",
-  "description": "nascetur ridiculus mus vivamus vestibulum sagittis sapien cum sociis natoque penatibus et magnis",
-  "category": "Tarjetas Madre",
-  "brand": "Adatam AlienWare",
-  "price": 42332.24,
-  "img": "http://dummyimage.com/162x100.png/5fa2dd/ffffff",
-  "mainFeature": [
-   {
-    "icon": "fas fa-heart",
-    "description": "nisl aenean lectus pellentesque eget"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "proin eu"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "blandit ultrices"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "varius integer"
-   },
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "interdum mauris ullamcorper"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "conglomeration",
-    "description": "needs-based"
-   },
-   {
-    "feature": "homogeneous",
-    "description": "executive"
-   },
-   {
-    "feature": "encoding",
-    "description": "forecast"
-   },
-   {
-    "feature": "Reduced",
-    "description": "zero administration"
-   },
-   {
-    "feature": "directional",
-    "description": "Phased"
-   }
-  ],
-  "inSale": false,
-  "featured": false
- },
- {
-  "id": 92,
-  "name": "Fox, grey",
-  "description": "vivamus vestibulum sagittis sapien cum sociis natoque penatibus et magnis dis parturient montes",
-  "category": "Periféricos",
-  "brand": "Gigabyte",
-  "price": 22845.14,
-  "img": "http://dummyimage.com/232x100.png/ff4444/ffffff",
-  "mainFeature": [
-   {
-    "icon": "fas fa-heart",
-    "description": "accumsan odio curabitur"
-   },
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "porta volutpat quam pede"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "Pre-emptive",
-    "description": "approach"
-   },
-   {
-    "feature": "holistic",
-    "description": "Front-line"
-   }
-  ],
-  "inSale": false,
-  "featured": false
- },
- {
-  "id": 93,
-  "name": "Black bear",
-  "description": "montes nascetur ridiculus mus vivamus vestibulum sagittis sapien cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus",
-  "category": "Laptops",
-  "brand": "MSI",
-  "price": 13046.62,
-  "img": "http://dummyimage.com/185x100.png/5fa2dd/ffffff",
-  "mainFeature": [
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "condimentum id"
-   },
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "non ligula pellentesque"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "Public-key",
-    "description": "global"
-   },
-   {
-    "feature": "synergy",
-    "description": "capacity"
-   },
-   {
-    "feature": "capacity",
-    "description": "Universal"
-   },
-   {
-    "feature": "support",
-    "description": "Business-focused"
-   },
-   {
-    "feature": "even-keeled",
-    "description": "Function-based"
-   }
-  ],
-  "inSale": true,
-  "featured": false
- },
- {
-  "id": 94,
-  "name": "Kookaburra, laughing",
-  "description": "donec posuere metus vitae ipsum aliquam non mauris morbi non lectus aliquam sit amet diam in magna bibendum imperdiet",
-  "category": "Disipadores y Enfriamiento",
-  "brand": "Dell",
-  "price": 15444.87,
-  "img": "http://dummyimage.com/101x100.png/dddddd/000000",
-  "mainFeature": [
-   {
-    "icon": "fas fa-memory",
-    "description": "morbi porttitor lorem"
-   },
-   {
-    "icon": "fas fa-memory",
-    "description": "tellus semper"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "a nibh"
-   },
-   {
-    "icon": "fas fa-memory",
-    "description": "nulla eget eros elementum pellentesque"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "attitude-oriented",
-    "description": "bifurcated"
-   },
-   {
-    "feature": "tertiary",
-    "description": "system engine"
-   },
-   {
-    "feature": "moratorium",
-    "description": "installation"
-   },
-   {
-    "feature": "well-modulated",
-    "description": "capability"
-   },
-   {
-    "feature": "eco-centric",
-    "description": "neutral"
-   },
-   {
-    "feature": "dedicated",
-    "description": "Profit-focused"
-   }
-  ],
-  "inSale": true,
-  "featured": true
- },
- {
-  "id": 95,
-  "name": "Long-billed cockatoo",
-  "description": "diam id ornare imperdiet sapien urna pretium nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in",
-  "category": "Disipadores y Enfriamiento",
-  "brand": "HP",
-  "price": 11309.02,
-  "img": "http://dummyimage.com/181x100.png/5fa2dd/ffffff",
-  "mainFeature": [
-   {
-    "icon": "fas fa-memory",
-    "description": "curae nulla dapibus dolor vel"
-   },
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "fringilla rhoncus mauris enim leo"
-   },
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "ultrices mattis odio donec"
-   },
-   {
-    "icon": "fas fa-memory",
-    "description": "consequat dui nec nisi"
-   },
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "purus eu magna"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "toolset",
-    "description": "logistical"
-   },
-   {
-    "feature": "Managed",
-    "description": "methodical"
-   }
-  ],
-  "inSale": false,
-  "featured": true
- },
- {
-  "id": 96,
-  "name": "Heron, yellow-crowned night",
-  "description": "mi pede malesuada in imperdiet et commodo vulputate justo in blandit ultrices enim lorem ipsum dolor sit",
-  "category": "Tarjetas de video",
-  "brand": "HyperX",
-  "price": 5098.99,
-  "img": "http://dummyimage.com/137x100.png/ff4444/ffffff",
-  "mainFeature": [
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "arcu sed augue aliquam"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "cubilia curae duis"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "Profound",
-    "description": "Object-based"
-   },
-   {
-    "feature": "toolset",
-    "description": "instruction set"
-   },
-   {
-    "feature": "Quality-focused",
-    "description": "Inverse"
-   },
-   {
-    "feature": "support",
-    "description": "Decentralized"
-   },
-   {
-    "feature": "algorithm",
-    "description": "Enterprise-wide"
-   }
-  ],
-  "inSale": false,
-  "featured": true
- },
- {
-  "id": 97,
-  "name": "Red-tailed hawk",
-  "description": "pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut erat id mauris",
-  "category": "Procesadores",
-  "brand": "Aorus",
-  "price": 33309.33,
-  "img": "http://dummyimage.com/210x100.png/5fa2dd/ffffff",
-  "mainFeature": [
-   {
-    "icon": "fas fa-heart",
-    "description": "vulputate vitae nisl aenean lectus"
-   },
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "sapien cum"
-   },
-   {
-    "icon": "fas fa-memory",
-    "description": "in imperdiet et commodo vulputate"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "standardization",
-    "description": "Pre-emptive"
-   },
-   {
-    "feature": "radical",
-    "description": "asynchronous"
-   },
-   {
-    "feature": "Business-focused",
-    "description": "reciprocal"
-   },
-   {
-    "feature": "user-facing",
-    "description": "process improvement"
-   },
-   {
-    "feature": "ability",
-    "description": "interface"
-   }
-  ],
-  "inSale": false,
-  "featured": true
- },
- {
-  "id": 98,
-  "name": "Cardinal, red-capped",
-  "description": "in felis eu sapien cursus vestibulum proin eu mi nulla ac",
-  "category": "Equipos de cómputo",
-  "brand": "Kingston",
-  "price": 3856.85,
-  "img": "http://dummyimage.com/235x100.png/ff4444/ffffff",
-  "mainFeature": [
-   {
-    "icon": "fas fa-heart",
-    "description": "vestibulum sed"
-   },
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "magnis dis parturient"
-   },
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "eu est congue elementum in"
-   }
-  ],
-  "specifications": [
-   {
-    "feature": "Balanced",
-    "description": "fresh-thinking"
-   },
-   {
-    "feature": "radical",
-    "description": "Multi-tiered"
-   },
-   {
-    "feature": "definition",
-    "description": "Profit-focused"
-   },
-   {
-    "feature": "24 hour",
-    "description": "Right-sized"
-   },
-   {
-    "feature": "6th generation",
-    "description": "Robust"
-   }
-  ],
-  "inSale": true,
-  "featured": true
- },
- {
-  "id": 99,
-  "name": "Starling, cape",
-  "description": "fermentum justo nec condimentum neque sapien placerat ante nulla justo aliquam quis turpis eget elit sodales scelerisque mauris sit",
-  "category": "Periféricos",
-  "brand": "Acer",
-  "price": 32075.92,
-  "img": "http://dummyimage.com/150x100.png/cc0000/ffffff",
-  "mainFeature": [
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "magna at nunc commodo"
-   },
-   {
-    "icon": "fas fa-memory",
-    "description": "augue quam sollicitudin vitae"
-   }
-  ],
-  "specifications": [
    {
-    "feature": "stable",
+    "feature": "peso",
     "description": "hybrid"
    },
    {
-    "feature": "functionalities",
-    "description": "Fundamental"
+    "feature": "peso",
+    "description": "Adaptive"
    }
   ],
-  "inSale": true,
-  "featured": true
+  "type": "Agregados recientemente"
  },
  {
-  "id": 100,
-  "name": "Pigeon, feral rock",
-  "description": "aenean fermentum donec ut mauris eget massa tempor convallis nulla neque libero convallis eget eleifend luctus ultricies",
-  "category": "Memorias",
-  "brand": "Samsung",
-  "price": 42583.81,
-  "img": "http://dummyimage.com/173x100.png/5fa2dd/ffffff",
-  "mainFeature": [
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "dictumst aliquam"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "velit donec diam"
-   },
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "est risus auctor sed tristique"
-   },
-   {
-    "icon": "fas fa-shipping-fast",
-    "description": "aenean auctor gravida"
-   },
-   {
-    "icon": "fas fa-heart",
-    "description": "pretium nisl ut volutpat sapien"
-   }
-  ],
+  "id": 6,
+  "name": "Tableta Grafica Digital de Dibujo",
+  "description": "ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit proin interdum mauris non ligula pellentesque ultrices phasellus id sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis orci",
+  "category": "Tarjetas Madre",
+  "brand": "Dell",
+  "price": 48777.35,
+  "img": "http://dummyimage.com/181x100.png/cc0000/ffffff",
   "specifications": [
    {
-    "feature": "Multi-tiered",
-    "description": "Mandatory"
+    "feature": "peso",
+    "description": "Robust"
+   }
+  ],
+  "type": "Más vendidos"
+ },
+ {
+  "id": 7,
+  "name": "Disco Duro Externo",
+  "description": "id lobortis convallis tortor risus dapibus augue vel accumsan tellus nisi eu orci mauris lacinia sapien quis libero nullam sit amet turpis elementum ligula vehicula consequat",
+  "category": "Periféricos",
+  "brand": "Asus",
+  "price": 6019.96,
+  "img": "http://dummyimage.com/186x100.png/cc0000/ffffff",
+  "specifications": [
+   {
+    "feature": "modelo",
+    "description": "24 hour"
    },
    {
-    "feature": "encoding",
-    "description": "functionalities"
+    "feature": "modelo",
+    "description": "mobile"
    },
    {
-    "feature": "hybrid",
+    "feature": "peso",
+    "description": "artificial intelligence"
+   },
+   {
+    "feature": "modelo",
+    "description": "local"
+   },
+   {
+    "feature": "tamaño",
+    "description": "even-keeled"
+   },
+   {
+    "feature": "tamaño",
+    "description": "Secured"
+   }
+  ],
+  "type": "Destacados"
+ },
+ {
+  "id": 8,
+  "name": "Fuente de poder",
+  "description": "integer ac neque duis bibendum morbi non quam nec dui luctus rutrum nulla tellus in sagittis dui vel nisl duis ac nibh fusce lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend quam a odio in hac habitasse platea dictumst maecenas ut massa quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida nisi at nibh in hac",
+  "category": "Procesadores",
+  "brand": "Alienware",
+  "price": 38393.6,
+  "img": "http://dummyimage.com/160x100.png/cc0000/ffffff",
+  "specifications": [
+   {
+    "feature": "batería incluida",
+    "description": "Devolved"
+   },
+   {
+    "feature": "modelo",
+    "description": "service-desk"
+   }
+  ],
+  "type": "Destacados"
+ },
+ {
+  "id": 9,
+  "name": "Tarjeta Madre",
+  "description": "eget semper rutrum nulla nunc purus phasellus in felis donec semper sapien a libero nam dui proin leo odio porttitor id consequat in consequat ut nulla sed accumsan felis ut at dolor quis odio",
+  "category": "Tarjetas Madre",
+  "brand": "Samsung",
+  "price": 6556.21,
+  "img": "http://dummyimage.com/161x100.png/dddddd/000000",
+  "specifications": [
+   {
+    "feature": "modelo",
+    "description": "bottom-line"
+   }
+  ],
+  "type": "En oferta"
+ },
+ {
+  "id": 10,
+  "name": "Tableta Grafica Digital de Dibujo",
+  "description": "pellentesque at nulla suspendisse potenti cras in purus eu magna vulputate luctus cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus vivamus vestibulum sagittis sapien cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus etiam vel augue vestibulum rutrum rutrum neque aenean auctor gravida sem praesent id massa id nisl venenatis lacinia aenean sit amet justo morbi ut odio cras mi pede malesuada in imperdiet et commodo vulputate justo in blandit ultrices enim lorem",
+  "category": "Tarjetas Madre",
+  "brand": "Apple",
+  "price": 28861.03,
+  "img": "http://dummyimage.com/162x100.png/5fa2dd/ffffff",
+  "specifications": [
+   {
+    "feature": "año",
+    "description": "bottom-line"
+   },
+   {
+    "feature": "peso",
+    "description": "capability"
+   },
+   {
+    "feature": "tipo de conexión",
+    "description": "Configurable"
+   },
+   {
+    "feature": "peso",
+    "description": "Networked"
+   }
+  ],
+  "type": "Agregados recientemente"
+ },
+ {
+  "id": 11,
+  "name": "Multifuncional de Inyección de Tinta",
+  "description": "nunc purus phasellus in felis donec semper sapien a libero nam dui proin leo odio porttitor id consequat in consequat ut nulla sed accumsan felis ut at dolor quis odio consequat varius integer ac leo pellentesque ultrices mattis odio donec vitae nisi nam ultrices",
+  "category": "Almacenamiento",
+  "brand": "AMD",
+  "price": 4059.17,
+  "img": "http://dummyimage.com/222x100.png/5fa2dd/ffffff",
+  "specifications": [
+   {
+    "feature": "batería incluida",
+    "description": "access"
+   },
+   {
+    "feature": "año",
+    "description": "Progressive"
+   },
+   {
+    "feature": "año",
+    "description": "bifurcated"
+   },
+   {
+    "feature": "peso",
+    "description": "leverage"
+   },
+   {
+    "feature": "modelo",
+    "description": "encryption"
+   }
+  ],
+  "type": "Destacados"
+ },
+ {
+  "id": 12,
+  "name": "Tableta Grafica Digital de Dibujo",
+  "description": "sem duis aliquam convallis nunc proin at turpis a pede posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi sit amet lobortis sapien",
+  "category": "Memorias",
+  "brand": "HyperX",
+  "price": 12520.53,
+  "img": "http://dummyimage.com/151x100.png/ff4444/ffffff",
+  "specifications": [
+   {
+    "feature": "batería incluida",
+    "description": "incremental"
+   }
+  ],
+  "type": "Agregados recientemente"
+ },
+ {
+  "id": 13,
+  "name": "Disipador CPU Cooler Master",
+  "description": "metus aenean fermentum donec ut mauris eget massa tempor convallis nulla neque libero convallis eget eleifend luctus ultricies eu nibh quisque id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia",
+  "category": "Periféricos",
+  "brand": "Alienware",
+  "price": 21265.68,
+  "img": "http://dummyimage.com/212x100.png/cc0000/ffffff",
+  "specifications": [
+   {
+    "feature": "tamaño",
+    "description": "grid-enabled"
+   },
+   {
+    "feature": "batería incluida",
+    "description": "reciprocal"
+   },
+   {
+    "feature": "año",
+    "description": "Digitized"
+   },
+   {
+    "feature": "tipo de conexión",
+    "description": "De-engineered"
+   },
+   {
+    "feature": "modelo",
+    "description": "Streamlined"
+   },
+   {
+    "feature": "modelo",
+    "description": "internet solution"
+   }
+  ],
+  "type": "En oferta"
+ },
+ {
+  "id": 14,
+  "name": "Teclado Luz de Retroiluminación RGB",
+  "description": "nulla ac enim in tempor turpis nec euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh",
+  "category": "Tarjetas de Video",
+  "brand": "Sony",
+  "price": 13319.44,
+  "img": "http://dummyimage.com/162x100.png/ff4444/ffffff",
+  "specifications": [
+   {
+    "feature": "batería incluida",
+    "description": "asymmetric"
+   },
+   {
+    "feature": "batería incluida",
+    "description": "Graphic Interface"
+   },
+   {
+    "feature": "modelo",
+    "description": "mission-critical"
+   },
+   {
+    "feature": "peso",
+    "description": "next generation"
+   },
+   {
+    "feature": "tamaño",
+    "description": "logistical"
+   }
+  ],
+  "type": "Agregados recientemente"
+ },
+ {
+  "id": 15,
+  "name": "Mouse Gamer",
+  "description": "nibh in lectus pellentesque at nulla suspendisse potenti cras in purus eu magna vulputate luctus cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus vivamus vestibulum sagittis sapien",
+  "category": "PC Gamer",
+  "brand": "Samsung",
+  "price": 40569.99,
+  "img": "http://dummyimage.com/184x100.png/ff4444/ffffff",
+  "specifications": [
+   {
+    "feature": "tamaño",
+    "description": "frame"
+   },
+   {
+    "feature": "peso",
+    "description": "framework"
+   }
+  ],
+  "type": "Más vendidos"
+ },
+ {
+  "id": 16,
+  "name": "Airpods",
+  "description": "ut massa volutpat convallis morbi odio odio elementum eu interdum eu tincidunt in leo maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus in felis eu sapien cursus vestibulum proin eu mi nulla ac enim in tempor turpis nec euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula nec sem duis aliquam convallis nunc proin at turpis a pede posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue vestibulum",
+  "category": "Laptos",
+  "brand": "Gigabyte",
+  "price": 42509.1,
+  "img": "http://dummyimage.com/198x100.png/cc0000/ffffff",
+  "specifications": [
+   {
+    "feature": "tamaño",
+    "description": "knowledge base"
+   }
+  ],
+  "type": "Agregados recientemente"
+ },
+ {
+  "id": 17,
+  "name": "Disco Duro Externo",
+  "description": "mi pede malesuada in imperdiet et commodo vulputate justo in blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit proin interdum mauris",
+  "category": "PC Gamer",
+  "brand": "AMD",
+  "price": 34977.25,
+  "img": "http://dummyimage.com/228x100.png/5fa2dd/ffffff",
+  "specifications": [
+   {
+    "feature": "peso",
+    "description": "Devolved"
+   }
+  ],
+  "type": "En oferta"
+ },
+ {
+  "id": 18,
+  "name": "Memoria RAM XPG SPECTRIX D41 RGB Tungsten Grey",
+  "description": "orci luctus et ultrices posuere cubilia curae duis faucibus accumsan odio curabitur convallis duis consequat dui nec nisi volutpat eleifend donec ut dolor morbi vel lectus in quam fringilla rhoncus mauris enim leo rhoncus sed vestibulum sit amet cursus id turpis integer aliquet massa",
+  "category": "Almacenamiento",
+  "brand": "Gigabyte",
+  "price": 30834.1,
+  "img": "http://dummyimage.com/248x100.png/5fa2dd/ffffff",
+  "specifications": [
+   {
+    "feature": "año",
+    "description": "toolset"
+   },
+   {
+    "feature": "tamaño",
+    "description": "Enhanced"
+   },
+   {
+    "feature": "tipo de conexión",
+    "description": "superstructure"
+   },
+   {
+    "feature": "tamaño",
+    "description": "uniform"
+   },
+   {
+    "feature": "batería incluida",
+    "description": "artificial intelligence"
+   },
+   {
+    "feature": "tamaño",
+    "description": "maximized"
+   }
+  ],
+  "type": "En oferta"
+ },
+ {
+  "id": 19,
+  "name": "Web camera",
+  "description": "quisque erat eros viverra eget congue eget semper rutrum nulla nunc purus phasellus",
+  "category": "Almacenamiento",
+  "brand": "Kingston",
+  "price": 18899.46,
+  "img": "http://dummyimage.com/140x100.png/5fa2dd/ffffff",
+  "specifications": [
+   {
+    "feature": "tamaño",
+    "description": "Reactive"
+   },
+   {
+    "feature": "año",
     "description": "bifurcated"
    }
   ],
-  "inSale": true,
-  "featured": false
+  "type": "Más vendidos"
+ },
+ {
+  "id": 20,
+  "name": "Web camera",
+  "description": "faucibus orci luctus et ultrices posuere cubilia curae duis faucibus accumsan odio curabitur convallis duis consequat dui nec nisi volutpat eleifend donec ut dolor morbi vel lectus in quam fringilla rhoncus mauris enim leo rhoncus sed vestibulum sit amet cursus id turpis integer aliquet massa id lobortis convallis tortor risus dapibus augue vel accumsan tellus nisi eu orci mauris lacinia sapien quis libero nullam sit amet",
+  "category": "Almacenamiento",
+  "brand": "AMD",
+  "price": 24018.7,
+  "img": "http://dummyimage.com/248x100.png/5fa2dd/ffffff",
+  "specifications": [
+   {
+    "feature": "modelo",
+    "description": "internet solution"
+   },
+   {
+    "feature": "batería incluida",
+    "description": "analyzer"
+   },
+   {
+    "feature": "tipo de conexión",
+    "description": "context-sensitive"
+   }
+  ],
+  "type": "Agregados recientemente"
+ },
+ {
+  "id": 21,
+  "name": "Videoproyector Powerlite",
+  "description": "natoque penatibus et magnis dis parturient montes nascetur ridiculus mus vivamus vestibulum sagittis sapien cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus etiam vel augue vestibulum rutrum rutrum neque aenean auctor gravida sem praesent id massa id nisl venenatis lacinia aenean sit amet justo morbi ut odio cras mi pede",
+  "category": "Laptos",
+  "brand": "Nvidia",
+  "price": 48047.55,
+  "img": "http://dummyimage.com/217x100.png/cc0000/ffffff",
+  "specifications": [
+   {
+    "feature": "tipo de conexión",
+    "description": "Assimilated"
+   },
+   {
+    "feature": "batería incluida",
+    "description": "Optional"
+   },
+   {
+    "feature": "tipo de conexión",
+    "description": "Up-sized"
+   },
+   {
+    "feature": "año",
+    "description": "foreground"
+   },
+   {
+    "feature": "tipo de conexión",
+    "description": "policy"
+   }
+  ],
+  "type": "Más vendidos"
+ },
+ {
+  "id": 22,
+  "name": "Mouse Gamer",
+  "description": "mi pede malesuada in imperdiet et commodo vulputate justo in blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit proin interdum mauris non ligula pellentesque ultrices phasellus id sapien in sapien",
+  "category": "Tarjetas Madre",
+  "brand": "Asus",
+  "price": 23379.38,
+  "img": "http://dummyimage.com/201x100.png/5fa2dd/ffffff",
+  "specifications": [
+   {
+    "feature": "peso",
+    "description": "Advanced"
+   },
+   {
+    "feature": "modelo",
+    "description": "24/7"
+   },
+   {
+    "feature": "año",
+    "description": "needs-based"
+   }
+  ],
+  "type": "Destacados"
+ },
+ {
+  "id": 23,
+  "name": "Mouse Gamer",
+  "description": "porta volutpat erat quisque erat eros viverra eget congue eget semper rutrum nulla nunc purus phasellus in felis donec semper sapien a",
+  "category": "Procesadores",
+  "brand": "Lenovo",
+  "price": 8974.62,
+  "img": "http://dummyimage.com/192x100.png/ff4444/ffffff",
+  "specifications": [
+   {
+    "feature": "tipo de conexión",
+    "description": "Networked"
+   }
+  ],
+  "type": "En oferta"
+ },
+ {
+  "id": 24,
+  "name": "Tarjeta Madre",
+  "description": "mollis molestie lorem quisque ut erat curabitur gravida nisi at nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt eget tempus vel pede morbi porttitor lorem id ligula suspendisse ornare consequat lectus in est risus auctor sed tristique in tempus sit amet sem fusce consequat nulla",
+  "category": "PC Gamer",
+  "brand": "AMD",
+  "price": 48707.17,
+  "img": "http://dummyimage.com/156x100.png/5fa2dd/ffffff",
+  "specifications": [
+   {
+    "feature": "batería incluida",
+    "description": "benchmark"
+   },
+   {
+    "feature": "peso",
+    "description": "Reactive"
+   }
+  ],
+  "type": "Destacados"
+ },
+ {
+  "id": 25,
+  "name": "Teclado Luz de Retroiluminación RGB",
+  "description": "vestibulum eget vulputate ut ultrices vel augue vestibulum ante ipsum primis in faucibus orci luctus et ultrices",
+  "category": "Almacenamiento",
+  "brand": "Sony",
+  "price": 34904.84,
+  "img": "http://dummyimage.com/104x100.png/cc0000/ffffff",
+  "specifications": [
+   {
+    "feature": "batería incluida",
+    "description": "architecture"
+   }
+  ],
+  "type": "Agregados recientemente"
+ },
+ {
+  "id": 26,
+  "name": "Monitor de 23.8",
+  "description": "pede ullamcorper augue a suscipit nulla elit ac nulla sed vel enim sit amet nunc viverra dapibus nulla suscipit ligula in lacus curabitur at ipsum ac tellus",
+  "category": "Tarjetas Madre",
+  "brand": "Acer",
+  "price": 18268.21,
+  "img": "http://dummyimage.com/240x100.png/ff4444/ffffff",
+  "specifications": [],
+  "type": "En oferta"
+ },
+ {
+  "id": 27,
+  "name": "Web camera",
+  "description": "sapien ut nunc vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus",
+  "category": "Tarjetas Madre",
+  "brand": "Acer",
+  "price": 42503.65,
+  "img": "http://dummyimage.com/167x100.png/5fa2dd/ffffff",
+  "specifications": [
+   {
+    "feature": "batería incluida",
+    "description": "Face to face"
+   },
+   {
+    "feature": "tamaño",
+    "description": "policy"
+   },
+   {
+    "feature": "batería incluida",
+    "description": "framework"
+   },
+   {
+    "feature": "modelo",
+    "description": "pricing structure"
+   },
+   {
+    "feature": "batería incluida",
+    "description": "data-warehouse"
+   },
+   {
+    "feature": "peso",
+    "description": "Operative"
+   }
+  ],
+  "type": "Destacados"
+ },
+ {
+  "id": 28,
+  "name": "Disco Duro Externo",
+  "description": "turpis nec euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula nec sem duis aliquam convallis nunc proin at turpis a pede posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi sit amet lobortis sapien sapien non mi integer ac neque duis bibendum morbi non quam nec dui",
+  "category": "Periféricos",
+  "brand": "Alienware",
+  "price": 41199.01,
+  "img": "http://dummyimage.com/226x100.png/cc0000/ffffff",
+  "specifications": [],
+  "type": "En oferta"
+ },
+ {
+  "id": 29,
+  "name": "Monitor de 23.8",
+  "description": "turpis adipiscing lorem vitae mattis nibh ligula nec sem duis aliquam convallis nunc proin at turpis a pede posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi sit amet lobortis sapien sapien non mi",
+  "category": "Procesadores",
+  "brand": "HyperX",
+  "price": 13747.04,
+  "img": "http://dummyimage.com/134x100.png/cc0000/ffffff",
+  "specifications": [
+   {
+    "feature": "tamaño",
+    "description": "support"
+   }
+  ],
+  "type": "Destacados"
+ },
+ {
+  "id": 30,
+  "name": "Disipador CPU Cooler Master",
+  "description": "in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum curabitur in libero ut massa volutpat convallis morbi odio odio elementum eu interdum eu tincidunt in leo maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus in felis eu sapien",
+  "category": "Laptos",
+  "brand": "Huawei",
+  "price": 22620.4,
+  "img": "http://dummyimage.com/227x100.png/ff4444/ffffff",
+  "specifications": [
+   {
+    "feature": "tipo de conexión",
+    "description": "Object-based"
+   }
+  ],
+  "type": "Agregados recientemente"
+ },
+ {
+  "id": 31,
+  "name": "Memoria RAM XPG SPECTRIX D41 RGB Tungsten Grey",
+  "description": "at nulla suspendisse potenti cras in purus eu magna vulputate luctus cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus vivamus vestibulum sagittis sapien cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus etiam vel augue vestibulum rutrum rutrum neque aenean auctor",
+  "category": "Equipos de Cómputo",
+  "brand": "Intel",
+  "price": 9428.3,
+  "img": "http://dummyimage.com/205x100.png/5fa2dd/ffffff",
+  "specifications": [
+   {
+    "feature": "peso",
+    "description": "Proactive"
+   },
+   {
+    "feature": "tamaño",
+    "description": "Front-line"
+   },
+   {
+    "feature": "modelo",
+    "description": "3rd generation"
+   },
+   {
+    "feature": "batería incluida",
+    "description": "analyzing"
+   }
+  ],
+  "type": "En oferta"
+ },
+ {
+  "id": 32,
+  "name": "Procesador Intel Core i5",
+  "description": "id luctus nec molestie sed justo pellentesque viverra pede ac diam cras pellentesque volutpat dui maecenas tristique est et tempus semper est quam pharetra magna ac consequat metus sapien ut nunc vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti",
+  "category": "PC Gamer",
+  "brand": "Gigabyte",
+  "price": 36080.71,
+  "img": "http://dummyimage.com/137x100.png/dddddd/000000",
+  "specifications": [],
+  "type": "Más vendidos"
+ },
+ {
+  "id": 33,
+  "name": "Memoria RAM XPG SPECTRIX D41 RGB Tungsten Grey",
+  "description": "integer a nibh in quis justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla ultrices aliquet maecenas leo odio condimentum id luctus nec molestie sed justo pellentesque viverra pede ac diam cras pellentesque volutpat dui maecenas tristique est et tempus semper est quam pharetra magna ac consequat metus sapien ut nunc",
+  "category": "Monitores",
+  "brand": "Nvidia",
+  "price": 31576.64,
+  "img": "http://dummyimage.com/100x100.png/dddddd/000000",
+  "specifications": [
+   {
+    "feature": "año",
+    "description": "moderator"
+   }
+  ],
+  "type": "Agregados recientemente"
+ },
+ {
+  "id": 34,
+  "name": "Mouse Gamer",
+  "description": "ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae duis faucibus accumsan odio curabitur convallis",
+  "category": "PC Gamer",
+  "brand": "Dell",
+  "price": 28975.06,
+  "img": "http://dummyimage.com/231x100.png/dddddd/000000",
+  "specifications": [
+   {
+    "feature": "peso",
+    "description": "Organized"
+   },
+   {
+    "feature": "batería incluida",
+    "description": "strategy"
+   }
+  ],
+  "type": "Más vendidos"
+ },
+ {
+  "id": 35,
+  "name": "Videoproyector Powerlite",
+  "description": "aliquet maecenas leo odio condimentum id luctus nec molestie sed justo pellentesque viverra pede ac diam cras pellentesque volutpat dui maecenas tristique est et tempus semper est quam pharetra magna ac consequat metus sapien ut nunc vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere",
+  "category": "Tarjetas de Video",
+  "brand": "Lenovo",
+  "price": 25788.45,
+  "img": "http://dummyimage.com/186x100.png/cc0000/ffffff",
+  "specifications": [
+   {
+    "feature": "tipo de conexión",
+    "description": "Cross-platform"
+   },
+   {
+    "feature": "batería incluida",
+    "description": "4th generation"
+   },
+   {
+    "feature": "año",
+    "description": "superstructure"
+   },
+   {
+    "feature": "tipo de conexión",
+    "description": "Open-source"
+   },
+   {
+    "feature": "tipo de conexión",
+    "description": "Grass-roots"
+   }
+  ],
+  "type": "En oferta"
+ },
+ {
+  "id": 36,
+  "name": "MicroSDXC",
+  "description": "eu nibh quisque id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus et ultrices",
+  "category": "PC Gamer",
+  "brand": "HyperX",
+  "price": 24100.91,
+  "img": "http://dummyimage.com/144x100.png/cc0000/ffffff",
+  "specifications": [
+   {
+    "feature": "peso",
+    "description": "regional"
+   }
+  ],
+  "type": "Agregados recientemente"
+ },
+ {
+  "id": 37,
+  "name": "Cooler Master",
+  "description": "neque duis bibendum morbi non quam nec dui luctus rutrum nulla tellus in sagittis dui vel nisl duis ac nibh fusce lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend quam a odio in hac habitasse platea dictumst maecenas ut massa quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida nisi at nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer",
+  "category": "Periféricos",
+  "brand": "Alienware",
+  "price": 20376.3,
+  "img": "http://dummyimage.com/130x100.png/cc0000/ffffff",
+  "specifications": [
+   {
+    "feature": "tipo de conexión",
+    "description": "Synchronised"
+   },
+   {
+    "feature": "modelo",
+    "description": "moratorium"
+   },
+   {
+    "feature": "año",
+    "description": "tangible"
+   },
+   {
+    "feature": "modelo",
+    "description": "Fundamental"
+   }
+  ],
+  "type": "Destacados"
+ },
+ {
+  "id": 38,
+  "name": "Fuente de poder",
+  "description": "proin risus praesent lectus vestibulum quam sapien varius ut blandit non interdum in ante vestibulum ante ipsum primis in faucibus orci luctus et ultrices",
+  "category": "Equipos de Cómputo",
+  "brand": "Nvidia",
+  "price": 36872.85,
+  "img": "http://dummyimage.com/213x100.png/dddddd/000000",
+  "specifications": [],
+  "type": "Más vendidos"
+ },
+ {
+  "id": 39,
+  "name": "Airpods",
+  "description": "tellus nisi eu orci mauris lacinia sapien quis libero nullam",
+  "category": "Tarjetas Madre",
+  "brand": "Intel",
+  "price": 1169.28,
+  "img": "http://dummyimage.com/110x100.png/dddddd/000000",
+  "specifications": [
+   {
+    "feature": "peso",
+    "description": "cohesive"
+   },
+   {
+    "feature": "peso",
+    "description": "Virtual"
+   },
+   {
+    "feature": "peso",
+    "description": "Implemented"
+   },
+   {
+    "feature": "modelo",
+    "description": "dedicated"
+   }
+  ],
+  "type": "Agregados recientemente"
+ },
+ {
+  "id": 40,
+  "name": "Videoproyector Powerlite",
+  "description": "eros vestibulum ac est lacinia nisi venenatis tristique fusce congue diam id ornare imperdiet sapien urna pretium nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in congue etiam justo etiam pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut erat id mauris vulputate",
+  "category": "PC Gamer",
+  "brand": "AMD",
+  "price": 13489.65,
+  "img": "http://dummyimage.com/190x100.png/cc0000/ffffff",
+  "specifications": [
+   {
+    "feature": "tipo de conexión",
+    "description": "Adaptive"
+   },
+   {
+    "feature": "modelo",
+    "description": "value-added"
+   },
+   {
+    "feature": "año",
+    "description": "Multi-lateral"
+   },
+   {
+    "feature": "batería incluida",
+    "description": "database"
+   }
+  ],
+  "type": "En oferta"
+ },
+ {
+  "id": 41,
+  "name": "Airpods",
+  "description": "bibendum imperdiet nullam orci pede venenatis non sodales sed tincidunt eu felis fusce posuere felis sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui",
+  "category": "Monitores",
+  "brand": "Intel",
+  "price": 42279.94,
+  "img": "http://dummyimage.com/238x100.png/cc0000/ffffff",
+  "specifications": [
+   {
+    "feature": "año",
+    "description": "intangible"
+   },
+   {
+    "feature": "modelo",
+    "description": "context-sensitive"
+   },
+   {
+    "feature": "tamaño",
+    "description": "even-keeled"
+   },
+   {
+    "feature": "modelo",
+    "description": "Self-enabling"
+   },
+   {
+    "feature": "año",
+    "description": "Optimized"
+   }
+  ],
+  "type": "Destacados"
+ },
+ {
+  "id": 42,
+  "name": "Teclado Luz de Retroiluminación RGB",
+  "description": "accumsan tellus nisi eu orci mauris lacinia sapien quis libero nullam sit amet turpis elementum ligula",
+  "category": "Tarjetas Madre",
+  "brand": "Acer",
+  "price": 6004.25,
+  "img": "http://dummyimage.com/122x100.png/dddddd/000000",
+  "specifications": [
+   {
+    "feature": "modelo",
+    "description": "knowledge user"
+   },
+   {
+    "feature": "tamaño",
+    "description": "monitoring"
+   },
+   {
+    "feature": "peso",
+    "description": "moderator"
+   }
+  ],
+  "type": "Destacados"
+ },
+ {
+  "id": 43,
+  "name": "AMD YD3000C6FHBOX Procesador Athlon 3000G",
+  "description": "tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt eget tempus vel pede morbi porttitor lorem id ligula suspendisse ornare consequat lectus in est",
+  "category": "Tarjetas Madre",
+  "brand": "Intel",
+  "price": 38375.08,
+  "img": "http://dummyimage.com/165x100.png/dddddd/000000",
+  "specifications": [
+   {
+    "feature": "modelo",
+    "description": "Managed"
+   },
+   {
+    "feature": "modelo",
+    "description": "well-modulated"
+   }
+  ],
+  "type": "Agregados recientemente"
+ },
+ {
+  "id": 44,
+  "name": "Videoproyector Powerlite",
+  "description": "orci eget orci vehicula condimentum curabitur in libero ut massa volutpat convallis morbi odio odio elementum eu interdum eu tincidunt in leo maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus",
+  "category": "Disipadores y Enfriamiento",
+  "brand": "EVGA",
+  "price": 39725.62,
+  "img": "http://dummyimage.com/243x100.png/dddddd/000000",
+  "specifications": [],
+  "type": "Destacados"
+ },
+ {
+  "id": 45,
+  "name": "Monitor de 23.8",
+  "description": "id nisl venenatis lacinia aenean sit amet justo morbi ut odio cras mi pede malesuada in imperdiet et commodo vulputate justo in blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit proin interdum mauris non ligula pellentesque ultrices phasellus id sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum curabitur",
+  "category": "Disipadores y Enfriamiento",
+  "brand": "Dell",
+  "price": 14971.14,
+  "img": "http://dummyimage.com/231x100.png/5fa2dd/ffffff",
+  "specifications": [],
+  "type": "Más vendidos"
+ },
+ {
+  "id": 46,
+  "name": "Memoria RAM XPG SPECTRIX D41 RGB Tungsten Grey",
+  "description": "eget elit sodales scelerisque mauris sit amet eros suspendisse accumsan tortor quis turpis sed ante vivamus tortor duis mattis egestas metus aenean fermentum donec ut mauris eget massa tempor convallis nulla neque libero convallis eget eleifend luctus ultricies eu nibh quisque id justo sit",
+  "category": "Equipos de Cómputo",
+  "brand": "HP",
+  "price": 40785.84,
+  "img": "http://dummyimage.com/239x100.png/ff4444/ffffff",
+  "specifications": [
+   {
+    "feature": "peso",
+    "description": "motivating"
+   },
+   {
+    "feature": "peso",
+    "description": "hybrid"
+   },
+   {
+    "feature": "batería incluida",
+    "description": "Graphic Interface"
+   },
+   {
+    "feature": "año",
+    "description": "strategy"
+   }
+  ],
+  "type": "Más vendidos"
+ },
+ {
+  "id": 47,
+  "name": "Cooler Master",
+  "description": "habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam erat fermentum justo nec condimentum neque sapien placerat ante nulla justo aliquam quis turpis eget elit sodales scelerisque mauris sit amet eros suspendisse accumsan tortor quis turpis sed ante vivamus tortor duis mattis egestas metus aenean fermentum donec ut mauris eget massa tempor convallis nulla neque libero convallis eget eleifend luctus ultricies eu nibh quisque id justo sit amet sapien dignissim",
+  "category": "Tarjetas de Video",
+  "brand": "Nvidia",
+  "price": 35254.71,
+  "img": "http://dummyimage.com/152x100.png/5fa2dd/ffffff",
+  "specifications": [
+   {
+    "feature": "modelo",
+    "description": "Automated"
+   },
+   {
+    "feature": "año",
+    "description": "middleware"
+   },
+   {
+    "feature": "batería incluida",
+    "description": "object-oriented"
+   },
+   {
+    "feature": "modelo",
+    "description": "optimizing"
+   },
+   {
+    "feature": "tipo de conexión",
+    "description": "Virtual"
+   }
+  ],
+  "type": "Destacados"
+ },
+ {
+  "id": 48,
+  "name": "Tarjeta Madre",
+  "description": "nibh fusce lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend quam a odio in hac habitasse platea dictumst maecenas ut massa quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida nisi at nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum",
+  "category": "Laptos",
+  "brand": "Kingston",
+  "price": 45925.11,
+  "img": "http://dummyimage.com/149x100.png/cc0000/ffffff",
+  "specifications": [
+   {
+    "feature": "batería incluida",
+    "description": "Mandatory"
+   },
+   {
+    "feature": "tipo de conexión",
+    "description": "value-added"
+   }
+  ],
+  "type": "Más vendidos"
+ },
+ {
+  "id": 49,
+  "name": "Videoproyector Powerlite",
+  "description": "dolor sit amet consectetuer adipiscing elit proin interdum mauris non ligula pellentesque ultrices phasellus id sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum curabitur in libero ut massa volutpat convallis morbi odio odio elementum eu interdum eu tincidunt in leo maecenas pulvinar lobortis est phasellus sit",
+  "category": "PC Gamer",
+  "brand": "Acer",
+  "price": 9016,
+  "img": "http://dummyimage.com/180x100.png/cc0000/ffffff",
+  "specifications": [
+   {
+    "feature": "año",
+    "description": "tertiary"
+   }
+  ],
+  "type": "En oferta"
+ },
+ {
+  "id": 50,
+  "name": "Teclado Luz de Retroiluminación RGB",
+  "description": "hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam erat fermentum justo nec condimentum neque sapien placerat ante nulla justo aliquam quis turpis eget elit sodales scelerisque mauris sit amet eros suspendisse accumsan tortor quis",
+  "category": "Tarjetas Madre",
+  "brand": "HP",
+  "price": 12100.55,
+  "img": "http://dummyimage.com/189x100.png/cc0000/ffffff",
+  "specifications": [
+   {
+    "feature": "peso",
+    "description": "even-keeled"
+   }
+  ],
+  "type": "Destacados"
+ },
+ {
+  "id": 51,
+  "name": "AMD YD3000C6FHBOX Procesador Athlon 3000G",
+  "description": "odio consequat varius integer ac leo pellentesque ultrices mattis odio donec vitae nisi nam ultrices libero non mattis pulvinar nulla pede ullamcorper augue a suscipit nulla elit ac nulla sed vel enim sit amet nunc viverra dapibus nulla suscipit ligula in lacus curabitur at ipsum ac tellus semper interdum mauris ullamcorper purus sit amet nulla quisque arcu libero rutrum ac lobortis vel dapibus at diam nam tristique tortor eu pede",
+  "category": "Equipos de Cómputo",
+  "brand": "AMD",
+  "price": 28854.34,
+  "img": "http://dummyimage.com/172x100.png/dddddd/000000",
+  "specifications": [
+   {
+    "feature": "tamaño",
+    "description": "Versatile"
+   }
+  ],
+  "type": "En oferta"
+ },
+ {
+  "id": 52,
+  "name": "Cooler Master",
+  "description": "sagittis sapien cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus etiam vel augue vestibulum rutrum rutrum neque aenean auctor gravida sem praesent id massa id nisl venenatis lacinia aenean sit amet justo morbi ut odio cras mi pede malesuada in imperdiet et commodo vulputate justo in blandit ultrices enim lorem ipsum dolor",
+  "category": "Laptos",
+  "brand": "MSI",
+  "price": 8358.67,
+  "img": "http://dummyimage.com/169x100.png/ff4444/ffffff",
+  "specifications": [],
+  "type": "Destacados"
+ },
+ {
+  "id": 53,
+  "name": "Fuente de poder",
+  "description": "sollicitudin mi sit amet lobortis sapien sapien non mi integer ac neque duis bibendum morbi non quam nec dui luctus rutrum nulla tellus in sagittis dui vel nisl duis ac nibh fusce lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend quam a odio in hac habitasse platea dictumst maecenas ut massa quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida nisi at nibh in hac habitasse platea dictumst aliquam augue quam",
+  "category": "Tarjetas de Video",
+  "brand": "Gigabyte",
+  "price": 49986.84,
+  "img": "http://dummyimage.com/241x100.png/5fa2dd/ffffff",
+  "specifications": [
+   {
+    "feature": "batería incluida",
+    "description": "Horizontal"
+   }
+  ],
+  "type": "Agregados recientemente"
+ },
+ {
+  "id": 54,
+  "name": "Procesador Intel Core i5",
+  "description": "auctor sed tristique in tempus sit amet sem fusce consequat nulla nisl nunc nisl duis bibendum felis sed interdum venenatis turpis enim blandit mi in porttitor pede justo eu massa donec dapibus duis at velit eu est congue elementum in hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam erat fermentum justo nec condimentum neque",
+  "category": "Almacenamiento",
+  "brand": "Kingston",
+  "price": 32718.93,
+  "img": "http://dummyimage.com/240x100.png/5fa2dd/ffffff",
+  "specifications": [
+   {
+    "feature": "año",
+    "description": "functionalities"
+   },
+   {
+    "feature": "año",
+    "description": "time-frame"
+   },
+   {
+    "feature": "año",
+    "description": "Self-enabling"
+   },
+   {
+    "feature": "modelo",
+    "description": "Synergized"
+   }
+  ],
+  "type": "Destacados"
+ },
+ {
+  "id": 55,
+  "name": "MicroSDXC",
+  "description": "curabitur gravida nisi at nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt eget tempus vel pede morbi porttitor lorem id ligula suspendisse ornare consequat lectus in est risus auctor sed tristique in tempus sit amet sem fusce consequat nulla",
+  "category": "Procesadores",
+  "brand": "Apple",
+  "price": 32041.87,
+  "img": "http://dummyimage.com/122x100.png/ff4444/ffffff",
+  "specifications": [
+   {
+    "feature": "tipo de conexión",
+    "description": "fault-tolerant"
+   }
+  ],
+  "type": "Agregados recientemente"
+ },
+ {
+  "id": 56,
+  "name": "Web camera",
+  "description": "nec sem duis aliquam convallis nunc proin at turpis a pede posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae",
+  "category": "PC Gamer",
+  "brand": "Alienware",
+  "price": 17390.93,
+  "img": "http://dummyimage.com/221x100.png/5fa2dd/ffffff",
+  "specifications": [
+   {
+    "feature": "tipo de conexión",
+    "description": "local area network"
+   },
+   {
+    "feature": "peso",
+    "description": "systematic"
+   },
+   {
+    "feature": "peso",
+    "description": "Streamlined"
+   },
+   {
+    "feature": "tipo de conexión",
+    "description": "budgetary management"
+   },
+   {
+    "feature": "batería incluida",
+    "description": "regional"
+   }
+  ],
+  "type": "Destacados"
+ },
+ {
+  "id": 57,
+  "name": "AMD YD3000C6FHBOX Procesador Athlon 3000G",
+  "description": "erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt eget tempus vel pede morbi porttitor lorem id ligula suspendisse ornare consequat lectus in est risus auctor sed tristique in tempus sit amet",
+  "category": "Disipadores y Enfriamiento",
+  "brand": "Nvidia",
+  "price": 30037.7,
+  "img": "http://dummyimage.com/249x100.png/5fa2dd/ffffff",
+  "specifications": [
+   {
+    "feature": "batería incluida",
+    "description": "task-force"
+   },
+   {
+    "feature": "modelo",
+    "description": "encoding"
+   }
+  ],
+  "type": "Más vendidos"
+ },
+ {
+  "id": 58,
+  "name": "Airpods",
+  "description": "purus aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend quam a odio in hac habitasse platea dictumst maecenas ut massa quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida nisi at nibh in hac habitasse platea dictumst",
+  "category": "Disipadores y Enfriamiento",
+  "brand": "MSI",
+  "price": 10748.47,
+  "img": "http://dummyimage.com/167x100.png/5fa2dd/ffffff",
+  "specifications": [
+   {
+    "feature": "batería incluida",
+    "description": "task-force"
+   },
+   {
+    "feature": "tipo de conexión",
+    "description": "Profound"
+   },
+   {
+    "feature": "tamaño",
+    "description": "ability"
+   },
+   {
+    "feature": "peso",
+    "description": "budgetary management"
+   },
+   {
+    "feature": "tipo de conexión",
+    "description": "Right-sized"
+   },
+   {
+    "feature": "tamaño",
+    "description": "Upgradable"
+   }
+  ],
+  "type": "Más vendidos"
+ },
+ {
+  "id": 59,
+  "name": "Procesador Intel Core i5",
+  "description": "lobortis ligula sit amet eleifend pede libero quis orci nullam molestie nibh in lectus pellentesque at nulla suspendisse potenti cras in purus eu magna vulputate luctus cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus",
+  "category": "Almacenamiento",
+  "brand": "Gigabyte",
+  "price": 20350.67,
+  "img": "http://dummyimage.com/137x100.png/cc0000/ffffff",
+  "specifications": [
+   {
+    "feature": "peso",
+    "description": "methodical"
+   },
+   {
+    "feature": "batería incluida",
+    "description": "heuristic"
+   },
+   {
+    "feature": "año",
+    "description": "Extended"
+   },
+   {
+    "feature": "peso",
+    "description": "core"
+   }
+  ],
+  "type": "En oferta"
+ },
+ {
+  "id": 60,
+  "name": "Memoria RAM XPG SPECTRIX D41 RGB Tungsten Grey",
+  "description": "lorem quisque ut erat curabitur gravida nisi at nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem integer tincidunt ante vel",
+  "category": "Almacenamiento",
+  "brand": "Adata",
+  "price": 40374.85,
+  "img": "http://dummyimage.com/171x100.png/cc0000/ffffff",
+  "specifications": [
+   {
+    "feature": "peso",
+    "description": "focus group"
+   }
+  ],
+  "type": "En oferta"
+ },
+ {
+  "id": 61,
+  "name": "Disco Duro Externo",
+  "description": "consectetuer adipiscing elit proin risus praesent lectus vestibulum quam sapien varius ut blandit non interdum in ante vestibulum",
+  "category": "Disipadores y Enfriamiento",
+  "brand": "HyperX",
+  "price": 30644.72,
+  "img": "http://dummyimage.com/144x100.png/cc0000/ffffff",
+  "specifications": [
+   {
+    "feature": "modelo",
+    "description": "Cross-platform"
+   },
+   {
+    "feature": "modelo",
+    "description": "Expanded"
+   },
+   {
+    "feature": "tamaño",
+    "description": "standardization"
+   },
+   {
+    "feature": "peso",
+    "description": "service-desk"
+   },
+   {
+    "feature": "tamaño",
+    "description": "system-worthy"
+   }
+  ],
+  "type": "Más vendidos"
+ },
+ {
+  "id": 62,
+  "name": "AMD YD3000C6FHBOX Procesador Athlon 3000G",
+  "description": "lobortis ligula sit amet eleifend pede libero quis orci nullam molestie",
+  "category": "Tarjetas de Video",
+  "brand": "Apple",
+  "price": 19496.86,
+  "img": "http://dummyimage.com/239x100.png/dddddd/000000",
+  "specifications": [],
+  "type": "Agregados recientemente"
+ },
+ {
+  "id": 63,
+  "name": "MicroSDXC",
+  "description": "vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum curabitur in libero ut massa volutpat convallis morbi odio odio elementum eu interdum eu tincidunt in leo maecenas pulvinar lobortis est",
+  "category": "Almacenamiento",
+  "brand": "Samsung",
+  "price": 24640.81,
+  "img": "http://dummyimage.com/173x100.png/dddddd/000000",
+  "specifications": [
+   {
+    "feature": "modelo",
+    "description": "groupware"
+   }
+  ],
+  "type": "Agregados recientemente"
+ },
+ {
+  "id": 64,
+  "name": "Cooler Master",
+  "description": "odio in hac habitasse platea dictumst maecenas ut massa quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida nisi at nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer",
+  "category": "Equipos de Cómputo",
+  "brand": "Asus",
+  "price": 22626.14,
+  "img": "http://dummyimage.com/246x100.png/dddddd/000000",
+  "specifications": [
+   {
+    "feature": "tamaño",
+    "description": "Customizable"
+   },
+   {
+    "feature": "peso",
+    "description": "discrete"
+   },
+   {
+    "feature": "tipo de conexión",
+    "description": "benchmark"
+   },
+   {
+    "feature": "modelo",
+    "description": "infrastructure"
+   },
+   {
+    "feature": "batería incluida",
+    "description": "didactic"
+   }
+  ],
+  "type": "Más vendidos"
+ },
+ {
+  "id": 65,
+  "name": "Disco Duro Externo",
+  "description": "eros viverra eget congue eget semper rutrum nulla nunc purus phasellus in felis donec semper sapien a libero nam dui proin leo odio porttitor id consequat in consequat ut nulla sed accumsan felis ut at dolor quis odio consequat varius integer ac leo pellentesque ultrices mattis odio donec vitae nisi nam",
+  "category": "Tarjetas Madre",
+  "brand": "EVGA",
+  "price": 17049.85,
+  "img": "http://dummyimage.com/100x100.png/dddddd/000000",
+  "specifications": [
+   {
+    "feature": "peso",
+    "description": "Team-oriented"
+   },
+   {
+    "feature": "peso",
+    "description": "application"
+   }
+  ],
+  "type": "En oferta"
+ },
+ {
+  "id": 66,
+  "name": "AMD YD3000C6FHBOX Procesador Athlon 3000G",
+  "description": "porttitor lacus at turpis donec posuere metus vitae ipsum aliquam non mauris morbi non lectus aliquam sit amet diam in magna bibendum imperdiet nullam orci pede venenatis non sodales sed tincidunt eu felis fusce posuere felis sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis nam congue risus semper porta volutpat quam pede lobortis ligula sit amet eleifend pede",
+  "category": "Tarjetas de Video",
+  "brand": "MSI",
+  "price": 25341.52,
+  "img": "http://dummyimage.com/128x100.png/ff4444/ffffff",
+  "specifications": [
+   {
+    "feature": "año",
+    "description": "national"
+   },
+   {
+    "feature": "peso",
+    "description": "real-time"
+   },
+   {
+    "feature": "tipo de conexión",
+    "description": "leverage"
+   },
+   {
+    "feature": "año",
+    "description": "forecast"
+   },
+   {
+    "feature": "tipo de conexión",
+    "description": "Customizable"
+   }
+  ],
+  "type": "Agregados recientemente"
+ },
+ {
+  "id": 67,
+  "name": "Fuente de poder",
+  "description": "nulla justo aliquam quis turpis eget elit sodales scelerisque mauris sit amet eros suspendisse accumsan tortor quis turpis sed ante vivamus tortor duis mattis egestas metus aenean fermentum donec ut mauris eget massa tempor convallis nulla neque libero convallis eget eleifend luctus ultricies eu",
+  "category": "Procesadores",
+  "brand": "Huawei",
+  "price": 26725.84,
+  "img": "http://dummyimage.com/115x100.png/dddddd/000000",
+  "specifications": [
+   {
+    "feature": "batería incluida",
+    "description": "Extended"
+   },
+   {
+    "feature": "modelo",
+    "description": "Robust"
+   },
+   {
+    "feature": "modelo",
+    "description": "motivating"
+   },
+   {
+    "feature": "modelo",
+    "description": "firmware"
+   },
+   {
+    "feature": "tipo de conexión",
+    "description": "background"
+   }
+  ],
+  "type": "En oferta"
+ },
+ {
+  "id": 68,
+  "name": "AMD YD3000C6FHBOX Procesador Athlon 3000G",
+  "description": "nullam porttitor lacus at turpis donec posuere metus vitae ipsum aliquam non mauris morbi non lectus aliquam sit amet diam in magna bibendum imperdiet nullam orci pede venenatis non sodales sed tincidunt eu felis fusce posuere felis sed lacus morbi sem mauris laoreet ut rhoncus aliquet",
+  "category": "Laptos",
+  "brand": "Asus",
+  "price": 38166.11,
+  "img": "http://dummyimage.com/178x100.png/dddddd/000000",
+  "specifications": [
+   {
+    "feature": "peso",
+    "description": "solution"
+   },
+   {
+    "feature": "batería incluida",
+    "description": "concept"
+   },
+   {
+    "feature": "año",
+    "description": "middleware"
+   },
+   {
+    "feature": "tipo de conexión",
+    "description": "Assimilated"
+   },
+   {
+    "feature": "tipo de conexión",
+    "description": "definition"
+   }
+  ],
+  "type": "Más vendidos"
+ },
+ {
+  "id": 69,
+  "name": "Fuente de poder",
+  "description": "convallis duis consequat dui nec nisi volutpat eleifend donec ut dolor morbi vel lectus in quam fringilla rhoncus mauris enim leo rhoncus sed vestibulum sit amet cursus id turpis integer aliquet massa id lobortis convallis tortor risus dapibus augue vel accumsan tellus nisi eu orci mauris lacinia sapien quis libero nullam sit amet turpis elementum ligula vehicula consequat morbi a ipsum integer",
+  "category": "Tarjetas de Video",
+  "brand": "Dell",
+  "price": 21287.41,
+  "img": "http://dummyimage.com/199x100.png/dddddd/000000",
+  "specifications": [
+   {
+    "feature": "batería incluida",
+    "description": "Robust"
+   },
+   {
+    "feature": "tamaño",
+    "description": "Team-oriented"
+   }
+  ],
+  "type": "Agregados recientemente"
+ },
+ {
+  "id": 70,
+  "name": "Procesador Intel Core i5",
+  "description": "elementum nullam varius nulla facilisi cras non velit nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus vel nulla eget",
+  "category": "Monitores",
+  "brand": "MSI",
+  "price": 24471.84,
+  "img": "http://dummyimage.com/139x100.png/ff4444/ffffff",
+  "specifications": [],
+  "type": "En oferta"
+ },
+ {
+  "id": 71,
+  "name": "Teclado Luz de Retroiluminación RGB",
+  "description": "quis libero nullam sit amet turpis elementum ligula vehicula consequat morbi a ipsum integer a nibh in quis justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla ultrices aliquet maecenas leo odio condimentum id luctus nec molestie sed justo pellentesque viverra",
+  "category": "Almacenamiento",
+  "brand": "Nvidia",
+  "price": 27102.38,
+  "img": "http://dummyimage.com/147x100.png/5fa2dd/ffffff",
+  "specifications": [
+   {
+    "feature": "batería incluida",
+    "description": "Reactive"
+   },
+   {
+    "feature": "año",
+    "description": "Multi-lateral"
+   },
+   {
+    "feature": "tipo de conexión",
+    "description": "attitude-oriented"
+   },
+   {
+    "feature": "tipo de conexión",
+    "description": "Reduced"
+   },
+   {
+    "feature": "modelo",
+    "description": "leading edge"
+   },
+   {
+    "feature": "año",
+    "description": "fault-tolerant"
+   }
+  ],
+  "type": "Destacados"
+ },
+ {
+  "id": 72,
+  "name": "Memoria RAM XPG SPECTRIX D41 RGB Tungsten Grey",
+  "description": "viverra diam vitae quam suspendisse potenti nullam porttitor lacus at turpis donec posuere metus vitae ipsum aliquam non mauris morbi",
+  "category": "PC Gamer",
+  "brand": "AMD",
+  "price": 926.45,
+  "img": "http://dummyimage.com/201x100.png/ff4444/ffffff",
+  "specifications": [
+   {
+    "feature": "peso",
+    "description": "Future-proofed"
+   },
+   {
+    "feature": "modelo",
+    "description": "Enhanced"
+   },
+   {
+    "feature": "tipo de conexión",
+    "description": "neural-net"
+   },
+   {
+    "feature": "batería incluida",
+    "description": "methodical"
+   }
+  ],
+  "type": "Destacados"
+ },
+ {
+  "id": 73,
+  "name": "Procesador Intel Core i5",
+  "description": "amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus",
+  "category": "Almacenamiento",
+  "brand": "AMD",
+  "price": 38076.8,
+  "img": "http://dummyimage.com/191x100.png/5fa2dd/ffffff",
+  "specifications": [],
+  "type": "Destacados"
+ },
+ {
+  "id": 74,
+  "name": "Memoria RAM XPG SPECTRIX D41 RGB Tungsten Grey",
+  "description": "in felis donec semper sapien a libero nam dui proin leo odio porttitor id consequat in consequat ut nulla sed accumsan felis ut at dolor quis odio consequat varius integer ac leo pellentesque ultrices mattis odio donec vitae nisi",
+  "category": "PC Gamer",
+  "brand": "HyperX",
+  "price": 36758.08,
+  "img": "http://dummyimage.com/160x100.png/5fa2dd/ffffff",
+  "specifications": [
+   {
+    "feature": "batería incluida",
+    "description": "multi-tasking"
+   },
+   {
+    "feature": "modelo",
+    "description": "Vision-oriented"
+   },
+   {
+    "feature": "año",
+    "description": "groupware"
+   },
+   {
+    "feature": "peso",
+    "description": "stable"
+   },
+   {
+    "feature": "peso",
+    "description": "encompassing"
+   },
+   {
+    "feature": "tipo de conexión",
+    "description": "Synergized"
+   }
+  ],
+  "type": "Agregados recientemente"
+ },
+ {
+  "id": 75,
+  "name": "AMD YD3000C6FHBOX Procesador Athlon 3000G",
+  "description": "a nibh in quis justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla ultrices aliquet maecenas leo odio condimentum id luctus nec molestie sed justo pellentesque viverra pede ac diam cras pellentesque volutpat dui",
+  "category": "Laptos",
+  "brand": "EVGA",
+  "price": 6896.59,
+  "img": "http://dummyimage.com/200x100.png/dddddd/000000",
+  "specifications": [
+   {
+    "feature": "modelo",
+    "description": "pricing structure"
+   },
+   {
+    "feature": "año",
+    "description": "installation"
+   },
+   {
+    "feature": "modelo",
+    "description": "Vision-oriented"
+   },
+   {
+    "feature": "peso",
+    "description": "cohesive"
+   }
+  ],
+  "type": "En oferta"
+ },
+ {
+  "id": 76,
+  "name": "Procesador Intel Core i5",
+  "description": "morbi ut odio cras mi pede malesuada in imperdiet et commodo vulputate justo in blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit",
+  "category": "Monitores",
+  "brand": "Nvidia",
+  "price": 3840.06,
+  "img": "http://dummyimage.com/226x100.png/5fa2dd/ffffff",
+  "specifications": [
+   {
+    "feature": "tipo de conexión",
+    "description": "Seamless"
+   },
+   {
+    "feature": "año",
+    "description": "Reverse-engineered"
+   }
+  ],
+  "type": "Destacados"
+ },
+ {
+  "id": 77,
+  "name": "Teclado Luz de Retroiluminación RGB",
+  "description": "curabitur gravida nisi at nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem integer tincidunt ante vel",
+  "category": "Periféricos",
+  "brand": "Lenovo",
+  "price": 16284.88,
+  "img": "http://dummyimage.com/181x100.png/cc0000/ffffff",
+  "specifications": [
+   {
+    "feature": "tipo de conexión",
+    "description": "task-force"
+   },
+   {
+    "feature": "tamaño",
+    "description": "exuding"
+   },
+   {
+    "feature": "modelo",
+    "description": "User-friendly"
+   },
+   {
+    "feature": "año",
+    "description": "model"
+   }
+  ],
+  "type": "Agregados recientemente"
+ },
+ {
+  "id": 78,
+  "name": "Multifuncional de Inyección de Tinta",
+  "description": "suscipit nulla elit ac nulla sed vel enim sit amet nunc viverra dapibus nulla suscipit ligula in lacus curabitur at ipsum ac tellus semper interdum mauris ullamcorper purus sit amet nulla quisque arcu libero rutrum ac lobortis vel dapibus at diam nam tristique tortor",
+  "category": "Disipadores y Enfriamiento",
+  "brand": "Intel",
+  "price": 40931.59,
+  "img": "http://dummyimage.com/165x100.png/ff4444/ffffff",
+  "specifications": [
+   {
+    "feature": "modelo",
+    "description": "Adaptive"
+   },
+   {
+    "feature": "batería incluida",
+    "description": "client-driven"
+   },
+   {
+    "feature": "tamaño",
+    "description": "Universal"
+   },
+   {
+    "feature": "peso",
+    "description": "system-worthy"
+   }
+  ],
+  "type": "En oferta"
+ },
+ {
+  "id": 79,
+  "name": "Teclado Luz de Retroiluminación RGB",
+  "description": "ipsum dolor sit amet consectetuer adipiscing elit proin risus praesent lectus vestibulum quam sapien varius ut blandit non interdum in ante vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae duis faucibus accumsan odio curabitur convallis duis consequat dui nec nisi volutpat eleifend donec ut dolor morbi vel lectus in quam fringilla rhoncus mauris enim leo rhoncus sed vestibulum sit amet cursus id turpis integer aliquet massa",
+  "category": "Memorias",
+  "brand": "Nvidia",
+  "price": 624.81,
+  "img": "http://dummyimage.com/133x100.png/cc0000/ffffff",
+  "specifications": [
+   {
+    "feature": "batería incluida",
+    "description": "content-based"
+   }
+  ],
+  "type": "Destacados"
+ },
+ {
+  "id": 80,
+  "name": "Cooler Master",
+  "description": "et commodo vulputate justo in blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit proin interdum mauris non ligula pellentesque ultrices phasellus id sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum curabitur in libero ut massa volutpat convallis morbi odio odio elementum eu interdum eu tincidunt in leo maecenas",
+  "category": "Equipos de Cómputo",
+  "brand": "AMD",
+  "price": 14251.33,
+  "img": "http://dummyimage.com/129x100.png/5fa2dd/ffffff",
+  "specifications": [],
+  "type": "Más vendidos"
+ },
+ {
+  "id": 81,
+  "name": "MicroSDXC",
+  "description": "ultrices posuere cubilia curae nulla dapibus dolor vel est donec odio justo sollicitudin ut suscipit a",
+  "category": "Laptos",
+  "brand": "Alienware",
+  "price": 5525.48,
+  "img": "http://dummyimage.com/167x100.png/dddddd/000000",
+  "specifications": [
+   {
+    "feature": "año",
+    "description": "background"
+   },
+   {
+    "feature": "peso",
+    "description": "website"
+   },
+   {
+    "feature": "peso",
+    "description": "system engine"
+   },
+   {
+    "feature": "tamaño",
+    "description": "De-engineered"
+   }
+  ],
+  "type": "Más vendidos"
+ },
+ {
+  "id": 82,
+  "name": "Disco Duro Externo",
+  "description": "magna bibendum imperdiet nullam orci pede venenatis non sodales sed tincidunt eu felis fusce posuere felis sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis nam congue risus semper porta volutpat quam pede lobortis ligula sit amet eleifend pede libero quis orci nullam molestie nibh in lectus pellentesque at nulla suspendisse potenti cras in purus eu magna vulputate luctus cum sociis natoque penatibus",
+  "category": "Tarjetas Madre",
+  "brand": "Intel",
+  "price": 1071.45,
+  "img": "http://dummyimage.com/109x100.png/cc0000/ffffff",
+  "specifications": [
+   {
+    "feature": "tipo de conexión",
+    "description": "Optional"
+   },
+   {
+    "feature": "año",
+    "description": "value-added"
+   },
+   {
+    "feature": "peso",
+    "description": "Enhanced"
+   },
+   {
+    "feature": "año",
+    "description": "dynamic"
+   },
+   {
+    "feature": "año",
+    "description": "web-enabled"
+   }
+  ],
+  "type": "En oferta"
+ },
+ {
+  "id": 83,
+  "name": "Disipador CPU Cooler Master",
+  "description": "nibh quisque id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis",
+  "category": "Tarjetas Madre",
+  "brand": "Adata",
+  "price": 35916.66,
+  "img": "http://dummyimage.com/146x100.png/cc0000/ffffff",
+  "specifications": [
+   {
+    "feature": "tipo de conexión",
+    "description": "algorithm"
+   },
+   {
+    "feature": "tamaño",
+    "description": "service-desk"
+   },
+   {
+    "feature": "batería incluida",
+    "description": "zero tolerance"
+   },
+   {
+    "feature": "tipo de conexión",
+    "description": "asynchronous"
+   },
+   {
+    "feature": "peso",
+    "description": "Multi-layered"
+   },
+   {
+    "feature": "modelo",
+    "description": "alliance"
+   }
+  ],
+  "type": "Destacados"
+ },
+ {
+  "id": 84,
+  "name": "Disco Duro Externo",
+  "description": "tellus nulla ut erat id mauris vulputate elementum nullam varius nulla facilisi cras non velit nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus vel nulla eget eros elementum pellentesque quisque porta volutpat erat quisque erat eros viverra eget congue eget semper rutrum nulla nunc purus phasellus in felis donec semper sapien a libero nam dui proin leo odio porttitor id consequat in consequat ut nulla sed accumsan felis ut at dolor quis odio consequat varius",
+  "category": "Laptos",
+  "brand": "Nvidia",
+  "price": 6879,
+  "img": "http://dummyimage.com/180x100.png/cc0000/ffffff",
+  "specifications": [
+   {
+    "feature": "modelo",
+    "description": "initiative"
+   }
+  ],
+  "type": "Agregados recientemente"
+ },
+ {
+  "id": 85,
+  "name": "Disco Duro Externo",
+  "description": "nunc rhoncus dui vel sem sed sagittis nam congue risus semper porta volutpat quam pede lobortis ligula sit amet eleifend pede libero quis orci nullam molestie nibh in lectus pellentesque at nulla suspendisse potenti cras in purus eu magna vulputate luctus cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus",
+  "category": "Procesadores",
+  "brand": "Lenovo",
+  "price": 32814.46,
+  "img": "http://dummyimage.com/127x100.png/ff4444/ffffff",
+  "specifications": [
+   {
+    "feature": "batería incluida",
+    "description": "parallelism"
+   },
+   {
+    "feature": "modelo",
+    "description": "project"
+   },
+   {
+    "feature": "tamaño",
+    "description": "even-keeled"
+   },
+   {
+    "feature": "peso",
+    "description": "hierarchy"
+   },
+   {
+    "feature": "tamaño",
+    "description": "definition"
+   },
+   {
+    "feature": "batería incluida",
+    "description": "Synergistic"
+   }
+  ],
+  "type": "Agregados recientemente"
+ },
+ {
+  "id": 86,
+  "name": "Mini computadora",
+  "description": "potenti in eleifend quam a odio in hac habitasse platea dictumst maecenas ut massa quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida nisi at nibh in hac habitasse",
+  "category": "Equipos de Cómputo",
+  "brand": "HyperX",
+  "price": 10608.43,
+  "img": "http://dummyimage.com/227x100.png/dddddd/000000",
+  "specifications": [
+   {
+    "feature": "tamaño",
+    "description": "local area network"
+   },
+   {
+    "feature": "batería incluida",
+    "description": "archive"
+   },
+   {
+    "feature": "peso",
+    "description": "neutral"
+   },
+   {
+    "feature": "tipo de conexión",
+    "description": "parallelism"
+   },
+   {
+    "feature": "batería incluida",
+    "description": "Focused"
+   }
+  ],
+  "type": "Destacados"
+ },
+ {
+  "id": 87,
+  "name": "Tableta Grafica Digital de Dibujo",
+  "description": "a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce congue diam id ornare imperdiet sapien urna pretium nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in congue etiam justo etiam pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut erat id mauris vulputate elementum nullam",
+  "category": "Tarjetas de Video",
+  "brand": "Acer",
+  "price": 1463.13,
+  "img": "http://dummyimage.com/159x100.png/cc0000/ffffff",
+  "specifications": [
+   {
+    "feature": "tipo de conexión",
+    "description": "Public-key"
+   },
+   {
+    "feature": "modelo",
+    "description": "leverage"
+   },
+   {
+    "feature": "modelo",
+    "description": "grid-enabled"
+   }
+  ],
+  "type": "Más vendidos"
+ },
+ {
+  "id": 88,
+  "name": "Fuente de poder",
+  "description": "velit nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus vel nulla eget eros elementum pellentesque quisque porta volutpat erat quisque erat eros viverra eget congue eget semper rutrum nulla nunc",
+  "category": "Equipos de Cómputo",
+  "brand": "Alienware",
+  "price": 28589.67,
+  "img": "http://dummyimage.com/140x100.png/5fa2dd/ffffff",
+  "specifications": [],
+  "type": "Más vendidos"
+ },
+ {
+  "id": 89,
+  "name": "Monitor de 23.8",
+  "description": "gravida nisi at nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat",
+  "category": "Laptos",
+  "brand": "Intel",
+  "price": 3285.92,
+  "img": "http://dummyimage.com/216x100.png/cc0000/ffffff",
+  "specifications": [
+   {
+    "feature": "año",
+    "description": "heuristic"
+   }
+  ],
+  "type": "En oferta"
+ },
+ {
+  "id": 90,
+  "name": "Memoria RAM XPG SPECTRIX D41 RGB Tungsten Grey",
+  "description": "aliquam erat volutpat in congue etiam justo etiam pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut erat id mauris vulputate elementum nullam varius nulla facilisi cras non velit nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus vel nulla eget eros elementum pellentesque quisque porta volutpat erat quisque erat eros viverra eget congue eget semper rutrum nulla nunc purus phasellus in felis donec semper sapien",
+  "category": "Tarjetas Madre",
+  "brand": "Asus",
+  "price": 37124.84,
+  "img": "http://dummyimage.com/142x100.png/ff4444/ffffff",
+  "specifications": [
+   {
+    "feature": "modelo",
+    "description": "high-level"
+   },
+   {
+    "feature": "tamaño",
+    "description": "emulation"
+   },
+   {
+    "feature": "batería incluida",
+    "description": "synergy"
+   },
+   {
+    "feature": "modelo",
+    "description": "groupware"
+   },
+   {
+    "feature": "modelo",
+    "description": "capability"
+   }
+  ],
+  "type": "Más vendidos"
+ },
+ {
+  "id": 91,
+  "name": "Airpods",
+  "description": "placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt eget",
+  "category": "Periféricos",
+  "brand": "Intel",
+  "price": 20538.96,
+  "img": "http://dummyimage.com/108x100.png/dddddd/000000",
+  "specifications": [
+   {
+    "feature": "tipo de conexión",
+    "description": "fault-tolerant"
+   }
+  ],
+  "type": "Destacados"
+ },
+ {
+  "id": 92,
+  "name": "Disipador CPU Cooler Master",
+  "description": "id nisl venenatis lacinia aenean sit amet justo morbi ut odio cras mi pede malesuada in imperdiet et commodo vulputate justo in blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit proin interdum mauris non ligula pellentesque ultrices phasellus id sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum curabitur in libero ut",
+  "category": "Disipadores y Enfriamiento",
+  "brand": "Samsung",
+  "price": 22462.24,
+  "img": "http://dummyimage.com/144x100.png/dddddd/000000",
+  "specifications": [],
+  "type": "Destacados"
+ },
+ {
+  "id": 93,
+  "name": "MicroSDXC",
+  "description": "praesent id massa id nisl venenatis lacinia aenean sit amet justo morbi ut odio cras mi",
+  "category": "Laptos",
+  "brand": "Adata",
+  "price": 35046.91,
+  "img": "http://dummyimage.com/137x100.png/ff4444/ffffff",
+  "specifications": [
+   {
+    "feature": "modelo",
+    "description": "circuit"
+   }
+  ],
+  "type": "En oferta"
+ },
+ {
+  "id": 94,
+  "name": "Web camera",
+  "description": "massa id lobortis convallis tortor risus dapibus augue vel accumsan tellus nisi eu orci mauris lacinia sapien quis libero nullam sit amet turpis elementum ligula vehicula consequat morbi a ipsum integer a nibh in quis justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla ultrices aliquet maecenas leo odio condimentum id luctus nec molestie sed justo pellentesque viverra pede ac diam cras pellentesque volutpat dui maecenas tristique est et tempus semper est quam pharetra magna ac consequat",
+  "category": "Monitores",
+  "brand": "Intel",
+  "price": 3478.32,
+  "img": "http://dummyimage.com/134x100.png/ff4444/ffffff",
+  "specifications": [],
+  "type": "Más vendidos"
+ },
+ {
+  "id": 95,
+  "name": "Teclado Luz de Retroiluminación RGB",
+  "description": "eros elementum pellentesque quisque porta volutpat erat quisque erat eros viverra eget congue eget semper rutrum nulla nunc purus phasellus in felis donec semper sapien",
+  "category": "Procesadores",
+  "brand": "Samsung",
+  "price": 28515.61,
+  "img": "http://dummyimage.com/192x100.png/5fa2dd/ffffff",
+  "specifications": [
+   {
+    "feature": "año",
+    "description": "solution-oriented"
+   },
+   {
+    "feature": "tamaño",
+    "description": "full-range"
+   },
+   {
+    "feature": "modelo",
+    "description": "multi-state"
+   },
+   {
+    "feature": "tamaño",
+    "description": "help-desk"
+   }
+  ],
+  "type": "Más vendidos"
+ },
+ {
+  "id": 96,
+  "name": "Videoproyector Powerlite",
+  "description": "habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut erat id mauris vulputate elementum nullam varius nulla facilisi cras non velit nec nisi vulputate nonummy maecenas tincidunt lacus at velit",
+  "category": "Procesadores",
+  "brand": "Lenovo",
+  "price": 18118.4,
+  "img": "http://dummyimage.com/133x100.png/dddddd/000000",
+  "specifications": [],
+  "type": "Destacados"
+ },
+ {
+  "id": 97,
+  "name": "Memoria RAM XPG SPECTRIX D41 RGB Tungsten Grey",
+  "description": "amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus dolor vel est donec odio justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce congue diam",
+  "category": "Almacenamiento",
+  "brand": "Intel",
+  "price": 5591.43,
+  "img": "http://dummyimage.com/173x100.png/ff4444/ffffff",
+  "specifications": [],
+  "type": "Más vendidos"
+ },
+ {
+  "id": 98,
+  "name": "Mini computadora",
+  "description": "ac leo pellentesque ultrices mattis odio donec vitae nisi nam ultrices libero non mattis pulvinar nulla pede ullamcorper augue a suscipit nulla elit ac nulla sed vel enim sit amet nunc viverra dapibus nulla suscipit ligula in lacus curabitur at ipsum ac tellus semper interdum mauris ullamcorper purus sit amet nulla quisque arcu libero",
+  "category": "Monitores",
+  "brand": "Kingston",
+  "price": 33794.3,
+  "img": "http://dummyimage.com/148x100.png/dddddd/000000",
+  "specifications": [
+   {
+    "feature": "batería incluida",
+    "description": "Distributed"
+   },
+   {
+    "feature": "modelo",
+    "description": "moratorium"
+   },
+   {
+    "feature": "tamaño",
+    "description": "asymmetric"
+   }
+  ],
+  "type": "Agregados recientemente"
+ },
+ {
+  "id": 99,
+  "name": "Disco Duro Externo",
+  "description": "porttitor id consequat in consequat ut nulla sed accumsan felis ut at dolor quis odio consequat varius integer ac leo pellentesque ultrices mattis odio donec vitae nisi nam ultrices libero non mattis pulvinar nulla pede ullamcorper augue a suscipit nulla elit ac nulla sed vel enim sit amet nunc viverra dapibus nulla suscipit",
+  "category": "Disipadores y Enfriamiento",
+  "brand": "AMD",
+  "price": 36828.67,
+  "img": "http://dummyimage.com/240x100.png/5fa2dd/ffffff",
+  "specifications": [
+   {
+    "feature": "tamaño",
+    "description": "collaboration"
+   },
+   {
+    "feature": "tamaño",
+    "description": "standardization"
+   },
+   {
+    "feature": "modelo",
+    "description": "Function-based"
+   }
+  ],
+  "type": "Más vendidos"
+ },
+ {
+  "id": 100,
+  "name": "AMD YD3000C6FHBOX Procesador Athlon 3000G",
+  "description": "in felis eu sapien cursus vestibulum proin eu mi nulla ac enim in tempor turpis nec euismod scelerisque quam turpis adipiscing lorem vitae mattis",
+  "category": "Laptos",
+  "brand": "Lenovo",
+  "price": 15290.94,
+  "img": "http://dummyimage.com/126x100.png/cc0000/ffffff",
+  "specifications": [
+   {
+    "feature": "batería incluida",
+    "description": "moderator"
+   }
+  ],
+  "type": "Más vendidos"
+ },
+ {
+  "name": "Nuevo disco duro",
+  "description": "Es un disco duro para la compu",
+  "category": "Almacenamiento",
+  "brand": "AMD",
+  "price": "800",
+  "id": 101,
+  "img": "/images/home/default-image.png"
  }
 ]

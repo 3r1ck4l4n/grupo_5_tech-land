@@ -65,12 +65,6 @@ h1{
    width: 100%;
 }
 
-.fa-memory{
-    padding: 8px;
-    border-radius: 50%;
-    background-color: #6182a4 ;
-    width: fit-content;
-}
 
 .main-features{
     display: flex;
@@ -87,8 +81,15 @@ h1{
     flex-direction: column;
     flex-wrap: wrap;
     align-content: center;
-    justify-content: space-between;
+    justify-content: flex-start;
     width: min-content;
+}
+
+.icon-main-feature i{
+    padding: 8px;
+    border-radius: 50%;
+    background-color: #647af4 ;
+    width: fit-content;
 }
 
 .icon-main-feature p{
