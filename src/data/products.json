@@ -1,6 +1,6 @@
 [
  {
-  "id": "1",
+  "id": 1,
   "name": "AirpodsEditados",
   "description": "Editadomauris lacinia sapien quis libero nullam sit amet turpis elementum ligula vehicula consequat morbi a ipsum integer a nibh in quis justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla ultrices aliquet maecenas leo odio condimentum id luctus nec molestie sed justo pellentesque viverra pede ac diam cras pellentesque volutpat dui maecenas tristique est et tempus semper est quam pharetra magna ac consequat metus sapien ut nunc vestibulum ante ipsum primis in faucibus",
   "category": "Perifericos",
@@ -8,62 +8,7 @@
   "price": "30569.82",
   "img": "/images/home/product-image-1631630354727.jfif"
  },
- {
-  "id": 2,
-  "name": "AMD YD3000C6FHBOX Procesador Athlon 3000G",
-  "description": "gravida sem praesent id massa id nisl venenatis lacinia aenean sit amet justo morbi ut odio cras mi pede malesuada in imperdiet et commodo vulputate justo in blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit proin interdum mauris",
-  "category": "PC Gamer",
-  "brand": "Asus",
-  "price": 39853.04,
-  "img": "http://dummyimage.com/130x100.png/5fa2dd/ffffff",
-  "specifications": [
-   {
-    "feature": "tipo de conexión",
-    "description": "Universal"
-   },
-   {
-    "feature": "peso",
-    "description": "archive"
-   },
-   {
-    "feature": "batería incluida",
-    "description": "Monitored"
-   }
-  ],
-  "type": "Destacados"
- },
- {
-  "id": 3,
-  "name": "Cooler Master",
-  "description": "sed interdum venenatis turpis enim blandit mi in porttitor pede justo eu massa donec dapibus duis at velit eu est congue elementum in hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam erat fermentum justo nec condimentum neque sapien placerat ante",
-  "category": "Monitores",
-  "brand": "Kingston",
-  "price": 14665.63,
-  "img": "http://dummyimage.com/166x100.png/cc0000/ffffff",
-  "specifications": [
-   {
-    "feature": "tipo de conexión",
-    "description": "contingency"
-   },
-   {
-    "feature": "tamaño",
-    "description": "Focused"
-   },
-   {
-    "feature": "año",
-    "description": "demand-driven"
-   },
-   {
-    "feature": "tamaño",
-    "description": "standardization"
-   },
-   {
-    "feature": "peso",
-    "description": "product"
-   }
-  ],
-  "type": "Agregados recientemente"
- },
+
  {
   "id": 4,
   "name": "Tableta Grafica Digital de Dibujo",
@@ -958,23 +903,50 @@
  },
  {
   "id": 43,
-  "name": "AMD YD3000C6FHBOX Procesador Athlon 3000G",
-  "description": "tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt eget tempus vel pede morbi porttitor lorem id ligula suspendisse ornare consequat lectus in est",
-  "category": "Tarjetas Madre",
-  "brand": "Intel",
-  "price": 38375.08,
-  "img": "http://dummyimage.com/165x100.png/dddddd/000000",
-  "specifications": [
+  "name": "Otter, oriental short-clawed",
+  "description": "risus semper porta volutpat quam pede lobortis ligula sit amet eleifend pede libero",
+  "category": "Procesadores",
+  "brand": "Nvidia",
+  "price": 7379.01,
+  "img": "http://dummyimage.com/248x100.png/ff4444/ffffff",
+  "mainFeature": [
    {
-    "feature": "modelo",
-    "description": "Managed"
+    "icon": "fas fa-heart",
+    "description": "vel augue vestibulum rutrum"
    },
    {
-    "feature": "modelo",
-    "description": "well-modulated"
+    "icon": "fas fa-heart",
+    "description": "orci mauris"
    }
   ],
-  "type": "Agregados recientemente"
+  "specifications": [
+   {
+    "feature": "Up-sized",
+    "description": "executive"
+   },
+   {
+    "feature": "task-force",
+    "description": "Persevering"
+   },
+   {
+    "feature": "uniform",
+    "description": "Digitized"
+   },
+   {
+    "feature": "explicit",
+    "description": "system engine"
+   },
+   {
+    "feature": "actuating",
+    "description": "Team-oriented"
+   },
+   {
+    "feature": "optimizing",
+    "description": "Quality-focused"
+   }
+  ],
+  "inSale": true,
+  "featured": true
  },
  {
   "id": 44,
@@ -2202,27 +2174,34 @@
  },
  {
   "id": 99,
-  "name": "Disco Duro Externo",
-  "description": "porttitor id consequat in consequat ut nulla sed accumsan felis ut at dolor quis odio consequat varius integer ac leo pellentesque ultrices mattis odio donec vitae nisi nam ultrices libero non mattis pulvinar nulla pede ullamcorper augue a suscipit nulla elit ac nulla sed vel enim sit amet nunc viverra dapibus nulla suscipit",
-  "category": "Disipadores y Enfriamiento",
-  "brand": "AMD",
-  "price": 36828.67,
-  "img": "http://dummyimage.com/240x100.png/5fa2dd/ffffff",
-  "specifications": [
+  "name": "Starling, cape",
+  "description": "fermentum justo nec condimentum neque sapien placerat ante nulla justo aliquam quis turpis eget elit sodales scelerisque mauris sit",
+  "category": "Periféricos",
+  "brand": "Acer",
+  "price": 32075.92,
+  "img": "http://dummyimage.com/150x100.png/cc0000/ffffff",
+  "mainFeature": [
    {
-    "feature": "tamaño",
-    "description": "collaboration"
+    "icon": "fas fa-shipping-fast",
+    "description": "magna at nunc commodo"
    },
    {
-    "feature": "tamaño",
-    "description": "standardization"
-   },
-   {
-    "feature": "modelo",
-    "description": "Function-based"
+    "icon": "fas fa-memory",
+    "description": "augue quam sollicitudin vitae"
    }
   ],
-  "type": "Más vendidos"
+  "specifications": [
+   {
+    "feature": "stable",
+    "description": "hybrid"
+   },
+   {
+    "feature": "functionalities",
+    "description": "Fundamental"
+   }
+  ],
+  "inSale": true,
+  "featured": true
  },
  {
   "id": 100,
