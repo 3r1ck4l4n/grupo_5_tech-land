@@ -15,7 +15,9 @@ const productsController = {
     let products = productsController.leerData();
     let item =
       products.find((item) => item.id == req.params.id);
-    res.render("productDetail", {
+
+    
+      res.render(path.join(__dirname, "../views/products/productDetail"), {
       item: item,
       products: products,
       reviews: reviews,

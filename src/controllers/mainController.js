@@ -4,7 +4,7 @@ const path = require('path');
 const productsFilePath = path.join(__dirname, '../data/products.json');
 
 
-// const listOfProducts = require("../../public/js/listOfProducts");
+const listOfProducts = require("../../public/js/listOfProducts");
 const reviews = require("../../public/js/reviews");
 
 const mainController = {
@@ -23,7 +23,7 @@ const mainController = {
         res.render('register');
     },
     productCart: (req, res)=>{               
-        res.render("productCart", {listOfProducts: listOfProducts });
+        res.render(path.join(__dirname, "../views/products/productCart"), {listOfProducts: listOfProducts });
     },
 }
 
