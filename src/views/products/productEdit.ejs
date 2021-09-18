@@ -81,6 +81,16 @@
             <label for="price">Precio</label>
             <input type="number" name="price" id="price" value="<%=item.price%>" required />
           </div>
+          <div class="form-input">
+            <label for="type">Tipo: </label>
+            <select name="type" id="type"> 
+              <option value="<%=item.type%>" selected><%=item.type%></option>             
+              <option value="Destacados">Destacados</option>
+              <option value="Agregados recientemente">Agregados recientemente</option>
+              <option value="Más vendidos">Más vendidos</option>
+              <option value="En oferta">En oferta</option>
+            </select>
+          </div>
           <div class="form-button"> 
             <button type="submit" class="button-form">Editar</button>
           </div>

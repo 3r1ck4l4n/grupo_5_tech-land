@@ -8,30 +8,15 @@
   "price": "30569.82",
   "img": "/images/home/product-image-1631630354727.jfif"
  },
-
  {
-  "id": 4,
+  "id": "4",
   "name": "Tableta Grafica Digital de Dibujo",
   "description": "at nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt eget tempus vel pede morbi porttitor lorem id ligula suspendisse ornare consequat lectus in est risus auctor sed tristique in tempus sit amet sem fusce consequat nulla nisl nunc nisl duis bibendum felis sed interdum venenatis turpis enim blandit mi in porttitor pede justo eu massa donec dapibus duis at velit eu est congue elementum in hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis",
-  "category": "Equipos de Cómputo",
+  "category": "Perifericos",
   "brand": "MSI",
-  "price": 21640.07,
-  "img": "http://dummyimage.com/171x100.png/cc0000/ffffff",
-  "specifications": [
-   {
-    "feature": "peso",
-    "description": "stable"
-   },
-   {
-    "feature": "batería incluida",
-    "description": "moderator"
-   },
-   {
-    "feature": "batería incluida",
-    "description": "impactful"
-   }
-  ],
-  "type": "Destacados"
+  "price": "21640.07",
+  "type": "Destacados",
+  "img": "/images/home/product-image-1631982879253.jpg"
  },
  {
   "id": 5,
@@ -82,76 +67,34 @@
   "type": "Más vendidos"
  },
  {
-  "id": 7,
+  "id": "7",
   "name": "Disco Duro Externo",
   "description": "id lobortis convallis tortor risus dapibus augue vel accumsan tellus nisi eu orci mauris lacinia sapien quis libero nullam sit amet turpis elementum ligula vehicula consequat",
-  "category": "Periféricos",
-  "brand": "Asus",
-  "price": 6019.96,
-  "img": "http://dummyimage.com/186x100.png/cc0000/ffffff",
-  "specifications": [
-   {
-    "feature": "modelo",
-    "description": "24 hour"
-   },
-   {
-    "feature": "modelo",
-    "description": "mobile"
-   },
-   {
-    "feature": "peso",
-    "description": "artificial intelligence"
-   },
-   {
-    "feature": "modelo",
-    "description": "local"
-   },
-   {
-    "feature": "tamaño",
-    "description": "even-keeled"
-   },
-   {
-    "feature": "tamaño",
-    "description": "Secured"
-   }
-  ],
-  "type": "Destacados"
+  "category": "Almacenamiento",
+  "brand": "Adata",
+  "price": "6019.96",
+  "type": "Destacados",
+  "img": "/images/home/product-image-1631982979466.jpg"
  },
  {
-  "id": 8,
+  "id": "8",
   "name": "Fuente de poder",
   "description": "integer ac neque duis bibendum morbi non quam nec dui luctus rutrum nulla tellus in sagittis dui vel nisl duis ac nibh fusce lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend quam a odio in hac habitasse platea dictumst maecenas ut massa quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida nisi at nibh in hac",
   "category": "Procesadores",
   "brand": "Alienware",
-  "price": 38393.6,
-  "img": "http://dummyimage.com/160x100.png/cc0000/ffffff",
-  "specifications": [
-   {
-    "feature": "batería incluida",
-    "description": "Devolved"
-   },
-   {
-    "feature": "modelo",
-    "description": "service-desk"
-   }
-  ],
-  "type": "Destacados"
+  "price": "38393.6",
+  "type": "Destacados",
+  "img": "/images/home/product-image-1631983119545.jpg"
  },
  {
-  "id": 9,
+  "id": "9",
   "name": "Tarjeta Madre",
   "description": "eget semper rutrum nulla nunc purus phasellus in felis donec semper sapien a libero nam dui proin leo odio porttitor id consequat in consequat ut nulla sed accumsan felis ut at dolor quis odio",
   "category": "Tarjetas Madre",
-  "brand": "Samsung",
-  "price": 6556.21,
-  "img": "http://dummyimage.com/161x100.png/dddddd/000000",
-  "specifications": [
-   {
-    "feature": "modelo",
-    "description": "bottom-line"
-   }
-  ],
-  "type": "En oferta"
+  "brand": "Gigabyte",
+  "price": "6556.21",
+  "type": "En oferta",
+  "img": "/images/home/product-image-1631983543015.jpg"
  },
  {
   "id": 10,
@@ -182,36 +125,14 @@
   "type": "Agregados recientemente"
  },
  {
-  "id": 11,
+  "id": "11",
   "name": "Multifuncional de Inyección de Tinta",
   "description": "nunc purus phasellus in felis donec semper sapien a libero nam dui proin leo odio porttitor id consequat in consequat ut nulla sed accumsan felis ut at dolor quis odio consequat varius integer ac leo pellentesque ultrices mattis odio donec vitae nisi nam ultrices",
-  "category": "Almacenamiento",
+  "category": "Perifericos",
   "brand": "AMD",
-  "price": 4059.17,
-  "img": "http://dummyimage.com/222x100.png/5fa2dd/ffffff",
-  "specifications": [
-   {
-    "feature": "batería incluida",
-    "description": "access"
-   },
-   {
-    "feature": "año",
-    "description": "Progressive"
-   },
-   {
-    "feature": "año",
-    "description": "bifurcated"
-   },
-   {
-    "feature": "peso",
-    "description": "leverage"
-   },
-   {
-    "feature": "modelo",
-    "description": "encryption"
-   }
-  ],
-  "type": "Destacados"
+  "price": "4059.17",
+  "type": "Destacados",
+  "img": "/images/home/product-image-1631983195915.jpg"
  },
  {
   "id": 12,
@@ -230,40 +151,14 @@
   "type": "Agregados recientemente"
  },
  {
-  "id": 13,
+  "id": "13",
   "name": "Disipador CPU Cooler Master",
   "description": "metus aenean fermentum donec ut mauris eget massa tempor convallis nulla neque libero convallis eget eleifend luctus ultricies eu nibh quisque id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia",
-  "category": "Periféricos",
-  "brand": "Alienware",
-  "price": 21265.68,
-  "img": "http://dummyimage.com/212x100.png/cc0000/ffffff",
-  "specifications": [
-   {
-    "feature": "tamaño",
-    "description": "grid-enabled"
-   },
-   {
-    "feature": "batería incluida",
-    "description": "reciprocal"
-   },
-   {
-    "feature": "año",
-    "description": "Digitized"
-   },
-   {
-    "feature": "tipo de conexión",
-    "description": "De-engineered"
-   },
-   {
-    "feature": "modelo",
-    "description": "Streamlined"
-   },
-   {
-    "feature": "modelo",
-    "description": "internet solution"
-   }
-  ],
-  "type": "En oferta"
+  "category": "Disipadores y enfriamiento",
+  "brand": "Nvidia",
+  "price": "21265.68",
+  "type": "En oferta",
+  "img": "/images/home/product-image-1631983641323.jpg"
  },
  {
   "id": 14,
@@ -334,56 +229,24 @@
   "type": "Agregados recientemente"
  },
  {
-  "id": 17,
-  "name": "Disco Duro Externo",
+  "id": "17",
+  "name": "Disco Duro Externo Dos",
   "description": "mi pede malesuada in imperdiet et commodo vulputate justo in blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit proin interdum mauris",
-  "category": "PC Gamer",
+  "category": "Almacenamiento",
   "brand": "AMD",
-  "price": 34977.25,
-  "img": "http://dummyimage.com/228x100.png/5fa2dd/ffffff",
-  "specifications": [
-   {
-    "feature": "peso",
-    "description": "Devolved"
-   }
-  ],
-  "type": "En oferta"
+  "price": "34977.25",
+  "type": "En oferta",
+  "img": "/images/home/product-image-1631983763878.jpg"
  },
  {
-  "id": 18,
+  "id": "18",
   "name": "Memoria RAM XPG SPECTRIX D41 RGB Tungsten Grey",
   "description": "orci luctus et ultrices posuere cubilia curae duis faucibus accumsan odio curabitur convallis duis consequat dui nec nisi volutpat eleifend donec ut dolor morbi vel lectus in quam fringilla rhoncus mauris enim leo rhoncus sed vestibulum sit amet cursus id turpis integer aliquet massa",
   "category": "Almacenamiento",
   "brand": "Gigabyte",
-  "price": 30834.1,
-  "img": "http://dummyimage.com/248x100.png/5fa2dd/ffffff",
-  "specifications": [
-   {
-    "feature": "año",
-    "description": "toolset"
-   },
-   {
-    "feature": "tamaño",
-    "description": "Enhanced"
-   },
-   {
-    "feature": "tipo de conexión",
-    "description": "superstructure"
-   },
-   {
-    "feature": "tamaño",
-    "description": "uniform"
-   },
-   {
-    "feature": "batería incluida",
-    "description": "artificial intelligence"
-   },
-   {
-    "feature": "tamaño",
-    "description": "maximized"
-   }
-  ],
-  "type": "En oferta"
+  "price": "30834.1",
+  "type": "En oferta",
+  "img": "/images/home/product-image-1631984184164.jpg"
  },
  {
   "id": 19,
@@ -462,64 +325,34 @@
   "type": "Más vendidos"
  },
  {
-  "id": 22,
+  "id": "22",
   "name": "Mouse Gamer",
   "description": "mi pede malesuada in imperdiet et commodo vulputate justo in blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit proin interdum mauris non ligula pellentesque ultrices phasellus id sapien in sapien",
   "category": "Tarjetas Madre",
-  "brand": "Asus",
-  "price": 23379.38,
-  "img": "http://dummyimage.com/201x100.png/5fa2dd/ffffff",
-  "specifications": [
-   {
-    "feature": "peso",
-    "description": "Advanced"
-   },
-   {
-    "feature": "modelo",
-    "description": "24/7"
-   },
-   {
-    "feature": "año",
-    "description": "needs-based"
-   }
-  ],
-  "type": "Destacados"
+  "brand": "EVGA",
+  "price": "23379.38",
+  "type": "Destacados",
+  "img": "/images/home/product-image-1631983244478.jpg"
  },
  {
-  "id": 23,
+  "id": "23",
   "name": "Mouse Gamer",
   "description": "porta volutpat erat quisque erat eros viverra eget congue eget semper rutrum nulla nunc purus phasellus in felis donec semper sapien a",
-  "category": "Procesadores",
-  "brand": "Lenovo",
-  "price": 8974.62,
-  "img": "http://dummyimage.com/192x100.png/ff4444/ffffff",
-  "specifications": [
-   {
-    "feature": "tipo de conexión",
-    "description": "Networked"
-   }
-  ],
-  "type": "En oferta"
+  "category": "Perifericos",
+  "brand": "Acer",
+  "price": "8974.62",
+  "type": "En oferta",
+  "img": "/images/home/product-image-1631984330101.jpg"
  },
  {
-  "id": 24,
+  "id": "24",
   "name": "Tarjeta Madre",
   "description": "mollis molestie lorem quisque ut erat curabitur gravida nisi at nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt eget tempus vel pede morbi porttitor lorem id ligula suspendisse ornare consequat lectus in est risus auctor sed tristique in tempus sit amet sem fusce consequat nulla",
   "category": "PC Gamer",
-  "brand": "AMD",
-  "price": 48707.17,
-  "img": "http://dummyimage.com/156x100.png/5fa2dd/ffffff",
-  "specifications": [
-   {
-    "feature": "batería incluida",
-    "description": "benchmark"
-   },
-   {
-    "feature": "peso",
-    "description": "Reactive"
-   }
-  ],
-  "type": "Destacados"
+  "brand": "MSI",
+  "price": "48707.17",
+  "type": "Destacados",
+  "img": "/images/home/product-image-1631983308441.jpg"
  },
  {
   "id": 25,
@@ -538,51 +371,24 @@
   "type": "Agregados recientemente"
  },
  {
-  "id": 26,
+  "id": "26",
   "name": "Monitor de 23.8",
   "description": "pede ullamcorper augue a suscipit nulla elit ac nulla sed vel enim sit amet nunc viverra dapibus nulla suscipit ligula in lacus curabitur at ipsum ac tellus",
-  "category": "Tarjetas Madre",
-  "brand": "Acer",
-  "price": 18268.21,
-  "img": "http://dummyimage.com/240x100.png/ff4444/ffffff",
-  "specifications": [],
-  "type": "En oferta"
+  "category": "Monitores",
+  "brand": "Apple",
+  "price": "18268.21",
+  "type": "En oferta",
+  "img": "/images/home/product-image-1631984407511.jpg"
  },
  {
-  "id": 27,
+  "id": "27",
   "name": "Web camera",
   "description": "sapien ut nunc vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus",
   "category": "Tarjetas Madre",
-  "brand": "Acer",
-  "price": 42503.65,
-  "img": "http://dummyimage.com/167x100.png/5fa2dd/ffffff",
-  "specifications": [
-   {
-    "feature": "batería incluida",
-    "description": "Face to face"
-   },
-   {
-    "feature": "tamaño",
-    "description": "policy"
-   },
-   {
-    "feature": "batería incluida",
-    "description": "framework"
-   },
-   {
-    "feature": "modelo",
-    "description": "pricing structure"
-   },
-   {
-    "feature": "batería incluida",
-    "description": "data-warehouse"
-   },
-   {
-    "feature": "peso",
-    "description": "Operative"
-   }
-  ],
-  "type": "Destacados"
+  "brand": "Asus",
+  "price": "42503.65",
+  "type": "Destacados",
+  "img": "/images/home/product-image-1631983363574.jpg"
  },
  {
   "id": 28,
@@ -596,20 +402,14 @@
   "type": "En oferta"
  },
  {
-  "id": 29,
+  "id": "29",
   "name": "Monitor de 23.8",
   "description": "turpis adipiscing lorem vitae mattis nibh ligula nec sem duis aliquam convallis nunc proin at turpis a pede posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi sit amet lobortis sapien sapien non mi",
   "category": "Procesadores",
-  "brand": "HyperX",
-  "price": 13747.04,
-  "img": "http://dummyimage.com/134x100.png/cc0000/ffffff",
-  "specifications": [
-   {
-    "feature": "tamaño",
-    "description": "support"
-   }
-  ],
-  "type": "Destacados"
+  "brand": "Samsung",
+  "price": "13747.04",
+  "type": "Destacados",
+  "img": "/images/home/product-image-1631983454670.jpg"
  },
  {
   "id": 30,
@@ -816,34 +616,6 @@
    }
   ],
   "type": "Agregados recientemente"
- },
- {
-  "id": 40,
-  "name": "Videoproyector Powerlite",
-  "description": "eros vestibulum ac est lacinia nisi venenatis tristique fusce congue diam id ornare imperdiet sapien urna pretium nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in congue etiam justo etiam pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut erat id mauris vulputate",
-  "category": "PC Gamer",
-  "brand": "AMD",
-  "price": 13489.65,
-  "img": "http://dummyimage.com/190x100.png/cc0000/ffffff",
-  "specifications": [
-   {
-    "feature": "tipo de conexión",
-    "description": "Adaptive"
-   },
-   {
-    "feature": "modelo",
-    "description": "value-added"
-   },
-   {
-    "feature": "año",
-    "description": "Multi-lateral"
-   },
-   {
-    "feature": "batería incluida",
-    "description": "database"
-   }
-  ],
-  "type": "En oferta"
  },
  {
   "id": 41,
@@ -1258,32 +1030,14 @@
   "type": "Más vendidos"
  },
  {
-  "id": 59,
-  "name": "Procesador Intel Core i5",
+  "id": "59",
+  "name": "Procesador Intel Core i9",
   "description": "lobortis ligula sit amet eleifend pede libero quis orci nullam molestie nibh in lectus pellentesque at nulla suspendisse potenti cras in purus eu magna vulputate luctus cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus",
   "category": "Almacenamiento",
-  "brand": "Gigabyte",
-  "price": 20350.67,
-  "img": "http://dummyimage.com/137x100.png/cc0000/ffffff",
-  "specifications": [
-   {
-    "feature": "peso",
-    "description": "methodical"
-   },
-   {
-    "feature": "batería incluida",
-    "description": "heuristic"
-   },
-   {
-    "feature": "año",
-    "description": "Extended"
-   },
-   {
-    "feature": "peso",
-    "description": "core"
-   }
-  ],
-  "type": "En oferta"
+  "brand": "Intel",
+  "price": "20350.67",
+  "type": "En oferta",
+  "img": "/images/home/product-image-1631984244860.jpg"
  },
  {
   "id": 60,
