@@ -34,7 +34,7 @@ const productsController = {
     req.file
       ? (newProduct.img = "/images/home/" + req.file.filename)
       : (newProduct.img = "/images/home/default-image.png");
-
+    
     products.push(newProduct);
     let newProducts = JSON.stringify(products, null, " ");
     fs.writeFileSync(productsFilePath, newProducts, "utf-8");
@@ -72,7 +72,6 @@ const productsController = {
   delete: (req, res)=>{
     let id = req.params.id;  
     let products = productsController.leerData();
-    let item = products.find(product=>product.id == id);
     products= products.filter(product => product.id != id);
     fs.writeFileSync(productsFilePath, JSON.stringify(products, null, " "));
     res.redirect('/home');

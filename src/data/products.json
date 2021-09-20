@@ -1826,22 +1826,6 @@
   "type": "Destacados"
  },
  {
-  "id": 93,
-  "name": "MicroSDXC",
-  "description": "praesent id massa id nisl venenatis lacinia aenean sit amet justo morbi ut odio cras mi",
-  "category": "Laptos",
-  "brand": "Adata",
-  "price": 35046.91,
-  "img": "http://dummyimage.com/137x100.png/ff4444/ffffff",
-  "specifications": [
-   {
-    "feature": "modelo",
-    "description": "circuit"
-   }
-  ],
-  "type": "En oferta"
- },
- {
   "id": 94,
   "name": "Web camera",
   "description": "massa id lobortis convallis tortor risus dapibus augue vel accumsan tellus nisi eu orci mauris lacinia sapien quis libero nullam sit amet turpis elementum ligula vehicula consequat morbi a ipsum integer a nibh in quis justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla ultrices aliquet maecenas leo odio condimentum id luctus nec molestie sed justo pellentesque viverra pede ac diam cras pellentesque volutpat dui maecenas tristique est et tempus semper est quam pharetra magna ac consequat",
@@ -1879,17 +1863,6 @@
    }
   ],
   "type": "Más vendidos"
- },
- {
-  "id": 96,
-  "name": "Videoproyector Powerlite",
-  "description": "habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut erat id mauris vulputate elementum nullam varius nulla facilisi cras non velit nec nisi vulputate nonummy maecenas tincidunt lacus at velit",
-  "category": "Procesadores",
-  "brand": "Lenovo",
-  "price": 18118.4,
-  "img": "http://dummyimage.com/133x100.png/dddddd/000000",
-  "specifications": [],
-  "type": "Destacados"
  },
  {
   "id": 97,
