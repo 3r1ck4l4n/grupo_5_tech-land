@@ -9,7 +9,8 @@ const productsController = {
     return products;
   },
   home: (req, res) => {
-    res.render("home");
+    let products = productsController.leerData();
+		res.render(path.join(__dirname, "../views/products/products"),{products:products});
   },
   productDetail: (req, res) => {
     let products = productsController.leerData();

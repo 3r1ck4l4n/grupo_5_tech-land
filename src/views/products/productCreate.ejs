@@ -24,7 +24,7 @@
     <main>
       <section>
         <h1> <i class="fas fa-plus-circle"></i> Agregar producto</h1>
-        <form action="/products" method="POST">
+        <form action="/products" method="POST" enctype="multipart/form-data">
           <section class = columns>
             <!-- <img 
               src="/images/home/i9.jpg" 
@@ -55,10 +55,10 @@
           <div>
             <label for="description">Descripción</label>
             <textarea name="description" id="description" cols="4" class="input-description"></textarea>
-          <!-- </div>
+          </div>
           <label for="product-image">Imagen del producto</label>
               <input type="file" name="product-image" id="file" class = "input-image" />
-          <div> -->
+          <div>
             <label for="category">Categoría</label>
             <select name="category" id="category" class="input">
                 <option value="Perifericos">Perifericos</option>
@@ -72,6 +72,8 @@
                 <option value="PC Gamer">PC Gamer</option>
                 <option value="Almacenamiento">Almacenamiento</option>
                 <option value="Memorias">Memorias</option>
+                <option value="Otra">Otra</option>
+
             </select>                
           </div>
           <div> 
@@ -97,16 +99,17 @@
                 <option value="Nvidia">Nvidia</option>
                 <option value="Samsung">Samsung</option>
                 <option value="Sony">Sony</option>
+                <option value="Otro">Otro</option>
             </select>
           </div>
           <div class="form-input"> 
             <label for="price">Precio</label>
-            <input type="number" name="price" id="price" class="input" placeholder="  Precio">
+            <input type="number" name="price" id="price" class="input" placeholder="Precio" required>
           </div>
-          <div>
+          <div class="form-input">
             <label for="type">Tipo: </label>
-            <select name="type" id="type" class="input">              
-              <option value="Destacados">Destacados</option>
+            <select name="type" id="type" class= "input">             -->
+              <option value="Destacados" selected>Destacados</option>
               <option value="Agregados recientemente">Agregados recientemente</option>
               <option value="Más vendidos">Más vendidos</option>
               <option value="En oferta">En oferta</option>

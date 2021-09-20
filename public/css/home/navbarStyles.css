@@ -274,12 +274,12 @@ text-align: center;}
 
 @media (min-width: 1028px) {
   ul.service-options {
-    width: 70%;
+    width: 75%;
     padding: 0px;
   }
   ul.user-options {
     justify-items: flex-end;
-    width: 30%;
+    width: 25%;
     margin: 0;
   }
   ul.user-options li, ul.user-options li a{

@@ -29,7 +29,7 @@ router.get('/', productsController.home);
 
 /*** CREATE ONE PRODUCT ***/ 
 router.get('/create', productsController.productCreate); 
-router.post('/',productsController.productStore); 
+router.post('/',upload.single('product-image'),productsController.productStore); 
 
 
 /*** GET ONE PRODUCT ***/ 
