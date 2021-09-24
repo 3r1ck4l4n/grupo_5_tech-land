@@ -48,3 +48,15 @@ qué problemas surgieron:
 * Habría que modularizar las listas del home. Israel trabajará en ello. Erick revisará si hay que modificar los contenedores
 * Erick revisará la creación de nuevos controladores y routers. 
 
+#SPRINT 4. weekly.
+
+##  9 de septiembre de 2021
+* Se realizo la división de actividades: 
+>> * Erick y Duron se encargaran de realizar los metodos CRUD.
+>> * Duron e Israel se encargaran de realizar los JSON de productos y de usuarios. 
+
+##  17 de septiembre de 2021
+* Se verificaron las tareas pendientes y cuestiones del proyecto que estaban pendientes.
+>>* Israel corregira algunas cuestiones del JSON de productos con los que tuvo problemas, e implementara imagenes de los productos.
+>>* Daniel concluira el metodo de "Create" en el controller de productos.
+>>* Erick concluyo los metodos de edición y eliminación sin problema alguno. 

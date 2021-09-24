@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <%- include("partials/head") %>    
+    <%- include("../partials/head") %>    
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/productDetailStyles.css">
     <title>Detalle</title>    
@@ -10,7 +10,7 @@
 
 <body>
   <header>
-      <%- include('./partials/header')%>
+      <%- include('../partials/header')%>
   </header>
 
     <main>
@@ -33,11 +33,11 @@
                     <div class="main-features">                  
                         <div class="icon-main-feature">
                           <i class="fas fa-memory"></i>
-                            <p><%=item.mainFeature1%></p>
+                            <p>A main feature</p>
                         </div>    
                         <div class="icon-main-feature">
                             <i class="fas fa-memory"></i>
-                              <p><%=item.mainFeature2%></p>
+                              <p>A main feature</p>
                         </div>
                         <div class="icon-main-feature">
                           <i class="fas fa-memory"></i>
@@ -48,7 +48,9 @@
                               <p>A main feature</p>
                         </div>
                     </div>
-      
+                
+                    
+                          
                     <div class="price">
                         <label for="price-number">Precio:</label>
                         <p id="price-number">$ <%=item.price%> MX</p>
@@ -60,6 +62,13 @@
                             Agregar al carrito
                         </button>
                     </div>
+
+                    <a href="/products/edit/<%= item.id %>">
+                        <button>Editar</button>
+                    </a>
+                    <form action="/products/delete/<%= item.id %>?_method=DELETE" method="POST" style="display: inline-flex">
+                        <button type="submit" class="action-button delete">ELIMINAR</button>
+                    </form>
                 </div>
                 
             </main>
@@ -77,6 +86,7 @@
             </div>
         </section>
 
+        <% if(item.specifications !== undefined){ %>     
         <section class="specficactions">
             <h2 class="title">
                 Especificaciones técnicas
@@ -90,39 +100,27 @@
                         <th>Característica</th>
                         <th>Descripción</th>
                     </tr>
-
+                    <% item.specifications.forEach(row => {  %>               
                     <tr>
-                        <td>a value</td>
-                        <td>another value</td>
+                        <td><%= row.feature %></td>
+                        <td><%= row.description %></td>
                     </tr>
-                    
-                    <tr>
-                        <td>a value</td>
-                        <td>another value</td>
-                    </tr>
-
-                    <tr>
-                        <td>a value</td>
-                        <td>another value</td>
-                    </tr>
-
-                    <tr>
-                        <td>a value</td>
-                        <td>another value</td>
-                    </tr>
-                  
+                    <% }) %>
                 </table>
             </div>
         </section>
+        <% } %>
+       
+        
 
-        <%- include("partials/recommendations") %>
+        <%- include("../partials/recommendations") %>
 
-        <%- include("partials/reviewsList") %>
+        <%- include("../partials/reviewsList") %>
      
       
     </main>
 
-    <%- include('./partials/footer')%>
+    <%- include('../partials/footer')%>
     
 </body>
 </html>

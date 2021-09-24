@@ -12,7 +12,7 @@ ul{
 }
 body {
   margin-bottom: 408px;
-  background-color: #1a0315 !important;
+  background-color: white !important;
 }
 
 .carousel-item img{
@@ -23,12 +23,10 @@ body {
 
 
 main {
-  background-color: black;
   margin: 10px;
 }
 
 main section {
-  background-color: black;
   margin-top: 30px;
 }
 
@@ -83,7 +81,7 @@ p.price {
   margin-top: 15px;
   margin-bottom: 25px;
   border-top: #88d317 solid 2px;
-  color: white;
+  color: black;
   text-align: center;
 }
 

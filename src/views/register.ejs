@@ -6,7 +6,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">    
     <!-- <link href = "/css/normalize.css" rel = stylesheet> -->    
     <link href="/css/register.css" rel=stylesheet>    
-    <link href="/css/home/formStyles.css" rel=stylesheet> 
+    <link href="/css/home/formStyles.css" rel=stylesheet>   
     <title>Crear cuenta</title>
 </head>
 <body>
@@ -24,6 +24,8 @@
         <section>
             <h1>Registro de nuevo usuario</h1>
             <form action="/login" method="GET">
+                <div id = "preview">
+                </div> 
                 <article class="fullname">
                     <div> 
                         <!-- <p>Nombre</p> -->
@@ -274,6 +276,10 @@
                     <option value="Zambia" id="ZM">Zambia</option>
                     <option value="Zimbabue" id="ZW">Zimbabue</option>
                 </select>
+                <div> 
+                   <label for="product-image">Imagen de perfil</label>
+                   <input type="file" name="product-image" id="file" class = "input-image" />
+                </div>
                 <label class="advices">
                 <div class="check"><input type="checkbox" class="checkbox"> Deseo recibir ofertas y promociones de parte de TechLand.com por correo </div>
                 <div class="check"><input type="checkbox" class="checkbox" required> He leído y acepto los términos y condiciones y las políticas de privacidad de TechLand.com</div>

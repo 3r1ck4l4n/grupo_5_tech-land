@@ -24,7 +24,7 @@
     <main>
       <section>
         <h1> <i class="fas fa-plus-circle"></i> Agregar producto</h1>
-        <form action="/home" method="GET">
+        <form action="/products" method="POST" enctype="multipart/form-data">
           <section class = columns>
             <!-- <img 
               src="/images/home/i9.jpg" 
@@ -40,13 +40,13 @@
           </section>
           <section class = columns>
           <div>
-            <label for="productName">Nombre del producto</label>
+            <label for="name">Nombre del producto</label>
             <input
               size="20px"
               type="text"
               class="input"
               id="fname"
-              name="productName"
+              name="name"
               placeholder="  Nombre del producto"
               required
               minlength="3"
@@ -72,6 +72,8 @@
                 <option value="PC Gamer">PC Gamer</option>
                 <option value="Almacenamiento">Almacenamiento</option>
                 <option value="Memorias">Memorias</option>
+                <option value="Otra">Otra</option>
+
             </select>                
           </div>
           <div> 
@@ -97,11 +99,21 @@
                 <option value="Nvidia">Nvidia</option>
                 <option value="Samsung">Samsung</option>
                 <option value="Sony">Sony</option>
+                <option value="Otro">Otro</option>
             </select>
           </div>
           <div class="form-input"> 
             <label for="price">Precio</label>
-            <input type="number" name="price" id="price" class="input" placeholder="  Precio">
+            <input type="number" name="price" id="price" class="input" placeholder="Precio" required>
+          </div>
+          <div class="form-input">
+            <label for="type">Tipo: </label>
+            <select name="type" id="type" class= "input">             -->
+              <option value="Destacados" selected>Destacados</option>
+              <option value="Agregados recientemente">Agregados recientemente</option>
+              <option value="Más vendidos">Más vendidos</option>
+              <option value="En oferta">En oferta</option>
+            </select>
           </div>
           <button type="submit" class="register-button">Enviar</button>
         </section>

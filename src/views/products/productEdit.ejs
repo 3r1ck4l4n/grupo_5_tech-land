@@ -19,23 +19,23 @@
           <div class="title-form"> Editar productos </div>
           <div id="preview"></div>
         </div>
-        <form action="#_?method=PUT" method="POST">
+        <form action="/products/edit/<%= item.id %>?_method=PATCH" method="POST" enctype="multipart/form-data">
           <div class="form-input">
             <label for="name">Nombre del Producto</label>
-            <input type="text" name="name" id="name" required/>
+            <input type="text" name="name" id="name" value="<%=item.name%>" required/>
           </div>
           <div class="form-input">
             <label for="description">Descripción</label>
-            <textarea name="description" id="description" cols="3" required></textarea>
+            <textarea name="description" id="description" cols="3"  required><%=item.description%></textarea>
           </div>
           <div class="form-input">
             <label for="product-image">Imagen del producto</label>
-            <input type="file" name="product-image" id="file" required/>
+            <input type="file" name="product-image" id="file" value="<%=item.img%>" required/>
           </div>
           <div class="form-input">
             <label for="category">Categoría</label>
             <select name="category" id="category" required>
-              <option value=""></option>
+              <option value="<%=item.category%>" selected><%=item.category%></option>
               <option value="Perifericos">Perifericos</option>
               <option value="Equipos de computo">Equipos de computo</option>
               <option value="Laptops">Laptops</option>
@@ -49,12 +49,13 @@
               <option value="PC Gamer">PC Gamer</option>
               <option value="Almacenamiento">Almacenamiento</option>
               <option value="Memorias">Memorias</option>
+              <option value="Otra">Otra</option>
             </select>
           </div>
           <div class="form-input">
             <label for="brand">Marca</label>
             <select name="brand" id="brand" required>
-              <option value=""></option>
+              <option value="<%=item.brand%>" selected><%=item.brand%></option>
               <option value="Acer">Acer</option>
               <option value="Adata">Adata</option>
               <option value="AlienWare">AlienWare</option>
@@ -75,11 +76,22 @@
               <option value="Nvidia">Nvidia</option>
               <option value="Samsung">Samsung</option>
               <option value="Sony">Sony</option>
+              <option value="Otra">Otra</option>
             </select>
           </div>
           <div class="form-input">
             <label for="price">Precio</label>
-            <input type="number" name="price" id="price" required />
+            <input type="number" name="price" id="price" value="<%=item.price%>" required />
+          </div>
+          <div class="form-input">
+            <label for="type">Tipo: </label>
+            <select name="type" id="type"> 
+              <option value="<%=item.type%>" selected><%=item.type%></option>             
+              <option value="Destacados">Destacados</option>
+              <option value="Agregados recientemente">Agregados recientemente</option>
+              <option value="Más vendidos">Más vendidos</option>
+              <option value="En oferta">En oferta</option>
+            </select>
           </div>
           <div class="form-button"> 
             <button type="submit" class="button-form">Editar</button>
