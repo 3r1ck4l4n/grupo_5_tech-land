@@ -59,6 +59,8 @@ const productsController = {
       id: req.params.id,
       ...req.body,
     };
+    let oldImg= path.join(__dirname,"../../public"+productToEdit.img);
+    fs.unlinkSync(oldImg);
     req.file
       ? (newProduct.img = "/images/home/" + req.file.filename)
       : (newProduct.img = "/images/home/default-image.png");
