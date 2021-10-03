@@ -3,6 +3,7 @@ const app = express();
 const path = require("path");
 const router= require('./routes/mainRoutes');
 const routerProduct= require('./routes/productRoutes');
+const routerUser = require('./routes/userRoutes');
 const publicPath = path.resolve(__dirname, "../public");
 const methodOverride =  require('method-override'); // Pasar poder usar los métodos PUT y DELETE
 app.use(methodOverride('_method')); // Pasar poder pisar el method="POST" en el formulario por PUT y DELETE
@@ -54,3 +55,6 @@ app.use('/products',routerProduct);
 //     res.sendFile(path.resolve(__dirname, "./views/createProduct.html"));
 //  });
 
+// User routes
+
+app.use('/users', routerUser);
