@@ -23,19 +23,19 @@
 
         <section>
             <h1>Registro de nuevo usuario</h1>
-            <form action="/login" method="GET">
+            <form action="/users/register" method="POST" enctype="multipart/form-data">
                 <div id = "preview">
                 </div> 
                 <article class="fullname">
                     <div> 
                         <!-- <p>Nombre</p> -->
-                        <input type="text" class="input" id="fname" name="first-name" placeholder="  Nombre" required minlength="2" > 
+                        <input type="text" class="input" id="fname" name="firstName" placeholder="  Nombre" required minlength="2" > 
                     </div>
-                    <div> <input type="text" class="input" id="fname" name="last-name" placeholder="  Apellidos"  required minlength="2"> </div>
+                    <div> <input type="text" class="input" id="fname" name="lastName" placeholder="  Apellidos"  required minlength="2"> </div>
                 </article>
-                <div> <input size="20px" type="text" class="input" id="fname" name="email-address" placeholder="  nombre@example.com" required minlength="2"> </div>
+                <div> <input size="20px" type="text" class="input" id="fname" name="email" placeholder="  nombre@example.com" required minlength="2"> </div>
                 <div> <input size="20px" type="password" class="input" id="fname" name="password" placeholder="  Contraseña" required minlength="8" pattern="^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$"> </div>
-                <div> <input size="20px" type="password" class="input" id="fname" name="password" placeholder="  Confirmar contraseña" required minlength="8" pattern="^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$" > </div>
+                <div> <input size="20px" type="password" class="input" id="fname" name="password2" placeholder="  Confirmar contraseña" required minlength="8" pattern="^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$" > </div>
                 <label> <h3>País o región: </h3></label>
                 <select name="pais" class="input">
                     <option value="Afganistán" id="AF">Afganistán</option>
@@ -277,12 +277,12 @@
                     <option value="Zimbabue" id="ZW">Zimbabue</option>
                 </select>
                 <div> 
-                   <label for="product-image">Imagen de perfil</label>
-                   <input type="file" name="product-image" id="file" class = "input-image" />
+                   <label for="image">Imagen de perfil</label>
+                   <input type="file" name="userImage" id="userImage" class = "input-image" />
                 </div>
                 <label class="advices">
-                <div class="check"><input type="checkbox" class="checkbox"> Deseo recibir ofertas y promociones de parte de TechLand.com por correo </div>
-                <div class="check"><input type="checkbox" class="checkbox" required> He leído y acepto los términos y condiciones y las políticas de privacidad de TechLand.com</div>
+                <div class="check"><input type="checkbox" name="offers" class="checkbox" value="true"> Deseo recibir ofertas y promociones de parte de TechLand.com por correo </div>
+                <div class="check"><input type="checkbox" name="politicy" class="checkbox" required> He leído y acepto los términos y condiciones y las políticas de privacidad de TechLand.com</div>
                 </label>
                 <button type="submit" class="register-button"> Registrar > </button>
             </form>
