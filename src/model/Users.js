@@ -24,7 +24,7 @@ const User = {
   },
   findByField: function (field, param) {
     let allUsers = this.findAll();
-    return allUsers.find((user) => (user[field] = param));
+    return allUsers.find((user) => (user[field] === param));
   },
   create: function (userData) {
     let allUsers = this.findAll();

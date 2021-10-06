@@ -157,7 +157,7 @@
   "first_name": "Ferd",
   "last_name": "Chorlton",
   "email": "fchorltonh@pagesperso-orange.fr",
-  "password": "0RklVqzyZJnW",
+  "password": "Rd3#sI28",
   "category": "user",
   "image": "user_18.jpg"
  },
@@ -186,5 +186,13 @@
   "email": "eluna1802@alumno.ipn.mx",
   "nationality": "México",
   "profileImage": "/data/images/users/eluna1802@alumno.ipn.mxprofile-image.jpg"
+ },
+ {
+  "id": 22,
+  "user": "Israel Pérez",
+  "password": "$2b$10$MKrRP4kPe3cfkwGV4YGgyeRl/s7SC.JZI3Ha1fcOAhDJii47ZgCZa",
+  "email": "isra@mail.com",
+  "nationality": "México",
+  "profileImage": "isra@mail.comprofile-image.jpg"
  }
 ]

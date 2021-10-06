@@ -28,6 +28,67 @@ const userController = {
 
     login: (req, res)=>{
         res.render(path.join(__dirname, '../views/users/login'));
+    }, 
+
+    gettingLogged: (req, res)=>{
+        let errors = validationResult(req);
+        if(!errors.isEmpty()){
+                res.render(path.join(__dirname, '../views/users/login'), {
+                errors: errors.mapped(),
+                oldData: req.body
+            });
+        } 
+
+        let userToLogin = User.findByField('email', req.body.email); // Check if the user is in the DB
+        
+        if(userToLogin){
+            let passwordIsCorrect = hashPass.compare(req.body.password, userToLogin.password); //Check if the password is correct
+            
+            if(passwordIsCorrect){
+                delete userToLogin.password;
+                req.session.userLogged = userToLogin;
+               
+                if(req.body.rememberMe){
+                    res.cookie('myEmail', req.body.email, {maxAge: (1000* 60) * 2});                    
+                }
+                
+                return res.redirect('profile');                
+                
+            }            
+
+            return res.render(path.join(__dirname, '../views/users/login'), { // If password is wrong, then it sends an error.
+                errors: {
+                    email: {
+                        msg: "Tu email o contraseña son incorrectos"
+                    }
+                },
+               oldData : req.body
+            });
+            
+        } 
+        return res.render(path.join(__dirname, '../views/users/login'), { // If user is not in the DB, then it sends an error.
+            errors:{
+                email: {
+                    msg: 'Este email no está registrado. Por favor, veríficalo o regístrate para poder iniciar sesión'
+                }
+            },
+           oldData : req.body
+        });
+
+    },
+
+    profile: (req, res)=>{
+        res.render(path.join(__dirname, '../views/users/profile'), {
+            user: req.session.userLogged
+        });
+    },
+
+    logout: (req, res)=>{
+        res.clearCookie('myEmail');    //delete cookie
+        req.session.destroy(); // delete session
+        return res.redirect('/home');
+       
+        
     }
 }
 

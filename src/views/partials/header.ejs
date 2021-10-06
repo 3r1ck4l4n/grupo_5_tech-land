@@ -24,13 +24,28 @@
         <li><a href="#">Centro de información</a></li>
         <li><a href="/products/create">Vender</a></li>
       </ul>
-      <ul class="user-options">
-        <li>
-          <a href="/users/login">Log in <i class="fas fa-sign-in-alt"></i></a>
-        </li>
-        <li>
-          <a href="/users/register">Sign up <i class="fas fa-user-plus"></i></a>
-        </li>
+      
+      <ul class="user-options"> 
+        <% if(locals.isLogged){ %>
+          <li>
+            <a href="/users/profile"><img src="/images/users/<%= locals.userLogged.profileImage %>" alt="" style="width: 24px; height: 24px; border-radius: 50%;">Hola <%= locals.userLogged.user %> </a>
+          </li>
+          <li>
+            <a href="/users/logout">cerrar sesión</a>
+          </li>
+        <% } else{ %>
+          <li>
+            <a href="/users/login">Log in <i class="fas fa-sign-in-alt"></i></a>
+          </li>
+          <li>
+            <a href="/users/register">Sign up <i class="fas fa-user-plus"></i></a>
+          </li>
+        <% } %>
+          
+      
+         
+        
+        
         <li>
           <div class="search-box-mobile">
             <form action="#" method="POST">

@@ -15,7 +15,7 @@ const mainController = {
         let products = mainController.leerData(); 
         const destacados = products.filter(product => (product.type == 'Destacados'));
         const enOferta = products.filter(product => (product.type == "En oferta"));
-        res.render('home', {destacados,enOferta});
+        res.render('home', {destacados,enOferta});        
     },
     login: (req, res)=>{
         res.render('login');

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%- include("../partials/head") %>    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/productDetailStyles.css">
+    <title>Mi cuenta</title>    
+  </head>
+  
+
+<body>
+  <header>
+      <%- include('../partials/header')%>
+  </header>
+
+    <main>
+        <section class="main-section-product">
+            <header class="product-name"><h1><%= user.user %></h1></header>
+            
+            <main class="product-card">                
+               
+                <div class="image-product">
+              <img src="/images/users/<%= user.profileImage %>" alt="profileImage">
+                </div>
+                
+                <div class="product-card-2nd-box">
+                   
+                
+                    
+                          
+                    <div class="price">                        
+                        <p id="price-number"> <%= user.email %>  </p>
+                    </div>
+      
+                   
+
+                    <a href="/users/edit/">
+                        <button>Editar</button>
+                    </a>
+                    <form action="/users/delete/#?_method=DELETE" method="POST" style="display: inline-flex">
+                        <button type="submit" class="action-button delete">ELIMINAR</button>
+                    </form>
+                </div>
+                
+            </main>
+        </section>     
+    </main>
+
+    <%- include('../partials/footer')%>
+    
+</body>
+</html>
