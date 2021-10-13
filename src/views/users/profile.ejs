@@ -2,8 +2,8 @@
 <html lang="en">
   <head>
     <%- include("../partials/head") %>    
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/css/productDetailStyles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="/css/profileStyles.css">
     <title>Mi cuenta</title>    
   </head>
   
@@ -14,35 +14,50 @@
   </header>
 
     <main>
-        <section class="main-section-product">
-            <header class="product-name"><h1><%= user.user %></h1></header>
+        <section class="main-section-user">
             
-            <main class="product-card">                
-               
-                <div class="image-product">
-              <img src="/images/users/<%= user.profileImage %>" alt="profileImage">
+            <section class="first-section-image">
+                <div class="image-user">
+                    <img src="/images/users/<%= user.profileImage %>" alt="profileImage">
                 </div>
-                
-                <div class="product-card-2nd-box">
-                   
-                
-                    
-                          
-                    <div class="price">                        
-                        <p id="price-number"> <%= user.email %>  </p>
-                    </div>
-      
-                   
+            </section>
 
-                    <a href="/users/edit/">
-                        <button>Editar</button>
-                    </a>
-                    <form action="/users/delete/#?_method=DELETE" method="POST" style="display: inline-flex">
-                        <button type="submit" class="action-button delete">ELIMINAR</button>
-                    </form>
-                </div>
-                
-            </main>
+            <section class="second-section-data-menu">
+                <div class="data">
+                    <header class="user-name"><%= user.user %></header>
+                    <div class="user-email">
+                        <p>(<%= user.email %>)</p>
+                    </div>
+                    <div class="user-country">
+                        <p>
+                            <%= user.nationality %>
+                        </p>
+                    </div>
+                </div> 
+                <div class="user-menu">
+                    <header class="menu">¿Qué te gustaría hacer?</header>
+                    <div class="first-menu">                       
+                            <a href="#" class="items-bought">Ver mis pedidos</a>
+                            <a href="/productCart" class="car">Ir al carrito</a>
+                            <a href="/home" class="back-to-store">Volver a la tienda</a>                        
+                    </div>
+                    
+                    <div class="second-menu">
+                        <div class="editing">
+                            <a href="/users/edit/">
+                                <button>Editar usuario</button>
+                            </a>
+                        </div>
+
+                        <form action="/users/delete/#?_method=DELETE" method="POST" style="display: inline-flex">
+                            <button type="submit" class="action-button delete">Eliminar usuario</button> 
+                        </form>     
+                    </div>      
+                    
+
+                </div>  
+
+            </section>           
         </section>     
     </main>
 
