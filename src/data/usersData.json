@@ -180,19 +180,19 @@
   "image": "user_20.jpg"
  },
  {
-  "id": 21,
-  "user": "Erick Alan Garcia",
-  "password": "$2b$10$LgN.KfWa.FNNL8WbBr0e6OxPBClsY1VgoYL5VDVViNySdtN8atsJG",
-  "email": "eluna1802@alumno.ipn.mx",
-  "nationality": "México",
-  "profileImage": "/data/images/users/eluna1802@alumno.ipn.mxprofile-image.jpg"
- },
- {
   "id": 22,
   "user": "Israel Pérez",
   "password": "$2b$10$MKrRP4kPe3cfkwGV4YGgyeRl/s7SC.JZI3Ha1fcOAhDJii47ZgCZa",
   "email": "isra@mail.com",
   "nationality": "México",
-  "profileImage": "isra@mail.comprofile-image.jpg"
+  "profileImage": "profileImages/isra@mail.comprofile-image.jpg"
+ },
+ {
+  "id": 23,
+  "user": "Erick Alan Garcia",
+  "password": "$2b$10$RVgM3BM62W3a8ZGOOPNA8OZMj6DEWWgdOPxrNHNyw54hYnI9y7t.2",
+  "email": "eluna1802@alumno.ipn.mx",
+  "nationality": "México",
+  "profileImage": "/profileImages/eluna1802@alumno.ipn.mxprofile-image.jpg"
  }
 ]

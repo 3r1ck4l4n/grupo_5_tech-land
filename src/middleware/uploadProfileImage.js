@@ -6,7 +6,7 @@ const storage = multer.diskStorage({
         callback(null, req.body.email+"profile-image"+path.extname(file.originalname));
     },
     destination: function (req, file, callback) {
-        callback(null, path.join(__dirname,'../data/images'));
+        callback(null, path.join(__dirname,'../../public/profileImages'));
     }
 
 });

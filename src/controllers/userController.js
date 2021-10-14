@@ -19,8 +19,8 @@ const userController = {
                 nationality: req.body.pais,
                 profileImage: null
             }
-            req.file ? (user.profileImage = `/data/images/users/${req.file.filename}`) :
-                (user.profileImage = "/data/images/users/imagedefault.png");
+            req.file ? (user.profileImage = `/profileImages/${req.file.filename}`) :
+                (user.profileImage = "/profileImages/imagedefault.png");
             User.create(user)
             res.send("Se guardo el usuario");
         }
