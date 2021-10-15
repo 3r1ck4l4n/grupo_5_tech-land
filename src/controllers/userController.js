@@ -87,8 +87,6 @@ const userController = {
         res.clearCookie('myEmail');    //delete cookie
         req.session.destroy(); // delete session
         return res.redirect('/home');
-       
-        
     }
 }
 
