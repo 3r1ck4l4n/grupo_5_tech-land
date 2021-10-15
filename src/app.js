@@ -16,7 +16,9 @@ app.use(methodOverride('_method')); // Pasar poder pisar el method="POST" en el 
 app.use(express.static(publicPath));
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
-
+app.use((req, res, next)=>{
+  res.status(404).render('notFound');
+});
 app.use(session({
   secret: "This is a secret, blabla",
   resave: false,
