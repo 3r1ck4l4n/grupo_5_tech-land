@@ -16,9 +16,7 @@ app.use(methodOverride('_method')); // Pasar poder pisar el method="POST" en el 
 app.use(express.static(publicPath));
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
-app.use((req, res, next)=>{
-  res.status(404).render('notFound');
-});
+
 app.use(session({
   secret: "This is a secret, blabla",
   resave: false,
@@ -27,15 +25,8 @@ app.use(session({
 
 
 app.use(userLoggedMiddleware);
-
-
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname,'./views/'));
-
-
-
-
-
 
 app.listen(3000, () => {
   console.log("Server running at port 3000");
@@ -44,3 +35,6 @@ app.use('/', router);
 app.use('/products',routerProduct);
 app.use('/products',routerProduct);
 app.use('/users', routerUser);
+app.use((req, res, next)=>{
+  res.status(404).render('notFound');
+});
