@@ -37,7 +37,7 @@ const userController = {
             req.file ? (user.profileImage = `/profileImages/${req.file.filename}`) :
                 (user.profileImage = "/profileImages/imagedefault.png");
             User.create(user)
-            res.send("Se guardo el usuario");
+            res.redirect("/users/login");
         }
     },
 
