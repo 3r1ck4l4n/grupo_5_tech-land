@@ -189,18 +189,10 @@
  },
  {
   "id": 23,
-  "user": "Erick Alan Garcia",
-  "password": "$2b$10$RVgM3BM62W3a8ZGOOPNA8OZMj6DEWWgdOPxrNHNyw54hYnI9y7t.2",
-  "email": "eluna1802@alumno.ipn.mx",
-  "nationality": "México",
-  "profileImage": "/profileImages/eluna1802@alumno.ipn.mxprofile-image.jpg"
- },
- {
-  "id": 24,
-  "user": "Erick Alan Garcia",
-  "password": "$2b$10$XuaV0E70Hw1TOjaW6c1jTekg/ofzP32CCm87wiC1aODaLOwLaCvyu",
+  "user": "Erick AlanGarcia",
+  "password": "$2b$10$Yiza0SlPP2GEIBVNjVZC7OEGyQkwliPkcyRWcQ2ePu3MMUbgaZdA6",
   "email": "yedermoon3@gmail.com",
-  "nationality": "México",
-  "profileImage": "/profileImages/yedermoon3@gmail.comprofile-image.jpg"
+  "nationality": "Marruecos",
+  "profileImage": "/profileImages/yedermoon3@gmail.comprofile-image.png"
  }
 ]

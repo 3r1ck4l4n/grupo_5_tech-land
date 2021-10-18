@@ -10,10 +10,25 @@ const userController = {
     createUser: (req, res)=>{
         let errors = validationResult(req);
         if (!errors.isEmpty()) {
-            res.send(errors.mapped());
+            console.log(errors.mapped())
+            return res.render('users/register',{
+                errors:errors.mapped(),
+                oldData:req.body
+            });
         } else {
+            let userInDB = User.findByField('email', req.body.email);
+            if (userInDB) {
+                return res.render('users/register', {
+                    errors: {
+                        email: {
+                            msg: "This email has been previously registered"
+                        }
+                    },
+                    oldData: req.body
+                });
+            }
             let user = {
-                user: `${req.body.firstName} ${req.body.lastName}`,
+                user: `${req.body.firstName}${req.body.lastName}`,
                 password: hashPass.hash(req.body.password),
                 email: req.body.email,
                 nationality: req.body.pais,

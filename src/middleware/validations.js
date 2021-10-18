@@ -1,5 +1,5 @@
 const { check } = require("express-validator");
-
+const path = require("path");
 const validations = [
   check("firstName").notEmpty().withMessage("Ingrese su nombre").bail(),
   check("lastName").notEmpty().withMessage("Ingrese su apellido").bail(),
@@ -32,13 +32,26 @@ const validations = [
     .isIn(["on"])
     .withMessage("Debe aceptar las politicas de operación")
     .bail(),
-    check('image').custom((value, {req})=>{
-      if(!req.file){
-          throw new Error("Imagen de perfil no enviada");
+  check("userImage")
+    .custom((value, { req }) => {
+      if (!req.file) {
+        console.log("this");
+        throw new Error("Imagen de perfil no enviada");
       }
-      console.log("a prro");
       return true;
-  })
+    })
+    .bail()
+    .custom((value, { req }) => {
+      let extension = path.extname(req.file.filename);
+      if (
+        extension !== ".jpeg" &&
+        extension !== ".jpg" &&
+        extension !== ".png"
+      ) {
+        throw new Error("El archivo no es una imagen png, jpg o jpeg");
+      }
+      return true;
+    }),
 ];
 
 module.exports = validations;
