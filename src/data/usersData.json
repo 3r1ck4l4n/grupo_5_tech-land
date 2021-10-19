@@ -185,7 +185,7 @@
   "password": "$2b$10$MKrRP4kPe3cfkwGV4YGgyeRl/s7SC.JZI3Ha1fcOAhDJii47ZgCZa",
   "email": "isra@mail.com",
   "nationality": "México",
-  "profileImage": "profileImages/isra@mail.comprofile-image.jpg"
+  "profileImage": "/profileImages/isra@mail.comprofile-image.jpg"
  },
  {
   "id": 23,
@@ -194,5 +194,13 @@
   "email": "yedermoon3@gmail.com",
   "nationality": "Marruecos",
   "profileImage": "/profileImages/yedermoon3@gmail.comprofile-image.png"
+ },
+ {
+  "id": 24,
+  "user": "Juanito Pérez",
+  "password": "$2b$10$0.zMvkh/n9speAW8M0irh.VrpXs1SmIMF9wbccZy43igMPCPTWGsa",
+  "email": "juan@mail.com",
+  "nationality": "Afganistán",
+  "profileImage": "/profileImages/juan@mail.comprofile-image.jpg"
  }
 ]
