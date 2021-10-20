@@ -26,4 +26,11 @@ main article.tabs div.login{
     font-size:17px;
 }
 
-
+.errors {
+    color: white;
+    background-color: rgba(197,11,17,0.71);
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 12px;
+    font-weight: 500;
+}
