@@ -89,7 +89,7 @@
               value="<%= locals.errors && oldData ? oldData.email : null %>"
             />
             <% if(locals.errors && errors.email){ %>
-              <p style="color:red">
+              <p class="errors">
                 <%= errors.email.msg %>
               </p>
             <% } %>
@@ -107,7 +107,7 @@
               pattern="^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$"
             />
             <% if(locals.errors && errors.password){ %>
-              <p style="color:red">
+              <p class="errors">
                 <%= errors.password.msg %>
               </p>
             <% } %>
