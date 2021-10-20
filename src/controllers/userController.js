@@ -28,7 +28,7 @@ const userController = {
                 });
             }
             let user = {
-                user: `${req.body.firstName}${req.body.lastName}`,
+                user: `${req.body.firstName} ${req.body.lastName}`,
                 password: hashPass.hash(req.body.password),
                 email: req.body.email,
                 nationality: req.body.pais,
