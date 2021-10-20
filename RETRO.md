@@ -39,6 +39,24 @@ Postergar elementos importantes del proyecto y que pueden ser reutilizables.
 5.- Dejar de hacer:
     Posponer actividades; postergar tareas.
 
+#Retro del sprint 4:
+1.- Comenzar a hacer:
+    Aprovechar el tiempo disponible,después de haber terminado el sprint para mejorar detalles de la página.
+    
+2.- Hacer más:
+    Terminar los sprints en tiempo y forma para ajustar cualquier detalle que pueda presentarse.
+
+3.- Continuar haciendo:
+    Permitir que todos los miembros del equipo participemos de manera equitativa para todos obtener un tiempo adecuado de práctica y             afianzar los conocimientos.
+    Continuar teniendo buena retroalimentación.
+    Continuar con reuniones utiles; sin perder tiempo.
+
+4.- Hacer menos:
+    Desperdiciar tiempo (optimizar tareas).
+ 
+5.- Dejar de hacer:
+    Posponer actividades; postergar tareas.
+
 
 
 
