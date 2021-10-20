@@ -13,13 +13,12 @@
 ## 30 de agosto de 2021
 
 * @Erick
->No tuvo ningún problema con las tareas que tenía a su cargo. Señaló que se encargaría del formulario
-de "Editar producto".
+>No tuvo ningún problema con las tareas que tenía a su cargo. Señaló que se encargaría del formulario de "Editar producto".
 
 * @Dani
 >Continuaría trabajando con el partial "header" y señaló que probaría algunos
 estilos diferentes para observar si convenía cambiar los actuales o dejarlos.
-Señaló que se encargría de diseñar la vista de "Agregar producto".
+Señaló que se encargaría de diseñar la vista de "Agregar producto".
 
 * @Israel
 >Tuvo problemas con el partial "head" porque no sabía cómo manejar los datos 
@@ -60,3 +59,14 @@ qué problemas surgieron:
 >>* Israel corregira algunas cuestiones del JSON de productos con los que tuvo problemas, e implementara imagenes de los productos.
 >>* Daniel concluira el metodo de "Create" en el controller de productos.
 >>* Erick concluyo los metodos de edición y eliminación sin problema alguno. 
+
+#SPRINT 5. weekly.
+
+##  15 de octubre de 2021
+* Weekly para verificar actividades completadas según el tablero de tareas y analizar actividades pendientes para su elaboración, En ese sentido la organización quedo de la siguiente manera:
+>>* Israel implementará el login de usuarios haciendo uso de middlewares,sesiones y cookies.
+>>* Daniel diseñará una propuesta de diseño para la base de datos, misma que permitirá comenzar a trabajar en el siguiente sprint.
+>>* Erick implementará el formulario de registro de usuarios y definirá las rutas a las que se pueden acceder en cualquier momento,las que se puede acceder solo si uno no está logueado y, por último,las que requieren estar logueado.
+
+##  19 de octubre de 2021
+* Weekly para verificar de manera satisfactoria que todas las historias de usuario se han solventado y que el tablero de tareas no presenta ninguna actividad por completar. Aprovechamos la sesión para elaborar una retrospectiva y analizamos la propuesta de diseño de la base de datos para encarar el siguiente sprint. Mejoramos estilos en los mensajes de verificación y recibimos feedback de nuestro Scrum Master. ¡Enhorabuena,Sprint 5 completado! 
