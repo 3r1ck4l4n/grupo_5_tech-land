@@ -202,5 +202,13 @@
   "email": "juan@mail.com",
   "nationality": "Afganistán",
   "profileImage": "/profileImages/juan@mail.comprofile-image.jpg"
+ },
+ {
+  "id": 25,
+  "user": "Erick Alan Garcia",
+  "password": "$2b$10$Pxe.Sq2wORl/c0SG9riR5.OHE6ZLXKFqZEBdphTwVnju97iyrY/7y",
+  "email": "eluna1802@alumno.ipn.mx",
+  "nationality": "México",
+  "profileImage": "/profileImages/eluna1802@alumno.ipn.mxprofile-image.jpg"
  }
 ]
