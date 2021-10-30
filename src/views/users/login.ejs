@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <%- include("partials/head") %>
+    <%- include("../partials/head") %>
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
       rel="stylesheet"
@@ -61,32 +61,38 @@
     </header> -->
 
     <header>
-      <%- include('./partials/header')%> 
+      <%- include('../partials/header')%> 
     </header>
 
     <main>
       <article class="tabs">
         <div class="register">
-          <a href="/register" class="register-tab">¡Regístrate!</a>
+          <a href="/users/register" class="register-tab">¡Regístrate!</a>
         </div>
         <div class="login">
-          <a href="/login" class="login-tab">Ingresa a tu cuenta</a>
+          <a href="/users/login" class="login-tab">Ingresa a tu cuenta</a>
         </div>
       </article>
       <section>
         <h1>Iniciar sesión</h1>
-        <form action="/home" method="GET">
+        <form action="/users/login" method="POST">
           <div>
             <input
               size="20px"
               type="text"
               class="input"
               id="fname"
-              name="email-address"
+              name="email"
               placeholder="  Email"
               required
               minlength="8"
+              value="<%= locals.errors && oldData ? oldData.email : null %>"
             />
+            <% if(locals.errors && errors.email){ %>
+              <p class="errors">
+                <%= errors.email.msg %>
+              </p>
+            <% } %>
           </div>
           <div>
             <input
@@ -100,9 +106,14 @@
               minlength="8"
               pattern="^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$"
             />
+            <% if(locals.errors && errors.password){ %>
+              <p class="errors">
+                <%= errors.password.msg %>
+              </p>
+            <% } %>
           </div>
           <div class="check">
-            <input type="checkbox" class="checkbox" /> ¿Desea guardar su
+            <input type="checkbox" class="checkbox" name="rememberMe"/> ¿Desea guardar su
             contraseña?
           </div>
           <button type="submit" class="register-button">Ingresar</button>
@@ -111,7 +122,7 @@
       <div class="forget"><a href="#">¿Olvidaste tu contraseña?</a></div>
     </main>
 
-    <%- include('./partials/footer')%>
+    <%- include('../partials/footer')%>
     <!-- <footer>
         <div class="social-networks">
         <i class="fab fa-instagram fa-3x"></i>

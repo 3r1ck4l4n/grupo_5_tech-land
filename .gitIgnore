@@ -1,4 +1,5 @@
 # dependencies
+.idea
 /node_modules
 /.pnp
 .pnp.js
@@ -15,8 +16,18 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+<<<<<<< HEAD
 .idea/vcs.xml
 
 .idea/modules.xml
 
 .idea/Tech-Land.iml
+=======
+public/profileImages/eluna1802\@alumno.ipn.mxprofile-image.jpg
+
+public/profileImages/yedermoon3\@gmail.comprofile-image.pdf
+
+public/profileImages/eluna1802\@alumno.ipn.mxprofile-image.jpg
+
+public/profileImages/yedermoon3\@gmail.comprofile-image.jpg
+>>>>>>> develop
