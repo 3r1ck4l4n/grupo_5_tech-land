@@ -4,7 +4,8 @@ module.exports = (sequelize, dataTypes) => {
         category_id: {
             type: dataTypes.BIGINT(10),
             primaryKey: true,
-            autoIncrement: true
+            autoIncrement: true,
+            allowNull:false
         },
         name_category: {
             type: dataTypes.STRING(50),

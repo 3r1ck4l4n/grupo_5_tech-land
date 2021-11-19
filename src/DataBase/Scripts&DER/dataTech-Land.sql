@@ -12,7 +12,7 @@ VALUES (1, 'Destacados', 'Lorem ipsum'),
 
 /* filling brand table with fake data */
 
-INSERT INTO brand
+INSERT INTO brands
 VALUES (1, 'Acer', 'lorem ipsum'),
        (2, 'Adata', 'lorem ipsum'),
        (3, 'Alienware', 'lorem ipsum'),
@@ -36,7 +36,7 @@ VALUES (1, 'Acer', 'lorem ipsum'),
 
 /* filling type-component table with fake data */
 
-INSERT INTO type-component
+INSERT INTO type_component
 VALUES
     (1, 'Periféricos', 'lorem ipsum'),
     (2, 'Equipos de Cómputo', 'lorem ipsum'),
@@ -53,7 +53,7 @@ VALUES
 
 /* filling customer table with fake data */
 
-INSERT INTO customer
+INSERT INTO customers
 VALUES (1, 'ldodding0@usda.gov', 'JT463qtS', 'Lazaro Dodding', '605 Boyd Plaza',
         'http://dummyimage.com/133x100.png/cc0000/ffffff', '608-787-7079', 'Indonesia'),
        (2, 'tsmithers1@cpanel.net', 'k62GvaDeLy', 'Theresina Smithers', '12 Coleman Court',
@@ -77,13 +77,13 @@ VALUES (1, 'ldodding0@usda.gov', 'JT463qtS', 'Lazaro Dodding', '605 Boyd Plaza',
 
 /* filling admin table with fake data */
 
-INSERT INTO admin
+INSERT INTO admins
 VALUES (1, 'isra@mail.com', 'Israel Pérez', '$2b$10$MKrRP4kPe3cfkwGV4YGgyeRl/s7SC.JZI3Ha1fcOAhDJii47ZgCZa',
         '/profileImages/isra@mail.comprofile-image.jpg', 1234567890);
 
 
 /* filling product table with fake data */
-INSERT INTO product
+INSERT INTO products
 VALUES (1, 'Tableta Grafica Digital de Dibujo', 'lorem ipsum', 5, 1, '/images/home/product-image-1631982879253.jpg',
         '21640.07', NULL, NULL, 1),
        (2, 'Disco Duro Externo', 'lorem ipsum', 5, 1, '/images/home/product-image-1631982979466.jpg', '21640.07', NULL,
@@ -100,7 +100,7 @@ VALUES (1, 'Tableta Grafica Digital de Dibujo', 'lorem ipsum', 5, 1, '/images/ho
 
 /* product-categories */
 
-INSERT INTO product-categories
+INSERT INTO product_categories
 VALUES
     (1, 1),
     (2, 1),
@@ -112,7 +112,7 @@ VALUES
 
 /* product-type_component*/
 
-INSERT INTO product-type_component
+INSERT INTO product_type_component
 VALUES
     (1, 1),
     (10, 2),
@@ -123,7 +123,7 @@ VALUES
 
 /* order */
 
-INSERT INTO order
+INSERT INTO orders
 VALUES (1, 1, 1000, '605 Boyd Plaza', '605 Boyd Plaza', 'ldodding0@usda.gov', '2021-11-13 12:43:25', 'enviado');
 
 
@@ -135,7 +135,7 @@ VALUES (1, 1, 1, '21640.07', 1, '21640.07');
 
 /* product-admin */
 
-INSERT INTO product- admin
+INSERT INTO product_admin
 VALUES
     (1, 1, 1, '2021-11-13 00:43:25', 'added')
 
