@@ -64,9 +64,11 @@ body{
     font-style: normal;
 }
 
-.user-country p{
+.user-country p,
+.user-address p, 
+.user-phone p {
     margin-block-start: 0px;
-    margin-block-end: 16px;
+    margin-block-end: 14px;
     font-size: 12px;
     font-weight: 400;    
 }

@@ -90,7 +90,7 @@
             />
             <% if(locals.errors && errors.email){ %>
               <p class="errors">
-                <%= errors.email.msg %>
+                <%= errors.email.msg %> <% console.log(errors) %>
               </p>
             <% } %>
           </div>
@@ -108,7 +108,7 @@
             />
             <% if(locals.errors && errors.password){ %>
               <p class="errors">
-                <%= errors.password.msg %>
+                <%= errors.password.msg %> <% console.log(errors) %>
               </p>
             <% } %>
           </div>

@@ -4,6 +4,10 @@ const validations = [
   check("firstName").notEmpty().withMessage("Ingrese su nombre").bail(),
   check("lastName").notEmpty().withMessage("Ingrese su apellido").bail(),
   check("email").notEmpty().bail().isEmail().bail(),
+  check("customer_number_phone").notEmpty().withMessage("Ingresa un número de teléfono").bail()
+    .isNumeric().withMessage("Ingresa un número de teléfono válido").bail()
+    .isLength({min: 10}).withMessage("Tu número debe contener por los menos 10 dígitos").bail(),
+  check("address").notEmpty().withMessage("Debes ingresar una dirección válida").bail(),
   check("password")
     .notEmpty()
     .bail()

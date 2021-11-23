@@ -85,6 +85,37 @@
           <% if(locals.errors && errors.email){ %>
             <div class="errors"><%= errors.email.msg %></div>
             <% } %>
+            <div>
+              <input
+                value="<%= locals.errors && locals.oldData ? oldData.customer_number_phone : null %>"
+                size="20px"
+                type="tel"
+                class="input"
+                id="fname"
+                name="customer_number_phone"
+                placeholder="  Teléfono"
+                required
+                minlength="10"                
+              />
+            </div>
+            <% if(locals.errors && errors.customer_number_phone){ %>
+            <div class="errors"><%= errors.customer_number_phone.msg %></div>
+            <% } %>
+            <div>
+              <input
+                value="<%= locals.errors && locals.oldData ? oldData.address : null %>"
+                size="20px"
+                type="text"
+                class="input"
+                id="fname"
+                name="address"
+                placeholder="  Dirección"
+                required                               
+              />
+            </div>
+            <% if(locals.errors && errors.address){ %>
+            <div class="errors"><%= errors.address.msg %></div>
+            <% } %>            
           <div>
             <input
               size="20px"
