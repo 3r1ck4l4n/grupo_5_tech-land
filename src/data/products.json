@@ -1954,15 +1954,5 @@
   "price": "800",
   "id": 101,
   "img": "/images/home/default-image.png"
- },
- {
-  "id": "102",
-  "name": "XZEAL Silla Gamer XZ05",
-  "description": "hasta 115KG, Negro/Rojo, con reposacabezas,reposabrazos,almohada Lumbar y respaldo ajustable",
-  "category": "Equipos de computo",
-  "brand": "Otra",
-  "price": "2749.00",
-  "type": "En oferta",
-  "img": "/images/home/product-image-1632444793302.jpg"
  }
 ]

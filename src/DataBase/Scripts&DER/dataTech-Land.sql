@@ -137,9 +137,10 @@ VALUES (1, 1, 1, '21640.07', 1, '21640.07');
 
 INSERT INTO product_admin
 VALUES
-    (1, 1, 1, '2021-11-13 00:43:25', 'added')
+    (1, 1, 1, '2021-11-13', 'added');
 
-
+INSERT INTO REVIEWS
+VALUES (1,1,'ESTE PRODUCTO ESTA COOL', 5);
 
 
 

@@ -63,6 +63,11 @@ module.exports = (sequelize, dataTypes) => {
             as: 'brands'
         });
 
+        Product.hasMany(models.Review,{
+            foreignKey: 'product_id',
+            as:'reviews'
+        });
+
         Product.belongsToMany(models.TypeComponent, {
             as: 'typeComponent',
             through: 'product_type_component',

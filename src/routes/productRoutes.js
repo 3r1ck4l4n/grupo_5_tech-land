@@ -1,6 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const productsController = require('../controllers/productsController');
+const productsController1 = require('../controllers/apiController/productsController');
 const path = require('path');
 const multer = require('multer');
 
@@ -25,7 +26,7 @@ router.get('/productCreate', productsController.productCreate);
 
 
 /*** GET ALL PRODUCTS ***/ 
-router.get('/', productsController.home); 
+router.get('/', productsController1.home);
 
 /*** CREATE ONE PRODUCT ***/ 
 router.get('/create', productsController.productCreate); 
@@ -33,7 +34,7 @@ router.post('/',upload.single('product-image'),productsController.productStore);
 
 
 /*** GET ONE PRODUCT ***/ 
-router.get('/detail/:id', productsController.productDetail); 
+router.get('/detail/:id', productsController1.productDetail);
 
 /*** UPDATE ONE PRODUCT ***/
 router.get('/edit/:id', productsController.productEdit);

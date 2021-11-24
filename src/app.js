@@ -33,7 +33,6 @@ app.listen(3000, () => {
 });
 app.use('/', router);
 app.use('/products',routerProduct);
-app.use('/products',routerProduct);
 app.use('/users', routerUser);
 app.use((req, res, next)=>{
   res.status(404).render('notFound');

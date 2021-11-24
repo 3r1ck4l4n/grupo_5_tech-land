@@ -1,10 +1,10 @@
 
-        <a href="/products/detail/<%= product.id %>">
+        <a href="/products/detail/<%= product.product_id %>">
           <article class="Item">
-            <img class="itemImage" src="<%= product.img %>" alt="Core-i9" />
+            <img class="itemImage" src="<%= product.image_product %>" alt="Core-i9" />
             <div class="specifications">
               <h3 class="titleItem">
-                <%= product.name %>              
+                <%= product.name_product %>
               </h3>
               <p class="price">$ <%= product.price %></p>
               <p class="recommendations"><a href="#">Articulos similares</a></p>
