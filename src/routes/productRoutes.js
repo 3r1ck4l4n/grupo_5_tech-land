@@ -30,7 +30,7 @@ router.get('/', productsController1.home);
 
 /*** CREATE ONE PRODUCT ***/ 
 router.get('/create', productsController.productCreate); 
-router.post('/',upload.single('product-image'),productsController.productStore); 
+router.post('/',upload.single('image_product'),productsController1.productStore);
 
 
 /*** GET ONE PRODUCT ***/ 

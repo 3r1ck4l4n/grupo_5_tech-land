@@ -38,8 +38,8 @@ VALUES (1, 'Acer', 'lorem ipsum'),
 
 INSERT INTO type_component
 VALUES
-    (1, 'Periféricos', 'lorem ipsum'),
-    (2, 'Equipos de Cómputo', 'lorem ipsum'),
+    (1, 'Perifericos', 'lorem ipsum'),
+    (2, 'Equipos de Computo', 'lorem ipsum'),
     (3, 'Laptops', 'lorem ipsum'),
     (4, 'Monitores', 'lorem ipsum'),
     (5, 'Procesadores', 'lorem ipsum'),
@@ -124,7 +124,7 @@ VALUES
 /* order */
 
 INSERT INTO orders
-VALUES (1, 1, 1000, '605 Boyd Plaza', '605 Boyd Plaza', 'ldodding0@usda.gov', '2021-11-13 12:43:25', 'enviado');
+VALUES (1, 1, 1000, '605 Boyd Plaza', '605 Boyd Plaza', 'ldodding0@usda.gov', '2021-11-13', 'enviado');
 
 
 /* order_detail */
@@ -145,5 +145,6 @@ VALUES (1,1,'ESTE PRODUCTO ESTA COOL', 5);
 
 
 
+select * from products;
 
-
+delete from type_component

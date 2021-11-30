@@ -1954,5 +1954,76 @@
   "price": "800",
   "id": 101,
   "img": "/images/home/default-image.png"
+ },
+ {
+  "name": "xxxxxx",
+  "description": "Esta chido xD",
+  "category": "Monitores",
+  "brand": "Nvidia",
+  "price": "1500",
+  "type": "Más vendidos",
+  "id": 102,
+  "img": "/images/home/product-image-1637952154019.jpg"
+ },
+ {
+  "name": "xxxxxx",
+  "description": "Esta chido xD",
+  "category": "Monitores",
+  "brand": "Nvidia",
+  "price": "1500",
+  "type": "Más vendidos",
+  "id": 103,
+  "img": "/images/home/product-image-1637952156450.jpg"
+ },
+ {
+  "name": "xxxxxx",
+  "description": "ceddddddddddddddddd",
+  "category": "Equipos de computo",
+  "brand": "AMD",
+  "price": "100000",
+  "type": "Agregados recientemente",
+  "id": 104,
+  "img": "/images/home/product-image-1638147208501.jpg"
+ },
+ {
+  "name": "xxxxxx",
+  "description": "xsxxxxxxxxxxxxxx",
+  "category": "Tarjetas madre",
+  "brand": "Samsung",
+  "price": "122",
+  "stock": "12",
+  "type": "Agregados recientemente",
+  "id": 105,
+  "img": "/images/home/product-image-1638147496944.jpg"
+ },
+ {
+  "name": "xxxxxx",
+  "description": "xsxxxxxxxxxxxxxx",
+  "category": "Tarjetas madre",
+  "brand": "Samsung",
+  "price": "122",
+  "stock": "12",
+  "type": "Agregados recientemente",
+  "id": 106,
+  "img": "/images/home/product-image-1638147704775.jpg"
+ },
+ {
+  "name_product": "xxxxxxx",
+  "description": "xxxxxxxxxxx",
+  "category": "Perifericos",
+  "brand": "Acer",
+  "price": "11",
+  "stock": "11",
+  "type": "Agregados recientemente",
+  "id": 107,
+  "img": "/images/home/default-image.png"
+ },
+ {
+  "name_product": "xxxxxxx",
+  "description": "xxxxxxxxxxx",
+  "price": "11",
+  "stock": "11",
+  "id": 108,
+  "img": "/images/home/default-image.png"
  }
 ]
