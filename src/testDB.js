@@ -6,31 +6,22 @@ const Order_Detail = db.Order_Detail;
 const Product = db.Product;
 const Category = db.Category
 const Review = db.Review;
-let recoommend = [];
+const Brand = db.Brand;
+const TypeComponent = db.TypeComponent;
 const test = () => {
-    Product.findAll( {
-        include: [{
-            model: Category,
-            as: 'categories',
+    Product.findOne({
             where: {
-                name_category: {
-                    [Op.eq]: 'Destacados'
+                product_id: {
+                    [Op.eq]: 2
                 }
-            }
-        }, {
-            model: Review,
-            as: 'reviews',
-            include: ['customer']
-        }],
-    })
-        .then(Products => {
-            Products.forEach(p=>{
-                console.log(p.dataValues)
-            })
-
-
+            },
+            include: ["categories", "typeComponent"]
         })
-        .catch("Connection not foound");
+        .then(item => {
+            let i = item.typeComponent.pop();
+            console.log(i.dataValues)
+        })
+        .catch()
 }
 
 test();

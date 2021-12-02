@@ -37,8 +37,8 @@ router.post('/',upload.single('image_product'),productsController1.productStore)
 router.get('/detail/:id', productsController1.productDetail);
 
 /*** UPDATE ONE PRODUCT ***/
-router.get('/edit/:id', productsController.productEdit);
-router.patch('/edit/:id',upload.single('product-image'), productsController.productUpdate); 
+router.get('/edit/:id', productsController1.productEdit);
+router.patch('/edit/:id',upload.single('product-image'), productsController1.productUpdate);
 
 /*** DELETE ONE PRODUCT ***/
 router.delete('/delete/:id', productsController.delete);

@@ -33,9 +33,9 @@
             <input type="file" name="product-image" id="file" value="<%=item.img%>" required/>
           </div>
           <div class="form-input">
-            <label for="category">Categoría</label>
-            <select name="category" id="category" required>
-              <option value="<%=item.category%>" selected><%=item.category%></option>
+            <label for="type">Categoría</label>
+            <select name="type" id="type" required>
+              <option value="<%=item.type%>" selected><%=item.type%></option>
               <option value="Perifericos">Perifericos</option>
               <option value="Equipos de computo">Equipos de computo</option>
               <option value="Laptops">Laptops</option>
@@ -84,9 +84,9 @@
             <input type="number" name="price" id="price" value="<%=item.price%>" required />
           </div>
           <div class="form-input">
-            <label for="type">Tipo: </label>
-            <select name="type" id="type"> 
-              <option value="<%=item.type%>" selected><%=item.type%></option>             
+            <label for="category">Tipo: </label>
+            <select name="category" id="category">
+              <option value="<%=item.category%>" selected><%=item.category%></option>
               <option value="Destacados">Destacados</option>
               <option value="Agregados recientemente">Agregados recientemente</option>
               <option value="Más vendidos">Más vendidos</option>

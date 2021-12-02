@@ -135,6 +135,116 @@ let productsController = {
                     .catch(error => console.log(error));
             })
             .catch(error => console.log(error));
+    },
+    productEdit: (req, res) => {
+        console.log("Into api Controller");
+        Product.findOne({
+                where: {
+                    product_id: {
+                        [Op.eq]: req.params.id
+                    }
+                },
+                include: ["categories", "typeComponent"]
+            })
+            .then(result => {
+                console.log("**********************************")
+                let typeComponent = result.typeComponent.pop();
+                console.log(typeComponent)
+                let category = result.categories.pop();
+                console.log(category)
+                let item;
+                Brand.findOne({
+                        where: {
+                            brand_id: {
+                                [Op.eq]: result.dataValues.brand_id
+                            }
+                        }
+                    })
+                    .then(brand => {
+                        item = {
+                            id: result.dataValues.product_id,
+                            name: result.dataValues.name_product,
+                            description: result.dataValues.description,
+                            stock: result.dataValues.stock,
+                            price: result.dataValues.price,
+                            brand: brand.dataValues.name_brand,
+                            type: typeComponent.dataValues.name_type_component,
+                            category: category.dataValues.name_category
+                        };
+                        console.log(item);
+                        res.render("products/productEdit", {item});
+                    })
+            })
+            .catch(error => res.send(error));
+    },
+    productUpdate: (req, res) => {
+        console.log(req.body)
+        Promise.all([
+                Brand.findOne({
+                    where: {
+                        name_brand: req.body.brand
+                    }
+                }),
+                Category.findOne({
+                    where: {
+                        name_category: req.body.category
+                    }
+                }),
+                TypeComponent.findOne({
+                    where: {
+                        name_type_component: req.body.type
+                    }
+                })
+            ])
+            .then(([brand, category, type]) => {
+                console.log(category)
+                
+                let availability = req.body.stock > 0 ? 1 : 0;
+                let image = req.file
+                    ? ("/images/home/" + req.file.filename)
+                    : ("/images/home/default-image.png");
+                Product.update({
+                        name_product: req.body.name_product,
+                        description: req.body.description,
+                        stock: req.body.stock,
+                        availability: availability,
+                        image_product: image,
+                        price: req.body.price,
+                        brand_id: brand.dataValues.brand_id
+                    },
+                    {
+                        where: {
+                            product_id: req.params.id
+                        }
+                    })
+                    .then(product => {
+                        if(product==1){
+                            console.log(type);
+                            Promise.all([
+                                    Product_Type_Component.create({
+                                        type_component_id: type.dataValues.type_component_id,
+                                        product_id: req.params.id
+                                    }),
+                                    Product_Category.create({
+                                        category_id: category.dataValues.category_id,
+                                        product_id: req.params.id
+                                    })
+                                ])
+                                .then(result => {
+                                    console.log("Accion realizada")
+                                    res.redirect("home");
+                                })
+                                .catch(error =>{
+                                    console.log(error);
+                                    res.redirect("../../home");
+                                });
+                        }
+                       
+                    })
+                    .catch(error => console.log(error));
+            })
+            .catch(error => console.log(error));
+        
     }
 };
 
