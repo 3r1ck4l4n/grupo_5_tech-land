@@ -67,16 +67,6 @@
   "type": "Más vendidos"
  },
  {
-  "id": "7",
-  "name": "Disco Duro Externo",
-  "description": "id lobortis convallis tortor risus dapibus augue vel accumsan tellus nisi eu orci mauris lacinia sapien quis libero nullam sit amet turpis elementum ligula vehicula consequat",
-  "category": "Almacenamiento",
-  "brand": "Adata",
-  "price": "6019.96",
-  "type": "Destacados",
-  "img": "/images/home/product-image-1631982979466.jpg"
- },
- {
   "id": "8",
   "name": "Fuente de poder",
   "description": "integer ac neque duis bibendum morbi non quam nec dui luctus rutrum nulla tellus in sagittis dui vel nisl duis ac nibh fusce lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend quam a odio in hac habitasse platea dictumst maecenas ut massa quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida nisi at nibh in hac",

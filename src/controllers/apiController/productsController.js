@@ -16,7 +16,13 @@ let productsController = {
             error: "Product not found",
             state: 204
         }
-        Product.findAll()
+        Product.findAll({
+                where: {
+                    availability: {
+                        [Op.eq]: true
+                    }
+                }
+            })
             .then(products => {
                 res.render('products/products.ejs', {products: products});
             })
@@ -37,7 +43,6 @@ let productsController = {
                         }
                     }
                 }],
-                
             })
             .then(Products => {
                 Products.forEach(p => {
@@ -76,7 +81,7 @@ let productsController = {
                     console.log(p.dataValues)
                 })
             })
-            .catch(error => res.render('notFound'));
+            .catch(error => res.render('notFound' + error));
     },
     productCreate: (req, res) => {
         res.render("/products/productCreate.ejs");
@@ -147,7 +152,6 @@ let productsController = {
                 include: ["categories", "typeComponent"]
             })
             .then(result => {
-                console.log("**********************************")
                 let typeComponent = result.typeComponent.pop();
                 console.log(typeComponent)
                 let category = result.categories.pop();
@@ -218,7 +222,7 @@ let productsController = {
                         }
                     })
                     .then(product => {
-                        if(product==1){
+                        if (product == 1) {
                             console.log(type);
                             Promise.all([
                                     Product_Type_Component.create({
@@ -231,20 +235,34 @@ let productsController = {
                                     })
                                 ])
                                 .then(result => {
-                                    console.log("Accion realizada")
-                                    res.redirect("home");
+                                    console.log("Accion realizada" + result);
+                                    res.redirect("../../home");
                                 })
-                                .catch(error =>{
+                                .catch(error => {
                                     console.log(error);
                                     res.redirect("../../home");
                                 });
                         }
-                       
                     })
                     .catch(error => console.log(error));
             })
             .catch(error => console.log(error));
-        
+    },
+    delete: (req, res) => {
+        let availability = 0;
+        console.log("In delete***************")
+        Product.update({
+                availability: availability
+            },
+            {
+                where: {
+                    product_id: req.params.id
+                }
+            })
+            .then(response=> {
+                console.log(response)
+                res.redirect("../../home");
+            }).catch(error=> console.log(error));
     }
 };
 

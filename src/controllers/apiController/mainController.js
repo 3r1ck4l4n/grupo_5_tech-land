@@ -4,29 +4,39 @@ const {Op} = require('sequelize');
 const mainController = {
     home: (req, res) => {
         Promise.all([
-            db.Product.findAll({
-                include: [{
-                    model: db.Category,
-                    as: 'categories',
+                db.Product.findAll({
                     where: {
-                        name_category: {
-                            [Op.eq]: ['Destacados']
+                        availability: {
+                            [Op.eq]: true
                         }
-                    }
-                }]
-            }),
-            db.Product.findAll({
-                include: [{
-                    model: db.Category,
-                    as: 'categories',
+                    },
+                    include: [{
+                        model: db.Category,
+                        as: 'categories',
+                        where: {
+                            name_category: {
+                                [Op.eq]: ['Destacados']
+                            }
+                        }
+                    }]
+                }),
+                db.Product.findAll({
                     where: {
-                        name_category: {
-                            [Op.eq]: ['En oferta']
+                        availability: {
+                            [Op.eq]: true
                         }
-                    }
-                }]
-            })
-        ])
+                    },
+                    include: [{
+                        model: db.Category,
+                        as: 'categories',
+                        where: {
+                            name_category: {
+                                [Op.eq]: ['En oferta']
+                            }
+                        }
+                    }]
+                })
+            ])
             .then(products => {
                 let destacados = products[0];
                 let enOferta = products[1];
@@ -34,14 +44,14 @@ const mainController = {
             })
             .catch();
     },
-    login: (req, res)=>{
+    login: (req, res) => {
         res.render('login');
     },
-    register: (req, res)=>{
+    register: (req, res) => {
         res.render('register');
     },
-    productCart: (req, res)=>{
-        res.render( "products/productCart");
+    productCart: (req, res) => {
+        res.render("products/productCart");
     }
 };
 
