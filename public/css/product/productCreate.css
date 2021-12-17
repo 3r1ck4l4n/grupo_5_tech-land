@@ -89,6 +89,21 @@ main section .columns{
     padding:0px 10px;
     margin-bottom: 10px;
   }
+
+
+  .validationsF{
+    color: red;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.validationsF li{
+    width: fit-content;
+    text-align: justify;
+}
   
 @media(min-width: 769px){
     h1{

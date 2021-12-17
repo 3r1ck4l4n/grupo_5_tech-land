@@ -7,6 +7,20 @@
     font-weight: 500;
 }
 
+.validationsF{
+    color: red;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.validationsF li{
+    width: fit-content;
+    text-align: justify;
+}
+
 @media(min-width: 560px){
 
     .user-options{

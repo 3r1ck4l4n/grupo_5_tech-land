@@ -13,6 +13,7 @@
     <link href="/css/normalize.css" rel="stylesheet" />    
     <link href="/css/home/formStyles.css" rel=stylesheet> 
     <link href="/css/loginStyles.css" rel="stylesheet" />    
+    <script src="/js/loginValidation.js"></script>
     <title>Iniciar sesión</title>
   </head>
   <body>
@@ -76,11 +77,14 @@
       <section>
         <h1>Iniciar sesión</h1>
         <form action="/users/login" method="POST">
+          <div class="errorsLogin">
+            <ul></ul>
+          </div>
           <div>
             <input
               size="20px"
               type="text"
-              class="input"
+              class="input email"
               id="fname"
               name="email"
               placeholder="  Email"
@@ -98,7 +102,7 @@
             <input
               size="20px"
               type="password"
-              class="input"
+              class="input password"
               id="fname"
               name="password"
               placeholder="  Contraseña"
@@ -116,7 +120,7 @@
             <input type="checkbox" class="checkbox" name="rememberMe"/> ¿Desea guardar su
             contraseña?
           </div>
-          <button type="submit" class="register-button">Ingresar</button>
+          <button type="submit" class="register-button" id="submitButton">Ingresar</button>
         </form>
       </section>
       <div class="forget"><a href="#">¿Olvidaste tu contraseña?</a></div>

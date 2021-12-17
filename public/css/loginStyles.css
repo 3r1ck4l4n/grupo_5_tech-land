@@ -34,3 +34,16 @@ main article.tabs div.login{
     font-size: 12px;
     font-weight: 500;
 }
+
+.errorsLogin {
+    color: red;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    width: 100%;  
+}
+
+.errorsLogin li{
+    width: fit-content;
+    text-align: justify;
+}

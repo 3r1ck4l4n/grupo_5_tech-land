@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script async src="/js/preview.js"></script>
+    <script src="/js/productEditValidations.js"></script>
 
     <title>Document</title>
   </head>
@@ -20,6 +21,10 @@
           <div id="preview"></div>
         </div>
         <form action="/products/edit/<%= item.id %>?_method=PATCH" method="POST" enctype="multipart/form-data">
+          <div class="validationsF">
+            <ul>              
+            </ul>
+          </div> 
           <div class="form-input">
             <label for="name">Nombre del Producto</label>
             <input type="text" name="name" id="name" value="<%=item.name%>" required/>
@@ -83,6 +88,10 @@
             <label for="price">Precio</label>
             <input type="number" name="price" id="price" value="<%=item.price%>" required />
           </div>
+          <div class="form-input">
+            <label for="stock">Stock disponible</label>
+            <input type="number" name="stock" id="stock" class="input" value="<%= item.stock %>" required>
+        </div>
           <div class="form-input">
             <label for="category">Tipo: </label>
             <select name="category" id="category">
