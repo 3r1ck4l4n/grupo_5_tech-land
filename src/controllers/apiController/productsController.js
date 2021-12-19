@@ -1,5 +1,6 @@
 const db = require('../../DataBase/models');
 const {Op} = require('sequelize');
+const {validationResult} = require('express-validator');
 
 const Product = db.Product;
 const Category = db.Category;
@@ -88,7 +89,15 @@ let productsController = {
     },
     //Función para crear productos, edita la tabla de Categories y la de TypeComponents.
     productStore: (req, res) => {
-        Promise.all([
+        let errors = validationResult(req); //express-validator
+        if (!errors.isEmpty()) {
+            console.log(errors.mapped())
+            return res.render('./products/productCreate.ejs',{
+                errors:errors.mapped(),
+                oldData:req.body
+            });
+        } else {
+            Promise.all([
                 Brand.findOne({
                     where: {
                         name_brand: req.body.brand
@@ -140,6 +149,9 @@ let productsController = {
                     .catch(error => console.log(error));
             })
             .catch(error => console.log(error));
+
+        }
+        
     },
     productEdit: (req, res) => {
         console.log("Into api Controller");
@@ -182,7 +194,18 @@ let productsController = {
             .catch(error => res.send(error));
     },
     productUpdate: (req, res) => {
-        console.log(req.body)
+        let errors = validationResult(req); //express-validator
+        if (!errors.isEmpty()) {
+            console.log(errors.mapped());
+            console.log(req.body);
+            return res.render('./products/productEdit',{
+                errors:errors.mapped(),
+                oldData:{
+                    id: req.params.id,
+                    ...req.body}                
+            });
+        } else {
+            console.log(req.body)
         Promise.all([
                 Brand.findOne({
                     where: {
@@ -208,7 +231,7 @@ let productsController = {
                     ? ("/images/home/" + req.file.filename)
                     : ("/images/home/default-image.png");
                 Product.update({
-                        name_product: req.body.name_product,
+                        name_product: req.body.name,
                         description: req.body.description,
                         stock: req.body.stock,
                         availability: availability,
@@ -247,6 +270,9 @@ let productsController = {
                     .catch(error => console.log(error));
             })
             .catch(error => console.log(error));
+        }
+
+        
     },
     delete: (req, res) => {
         let availability = 0;

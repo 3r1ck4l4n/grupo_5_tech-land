@@ -13,7 +13,7 @@
     <link href="/css/normalize.css" rel="stylesheet" />    
     <link href="/css/home/formStyles.css" rel=stylesheet>  
     <link href="/css/product/productCreate.css" rel="stylesheet" />  
-    <script src="/js/productCreateValidation.js"></script>
+    <script src="/js/productCreateValidation.js"></script>        
     <script async src="/js/preview.js"></script>
     <title>Agregar producto</title>
   </head>
@@ -51,18 +51,38 @@
               type="text"
               class="input"
               id="name_product"
+              value="<%= locals.errors && locals.oldData ? oldData.name_product : null %>"
               name="name_product"
               placeholder="  Nombre del producto"
               required
               minlength="3"
             />
+            
+            <% if(locals.errors && errors.name_product){ %>
+              <div class="errors"><%= errors.name_product.msg %></div>
+            <% } %>
+
           </div>
           <div>
             <label for="description">Descripción</label>
-            <textarea name="description" id="description" cols="4" class="input-description"></textarea>
+            <textarea 
+            name="description" 
+            id="description" 
+            cols="4" class="input-description"
+            ><%= locals.errors && locals.oldData ? oldData.description : null %></textarea>
+
+            <% if(locals.errors && errors.description){ %>
+              <div class="errors"><%= errors.description.msg %></div>
+            <% } %>
+
           </div>
           <label for="image_product">Imagen del producto</label>
               <input type="file" name="image_product" id="file" class = "input-image" />
+
+              <% if(locals.errors && errors.image_product){ %>
+                <div class="errors"><%= errors.image_product.msg %></div>
+              <% } %>
+
           <div>
             <label for="category">Categoría</label>
             <select name="category" id="category" class="input">
@@ -109,11 +129,35 @@
           </div>
           <div class="form-input"> 
             <label for="price">Precio</label>
-            <input type="number" name="price" id="price" class="input" placeholder="Precio" required>
+            <input type="number" 
+            name="price" 
+            value="<%= locals.errors && locals.oldData ? oldData.price : null %>"
+            id="price" 
+            class="input" 
+            placeholder="Precio" 
+            required
+            >
+
+            <% if(locals.errors && errors.price){ %>
+              <div class="errors"><%= errors.price.msg %></div>
+            <% } %>
+
           </div>
               <div class="form-input">
                   <label for="stock">Stock disponible</label>
-                  <input type="number" name="stock" id="stock" class="input" placeholder="Stock" required>
+                  <input type="number" 
+                  name="stock" 
+                  value="<%= locals.errors && locals.oldData ? oldData.stock : null %>"
+                  id="stock" 
+                  class="input" 
+                  placeholder="Stock" 
+                  required
+                  >
+
+                  <% if(locals.errors && errors.stock){ %>
+                    <div class="errors"><%= errors.stock.msg %></div>
+                  <% } %>
+
               </div>
           <div class="form-input">
             <label for="type">Tipo: </label>
