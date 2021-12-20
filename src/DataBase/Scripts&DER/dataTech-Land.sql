@@ -147,4 +147,6 @@ VALUES (1,1,'ESTE PRODUCTO ESTA COOL', 5);
 
 select * from products;
 
-delete from type_component
+select * from brands;
+
+delete from products where PRODUCT_ID = 7
