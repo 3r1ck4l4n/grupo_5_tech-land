@@ -148,7 +148,8 @@ h1{
     width: 28px;
 }
 
-.number-of-items p{
+
+.number-of-items input{
     width: 86px;
     text-align: center;
     border-top: 1px solid lightgray;
@@ -157,11 +158,20 @@ h1{
     margin-bottom: 0px;
     padding-top: 4px;
     padding-bottom: 4px;
+    border-left: none;
+    border-right: none;
 }
 
-.trash button{
-    width: 28px;
-    height: 28px;
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
 }
 
 

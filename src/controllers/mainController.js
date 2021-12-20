@@ -25,7 +25,7 @@ const mainController = {
     },
     productCart: (req, res)=>{               
         res.render(path.join(__dirname, "../views/products/productCart"), {listOfProducts: listOfProducts });
-    },
+    }
 }
 
 module.exports=mainController;

@@ -1,6 +1,9 @@
 const express = require('express');
 const router = express.Router();
 const productsController = require('../controllers/productsController');
+const productsController1 = require('../controllers/apiController/productsController');
+const productCreateValidationsBack = require('../middleware/productCreateValidationBack');
+const productEditValidationsBack = require('../middleware/productEditValidationsBack');
 const path = require('path');
 const multer = require('multer');
 
@@ -25,22 +28,22 @@ router.get('/productCreate', productsController.productCreate);
 
 
 /*** GET ALL PRODUCTS ***/ 
-router.get('/', productsController.home); 
+router.get('/', productsController1.home);
 
 /*** CREATE ONE PRODUCT ***/ 
 router.get('/create', productsController.productCreate); 
-router.post('/',upload.single('product-image'),productsController.productStore); 
+router.post('/',upload.single('image_product'), productCreateValidationsBack, productsController1.productStore); // *Here middleware
 
 
 /*** GET ONE PRODUCT ***/ 
-router.get('/detail/:id', productsController.productDetail); 
+router.get('/detail/:id', productsController1.productDetail);
 
 /*** UPDATE ONE PRODUCT ***/
-router.get('/edit/:id', productsController.productEdit);
-router.patch('/edit/:id',upload.single('product-image'), productsController.productUpdate); 
+router.get('/edit/:id', productsController1.productEdit);
+router.patch('/edit/:id',upload.single('image_product'), productEditValidationsBack, productsController1.productUpdate);// *Here middleware
 
 /*** DELETE ONE PRODUCT ***/
-router.delete('/delete/:id', productsController.delete);
+router.delete('/delete/:id', productsController1.delete);
 
 
 

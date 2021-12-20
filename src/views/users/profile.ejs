@@ -18,19 +18,29 @@
             
             <section class="first-section-image">
                 <div class="image-user">
-              <img src="<%= user.profileImage %>" alt="profileImage">
+              <img src="<%= user.customer_profile_image %>" alt="profileImage">
                 </div>
             </section>
 
             <section class="second-section-data-menu">
                 <div class="data">
-                    <header class="user-name"><%= user.user %></header>
+                    <header class="user-name"><%= user.full_name %></header>
                     <div class="user-email">
                         <p>(<%= user.email %>)</p>
                     </div>
+                    <div class="user-address">
+                        <p>
+                            Dirección: <%= user.address %>
+                        </p>
+                    </div>
                     <div class="user-country">
                         <p>
-                            <%= user.nationality %>
+                            País: <%= user.nationality %>
+                        </p>
+                    </div>                    
+                    <div class="user-phone">
+                        <p>
+                            Teléfono: <%= user.customer_number_phone %>
                         </p>
                     </div>
                 </div> 

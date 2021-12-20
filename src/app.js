@@ -4,6 +4,7 @@ const path = require("path");
 const router= require('./routes/mainRoutes');
 const routerProduct= require('./routes/productRoutes');
 const routerUser = require('./routes/userRoutes');
+const customersRoutes = require('./routes/apiRoutes/apiRoutes');
 const publicPath = path.resolve(__dirname, "../public");
 const methodOverride =  require('method-override'); // Pasar poder usar los métodos PUT y DELETE
 const session = require("express-session"); //Para usar sesiones
@@ -33,8 +34,8 @@ app.listen(3000, () => {
 });
 app.use('/', router);
 app.use('/products',routerProduct);
-app.use('/products',routerProduct);
 app.use('/users', routerUser);
+app.use('/api', customersRoutes);
 app.use((req, res, next)=>{
   res.status(404).render('notFound');
 });

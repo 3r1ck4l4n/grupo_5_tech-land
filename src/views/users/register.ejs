@@ -13,6 +13,7 @@
     <!-- <link href = "/css/normalize.css" rel = stylesheet> -->
     <link href="/css/register.css" rel="stylesheet" />
     <link href="/css/home/formStyles.css" rel="stylesheet" />
+    <script src="/js/registerValidation.js"></script>
     <title>Crear cuenta</title>
   </head>
   <body>
@@ -36,13 +37,18 @@
           enctype="multipart/form-data"
         >
           <div id="preview"></div>
+          <div class="validationsF">
+            <ul>
+              
+            </ul>
+          </div>      
           <article class="fullname">
             <div>
               <!-- <p>Nombre</p> -->
               <input
                 value="<%= locals.errors && locals.oldData ? oldData.firstName : null %>"
                 type="text"
-                class="input"
+                class="input firstName"
                 id="fname"
                 name="firstName"
                 placeholder="  Nombre"
@@ -57,7 +63,7 @@
               <input
                 value="<%= locals.errors && locals.oldData ? oldData.lastName : null %>"
                 type="text"
-                class="input"
+                class="input lastName"
                 id="fname"
                 name="lastName"
                 placeholder="  Apellidos"
@@ -74,7 +80,7 @@
               value="<%= locals.errors && locals.oldData ? oldData.email : null %>"
               size="20px"
               type="text"
-              class="input"
+              class="input email"
               id="fname"
               name="email"
               placeholder="  nombre@example.com"
@@ -85,11 +91,42 @@
           <% if(locals.errors && errors.email){ %>
             <div class="errors"><%= errors.email.msg %></div>
             <% } %>
+            <div>
+              <input
+                value="<%= locals.errors && locals.oldData ? oldData.customer_number_phone : null %>"
+                size="20px"
+                type="tel"
+                class="input customer_number_phone"
+                id="fname"
+                name="customer_number_phone"
+                placeholder="  Teléfono"
+                required
+                minlength="10"                
+              />
+            </div>
+            <% if(locals.errors && errors.customer_number_phone){ %>
+            <div class="errors"><%= errors.customer_number_phone.msg %></div>
+            <% } %>
+            <div>
+              <input
+                value="<%= locals.errors && locals.oldData ? oldData.address : null %>"
+                size="20px"
+                type="text"
+                class="input address"
+                id="fname"
+                name="address"
+                placeholder="  Dirección"
+                required                               
+              />
+            </div>
+            <% if(locals.errors && errors.address){ %>
+            <div class="errors"><%= errors.address.msg %></div>
+            <% } %>            
           <div>
             <input
               size="20px"
               type="password"
-              class="input"
+              class="input password"
               id="fname"
               name="password"
               placeholder="  Contraseña"
@@ -105,7 +142,7 @@
             <input
               size="20px"
               type="password"
-              class="input"
+              class="input password2"
               id="fname"
               name="password2"
               placeholder="  Confirmar contraseña"
@@ -118,7 +155,7 @@
           <div class="errors"><%= errors.password2.msg %></div>
           <% } %>
           <label> <h3>País o región:</h3></label>
-          <select name="pais" class="input">
+          <select name="pais" class="input pais">
             <% if(locals.errors&&locals.oldData){%>
             <option selected value="<%=oldData.pais%>">
               <%=oldData.pais%>
@@ -436,6 +473,7 @@
             <div class="check">
               <input
                 type="checkbox"
+                id="offers"
                 name="offers"
                 class="checkbox"
                 value="true"
@@ -446,7 +484,7 @@
             <div class="check">
               <input
                 <%=locals.errors&&locals.oldData.politicy?"checked":null%>
-              type="checkbox" name="politicy" class="checkbox" required /> He
+              type="checkbox" name="politicy" class="checkbox" id="politicy" required /> He
               leído y acepto los términos y condiciones y las políticas de
               privacidad de TechLand.com
             </div>

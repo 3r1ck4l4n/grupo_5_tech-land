@@ -7,8 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script async src="/js/preview.js"></script>
+    <script src="/js/productEditValidations.js"></script>  
+    
 
-    <title>Document</title>
+    <title>Editar producto</title>
   </head>
   <body>
     <%- include('../partials/header')%>
@@ -19,23 +21,47 @@
           <div class="title-form"> Editar productos </div>
           <div id="preview"></div>
         </div>
-        <form action="/products/edit/<%= item.id %>?_method=PATCH" method="POST" enctype="multipart/form-data">
+        <form action="/products/edit/<%= locals.errors && locals.oldData ? oldData.id : item.id %>?_method=PATCH" method="POST" enctype="multipart/form-data">
+          <div class="validationsF">
+            <ul>              
+            </ul>
+          </div> 
           <div class="form-input">
             <label for="name">Nombre del Producto</label>
-            <input type="text" name="name" id="name" value="<%=item.name%>" required/>
+            <input type="text" 
+            name="name" 
+            id="name" 
+            value="<%= locals.errors && locals.oldData ? oldData.name : item.name %>" 
+            required
+            />
+
+            <% if(locals.errors && errors.name){ %>
+              <div class="errors"><%= errors.name.msg %></div>
+            <% } %>
+
           </div>
           <div class="form-input">
             <label for="description">Descripción</label>
-            <textarea name="description" id="description" cols="3"  required><%=item.description%></textarea>
+            <textarea name="description" id="description" cols="3"  required><%=  locals.errors && locals.oldData ? oldData.description : item.description%></textarea>
+
+            <% if(locals.errors && errors.description){ %>
+              <div class="errors"><%= errors.description.msg %></div>
+            <% } %>
+
           </div>
           <div class="form-input">
             <label for="product-image">Imagen del producto</label>
-            <input type="file" name="product-image" id="file" value="<%=item.img%>" required/>
+            <input type="file" name="image_product" id="file" value="" required/>
+
+            <% if(locals.errors && errors.image_product){ %>
+              <div class="errors"><%= errors.image_product.msg %></div>
+            <% } %>
+
           </div>
           <div class="form-input">
-            <label for="category">Categoría</label>
-            <select name="category" id="category" required>
-              <option value="<%=item.category%>" selected><%=item.category%></option>
+            <label for="type">Categoría</label>
+            <select name="type" id="type" required>
+              <option value="<%= locals.errors && locals.oldData ? oldData.type : item.type%>" selected><%= locals.errors && locals.oldData ? oldData.type : item.type %></option>
               <option value="Perifericos">Perifericos</option>
               <option value="Equipos de computo">Equipos de computo</option>
               <option value="Laptops">Laptops</option>
@@ -55,7 +81,7 @@
           <div class="form-input">
             <label for="brand">Marca</label>
             <select name="brand" id="brand" required>
-              <option value="<%=item.brand%>" selected><%=item.brand%></option>
+              <option value="<%= locals.errors && locals.oldData ? oldData.brand : item.brand%>" selected><%= locals.errors && locals.oldData ? oldData.brand : item.brand%></option>
               <option value="Acer">Acer</option>
               <option value="Adata">Adata</option>
               <option value="AlienWare">AlienWare</option>
@@ -81,12 +107,37 @@
           </div>
           <div class="form-input">
             <label for="price">Precio</label>
-            <input type="number" name="price" id="price" value="<%=item.price%>" required />
+            <input type="number" 
+            name="price" 
+            id="price" 
+            value="<%= locals.errors && locals.oldData ? oldData.price : item.price%>" 
+            required 
+            />
+
+            <% if(locals.errors && errors.price){ %>
+              <div class="errors"><%= errors.price.msg %></div>
+            <% } %>
+
           </div>
           <div class="form-input">
-            <label for="type">Tipo: </label>
-            <select name="type" id="type"> 
-              <option value="<%=item.type%>" selected><%=item.type%></option>             
+            <label for="stock">Stock disponible</label>
+            <input type="number" 
+            name="stock" 
+            id="stock" 
+            class="input" 
+            value="<%= locals.errors && locals.oldData ? oldData.stock : item.stock %>" 
+            required
+            >
+
+            <% if(locals.errors && errors.stock){ %>
+              <div class="errors"><%= errors.stock.msg %></div>
+            <% } %>
+
+        </div>
+          <div class="form-input">
+            <label for="category">Tipo: </label>
+            <select name="category" id="category">
+              <option value="<%= locals.errors && locals.oldData ? oldData.category : item.category%>" selected><%= locals.errors && locals.oldData ? oldData.category : item.category%></option>
               <option value="Destacados">Destacados</option>
               <option value="Agregados recientemente">Agregados recientemente</option>
               <option value="Más vendidos">Más vendidos</option>
