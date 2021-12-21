@@ -87,8 +87,7 @@ const productsController = {
                 let enOferta =response[3].count;
                 let totalProductos = response[4].length;
                 let arrayProducts = response[4].filter(product=> {
-                    product.dataValues.detail = `/api/product/${product.dataValues.product_id}`;
-                    console.log(product);
+                    console.log(product.categories);
                     delete product.dataValues.stock;
                     delete product.dataValues.availability;
                     delete product.dataValues.price;
@@ -107,7 +106,6 @@ const productsController = {
                         delete type.dataValues.product_type_component
                         return type
                     });
-                    
                     return product;
                 });
                 let products ={
@@ -128,44 +126,7 @@ const productsController = {
             .catch(error => res.json(error));
     },
     userId: (req, res) => {
-        let pk = req.params.id;
-        Product.findByPk(pk, {
-                include: [
-                    {
-                        as: 'categories',
-                        model: Category,
-                    },
-                    {
-                        as: 'brands',
-                        model: Brand
-                    },
-                    {
-                        as: 'typeComponent',
-                        model: TypeComponent
-                    }
-                ]
-            })
-            .then(product => {
-                product.dataValues.categories = product.dataValues.categories.filter(category => {
-                    delete category.dataValues.category_id;
-                    delete category.dataValues.product_categories;
-                    return category;
-                });
-                product.dataValues.typeComponent = product.dataValues.typeComponent.filter(type => {
-                    delete type.dataValues.type_component_id;
-                    delete type.dataValues.product_type_component;
-                    return type;
-                });
-                delete product.dataValues.brand_id;
-                delete product.dataValues.created_at;
-                delete product.dataValues.update_at;
-                let item = {
-                    ...product.dataValues
-                }
-                console.log(item);
-                res.status(200).json(item);
-            })
-            .catch(error => res.status(404).json({error: error}));
+    
     }
 };
 
