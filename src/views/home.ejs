@@ -22,14 +22,14 @@
       <h2 class="titleMain">Productos Destacados:</h2>
     <section class="featuredProducts">
       <% destacados.forEach(product => { %>
-        <%- include('partials/ProductsList',{product:product})%>
+        <%- include('partials/productsList',{product:product})%>
       <% }) %>
     </section>
 
     <h2 class="titleMain">Productos en Promoción:</h2>
     <section class="promotionalProducts">
       <% enOferta.forEach(product => { %>    
-        <%- include('partials/ProductsList',{product:product})%>
+        <%- include('partials/productsList',{product:product})%>
       <% })%>
   </section>
     </main>
