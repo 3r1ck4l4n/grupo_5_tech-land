@@ -11,5 +11,6 @@ router.get("/admins",adminsController.adminsList);
 router.get("/admin/:id",adminsController.adminId);
 
 router.get("/products",productsController.productList);
+router.get("/product/:id",productsController.userId);
 
 module.exports = router;

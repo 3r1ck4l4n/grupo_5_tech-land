@@ -4,7 +4,7 @@ const {Op} = require('sequelize');
 const productsController = {
     productList: (req, res) => {
             let page = req.query.page;
-            let limit = 8;
+            let limit = 5;
             let offset = (page - 1) * limit;
         Promise.all([
                 Product.findAndCountAll({
