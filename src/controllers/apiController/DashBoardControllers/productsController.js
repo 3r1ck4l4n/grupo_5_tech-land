@@ -89,7 +89,7 @@ const productsController = {
                 let totalProductos = response[4].length;
                 let totalAllProducts = response[5].count;
                 let arrayProducts = response[4].filter(product=> {
-                    product.dataValues.detail = `/api/product/${product.dataValues.product_id}`;
+                    product.dataValues.detail = `/product/${product.dataValues.product_id}`;
                     console.log(product);
                     delete product.dataValues.stock;
                     delete product.dataValues.availability;
