@@ -11,7 +11,7 @@ const customersController = {
                         delete customer.dataValues.address;
                         delete customer.dataValues.nationality;
                         delete customer.dataValues.customer_number_phone;
-                        customer.dataValues.detail = `/api/customer/${customer.dataValues.customer_id}`;
+                        customer.dataValues.detail = `/customer/${customer.dataValues.customer_id}`;
                         return customer;
                     })
                 }

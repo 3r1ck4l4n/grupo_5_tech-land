@@ -1,4 +1,6 @@
 const db = require('../../DataBase/models');
+const OrderDetail = db.Order_Detail;
+const Product = db.Product;
 const {Op} = require('sequelize');
 
 const mainController = {
@@ -52,6 +54,34 @@ const mainController = {
     },
     productCart: (req, res) => {
         res.render("products/productCart");
+    },
+    addItemToCar: (req, res)=>{
+        
+        console.log("***********************"+req.session.userLogged.customer_id);
+            console.log("ERROR")
+        
+        let idProduct = req.body.idProduct;
+        console.log(idProduct);
+        
+        Product.findByPk(idProduct)
+            .then(product=> {
+                console.log(product);
+                let detail ={
+                    customer_id: req.session.userLogged.customer_id ,
+                    product_id: parseInt(idProduct) ,
+                    unity_price:  product.dataValues.price ,
+                    quantity: parseInt(req.body.quantity),
+                    total_price: product.dataValues.price *  req.body.quantity,
+                };
+                console.log(detail);
+                OrderDetail.create(detail)
+                    .then(detail=> {
+                        console.log(detail)
+                        res.redirect("/home")
+                    })
+                    .catch(error=> console.log(error));
+            })
+            .catch(error => console.log(error))
     }
 };
 

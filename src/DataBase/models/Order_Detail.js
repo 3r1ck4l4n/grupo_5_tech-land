@@ -4,10 +4,15 @@ module.exports = (sequelize, dataTypes) => {
         order_detail_id: {
             type: dataTypes.BIGINT(10).UNSIGNED,
             primaryKey: true, 
-            allowNull: false,            
+            allowNull: false,
+            autoIncrement: true
         },
         order_id: {
             type: dataTypes.BIGINT(10).UNSIGNED,            
+            allowNull: true
+        },
+        customer_id: {
+            type: dataTypes.BIGINT(10).UNSIGNED,
             allowNull: false
         },
         product_id: {

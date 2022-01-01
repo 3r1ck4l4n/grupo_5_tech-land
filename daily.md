@@ -70,3 +70,27 @@ qué problemas surgieron:
 
 ##  19 de octubre de 2021
 * Weekly para verificar de manera satisfactoria que todas las historias de usuario se han solventado y que el tablero de tareas no presenta ninguna actividad por completar. Aprovechamos la sesión para elaborar una retrospectiva y analizamos la propuesta de diseño de la base de datos para encarar el siguiente sprint. Mejoramos estilos en los mensajes de verificación y recibimos feedback de nuestro Scrum Master. ¡Enhorabuena,Sprint 5 completado! 
+
+#SPRINT 6. 
+##  27 de octubre de 2021
+* Se dividieron las tareas en dos grandes grupos: base de datos y CRUD.
+>>* Erick se encargará de diseñar la base de datos y hacer su correspondiente script.
+>>* Daniel e Israel se encargarán de construir el script con los datos de relleno para las tablas de la base de datos y realizarán el CRUD.
+
+##  13 de noviembre de 2021
+* Nos reunimos para aclarar el diseño de la base de datos. Fue una reunión provechosa para todos, porque nos permitió afianzar lo que sabíamos sobre bases de datos y aprender algunas cosa más. Como Erick ya tenía un conocimiento mayor sobre el tema, él explicó aquellos detalles que los demás no entendían. Así mismo, el diseñó sufrió algunos cambios que lo mejoraron.
+
+
+#SPRINT 7
+
+##  26 de noviembre de 2021
+* Se elaboró el tablero y se repartieron las actividades. Afortunadamente, muchas de las actividades que debíamos hacer ya habían sido hechas con express validator en algún sprint previo.
+
+#SPRINT 8
+##  16 de diciembre de 2021
+* Las actividades fueron repartidas. Por un lado, la creación de la API de nuestro sitio estaría a cargo de Erick. Daniel e Israel se encargarían del dasboard en react.
+
+## 21 de diciembre de 2021
+
+* Daniel e Israel revisaron la carpeta en la que se almacenaría el dashboard. Hubo un problema con la manera en la que se guardó, pues Israel la configuró como un submódulo de git y eso ocasionó un mal funcionamiento. En la clase, el profesor comentó que lo mejor sería usar un repositorio aparte para el proyecto de react y se decidió trabajar así. 
+

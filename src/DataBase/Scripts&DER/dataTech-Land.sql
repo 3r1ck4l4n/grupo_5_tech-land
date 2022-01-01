@@ -130,7 +130,7 @@ VALUES (1, 1, 1000, '605 Boyd Plaza', '605 Boyd Plaza', 'ldodding0@usda.gov', '2
 /* order_detail */
 
 INSERT INTO order_detail
-VALUES (1, 1, 1, '21640.07', 1, '21640.07');
+VALUES (1, 1,1, 1, '21640.07', 1, '21640.07');
 
 
 /* product-admin */
