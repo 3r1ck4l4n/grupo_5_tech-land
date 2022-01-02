@@ -12,5 +12,6 @@ router.get("/admin/:id", adminsController.adminId);
 
 router.get("/products", productsController.productList);
 router.get("/product/:id", productsController.userId);
+router.get("/lastProduct",productsController.lastProduct);
 
 module.exports = router;

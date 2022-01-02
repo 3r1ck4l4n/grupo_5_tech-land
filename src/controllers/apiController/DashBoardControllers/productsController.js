@@ -76,7 +76,8 @@ const productsController = {
                             model: TypeComponent
                         }
                     ]
-                })
+                }),
+                Product.findAndCountAll()
             ]
             
             )
@@ -86,8 +87,9 @@ const productsController = {
                 let masVendidos = response[2].count;
                 let enOferta =response[3].count;
                 let totalProductos = response[4].length;
+                let totalAllProducts = response[5].count;
                 let arrayProducts = response[4].filter(product=> {
-                    product.dataValues.detail = `/api/product/${product.dataValues.product_id}`;
+                    product.dataValues.detail = `/product/${product.dataValues.product_id}`;
                     console.log(product);
                     delete product.dataValues.stock;
                     delete product.dataValues.availability;
@@ -111,6 +113,7 @@ const productsController = {
                     return product;
                 });
                 let products ={
+                    "totalAllProducts": totalAllProducts,
                     "count": totalProductos,
                     "countByCategory":{
                         "destacados": destacados,
@@ -166,6 +169,33 @@ const productsController = {
                 res.status(200).json(item);
             })
             .catch(error => res.status(404).json({error: error}));
+    },
+    lastProduct: (req, res)=>{
+        Product.findOne({
+            order:[
+                ['product_id', 'DESC']
+            ],
+            include: [
+                {
+                    as: 'categories',
+                    model: Category,
+                },
+                {
+                    as: 'brands',
+                    model: Brand
+                },
+                {
+                    as: 'typeComponent',
+                    model: TypeComponent
+                }
+            ]
+        })
+        .then(product=>{                                   
+            return res.status(200).json({
+                status: 200,
+                data: product
+            })
+        })
     }
 };
 

@@ -29,8 +29,8 @@ app.use(userLoggedMiddleware);
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname,'./views/'));
 
-app.listen(3000, () => {
-  console.log("Server running at port 3000");
+app.listen(3001, () => {
+  console.log("Server running at port 3001");
 });
 app.use('/', router);
 app.use('/products',routerProduct);

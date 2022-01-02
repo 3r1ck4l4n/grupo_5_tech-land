@@ -1,6 +1,7 @@
 # Tech Land. 
 ---
 ## [Link Trello](https://trello.com/techland7).
+## [Link to  our react dashboard repository](https://github.com/iztraciolo/reactAppTechLand.git).
 ---
 ## About the proyect:
 >> "Tech land" aims to be a platform that allows customers to find and purchase <ins>the highest quality computer items at low prices</ins>, rewarding preference and offering the trend items of the moment. 
