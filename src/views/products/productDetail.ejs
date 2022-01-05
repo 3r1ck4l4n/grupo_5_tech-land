@@ -73,14 +73,17 @@
                     </form>
 
                 </div>
+                <% if(locals.isLogged){ %>
+                    <a href="/products/edit/<%= item.product_id %>">
+                        <button>Editar</button>
+                    </a>
+                    <form action="/products/delete/<%= item.product_id %>?_method=DELETE" method="POST"
+                          style="display: inline-flex">
+                        <button type="submit" class="action-button delete">ELIMINAR</button>
+                    </form>
+                <% } %>
 
-                <a href="/products/edit/<%= item.product_id %>">
-                    <button>Editar</button>
-                </a>
-                <form action="/products/delete/<%= item.product_id %>?_method=DELETE" method="POST"
-                      style="display: inline-flex">
-                    <button type="submit" class="action-button delete">ELIMINAR</button>
-                </form>
+               
             </div>
 
         </main>

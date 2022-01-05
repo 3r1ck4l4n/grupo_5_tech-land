@@ -22,7 +22,10 @@
         <li><a href="/products">Todos los productos</a></li>
         <li><a href="#">Favoritos</a></li>
         <li><a href="#">Centro de información</a></li>
-        <li><a href="/products/create">Vender</a></li>
+        <% if(locals.isLogged){ %>
+          <li><a href="/products/create">Vender</a></li>
+        <% } %>
+        
       </ul>
       
       <ul class="user-options"> 

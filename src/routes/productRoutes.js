@@ -6,6 +6,7 @@ const productCreateValidationsBack = require('../middleware/productCreateValidat
 const productEditValidationsBack = require('../middleware/productEditValidationsBack');
 const path = require('path');
 const multer = require('multer');
+const authMiddleware = require('../middleware/authMiddleware');
 
 
 const storage = multer.diskStorage({
@@ -31,7 +32,7 @@ router.get('/productCreate', productsController.productCreate);
 router.get('/', productsController1.home);
 
 /*** CREATE ONE PRODUCT ***/ 
-router.get('/create', productsController.productCreate); 
+router.get('/create', authMiddleware, productsController.productCreate); 
 router.post('/',upload.single('image_product'), productCreateValidationsBack, productsController1.productStore); // *Here middleware
 
 
@@ -39,11 +40,11 @@ router.post('/',upload.single('image_product'), productCreateValidationsBack, pr
 router.get('/detail/:id', productsController1.productDetail);
 
 /*** UPDATE ONE PRODUCT ***/
-router.get('/edit/:id', productsController1.productEdit);
+router.get('/edit/:id', authMiddleware, productsController1.productEdit);
 router.patch('/edit/:id',upload.single('image_product'), productEditValidationsBack, productsController1.productUpdate);// *Here middleware
 
 /*** DELETE ONE PRODUCT ***/
-router.delete('/delete/:id', productsController1.delete);
+router.delete('/delete/:id', authMiddleware, productsController1.delete);
 
 
 
