@@ -1,9 +1,9 @@
 <div class="product-card">
-    <img src="/images/gabriel-beaudry-5X5dCf4Pp44-unsplash.jpg" alt="product-image" class="product-img">                       
+    <img src="<%=item.products.image_product%>" alt="product-image" class="product-img">
     
     <div class="name-buttoms-product">
         <p class="product-name">
-            Nombre del producto
+            <%=item.products.name_product%>
         </p>
 
         <div class="buttoms-and-price">
@@ -13,7 +13,7 @@
                         <button class="removeItem">
                             <i class="fas fa-trash"></i>
                         </button>
-                        <input type="number" name= "quantity" class="quantity" value="1" min="1">
+                        <input type="number" name= "quantity" class="quantity" value="<%=item.quantity%>">
                         <button class="addItem">
                             <i class="fas fa-plus"></i>
                         </button>
@@ -28,7 +28,7 @@
                     Precio:
                 </p>                                                                                                  
                 <p class="number-price">
-                    $ 000.00
+                    $<%=item.products.price%>
                 </p>
             </div>
         </div>
@@ -38,7 +38,7 @@
 
     <div class="product-price-desktop">                            
         <p class="number-price">
-            $ 000.00
+            $<%=item.products.price%>
         </p>
     </div>
     

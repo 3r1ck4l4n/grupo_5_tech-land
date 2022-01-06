@@ -15,13 +15,13 @@
         <%- include('../partials/header')%>
     </header>
 
-
+    <% let total = 0; %>
     <main>
         <section class="top">
             <h1 class="main-title">
                 Mi carrito de compras
             </h1>
-    
+
             <div class="subtotal">
                 <p class="sub-name">
                     Subtotal:
@@ -30,30 +30,29 @@
                     $ 000.00
                 </p>
             </div>
-    
+
             <div class="pay-button">
                 <button>
                     Pagar
                 </button>
-            </div>     
-            
+            </div>
+
             <div class="label-price">
                 <p>
                     Precio
                 </p>
             </div>
-        </section>       
+        </section>
     
         <section class="list-of-p-and-pay">
 
             <section class="list-of-p-and-pay-one">
                 <section class="list-of-items-to-pay">
-                    <%- include('../partials/productCardForCart')%>                                        
-                    
-                    <%- include('../partials/productCardForCart')%>
+                    <%response.forEach(item=> {%>
+                        <%- include('../partials/productCardForCart', {item: item})%>
 
-                    <%- include('../partials/productCardForCart')%>
-    
+                    <%total = item.total_price%>
+                    <%})%>
                 </section>
     
                 <section class="to-pay">
@@ -62,15 +61,16 @@
                             Subtotal:
                         </p>
                         <p class="number-to-pay">
-                            $ 000.00
+                            $ <%= total%>
                         </p>
                     </div>
                     <div class="shipping">
                         <p class="name-to-pay">
                             Envío:
                         </p>
+                        <% let envio = 99%>
                         <p class="number-to-pay">
-                            $ 000.00
+                            $ <%= envio%>
                         </p>
                     </div>
                     <div class="total">
@@ -78,7 +78,7 @@
                             Total:
                         </p>
                         <p class="number-to-pay">
-                            $ 000.00
+                            $ <%= envio+total%>
                         </p>
                     </div>
         

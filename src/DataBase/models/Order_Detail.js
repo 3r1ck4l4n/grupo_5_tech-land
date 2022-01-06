@@ -38,9 +38,15 @@ module.exports = (sequelize, dataTypes) => {
         timestamps: false,       
         tableName: 'order_detail'
     }
-
+    
     const Order_Detail = sequelize.define(alias, cols, config);
-
+    
+    Order_Detail.associate = (models) => {
+        Order_Detail.belongsTo(models.Product, {
+            foreignKey: 'product_id',
+            as: 'products'
+        });
+    }
     
 
     return Order_Detail;

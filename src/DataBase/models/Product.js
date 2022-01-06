@@ -67,6 +67,11 @@ module.exports = (sequelize, dataTypes) => {
             foreignKey: 'product_id',
             as:'reviews'
         });
+    
+        Product.hasMany(models.Order_Detail,{
+            foreignKey: 'product_id',
+            as:'orderDetail'
+        });
 
         Product.belongsToMany(models.TypeComponent, {
             as: 'typeComponent',

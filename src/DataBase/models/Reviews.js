@@ -31,7 +31,7 @@ module.exports = (sequelize, dataTypes) => {
 
         Review.belongsTo(models.Product,{
             foreignKey: 'product_id',
-            as:'product'
+            as:'products'
         });
 
         Review.belongsTo(models.Customer,{

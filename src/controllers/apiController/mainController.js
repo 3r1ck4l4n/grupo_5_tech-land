@@ -53,7 +53,22 @@ const mainController = {
         res.render('register');
     },
     productCart: (req, res) => {
-        res.render("products/productCart");
+        OrderDetail.findAll({
+            where:{
+                customer_id: {
+                    [Op.eq]: req.session.userLogged.customer_id
+                }
+            },
+            include:[{
+                model: db.Product,
+            as: 'products'
+        }
+            ]
+        })
+            .then(response => {
+                res.render("products/productCart",{response:response});
+            });
+    
     },
     addItemToCar: (req, res)=>{
         

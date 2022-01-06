@@ -89,6 +89,7 @@ let productsController = {
     },
     //Función para crear productos, edita la tabla de Categories y la de TypeComponents.
     productStore: (req, res) => {
+        console.log(req.body);
         let errors = validationResult(req); //express-validator
         if (!errors.isEmpty()) {
             console.log(errors.mapped())
@@ -97,6 +98,7 @@ let productsController = {
                 oldData:req.body
             });
         } else {
+            
             Promise.all([
                 Brand.findOne({
                     where: {
