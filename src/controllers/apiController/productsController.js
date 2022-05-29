@@ -90,15 +90,21 @@ let productsController = {
     //Función para crear productos, edita la tabla de Categories y la de TypeComponents.
     productStore: (req, res) => {
         console.log(req.body);
+        
+        //Se valida que el middleware no detectara errores
         let errors = validationResult(req); //express-validator
         if (!errors.isEmpty()) {
             console.log(errors.mapped())
+            //Redirige a una pagina de error
             return res.render('./products/productCreate.ejs',{
                 errors:errors.mapped(),
                 oldData:req.body
             });
         } else {
-            
+            /** @Author: Erick Luna
+             ** Creación de promesas para buscar las marcas , tipos de componente y categorías deseadas para registrar las FK en la tala de producto
+             ** Se utiliza un ORM llamado Sequelize; nos facilita la interacción con base de datos
+             * */
             Promise.all([
                 Brand.findOne({
                     where: {
@@ -116,6 +122,7 @@ let productsController = {
                     }
                 })
             ])
+                //Si el resultado de las promesas anteriores es el positivo, nos permite almacenar el producto
             .then(([brand, category, type]) => {
                 let availability = req.body.stock > 0 ? 1 : 0;
                 let image = req.file
@@ -130,6 +137,7 @@ let productsController = {
                         price: req.body.price,
                         brand_id: brand.dataValues.brand_id
                     })
+                    //Si el producto se guarda correctamente, envía una respuesta de tipo JSON
                     .then(product => {
                         console.log(product);
                         Promise.all([
@@ -143,13 +151,19 @@ let productsController = {
                                 })
                             ])
                             .then(result => {
-                                console.log(result)
-                                res.redirect("home");
+                                console.log(result);
+                                // Envia un estatus de creación favorable y un response
+                                res.status(201).json({
+                                    status:201,
+                                    response: result
+                                });
+                                //res.redirect("home");
                             })
                             .catch(error => console.log(error));
                     })
                     .catch(error => console.log(error));
             })
+                //En caso de existir algún error, cae en el catch e imprime el error en consola
             .catch(error => console.log(error));
 
         }

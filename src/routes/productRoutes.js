@@ -33,7 +33,7 @@ router.get('/', productsController1.home);
 
 /*** CREATE ONE PRODUCT ***/ 
 router.get('/create', authMiddleware, productsController.productCreate); 
-router.post('/',upload.single('image_product'), productCreateValidationsBack, productsController1.productStore); // *Here middleware
+router.post('/create', productsController1.productStore); // *Here middleware
 
 
 /*** GET ONE PRODUCT ***/ 
